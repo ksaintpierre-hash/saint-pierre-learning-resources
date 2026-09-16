@@ -1,0 +1,155 @@
+import { PREVIEW_MODE } from '../lib/preview-mode';
+import { env } from 'cloudflare:workers';
+import catalog from '../data/catalog.json';
+import elaRelease from '../data/ela-release.json';
+import elaFiles from './ela-upload-manifest.json';
+import salesRelease from '../data/sales-release-2026-09-15.json';
+import { privateProducts } from './private-products';
+import { hasResourceFile, resourceFile, resourceMetadata } from './resource-files';
+import dailyDrafts from './daily-drafts-2026-09-15.json';
+import { signedIn, isStoreOwner } from '../app/api/_shared';
+const releaseIds=new Set(salesRelease.map(p=>p.id));
+const listingMetadata=[...catalog,...salesRelease,...elaRelease];
+export const originalListing=(id:string):Record<string,unknown>|undefined=>listingMetadata.find(p=>p.id===id);
+export const hasOriginalListing=(id:string)=>listingMetadata.some(p=>p.id===id);
+const inventory=[...listingMetadata,...dailyDrafts.filter(p=>!releaseIds.has(p.id))];
+
+export class StoreError extends Error { constructor(public status:number,message:string){super(message)} }
+export const db = () => {if(!env.DB)throw new StoreError(503,'Store database is unavailable.');return env.DB;};
+const setting=(key:string)=>Reflect.get(env,key) as string|undefined;
+export const mode=()=>setting('PAYPAL_MODE')==='live'?'live':'sandbox';
+export const owner=(user:{userId:string}|null)=>isStoreOwner(user);
+export async function customer(request:Request){const user=await signedIn(request);if(!user)throw new StoreError(401,'Please log in to your store account.');return user;}
+export const json=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+export async function safe(action:()=>Promise<Response>){try{return await action()}catch(e){return json({error:e instanceof StoreError?e.message:'The store could not complete this request. Please try again or contact support.'},e instanceof StoreError?e.status:503)}}
+export async function body(request:Request){
+ const max=131072;if(Number(request.headers.get('content-length')||0)>max)throw new StoreError(413,'Request too large.');
+ const reader=request.body?.getReader();if(!reader)throw new StoreError(400,'Invalid request.');let size=0;const chunks:Uint8Array[]=[];
+ while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>max){await reader.cancel();throw new StoreError(413,'Request too large.')}chunks.push(value)}
+ const bytes=new Uint8Array(size);let offset=0;for(const chunk of chunks){bytes.set(chunk,offset);offset+=chunk.length}try{return JSON.parse(new TextDecoder().decode(bytes))}catch{throw new StoreError(400,'Invalid request.')}}
+
+export function mutation(request:Request){if(PREVIEW_MODE)throw new StoreError(403,'This is a read-only preview. Payments and changes are disabled.');const origin=request.headers.get('origin');if(origin&&origin!==new URL(request.url).origin)throw new StoreError(403,'Invalid request origin.');}
+const schema=[
+`CREATE TABLE IF NOT EXISTS store_products(id TEXT PRIMARY KEY,title TEXT NOT NULL,price_cents INTEGER NOT NULL CHECK(price_cents>0),approved INTEGER NOT NULL DEFAULT 0,metadata TEXT NOT NULL,storage_key TEXT NOT NULL,ready INTEGER NOT NULL DEFAULT 0)`,
+`CREATE TABLE IF NOT EXISTS store_orders(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,email TEXT NOT NULL,mode TEXT NOT NULL,request_key TEXT NOT NULL,paypal_id TEXT UNIQUE,capture_id TEXT UNIQUE,total_cents INTEGER NOT NULL,currency TEXT NOT NULL DEFAULT 'USD',status TEXT NOT NULL DEFAULT 'created',fulfillment TEXT NOT NULL DEFAULT 'waiting',created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,paid_at TEXT,lock_until INTEGER NOT NULL DEFAULT 0,UNIQUE(user_id,mode,request_key))`,
+`CREATE TABLE IF NOT EXISTS store_order_items(order_id TEXT NOT NULL,product_id TEXT NOT NULL,title TEXT NOT NULL,amount_cents INTEGER NOT NULL,PRIMARY KEY(order_id,product_id))`,
+`CREATE TABLE IF NOT EXISTS store_webhooks(id TEXT PRIMARY KEY,mode TEXT NOT NULL,event_type TEXT NOT NULL,resource_id TEXT,event_time TEXT,received_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,processed INTEGER NOT NULL DEFAULT 0)`,
+`CREATE TABLE IF NOT EXISTS store_download_tokens(token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL,order_id TEXT NOT NULL,product_id TEXT NOT NULL,expires_at INTEGER NOT NULL,used_at TEXT)`,
+`CREATE TABLE IF NOT EXISTS store_downloads(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,order_id TEXT NOT NULL,product_id TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
+`CREATE TABLE IF NOT EXISTS store_refunds(id TEXT PRIMARY KEY,order_id TEXT NOT NULL,amount_cents INTEGER NOT NULL,status TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
+`CREATE INDEX IF NOT EXISTS store_orders_customer ON store_orders(user_id,mode,created_at)`,
+`CREATE INDEX IF NOT EXISTS store_downloads_customer ON store_downloads(user_id,created_at)`];
+export async function initialize(){
+ await db().batch(schema.map(sql=>db().prepare(sql)));
+ await db().batch(inventory.map(p=>db().prepare('INSERT OR IGNORE INTO store_products(id,title,price_cents,approved,metadata,storage_key,ready) VALUES(?,?,?,?,?,?,?)').bind(p.id,p.title,p.priceCents,(elaRelease.some(e=>e.id===p.id)?0:p.approved?1:0),JSON.stringify(p),'products/'+p.id+'.'+('distributionFormat' in p&&p.distributionFormat==='ZIP'?'zip':'pdf'),0)));
+ await activateReleasedFiles();
+}
+async function activateReleasedFiles(force=false){
+ // Deployment is the owner's approval of this fixed release. Migrate legacy pointers
+ // once so publication does not depend on a browser login. Later withdrawals stay closed.
+ const {results}=await db().prepare('SELECT id,storage_key,metadata FROM store_products').all<{id:string;storage_key:string;metadata:string}>();
+ const pending=new Set(results.filter(p=>!JSON.parse(p.metadata).editorManaged&&(force||!p.storage_key.startsWith('bundled/'))).map(p=>p.id));
+ const updates=salesRelease.filter(p=>pending.has(p.id)).map(p=>{
+  const file=resourceMetadata(p.id);
+  if(!file||file.bytes<=0||!file.sha256)throw new StoreError(503,'A release file is missing. No new resources were enabled.');
+  return db().prepare('UPDATE store_products SET title=?,price_cents=?,approved=1,metadata=?,storage_key=?,ready=1 WHERE id=?'+(force?'':" AND storage_key NOT LIKE 'bundled/%'"))
+   .bind(p.title,p.priceCents,JSON.stringify(p),'bundled/'+file.sha256+'/'+file.name,p.id);
+ });
+ if(updates.length)await db().batch(updates);
+}
+export async function provision(){
+ await initialize();
+ const bucket=Reflect.get(env,'PAID_FILES') as R2Bucket|undefined;
+ if(!bucket)throw new StoreError(503,'Private file storage is not ready.');
+ const {results}=await db().prepare('SELECT id,storage_key,ready,metadata FROM store_products WHERE approved=1').all<{id:string;storage_key:string;ready:number;metadata:string}>();
+ for(const p of results){if(JSON.parse(p.metadata).editorManaged)continue;const key='products/2026-09-15-researched/'+p.id+'.pdf';if(p.ready&&p.storage_key===key)continue;const encoded=privateProducts[p.id];if(!encoded)continue;const bytes=Uint8Array.from(atob(encoded),c=>c.charCodeAt(0));await bucket.put(key,bytes,{httpMetadata:{contentType:'application/pdf'}});await db().prepare('UPDATE store_products SET ready=1,storage_key=? WHERE id=?').bind(key,p.id).run();}
+ await activateReleasedFiles(true);
+ return {ready:true,released:salesRelease.length};
+}
+export async function publicCatalog(){await initialize();const {results}=await db().prepare('SELECT id,title,price_cents,metadata,ready FROM store_products WHERE approved=1').all<{id:string;title:string;price_cents:number;metadata:string;ready:number}>();return results.map(p=>({...JSON.parse(p.metadata),...(JSON.parse(p.metadata).editorManaged?{}:listingMetadata.find(item=>item.id===p.id)),id:p.id,title:p.title,priceCents:p.price_cents,ready:!!p.ready}));}
+export function configured(){return !PREVIEW_MODE && !!(setting('PAYPAL_CLIENT_ID')&&setting('PAYPAL_CLIENT_SECRET')&&setting('PAYPAL_WEBHOOK_ID'));}
+export async function checkoutAllowed(request:Request){const user=await customer(request);if(!configured())throw new StoreError(503,'Checkout is being prepared. Please check back soon.');if(mode()==='sandbox'&&!owner(user))throw new StoreError(403,'Checkout is not open yet.');if(mode()==='live'&&setting('PAYPAL_LIVE_ENABLED')!=='true')throw new StoreError(503,'Checkout is not open yet.');return user;}
+export async function paypal(path:string,method='GET',payload?:unknown,requestId?:string){
+ const client=setting('PAYPAL_CLIENT_ID'),secret=setting('PAYPAL_CLIENT_SECRET');if(!client||!secret)throw new StoreError(503,'PayPal is not configured.');
+ const base=mode()==='live'?'https://api-m.paypal.com':'https://api-m.sandbox.paypal.com';
+ const auth=await fetch(base+'/v1/oauth2/token',{method:'POST',headers:{Authorization:'Basic '+btoa(client+':'+secret),'Content-Type':'application/x-www-form-urlencoded'},body:'grant_type=client_credentials',signal:AbortSignal.timeout(20000)});
+ if(!auth.ok)throw new StoreError(503,'PayPal connection is temporarily unavailable.');const token=await auth.json() as {access_token:string};
+ const response=await fetch(base+path,{method,headers:{Authorization:'Bearer '+token.access_token,'Content-Type':'application/json',...(requestId?{'PayPal-Request-Id':requestId}:{}),'Prefer':'return=representation'},...(payload?{body:JSON.stringify(payload)}:{}),signal:AbortSignal.timeout(20000)});
+ if(!response.ok)throw new StoreError(502,'PayPal could not complete this step. Check My Purchases before trying again.');
+ return response.status===204?{}:await response.json();
+}
+export function money(cents:number){return (cents/100).toFixed(2)}
+export function cents(value:unknown){if(typeof value!=='string'||!/^\d+\.\d{2}$/.test(value))throw new StoreError(400,'Invalid payment amount.');const n=Number(value.replace('.',''));if(!Number.isSafeInteger(n))throw new StoreError(400,'Invalid payment amount.');return n;}
+export type Order={id:string;user_id:string;email:string;mode:string;paypal_id:string;capture_id:string|null;total_cents:number;currency:string;status:string;fulfillment:string;created_at:string;paid_at:string|null};
+export async function order(id:string,userId?:string){const row=await db().prepare('SELECT * FROM store_orders WHERE id=? AND mode=?'+(userId?' AND user_id=?':'')).bind(...[id,mode(),...(userId?[userId]:[])]).first<Order>();if(!row)throw new StoreError(404,'Order not found.');return row;}
+export async function createOrder(request:Request){mutation(request);const user=await checkoutAllowed(request);await initialize();const input=await body(request);
+ if(!Array.isArray(input.productIds)||input.productIds.length<1||input.productIds.length>20||input.productIds.some((s:unknown)=>typeof s!=='string'||s.length>100)||typeof input.requestKey!=='string'||!/^[a-f0-9-]{36}$/.test(input.requestKey))throw new StoreError(400,'Invalid cart.');
+ const ids=[...new Set<string>(input.productIds)].sort();if(ids.length!==input.productIds.length)throw new StoreError(400,'Each resource needs only one teacher license.');
+ const products=await Promise.all(ids.map(id=>db().prepare('SELECT id,title,price_cents,storage_key FROM store_products WHERE id=? AND approved=1 AND ready=1').bind(id).first<{id:string;title:string;price_cents:number;storage_key:string}>()));if(products.some(p=>!p))throw new StoreError(409,'A resource in your cart is not available.');
+ const existing=await db().prepare('SELECT * FROM store_orders WHERE user_id=? AND mode=? AND request_key=?').bind(user.userId,mode(),input.requestKey).first<Order>();
+ if(existing){const previous=await db().prepare('SELECT product_id FROM store_order_items WHERE order_id=? ORDER BY product_id').bind(existing.id).all<{product_id:string}>();if(JSON.stringify(previous.results.map(p=>p.product_id))!==JSON.stringify(ids))throw new StoreError(409,'Your cart changed. Please start a fresh checkout.');if(existing.paypal_id)return json({orderId:existing.paypal_id,localId:existing.id});throw new StoreError(409,'This checkout is being prepared. Please wait before retrying.');}
+ for(const p of products){const purchased=await db().prepare("SELECT 1 FROM store_order_items i JOIN store_orders o ON o.id=i.order_id WHERE i.product_id=? AND o.user_id=? AND o.mode=? AND o.status='completed' AND o.fulfillment='available'").bind(p!.id,user.userId,mode()).first();if(purchased)throw new StoreError(409,'You already own a resource in this cart. Open My Purchases to download it.');}
+ const id=crypto.randomUUID(),total=products.reduce((sum,p)=>sum+p!.price_cents,0);
+ await db().batch([db().prepare('INSERT INTO store_orders(id,user_id,email,mode,request_key,total_cents) VALUES(?,?,?,?,?,?)').bind(id,user.userId,user.email,mode(),input.requestKey,total),...products.map(p=>db().prepare('INSERT INTO store_order_items(order_id,product_id,title,amount_cents) VALUES(?,?,?,?)').bind(id,p!.id,p!.title,p!.price_cents))]);
+ const result=await paypal('/v2/checkout/orders','POST',{intent:'CAPTURE',purchase_units:[{reference_id:id,custom_id:id,invoice_id:id,amount:{currency_code:'USD',value:money(total),breakdown:{item_total:{currency_code:'USD',value:money(total)}}},items:products.map(p=>({name:p!.title,sku:p!.id,category:'DIGITAL_GOODS',quantity:'1',unit_amount:{currency_code:'USD',value:money(p!.price_cents)}}))}],payment_source:{paypal:{experience_context:{brand_name:'Saint Pierre Learning Resources',shipping_preference:'NO_SHIPPING',user_action:'PAY_NOW',return_url:new URL('/order-confirmation',request.url).href,cancel_url:new URL('/cart?canceled=1',request.url).href}}}},id) as {id:string};
+ await db().prepare('UPDATE store_orders SET paypal_id=? WHERE id=?').bind(result.id,id).run();return json({orderId:result.id,localId:id});
+}
+export function validateCapture(local:Order,remote:any){const units=remote.purchase_units;if(remote.id!==local.paypal_id||!Array.isArray(units)||units.length!==1||units[0].custom_id!==local.id||units[0].amount?.currency_code!=='USD'||cents(units[0].amount?.value)!==local.total_cents)throw new StoreError(409,'Payment verification failed. Please contact support.');const captures=units[0].payments?.captures||[];if(captures.length!==1)return null;const cap=captures[0];if(cap.amount?.currency_code!=='USD'||cents(cap.amount?.value)!==local.total_cents||!cap.id)throw new StoreError(409,'Payment verification failed. Please contact support.');return cap;}
+export async function reconcile(local:Order,remote:any){const cap=validateCapture(local,remote);if(!cap)return local;const map:Record<string,string>={COMPLETED:'completed',PENDING:'pending',DECLINED:'denied',FAILED:'denied',REFUNDED:'refunded',PARTIALLY_REFUNDED:'refunded'};const status=map[cap.status];if(!status)return local;
+ // Adverse statuses are sticky: a delayed completed event can never restore access.
+ await db().prepare("UPDATE store_orders SET capture_id=?,status=?,fulfillment=?,paid_at=CASE WHEN ?='completed' THEN COALESCE(paid_at,CURRENT_TIMESTAMP) ELSE paid_at END WHERE id=? AND status NOT IN ('refunded','reversed','disputed') AND (status!='completed' OR ? IN ('completed','refunded'))").bind(cap.id,status,status==='completed'?'available':status==='pending'?'waiting':'revoked',status,local.id,status).run();return order(local.id);
+}
+export async function captureOrder(request:Request){mutation(request);const user=await checkoutAllowed(request);await initialize();const input=await body(request);if(typeof input.orderId!=='string'||!/^[A-Z0-9]{10,40}$/.test(input.orderId))throw new StoreError(400,'Invalid order.');const local=await db().prepare('SELECT * FROM store_orders WHERE paypal_id=? AND user_id=? AND mode=?').bind(input.orderId,user.userId,mode()).first<Order>();if(!local)throw new StoreError(404,'Order not found.');if(['completed','refunded','reversed','disputed'].includes(local.status))return json(local);
+ const now=Date.now();const lock=await db().prepare('UPDATE store_orders SET lock_until=? WHERE id=? AND lock_until<?').bind(now+60000,local.id,now).run();if(!lock.meta.changes)throw new StoreError(409,'Payment verification is in progress. Please check My Purchases shortly.');
+ try{let remote=await paypal('/v2/checkout/orders/'+local.paypal_id) as any;const capture=validateCapture(local,remote);if(!capture){if(remote.status!=='APPROVED')throw new StoreError(409,'Approve your payment in PayPal first.');if(now-Date.parse(local.created_at+'Z')>3600000)throw new StoreError(409,'This checkout expired. Please contact support before retrying.');await paypal('/v2/checkout/orders/'+local.paypal_id+'/capture','POST',{},local.id);remote=await paypal('/v2/checkout/orders/'+local.paypal_id);}return json(await reconcile(local,remote));}finally{await db().prepare('UPDATE store_orders SET lock_until=0 WHERE id=?').bind(local.id).run();}
+}
+export async function webhook(request:Request){await initialize();if(!configured())throw new StoreError(503,'Webhook is not configured.');const event=await body(request);if(!event.id||!event.event_type||!event.resource)throw new StoreError(400,'Invalid event.');const fields:Record<string,string>={'auth_algo':'paypal-auth-algo','cert_url':'paypal-cert-url','transmission_id':'paypal-transmission-id','transmission_sig':'paypal-transmission-sig','transmission_time':'paypal-transmission-time'};const verify:Record<string,unknown>={webhook_id:setting('PAYPAL_WEBHOOK_ID'),webhook_event:event};for(const [key,header] of Object.entries(fields)){const value=request.headers.get(header);if(!value)throw new StoreError(400,'Missing signature.');verify[key]=value;}
+ const verified=await paypal('/v1/notifications/verify-webhook-signature','POST',verify) as {verification_status:string};if(verified.verification_status!=='SUCCESS')throw new StoreError(400,'Invalid webhook signature.');
+ await db().prepare('INSERT OR IGNORE INTO store_webhooks(id,mode,event_type,resource_id,event_time) VALUES(?,?,?,?,?)').bind(event.id,mode(),event.event_type,event.resource.id||null,event.create_time||null).run();const receipt=await db().prepare('SELECT processed FROM store_webhooks WHERE id=?').bind(event.id).first<{processed:number}>();if(receipt?.processed)return json({received:true});
+ const r=event.resource;const related=r.supplementary_data?.related_ids;let local:Order|null=null;
+ if(related?.order_id)local=await db().prepare('SELECT * FROM store_orders WHERE paypal_id=? AND mode=?').bind(related.order_id,mode()).first<Order>();
+ if(!local){const captureId=related?.capture_id||(event.event_type.startsWith('PAYMENT.CAPTURE.')&&!event.event_type.endsWith('REFUNDED')?r.id:r.disputed_transactions?.[0]?.seller_transaction_id);if(captureId)local=await db().prepare('SELECT * FROM store_orders WHERE capture_id=? AND mode=?').bind(captureId,mode()).first<Order>();}
+ if(!local&&event.event_type==='PAYMENT.CAPTURE.REFUNDED'){const link=r.links?.find((l:any)=>l.rel==='up');const match=typeof link?.href==='string'?link.href.match(/\/v2\/payments\/captures\/([A-Z0-9]+)$/):null;if(match)local=await db().prepare('SELECT * FROM store_orders WHERE capture_id=? AND mode=?').bind(match[1],mode()).first<Order>();}
+ if(local){if(['PAYMENT.CAPTURE.COMPLETED','PAYMENT.CAPTURE.PENDING','PAYMENT.CAPTURE.DENIED','PAYMENT.CAPTURE.DECLINED'].includes(event.event_type)){await reconcile(local,await paypal('/v2/checkout/orders/'+local.paypal_id));}else if(event.event_type==='PAYMENT.CAPTURE.REFUNDED'){if(r.amount?.currency_code!=='USD')throw new StoreError(400,'Invalid currency.');await db().batch([db().prepare('INSERT OR IGNORE INTO store_refunds(id,order_id,amount_cents,status) VALUES(?,?,?,?)').bind(r.id,local.id,cents(r.amount.value),r.status||'COMPLETED'),db().prepare("UPDATE store_orders SET status='refunded',fulfillment='revoked' WHERE id=?").bind(local.id)]);}else if(event.event_type==='PAYMENT.CAPTURE.REVERSED'||event.event_type.startsWith('CUSTOMER.DISPUTE.')){await db().prepare("UPDATE store_orders SET status=?,fulfillment='revoked' WHERE id=? AND status!='refunded'").bind(event.event_type==='PAYMENT.CAPTURE.REVERSED'?'reversed':'disputed',local.id).run();}}
+ // Unknown transaction events stay unprocessed for retry; never silently lose an out-of-order refund.
+ if(!local&&/^(PAYMENT\.CAPTURE\.|CUSTOMER\.DISPUTE\.)/.test(event.event_type))throw new StoreError(503,'Transaction is awaiting reconciliation.');
+ await db().prepare('UPDATE store_webhooks SET processed=1 WHERE id=?').bind(event.id).run();return json({received:true});
+}
+export async function purchases(request:Request){const user=await customer(request);await initialize();const orders=await db().prepare('SELECT * FROM store_orders WHERE user_id=? AND mode=? ORDER BY created_at DESC LIMIT 100').bind(user.userId,mode()).all<Order>();const items=await db().prepare('SELECT i.* FROM store_order_items i JOIN store_orders o ON i.order_id=o.id WHERE o.user_id=? AND o.mode=?').bind(user.userId,mode()).all();const downloads=await db().prepare('SELECT product_id,created_at FROM store_downloads WHERE user_id=? ORDER BY created_at DESC LIMIT 100').bind(user.userId).all();return json({orders:orders.results,items:items.results,downloads:downloads.results,mode:mode()});}
+export async function digest(s:string){return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)))).map(v=>v.toString(16).padStart(2,'0')).join('')}
+export async function downloadToken(request:Request){mutation(request);const user=await customer(request);await initialize();const input=await body(request);const eligible=await db().prepare("SELECT o.id FROM store_orders o JOIN store_order_items i ON i.order_id=o.id WHERE o.user_id=? AND i.product_id=? AND o.mode=? AND o.status='completed' AND o.fulfillment='available' LIMIT 1").bind(user.userId,String(input.productId),mode()).first<{id:string}>();if(!eligible)throw new StoreError(403,'This account does not have access to that resource.');const token=crypto.randomUUID()+crypto.randomUUID();await db().prepare('INSERT INTO store_download_tokens(token_hash,user_id,order_id,product_id,expires_at) VALUES(?,?,?,?,?)').bind(await digest(token),user.userId,eligible.id,String(input.productId),Date.now()+120000).run();return json({token,expiresIn:120});}
+export async function download(request:Request){mutation(request);const user=await customer(request);await initialize();const input=await body(request);if(typeof input.token!=='string'||input.token.length>100)throw new StoreError(400,'Invalid download link.');const hash=await digest(input.token);const row=await db().prepare("SELECT t.*,p.storage_key FROM store_download_tokens t JOIN store_orders o ON o.id=t.order_id JOIN store_products p ON p.id=t.product_id WHERE t.token_hash=? AND t.user_id=? AND t.expires_at>? AND t.used_at IS NULL AND o.mode=? AND o.status='completed' AND o.fulfillment='available'").bind(hash,user.userId,Date.now(),mode()).first<{product_id:string;order_id:string;storage_key:string}>();if(!row)throw new StoreError(403,'This download link expired or is no longer available. Request a new link in My Purchases.');const bucket=Reflect.get(env,'PAID_FILES') as R2Bucket|undefined;const stored=row.storage_key.startsWith('bundled/')?null:await bucket?.get(row.storage_key);const bundled=stored?null:resourceFile(row.product_id);const file=stored||bundled;if(!file)throw new StoreError(503,'Your file is temporarily unavailable. Contact support.');const used=await db().prepare('UPDATE store_download_tokens SET used_at=CURRENT_TIMESTAMP WHERE token_hash=? AND used_at IS NULL AND expires_at>?').bind(hash,Date.now()).run();if(!used.meta.changes)throw new StoreError(403,'Please request a new download link.');await db().prepare('INSERT INTO store_downloads(id,user_id,order_id,product_id) VALUES(?,?,?,?)').bind(crypto.randomUUID(),user.userId,row.order_id,row.product_id).run();return new Response(file.body,{headers:{'Content-Type':bundled?.contentType||stored?.httpMetadata?.contentType||(row.storage_key.endsWith('.zip')?'application/zip':'application/pdf'),'Content-Disposition':`attachment; filename="${bundled?.name||row.product_id+(row.storage_key.endsWith('.pptx')?'.pptx':row.storage_key.endsWith('.zip')?'.zip':'.pdf')}"`,'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff'}});}
+export async function configuration(request:Request){const user=await signedIn(request);const liveOpen=configured()&&mode()==='live'&&setting('PAYPAL_LIVE_ENABLED')==='true';const enabled=!!user&&configured()&&(mode()==='sandbox'?owner(user):liveOpen);return json({enabled,liveOpen,signedIn:!!user,mode:owner(user)?mode():liveOpen?'live':null,clientId:enabled?setting('PAYPAL_CLIENT_ID'):null});}
+export async function sales(request:Request){const user=await customer(request);if(!owner(user))throw new StoreError(403,'Owner access required.');await initialize();const summary=await db().prepare(`SELECT COUNT(*) purchaseTotal,COALESCE(SUM(CASE WHEN status='completed' THEN total_cents ELSE 0 END),0) revenue,COALESCE(SUM(CASE WHEN status='completed' AND paid_at>=datetime('now','-7 days') THEN total_cents ELSE 0 END),0) week,COALESCE(SUM(CASE WHEN status='completed' AND paid_at>=datetime('now','start of month') THEN total_cents ELSE 0 END),0) month,COALESCE(SUM(CASE WHEN status='completed' AND paid_at>=datetime('now','start of year') THEN total_cents ELSE 0 END),0) year,SUM(CASE WHEN status='completed' THEN 1 ELSE 0 END) completed FROM store_orders WHERE mode=?`).bind(mode()).first();const sold=await db().prepare("SELECT COUNT(*) count FROM store_order_items i JOIN store_orders o ON o.id=i.order_id WHERE o.status='completed' AND o.mode=?").bind(mode()).first();const refunds=await db().prepare('SELECT COALESCE(SUM(r.amount_cents),0) amount FROM store_refunds r JOIN store_orders o ON o.id=r.order_id WHERE o.mode=?').bind(mode()).first();const recent=await db().prepare('SELECT * FROM store_orders WHERE mode=? ORDER BY created_at DESC LIMIT 30').bind(mode()).all();return json({summary,sold,refunds,recent:recent.results,mode:mode()});}
+
+export async function ownerResourceFile(request:Request){mutation(request);const user=await customer(request);if(!owner(user))throw new StoreError(403,'Owner access required.');const input=await body(request);if(typeof input.productId!=='string'||typeof input.format!=='string')throw new StoreError(400,'Choose a resource and file format.');let file=resourceFile(input.productId,input.format);
+ if(!file&&input.format==='default'&&elaRelease.some(p=>p.id===input.productId)){
+  const p=await db().prepare('SELECT storage_key FROM store_products WHERE id=? AND ready=1').bind(input.productId).first<{storage_key:string}>();
+  const bucket=Reflect.get(env,'PAID_FILES') as R2Bucket|undefined;const stored=p?await bucket?.get(p.storage_key):null;
+  if(stored)return new Response(stored.body,{headers:{'Content-Type':'application/zip','Content-Disposition':`attachment; filename="${input.productId}.zip"`,'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff'}});
+ }
+ if(!file)throw new StoreError(404,'Resource file not found.');return new Response(file.body,{headers:{'Content-Type':file.contentType,'Content-Disposition':`attachment; filename="${file.name}"`,'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff'}});}
+
+export async function uploadOwnerFile(request:Request){
+ mutation(request);const user=await customer(request);if(!owner(user))throw new StoreError(403,'Owner access required.');
+ const id=new URL(request.url).searchParams.get('productId')||'';
+ const spec=Object.hasOwn(elaFiles,id)?elaFiles[id as keyof typeof elaFiles]:null;
+ const product=elaRelease.find(p=>p.id===id);
+ if(!spec||!product)throw new StoreError(400,'Choose an approved PowerPoint package.');
+ if(Number(request.headers.get('content-length')||0)>spec.bytes)throw new StoreError(413,'This file is larger than the approved package.');
+ const reader=request.body?.getReader();if(!reader)throw new StoreError(400,'Choose a file.');
+ const bytes=new Uint8Array(spec.bytes);let size=0;
+ while(true){const {done,value}=await reader.read();if(done)break;if(size+value.length>spec.bytes){await reader.cancel();throw new StoreError(413,'This file is larger than the approved package.');}bytes.set(value,size);size+=value.length;}
+ const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(v=>v.toString(16).padStart(2,'0')).join('');
+ if(size!==spec.bytes||hash!==spec.sha256)throw new StoreError(422,'This is not the verified package. Select the prepared ZIP for this resource.');
+ const bucket=Reflect.get(env,'PAID_FILES') as R2Bucket|undefined;if(!bucket)throw new StoreError(503,'Protected storage is unavailable.');
+ await initialize();const key='products/ela/'+hash+'/'+spec.name;
+ await bucket.put(key,bytes,{httpMetadata:{contentType:'application/zip'},customMetadata:{sha256:hash}});
+ const saved=await bucket.head(key);if(!saved||saved.size!==spec.bytes)throw new StoreError(503,'Upload verification failed. The listing has not been activated.');
+ await db().prepare('UPDATE store_products SET title=?,price_cents=?,approved=1,ready=1,metadata=?,storage_key=? WHERE id=?').bind(product.title,product.priceCents,JSON.stringify(product),key,id).run();
+ return json({ready:true,productId:id,bytes:size,sha256:hash});
+}
+export async function ownerUploadStatus(){
+ await initialize();const {results}=await db().prepare('SELECT id,ready,approved FROM store_products').all<{id:string;ready:number;approved:number}>();
+ return elaRelease.map(p=>({...p,ready:results.some(x=>x.id===p.id&&x.ready===1&&x.approved===1)}));
+}

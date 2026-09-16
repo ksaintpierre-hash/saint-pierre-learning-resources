@@ -1,0 +1,5735 @@
+{
+  "last_updated": "2026-09-15",
+  "completed": [
+    {
+      "title": "Multi-Digit Operations: Place-Value Strategies",
+      "state": "California",
+      "grade": "4",
+      "subject": "Mathematics",
+      "standard": "CA CCSS.MATH.CONTENT.4.NBT.B.4"
+    },
+    {
+      "title": "Theme Detectives: Evidence in Original Fiction",
+      "state": "Florida",
+      "grade": "5",
+      "subject": "Reading",
+      "standard": "ELA.5.R.1.2"
+    },
+    {
+      "title": "Elements & Compounds: Particle Evidence Lab",
+      "state": "Texas",
+      "grade": "7",
+      "subject": "Science",
+      "standard": "TEKS 7.6(A)"
+    },
+    {
+      "title": "College Composition: Claims, Evidence & Reasoning",
+      "grade": "College",
+      "subject": "English Composition",
+      "objective": "Claims, evidence, and reasoning"
+    },
+    {
+      "title": "College Algebra: Linear Models in Context",
+      "grade": "College",
+      "subject": "Mathematics",
+      "objective": "Linear models"
+    },
+    {
+      "title": "General Biology: Cell Membrane Transport",
+      "grade": "College",
+      "subject": "Biology",
+      "objective": "Membrane transport"
+    },
+    {
+      "title": "Intro Psychology: Research Methods & Ethics",
+      "grade": "College",
+      "subject": "Psychology",
+      "objective": "Research methods and ethics"
+    },
+    {
+      "title": "Spanish 101: Campus Conversations",
+      "grade": "College",
+      "subject": "Spanish",
+      "objective": "Introductions and present tense"
+    },
+    {
+      "title": "Financial Accounting: Transaction Analysis",
+      "grade": "College",
+      "subject": "Business",
+      "objective": "Accounting equation and transaction analysis"
+    },
+    {
+      "title": "Introduction to Programming: Python Decisions",
+      "grade": "College",
+      "subject": "Computer Science",
+      "objective": "Variables, Boolean logic, and conditionals"
+    },
+    {
+      "standard": "NC.3.OA.8 - Solve two-step word problems using addition, subtraction, and multiplication, representing problems with equations containing a symbol for the unknown.",
+      "title": "Two-Step Story Problem Task Cards",
+      "state": "North Carolina",
+      "grade": "Grade 3",
+      "subject": "Mathematics",
+      "resource_type": "Task Cards",
+      "format": "PDF"
+    },
+    {
+      "standard": "NC.5.NBT.5 - Demonstrate fluency with multiplication of whole numbers up to three digits by two digits using the standard algorithm.",
+      "title": "Multi-Digit Multiplication Warm-Up Week",
+      "state": "North Carolina",
+      "grade": "Grade 5",
+      "subject": "Mathematics",
+      "resource_type": "Warm-Ups",
+      "format": "PDF"
+    },
+    {
+      "standard": "NC.6.RP.3 - Use ratio and rate reasoning to solve real-world and mathematical problems, including unit rates and percentages.",
+      "title": "Rates and Percent Small-Group Lab",
+      "state": "North Carolina",
+      "grade": "Grade 6",
+      "subject": "Mathematics",
+      "resource_type": "Small-Group Work",
+      "format": "PDF"
+    },
+    {
+      "standard": "NC.8.F.4 - Analyze functions that model linear relationships; determine and interpret rate of change and initial value from two values or from a graph, table, or description.",
+      "title": "Linear Models Homework and Exit Ticket",
+      "state": "North Carolina",
+      "grade": "Grade 8",
+      "subject": "Mathematics",
+      "resource_type": "Homework",
+      "format": "PDF"
+    },
+    {
+      "objective": "Course objective - Exchange basic greetings and cafe requests using polite expressions, articles, and present-tense forms of etre and avoir.",
+      "title": "French 101 Cafe Conversations",
+      "state": "Not applicable",
+      "grade": "College - French 101",
+      "subject": "French",
+      "resource_type": "Independent Work",
+      "format": "PDF"
+    },
+    {
+      "objective": "Course objective - Introduce oneself and exchange basic personal information using greetings, pronouns, sein, heissen, and regular present-tense verbs.",
+      "title": "German 101 Introductions Practice",
+      "state": "Not applicable",
+      "grade": "College - German 101",
+      "subject": "German",
+      "resource_type": "Classwork",
+      "format": "PDF"
+    },
+    {
+      "objective": "Course objective - Recognize and use pinyin-supported greetings, names, numbers 1-10, and basic identity questions in short exchanges.",
+      "title": "Mandarin 101 Campus Basics",
+      "state": "Not applicable",
+      "grade": "College - Mandarin 101",
+      "subject": "Mandarin Chinese",
+      "resource_type": "Task Cards",
+      "format": "PDF"
+    },
+    {
+      "objective": "Course objective - Apply basic visual-attention norms, fingerspell names, and produce beginner greetings and classroom exchanges with appropriate nonmanual signals.",
+      "title": "ASL 101 Classroom Communication Guide",
+      "state": "Not applicable",
+      "grade": "College - ASL 101",
+      "subject": "American Sign Language",
+      "resource_type": "Visual Practice Guide",
+      "format": "PDF"
+    },
+    {
+      "objective": "Course objective - Analyze how line, shape, color, value, texture, space, emphasis, balance, rhythm, and unity affect meaning in original compositions.",
+      "title": "Art Appreciation Composition Detective",
+      "state": "Not applicable",
+      "grade": "College - Art Appreciation",
+      "subject": "Fine Arts",
+      "resource_type": "Analysis Packet",
+      "format": "PDF"
+    },
+    {
+      "objective": "Course objective - Define a design problem, distinguish criteria from constraints, generate and compare concepts, plan a fair test, and justify an evidence-based iteration.",
+      "title": "Introduction to Engineering Design Challenge",
+      "state": "Not applicable",
+      "grade": "College - Introductory Engineering",
+      "subject": "Engineering / CTE",
+      "resource_type": "Project Packet",
+      "format": "PDF"
+    },
+    {
+      "id": "nc-g3-equal-groups-teaching-bundle",
+      "title": "Equal Groups and Fair Shares Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 3"
+      ],
+      "level": "Grade 3 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.3.OA.3",
+      "objective": "Connect equal groups, multiplication, and division.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g3-equal-groups-teaching-bundle.zip",
+        "pdf": "nc-g3-equal-groups-teaching-bundle.pdf",
+        "pptx": "nc-g3-equal-groups-teaching-bundle.pptx",
+        "slides": "nc-g3-equal-groups-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g3-two-step-teaching-bundle",
+      "title": "Two Decisions, One Story Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 3"
+      ],
+      "level": "Grade 3 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.3.OA.8",
+      "objective": "Represent and solve two-step stories.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g3-two-step-teaching-bundle.zip",
+        "pdf": "nc-g3-two-step-teaching-bundle.pdf",
+        "pptx": "nc-g3-two-step-teaching-bundle.pptx",
+        "slides": "nc-g3-two-step-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g3-place-add-teaching-bundle",
+      "title": "Build and Regroup to 1,000 Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 3"
+      ],
+      "level": "Grade 3 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.3.NBT.2",
+      "objective": "Explain addition and subtraction with place value.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g3-place-add-teaching-bundle.zip",
+        "pdf": "nc-g3-place-add-teaching-bundle.pdf",
+        "pptx": "nc-g3-place-add-teaching-bundle.pptx",
+        "slides": "nc-g3-place-add-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g3-fraction-model-teaching-bundle",
+      "title": "Fractions on Strips and Number Lines Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 3"
+      ],
+      "level": "Grade 3 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.3.NF.2",
+      "objective": "Connect equal parts with fraction notation.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g3-fraction-model-teaching-bundle.zip",
+        "pdf": "nc-g3-fraction-model-teaching-bundle.pdf",
+        "pptx": "nc-g3-fraction-model-teaching-bundle.pptx",
+        "slides": "nc-g3-fraction-model-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g3-tile-area-teaching-bundle",
+      "title": "Tile It, Split It, Find the Area Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 3"
+      ],
+      "level": "Grade 3 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.3.MD.7",
+      "objective": "Connect tiled rectangles with multiplication.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g3-tile-area-teaching-bundle.zip",
+        "pdf": "nc-g3-tile-area-teaching-bundle.pdf",
+        "pptx": "nc-g3-tile-area-teaching-bundle.pptx",
+        "slides": "nc-g3-tile-area-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g4-multi-add-teaching-bundle",
+      "title": "Regrouping with Large Numbers Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 4"
+      ],
+      "level": "Grade 4 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.4.NBT.4",
+      "objective": "Explain multi-digit addition and subtraction.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g4-multi-add-teaching-bundle.zip",
+        "pdf": "nc-g4-multi-add-teaching-bundle.pdf",
+        "pptx": "nc-g4-multi-add-teaching-bundle.pptx",
+        "slides": "nc-g4-multi-add-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g4-partial-products-teaching-bundle",
+      "title": "Partial Products, Clear Thinking Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 4"
+      ],
+      "level": "Grade 4 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.4.NBT.5",
+      "objective": "Connect area models with partial products.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g4-partial-products-teaching-bundle.zip",
+        "pdf": "nc-g4-partial-products-teaching-bundle.pdf",
+        "pptx": "nc-g4-partial-products-teaching-bundle.pptx",
+        "slides": "nc-g4-partial-products-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g4-division-remainders-teaching-bundle",
+      "title": "Division with Meaningful Remainders Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 4"
+      ],
+      "level": "Grade 4 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.4.NBT.6",
+      "objective": "Explain whole-number division and remainders.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g4-division-remainders-teaching-bundle.zip",
+        "pdf": "nc-g4-division-remainders-teaching-bundle.pdf",
+        "pptx": "nc-g4-division-remainders-teaching-bundle.pptx",
+        "slides": "nc-g4-division-remainders-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g4-like-fractions-teaching-bundle",
+      "title": "Join and Separate Fraction Parts Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 4"
+      ],
+      "level": "Grade 4 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.4.NF.3",
+      "objective": "Add and subtract like-denominator fractions.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g4-like-fractions-teaching-bundle.zip",
+        "pdf": "nc-g4-like-fractions-teaching-bundle.pdf",
+        "pptx": "nc-g4-like-fractions-teaching-bundle.pptx",
+        "slides": "nc-g4-like-fractions-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g4-area-perimeter-teaching-bundle",
+      "title": "Same Area, Different Borders Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 4"
+      ],
+      "level": "Grade 4 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.4.MD.3",
+      "objective": "Distinguish area from perimeter.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g4-area-perimeter-teaching-bundle.zip",
+        "pdf": "nc-g4-area-perimeter-teaching-bundle.pdf",
+        "pptx": "nc-g4-area-perimeter-teaching-bundle.pptx",
+        "slides": "nc-g4-area-perimeter-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g5-standard-multiply-teaching-bundle",
+      "title": "Multiplication with a Reasonableness Check Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 5"
+      ],
+      "level": "Grade 5 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.5.NBT.5",
+      "objective": "Use multi-digit multiplication accurately.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g5-standard-multiply-teaching-bundle.zip",
+        "pdf": "nc-g5-standard-multiply-teaching-bundle.pdf",
+        "pptx": "nc-g5-standard-multiply-teaching-bundle.pptx",
+        "slides": "nc-g5-standard-multiply-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g5-decimal-money-teaching-bundle",
+      "title": "Decimal Decisions at the Supply Desk Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 5"
+      ],
+      "level": "Grade 5 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.5.NBT.7",
+      "objective": "Use decimal place value in contextual operations.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g5-decimal-money-teaching-bundle.zip",
+        "pdf": "nc-g5-decimal-money-teaching-bundle.pdf",
+        "pptx": "nc-g5-decimal-money-teaching-bundle.pptx",
+        "slides": "nc-g5-decimal-money-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g5-unlike-fractions-teaching-bundle",
+      "title": "Related Denominators, Shared Units Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 5"
+      ],
+      "level": "Grade 5 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.5.NF.1",
+      "objective": "Use equivalent fractions to combine unlike parts.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g5-unlike-fractions-teaching-bundle.zip",
+        "pdf": "nc-g5-unlike-fractions-teaching-bundle.pdf",
+        "pptx": "nc-g5-unlike-fractions-teaching-bundle.pptx",
+        "slides": "nc-g5-unlike-fractions-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g5-fraction-sharing-teaching-bundle",
+      "title": "Sharing Quantities Fairly Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 5"
+      ],
+      "level": "Grade 5 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.5.NF.3",
+      "objective": "Interpret division as a fraction.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g5-fraction-sharing-teaching-bundle.zip",
+        "pdf": "nc-g5-fraction-sharing-teaching-bundle.pdf",
+        "pptx": "nc-g5-fraction-sharing-teaching-bundle.pptx",
+        "slides": "nc-g5-fraction-sharing-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g5-prism-volume-teaching-bundle",
+      "title": "Pack the Prism Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 5"
+      ],
+      "level": "Grade 5 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.5.MD.5",
+      "objective": "Connect layers of cubes with volume.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g5-prism-volume-teaching-bundle.zip",
+        "pdf": "nc-g5-prism-volume-teaching-bundle.pdf",
+        "pptx": "nc-g5-prism-volume-teaching-bundle.pptx",
+        "slides": "nc-g5-prism-volume-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g6-ratio-tables-teaching-bundle",
+      "title": "Ratio Tables That Tell a Story Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 6"
+      ],
+      "level": "Grade 6 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.6.RP.3",
+      "objective": "Use unit rates and equivalent ratios.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g6-ratio-tables-teaching-bundle.zip",
+        "pdf": "nc-g6-ratio-tables-teaching-bundle.pdf",
+        "pptx": "nc-g6-ratio-tables-teaching-bundle.pptx",
+        "slides": "nc-g6-ratio-tables-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g6-percent-benchmarks-teaching-bundle",
+      "title": "Percent Benchmarks in Action Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 6"
+      ],
+      "level": "Grade 6 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.6.RP.4",
+      "objective": "Find parts using percent benchmarks.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g6-percent-benchmarks-teaching-bundle.zip",
+        "pdf": "nc-g6-percent-benchmarks-teaching-bundle.pdf",
+        "pptx": "nc-g6-percent-benchmarks-teaching-bundle.pptx",
+        "slides": "nc-g6-percent-benchmarks-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g6-one-step-equations-teaching-bundle",
+      "title": "Balance a One-Step Equation Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 6"
+      ],
+      "level": "Grade 6 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.6.EE.7",
+      "objective": "Write and solve one-step equations.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g6-one-step-equations-teaching-bundle.zip",
+        "pdf": "nc-g6-one-step-equations-teaching-bundle.pdf",
+        "pptx": "nc-g6-one-step-equations-teaching-bundle.pptx",
+        "slides": "nc-g6-one-step-equations-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g6-triangle-area-teaching-bundle",
+      "title": "Triangles from Rectangles Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 6"
+      ],
+      "level": "Grade 6 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.6.G.1",
+      "objective": "Use decomposition to find triangle area.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g6-triangle-area-teaching-bundle.zip",
+        "pdf": "nc-g6-triangle-area-teaching-bundle.pdf",
+        "pptx": "nc-g6-triangle-area-teaching-bundle.pptx",
+        "slides": "nc-g6-triangle-area-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g6-center-spread-teaching-bundle",
+      "title": "Center and Spread Data Lab Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 6"
+      ],
+      "level": "Grade 6 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.6.SP.3",
+      "objective": "Compare center and variability in data.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g6-center-spread-teaching-bundle.zip",
+        "pdf": "nc-g6-center-spread-teaching-bundle.pdf",
+        "pptx": "nc-g6-center-spread-teaching-bundle.pptx",
+        "slides": "nc-g6-center-spread-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g7-proportion-models-teaching-bundle",
+      "title": "Proportional or Not? Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 7"
+      ],
+      "level": "Grade 7 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.7.RP.2",
+      "objective": "Identify and represent proportional relationships.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g7-proportion-models-teaching-bundle.zip",
+        "pdf": "nc-g7-proportion-models-teaching-bundle.pdf",
+        "pptx": "nc-g7-proportion-models-teaching-bundle.pptx",
+        "slides": "nc-g7-proportion-models-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g7-signed-change-teaching-bundle",
+      "title": "Signed Numbers, Real Changes Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 7"
+      ],
+      "level": "Grade 7 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.7.NS.1",
+      "objective": "Interpret rational-number sums and differences.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g7-signed-change-teaching-bundle.zip",
+        "pdf": "nc-g7-signed-change-teaching-bundle.pdf",
+        "pptx": "nc-g7-signed-change-teaching-bundle.pptx",
+        "slides": "nc-g7-signed-change-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g7-multi-step-equations-teaching-bundle",
+      "title": "Equations from Quantities Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 7"
+      ],
+      "level": "Grade 7 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.7.EE.4",
+      "objective": "Model and solve multi-step equations.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g7-multi-step-equations-teaching-bundle.zip",
+        "pdf": "nc-g7-multi-step-equations-teaching-bundle.pdf",
+        "pptx": "nc-g7-multi-step-equations-teaching-bundle.pptx",
+        "slides": "nc-g7-multi-step-equations-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g7-circle-measures-teaching-bundle",
+      "title": "Radius, Border, and Circle Area Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 7"
+      ],
+      "level": "Grade 7 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.7.G.4",
+      "objective": "Distinguish circumference and circle area.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g7-circle-measures-teaching-bundle.zip",
+        "pdf": "nc-g7-circle-measures-teaching-bundle.pdf",
+        "pptx": "nc-g7-circle-measures-teaching-bundle.pptx",
+        "slides": "nc-g7-circle-measures-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g7-chance-models-teaching-bundle",
+      "title": "Build a Fair Probability Model Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 7"
+      ],
+      "level": "Grade 7 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.7.SP.7",
+      "objective": "Use equally likely outcomes to model chance.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g7-chance-models-teaching-bundle.zip",
+        "pdf": "nc-g7-chance-models-teaching-bundle.pdf",
+        "pptx": "nc-g7-chance-models-teaching-bundle.pptx",
+        "slides": "nc-g7-chance-models-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g8-both-sides-teaching-bundle",
+      "title": "Variables on Both Sides Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 8"
+      ],
+      "level": "Grade 8 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.8.EE.7",
+      "objective": "Solve and classify linear equations.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g8-both-sides-teaching-bundle.zip",
+        "pdf": "nc-g8-both-sides-teaching-bundle.pdf",
+        "pptx": "nc-g8-both-sides-teaching-bundle.pptx",
+        "slides": "nc-g8-both-sides-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g8-linear-functions-teaching-bundle",
+      "title": "A Rate and a Starting Value Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 8"
+      ],
+      "level": "Grade 8 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.8.F.4",
+      "objective": "Build and interpret linear models.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g8-linear-functions-teaching-bundle.zip",
+        "pdf": "nc-g8-linear-functions-teaching-bundle.pdf",
+        "pptx": "nc-g8-linear-functions-teaching-bundle.pptx",
+        "slides": "nc-g8-linear-functions-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g8-right-triangles-teaching-bundle",
+      "title": "Right-Triangle Route Planner Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 8"
+      ],
+      "level": "Grade 8 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.8.G.7",
+      "objective": "Use the Pythagorean theorem and its converse.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g8-right-triangles-teaching-bundle.zip",
+        "pdf": "nc-g8-right-triangles-teaching-bundle.pdf",
+        "pptx": "nc-g8-right-triangles-teaching-bundle.pptx",
+        "slides": "nc-g8-right-triangles-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g8-scatter-data-teaching-bundle",
+      "title": "Patterns in Paired Data Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 8"
+      ],
+      "level": "Grade 8 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.8.SP.1",
+      "objective": "Represent and describe bivariate associations.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g8-scatter-data-teaching-bundle.zip",
+        "pdf": "nc-g8-scatter-data-teaching-bundle.pdf",
+        "pptx": "nc-g8-scatter-data-teaching-bundle.pptx",
+        "slides": "nc-g8-scatter-data-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "nc-g8-integer-exponents-teaching-bundle",
+      "title": "Exponent Rules with Reasons Teaching Bundle",
+      "created_date": "2026-09-15",
+      "state": "North Carolina",
+      "grades": [
+        "Grade 8"
+      ],
+      "level": "Grade 8 • North Carolina",
+      "audience": "Students and educators",
+      "subject": "Mathematics",
+      "standard": "NC.8.EE.1",
+      "objective": "Generate equivalent exponential expressions.",
+      "state_standard_verified": true,
+      "sources": [
+        {
+          "title": "NCDPI mathematics standards",
+          "url": "https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open"
+        },
+        {
+          "title": "NCDPI EOG mathematics specifications",
+          "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-mathematics-grades-3-8-test-specifications"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Complete mathematics teaching bundle",
+      "collections": [
+        "EOG & State Test Prep",
+        "Task Cards",
+        "Warm-Ups",
+        "PowerPoints",
+        "Sub Plans",
+        "Emergency Sub Plans",
+        "Fall Packets",
+        "Winter Packets",
+        "Spring Break Packets",
+        "Summer Packets",
+        "Lesson Plan Templates",
+        "Classwork",
+        "Homework",
+        "Independent Work",
+        "Small-Group Work",
+        "Exit Tickets",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF",
+        "PPTX"
+      ],
+      "pages": 48,
+      "additional_pdf_pages": 10,
+      "slides": 10,
+      "suggested_price_cents": 1200,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "nc-g8-integer-exponents-teaching-bundle.zip",
+        "pdf": "nc-g8-integer-exponents-teaching-bundle.pdf",
+        "pptx": "nc-g8-integer-exponents-teaching-bundle.pptx",
+        "slides": "nc-g8-integer-exponents-teaching-bundle-slides.pdf"
+      }
+    },
+    {
+      "id": "teacher-a-calm-arrival-toolkit",
+      "title": "A Calm Arrival Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Start class with a predictable entry sequence",
+      "objective": "Start class with a predictable entry sequence",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-a-calm-arrival-toolkit.pdf",
+        "pdf": "teacher-a-calm-arrival-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-directions-students-can-use-toolkit",
+      "title": "Directions Students Can Use Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Make the next action visible and check understanding",
+      "objective": "Make the next action visible and check understanding",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-directions-students-can-use-toolkit.pdf",
+        "pdf": "teacher-directions-students-can-use-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-transitions-with-a-destination-toolkit",
+      "title": "Transitions with a Destination Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Teach a clear route between activities",
+      "objective": "Teach a clear route between activities",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-transitions-with-a-destination-toolkit.pdf",
+        "pdf": "teacher-transitions-with-a-destination-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-materials-with-a-home-toolkit",
+      "title": "Materials with a Home Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Create a usable system for shared materials",
+      "objective": "Create a usable system for shared materials",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-materials-with-a-home-toolkit.pdf",
+        "pdf": "teacher-materials-with-a-home-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-asking-for-help-with-confidence-toolkit",
+      "title": "Asking for Help with Confidence Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Make help-seeking specific and accessible",
+      "objective": "Make help-seeking specific and accessible",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-asking-for-help-with-confidence-toolkit.pdf",
+        "pdf": "teacher-asking-for-help-with-confidence-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-partners-who-both-participate-toolkit",
+      "title": "Partners Who Both Participate Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Structure partner work so each learner contributes",
+      "objective": "Structure partner work so each learner contributes",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-partners-who-both-participate-toolkit.pdf",
+        "pdf": "teacher-partners-who-both-participate-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-group-roles-that-rotate-toolkit",
+      "title": "Group Roles That Rotate Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Give group members meaningful and changeable responsibilities",
+      "objective": "Give group members meaningful and changeable responsibilities",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-group-roles-that-rotate-toolkit.pdf",
+        "pdf": "teacher-group-roles-that-rotate-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-listening-with-visible-evidence-toolkit",
+      "title": "Listening with Visible Evidence Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Help students show listening without requiring one body posture",
+      "objective": "Help students show listening without requiring one body posture",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-listening-with-visible-evidence-toolkit.pdf",
+        "pdf": "teacher-listening-with-visible-evidence-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-discussion-without-a-rush-toolkit",
+      "title": "Discussion without a Rush Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Build discussion turns that include thinking time",
+      "objective": "Build discussion turns that include thinking time",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-discussion-without-a-rush-toolkit.pdf",
+        "pdf": "teacher-discussion-without-a-rush-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-feedback-that-gives-a-next-step-toolkit",
+      "title": "Feedback That Gives a Next Step Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Make feedback usable during revision",
+      "objective": "Make feedback usable during revision",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-feedback-that-gives-a-next-step-toolkit.pdf",
+        "pdf": "teacher-feedback-that-gives-a-next-step-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-mistakes-as-information-toolkit",
+      "title": "Mistakes as Information Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Use errors to locate a teachable step",
+      "objective": "Use errors to locate a teachable step",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-mistakes-as-information-toolkit.pdf",
+        "pdf": "teacher-mistakes-as-information-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-a-first-step-for-starting-work-toolkit",
+      "title": "A First Step for Starting Work Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Reduce uncertainty at the beginning of a task",
+      "objective": "Reduce uncertainty at the beginning of a task",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-a-first-step-for-starting-work-toolkit.pdf",
+        "pdf": "teacher-a-first-step-for-starting-work-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-pacing-with-checkpoints-toolkit",
+      "title": "Pacing with Checkpoints Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Help learners plan a work period in manageable portions",
+      "objective": "Help learners plan a work period in manageable portions",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-pacing-with-checkpoints-toolkit.pdf",
+        "pdf": "teacher-pacing-with-checkpoints-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-meaningful-work-after-finishing-toolkit",
+      "title": "Meaningful Work after Finishing Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Provide extensions that deepen an already completed task",
+      "objective": "Provide extensions that deepen an already completed task",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-meaningful-work-after-finishing-toolkit.pdf",
+        "pdf": "teacher-meaningful-work-after-finishing-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-finishing-unfinished-work-toolkit",
+      "title": "Finishing Unfinished Work Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Plan completion without turning backlog into punishment",
+      "objective": "Plan completion without turning backlog into punishment",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-finishing-unfinished-work-toolkit.pdf",
+        "pdf": "teacher-finishing-unfinished-work-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-organization-learners-can-explain-toolkit",
+      "title": "Organization Learners Can Explain Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Design a simple system for finding and submitting work",
+      "objective": "Design a simple system for finding and submitting work",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-organization-learners-can-explain-toolkit.pdf",
+        "pdf": "teacher-organization-learners-can-explain-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-a-welcoming-return-after-absence-toolkit",
+      "title": "A Welcoming Return after Absence Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Support re-entry with clear priorities and belonging",
+      "objective": "Support re-entry with clear priorities and belonging",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-a-welcoming-return-after-absence-toolkit.pdf",
+        "pdf": "teacher-a-welcoming-return-after-absence-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-homework-with-a-clear-purpose-toolkit",
+      "title": "Homework with a Clear Purpose Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Make home practice understandable and limited in scope",
+      "objective": "Make home practice understandable and limited in scope",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-homework-with-a-clear-purpose-toolkit.pdf",
+        "pdf": "teacher-homework-with-a-clear-purpose-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-reading-time-with-stamina-and-choice-toolkit",
+      "title": "Reading Time with Stamina and Choice Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Plan reading participation with accessible texts and a clear purpose",
+      "objective": "Plan reading participation with accessible texts and a clear purpose",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-reading-time-with-stamina-and-choice-toolkit.pdf",
+        "pdf": "teacher-reading-time-with-stamina-and-choice-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-revision-with-a-purpose-toolkit",
+      "title": "Revision with a Purpose Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Help learners improve meaning before polishing every surface feature",
+      "objective": "Help learners improve meaning before polishing every surface feature",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-revision-with-a-purpose-toolkit.pdf",
+        "pdf": "teacher-revision-with-a-purpose-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-math-talk-beyond-the-answer-toolkit",
+      "title": "Math Talk beyond the Answer Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Make mathematical reasoning visible through several representations",
+      "objective": "Make mathematical reasoning visible through several representations",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-math-talk-beyond-the-answer-toolkit.pdf",
+        "pdf": "teacher-math-talk-beyond-the-answer-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-project-materials-and-careful-setup-toolkit",
+      "title": "Project Materials and Careful Setup Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Teach preparation and cleanup for ordinary classroom projects",
+      "objective": "Teach preparation and cleanup for ordinary classroom projects",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-project-materials-and-careful-setup-toolkit.pdf",
+        "pdf": "teacher-project-materials-and-careful-setup-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-digital-focus-with-a-defined-task-toolkit",
+      "title": "Digital Focus with a Defined Task Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Keep device use connected to a visible learning purpose",
+      "objective": "Keep device use connected to a visible learning purpose",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-digital-focus-with-a-defined-task-toolkit.pdf",
+        "pdf": "teacher-digital-focus-with-a-defined-task-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-shared-devices-shared-thinking-toolkit",
+      "title": "Shared Devices, Shared Thinking Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Structure turns on one device without sidelining partners",
+      "objective": "Structure turns on one device without sidelining partners",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-shared-devices-shared-thinking-toolkit.pdf",
+        "pdf": "teacher-shared-devices-shared-thinking-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-movement-with-a-learning-purpose-toolkit",
+      "title": "Movement with a Learning Purpose Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Offer movement options that preserve access and clear routines",
+      "objective": "Offer movement options that preserve access and clear routines",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-movement-with-a-learning-purpose-toolkit.pdf",
+        "pdf": "teacher-movement-with-a-learning-purpose-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-a-calm-space-with-a-return-plan-toolkit",
+      "title": "A Calm Space with a Return Plan Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Create a voluntary regulation space that supports rejoining",
+      "objective": "Create a voluntary regulation space that supports rejoining",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-a-calm-space-with-a-return-plan-toolkit.pdf",
+        "pdf": "teacher-a-calm-space-with-a-return-plan-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-disagreement-with-a-repair-route-toolkit",
+      "title": "Disagreement with a Repair Route Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Teach respectful disagreement and practical repair",
+      "objective": "Teach respectful disagreement and practical repair",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-disagreement-with-a-repair-route-toolkit.pdf",
+        "pdf": "teacher-disagreement-with-a-repair-route-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-a-substitute-day-students-understand-toolkit",
+      "title": "A Substitute Day Students Understand Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Prepare a class for continuity when the usual teacher is away",
+      "objective": "Prepare a class for continuity when the usual teacher is away",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-a-substitute-day-students-understand-toolkit.pdf",
+        "pdf": "teacher-a-substitute-day-students-understand-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-family-messages-that-invite-partnership-toolkit",
+      "title": "Family Messages That Invite Partnership Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Write clear, respectful messages with a shared next step",
+      "objective": "Write clear, respectful messages with a shared next step",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-family-messages-that-invite-partnership-toolkit.pdf",
+        "pdf": "teacher-family-messages-that-invite-partnership-toolkit.pdf"
+      }
+    },
+    {
+      "id": "teacher-student-voice-in-classroom-routines-toolkit",
+      "title": "Student Voice in Classroom Routines Toolkit",
+      "created_date": "2026-09-15",
+      "state": "State-neutral",
+      "grades": [
+        "Pre-K",
+        "Kindergarten",
+        "Grade 1",
+        "Grade 2",
+        "Grade 3",
+        "Grade 4",
+        "Grade 5",
+        "Grade 6",
+        "Grade 7",
+        "Grade 8",
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Pre-K–Grade 12 • Educator and family planning",
+      "audience": "Educators and families",
+      "subject": "Classroom Practice",
+      "standard": "Professional objective: Invite learners to improve routines using observable evidence",
+      "objective": "Invite learners to improve routines using observable evidence",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "IRIS classroom behavior management background",
+          "url": "https://iris.peabody.vanderbilt.edu/module/beh1/"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Classroom and family routine toolkit",
+      "collections": [
+        "Classroom Management",
+        "Classroom Décor",
+        "Classroom Ideas",
+        "Teacher Behavior Supports",
+        "Parent Behavior Supports",
+        "New Teacher Tips"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 700,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "teacher-student-voice-in-classroom-routines-toolkit.pdf",
+        "pdf": "teacher-student-voice-in-classroom-routines-toolkit.pdf"
+      }
+    },
+    {
+      "id": "sat-act-linear-solve-math-skill-builder",
+      "title": "Linear Equations with Structure • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Solve a linear equation and verify the solution.",
+      "objective": "Solve a linear equation and verify the solution.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-linear-solve-math-skill-builder.pdf",
+        "pdf": "sat-act-linear-solve-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-linear-context-math-skill-builder",
+      "title": "Translate a Cost Story • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Represent fixed and variable costs with an equation.",
+      "objective": "Represent fixed and variable costs with an equation.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-linear-context-math-skill-builder.pdf",
+        "pdf": "sat-act-linear-context-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-systems-math-skill-builder",
+      "title": "Two Constraints, One Solution • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Solve and interpret a two-equation system.",
+      "objective": "Solve and interpret a two-equation system.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-systems-math-skill-builder.pdf",
+        "pdf": "sat-act-systems-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-inequalities-math-skill-builder",
+      "title": "Inequalities and Feasible Choices • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Represent a constraint and identify feasible values.",
+      "objective": "Represent a constraint and identify feasible values.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-inequalities-math-skill-builder.pdf",
+        "pdf": "sat-act-inequalities-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-literal-math-skill-builder",
+      "title": "Rearrange a Formula • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Isolate a variable while preserving equivalence.",
+      "objective": "Isolate a variable while preserving equivalence.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-literal-math-skill-builder.pdf",
+        "pdf": "sat-act-literal-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-slope-math-skill-builder",
+      "title": "Slope from Different Representations • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Calculate and interpret a constant rate of change.",
+      "objective": "Calculate and interpret a constant rate of change.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-slope-math-skill-builder.pdf",
+        "pdf": "sat-act-slope-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-line-relations-math-skill-builder",
+      "title": "Parallel and Perpendicular Lines • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Use slopes to relate lines in a coordinate plane.",
+      "objective": "Use slopes to relate lines in a coordinate plane.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-line-relations-math-skill-builder.pdf",
+        "pdf": "sat-act-line-relations-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-break-even-math-skill-builder",
+      "title": "Compare Two Linear Plans • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Find and interpret a break-even point.",
+      "objective": "Find and interpret a break-even point.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-break-even-math-skill-builder.pdf",
+        "pdf": "sat-act-break-even-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-factoring-math-skill-builder",
+      "title": "Factor to Reveal Structure • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Rewrite a quadratic expression as a product.",
+      "objective": "Rewrite a quadratic expression as a product.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-factoring-math-skill-builder.pdf",
+        "pdf": "sat-act-factoring-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-quadratic-roots-math-skill-builder",
+      "title": "Quadratic Solutions and Constraints • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Solve a factored quadratic and check its roots.",
+      "objective": "Solve a factored quadratic and check its roots.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-quadratic-roots-math-skill-builder.pdf",
+        "pdf": "sat-act-quadratic-roots-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-vertex-math-skill-builder",
+      "title": "Read a Quadratic Vertex • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Interpret a vertex-form quadratic and its extreme value.",
+      "objective": "Interpret a vertex-form quadratic and its extreme value.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-vertex-math-skill-builder.pdf",
+        "pdf": "sat-act-vertex-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-exponents-math-skill-builder",
+      "title": "Equivalent Exponential Expressions • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Use exponent properties to simplify expressions.",
+      "objective": "Use exponent properties to simplify expressions.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-exponents-math-skill-builder.pdf",
+        "pdf": "sat-act-exponents-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-radicals-math-skill-builder",
+      "title": "Radical Equations and Checks • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Solve a square-root equation and verify its domain.",
+      "objective": "Solve a square-root equation and verify its domain.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-radicals-math-skill-builder.pdf",
+        "pdf": "sat-act-radicals-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-growth-math-skill-builder",
+      "title": "Repeated Percent Growth • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Model repeated multiplicative change.",
+      "objective": "Model repeated multiplicative change.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-growth-math-skill-builder.pdf",
+        "pdf": "sat-act-growth-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-rational-math-skill-builder",
+      "title": "Rational Equations with Restrictions • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Solve a rational equation while excluding undefined values.",
+      "objective": "Solve a rational equation while excluding undefined values.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-rational-math-skill-builder.pdf",
+        "pdf": "sat-act-rational-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-functions-math-skill-builder",
+      "title": "Function Notation and Inputs • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Evaluate functions and interpret a requested input.",
+      "objective": "Evaluate functions and interpret a requested input.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-functions-math-skill-builder.pdf",
+        "pdf": "sat-act-functions-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-percent-change-math-skill-builder",
+      "title": "Percent Change in Two Stages • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Distinguish additive and multiplicative percent changes.",
+      "objective": "Distinguish additive and multiplicative percent changes.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-percent-change-math-skill-builder.pdf",
+        "pdf": "sat-act-percent-change-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-units-math-skill-builder",
+      "title": "Units That Cancel • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Use dimensional reasoning to convert a rate.",
+      "objective": "Use dimensional reasoning to convert a rate.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-units-math-skill-builder.pdf",
+        "pdf": "sat-act-units-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-weighted-mean-math-skill-builder",
+      "title": "Averages with Unequal Group Sizes • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Compute a combined mean using group sizes.",
+      "objective": "Compute a combined mean using group sizes.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-weighted-mean-math-skill-builder.pdf",
+        "pdf": "sat-act-weighted-mean-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-outliers-math-skill-builder",
+      "title": "Center and the Effect of an Outlier • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Compare how one changed value affects center and spread.",
+      "objective": "Compare how one changed value affects center and spread.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-outliers-math-skill-builder.pdf",
+        "pdf": "sat-act-outliers-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-probability-math-skill-builder",
+      "title": "Probability with a Defined Sample Space • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Compute probabilities from equally likely outcomes.",
+      "objective": "Compute probabilities from equally likely outcomes.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-probability-math-skill-builder.pdf",
+        "pdf": "sat-act-probability-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-conditional-math-skill-builder",
+      "title": "Read a Two-Way Count Table • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Identify the correct denominator for a conditional probability.",
+      "objective": "Identify the correct denominator for a conditional probability.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-conditional-math-skill-builder.pdf",
+        "pdf": "sat-act-conditional-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-prediction-math-skill-builder",
+      "title": "Use a Linear Prediction Model • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Interpret a model prediction and residual.",
+      "objective": "Interpret a model prediction and residual.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-prediction-math-skill-builder.pdf",
+        "pdf": "sat-act-prediction-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-sampling-math-skill-builder",
+      "title": "What a Sample Can Support • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Evaluate a sampling method and the limits of a claim.",
+      "objective": "Evaluate a sampling method and the limits of a claim.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-sampling-math-skill-builder.pdf",
+        "pdf": "sat-act-sampling-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-angles-math-skill-builder",
+      "title": "Triangle Angles with Algebra • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Use angle relationships to determine an unknown.",
+      "objective": "Use angle relationships to determine an unknown.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-angles-math-skill-builder.pdf",
+        "pdf": "sat-act-angles-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-trigonometry-math-skill-builder",
+      "title": "Right-Triangle Ratios • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Use sine, cosine, and tangent in a right triangle.",
+      "objective": "Use sine, cosine, and tangent in a right triangle.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-trigonometry-math-skill-builder.pdf",
+        "pdf": "sat-act-trigonometry-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-circles-math-skill-builder",
+      "title": "Circle Measures from a Constraint • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Connect radius, circumference, area, and arc measures.",
+      "objective": "Connect radius, circumference, area, and arc measures.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-circles-math-skill-builder.pdf",
+        "pdf": "sat-act-circles-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-similarity-math-skill-builder",
+      "title": "Scale Factors and Similar Figures • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Distinguish length and area scale factors.",
+      "objective": "Distinguish length and area scale factors.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-similarity-math-skill-builder.pdf",
+        "pdf": "sat-act-similarity-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-volume-math-skill-builder",
+      "title": "Volume and Dimensional Scaling • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Use volume formulas and cubic scale factors.",
+      "objective": "Use volume formulas and cubic scale factors.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-volume-math-skill-builder.pdf",
+        "pdf": "sat-act-volume-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "sat-act-distance-math-skill-builder",
+      "title": "Coordinate Distance and Midpoints • SAT / ACT Math Skill Builder",
+      "created_date": "2026-09-15",
+      "state": "Exam preparation; no state alignment claim",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12"
+      ],
+      "level": "Grades 9–12 • College-entrance math preparation",
+      "audience": "Students and tutors",
+      "subject": "Mathematics",
+      "standard": "Exam skill objective: Use coordinates to calculate distance and midpoint.",
+      "objective": "Use coordinates to calculate distance and midpoint.",
+      "state_standard_verified": false,
+      "sources": [
+        {
+          "title": "College Board: types of SAT mathematics",
+          "url": "https://satsuite.collegeboard.org/sat/whats-on-the-test/math/types"
+        },
+        {
+          "title": "ACT mathematics test description",
+          "url": "https://www.act.org/content/act/en/products-and-services/the-act/test-preparation/description-of-math-test.html"
+        }
+      ],
+      "access_date": "2026-09-15",
+      "resource_type": "Focused SAT / ACT mathematics skill packet",
+      "collections": [
+        "SAT Preparation",
+        "ACT Preparation",
+        "Independent Work",
+        "Worksheets"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "pages": 23,
+      "additional_pdf_pages": 0,
+      "slides": 0,
+      "suggested_price_cents": 600,
+      "status": "approved_public_preview_purchase_disabled",
+      "files": {
+        "default": "sat-act-distance-math-skill-builder.pdf",
+        "pdf": "sat-act-distance-math-skill-builder.pdf"
+      }
+    },
+    {
+      "id": "daily-20260915-ma-pk-rhyme-circle",
+      "title": "Rhyme Circle: Listen, Match, Invent",
+      "state": "Massachusetts",
+      "grade": "Pre-K",
+      "subject": "Phonological awareness",
+      "standard": "Pre-K RF 2(a)",
+      "objective": "With adult support, recognize and generate spoken rhymes.",
+      "resourceType": "Small-group oral practice",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-ma-k-story-path",
+      "title": "Story Path: Retell Two Tiny Adventures",
+      "state": "Massachusetts",
+      "grade": "Kindergarten",
+      "subject": "Reading / oral language",
+      "standard": "RL.K.2",
+      "objective": "Retell key events from a familiar read-aloud with prompting and support.",
+      "resourceType": "Read-aloud classwork",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-il-g1-digraph-workshop",
+      "title": "Two Letters, One Sound: SH and CH Workshop",
+      "state": "Illinois",
+      "grade": "1",
+      "subject": "Phonics",
+      "standard": "CC.1.R.F.3.a",
+      "objective": "Read common sh and ch consonant digraphs in words and short sentences.",
+      "resourceType": "Phonics independent practice",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-il-g2-plural-detectives",
+      "title": "Plural Detectives: More Than One",
+      "state": "Illinois",
+      "grade": "2",
+      "subject": "Grammar / spelling",
+      "standard": "CC.2.L.1.b",
+      "objective": "Form and use frequent irregular plural nouns in sentences.",
+      "resourceType": "Grammar warm-ups",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-mi-g2-lantern-lesson",
+      "title": "The Lantern Helpers: Recount and Find a Lesson",
+      "state": "Michigan",
+      "grade": "2",
+      "subject": "Reading",
+      "standard": "RL.2.2",
+      "objective": "Recount an original story and connect its central lesson to key events.",
+      "resourceType": "Reading classwork",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-mi-g3-recess-letter",
+      "title": "A Better Recess Corner: Opinion Letter Workshop",
+      "state": "Michigan",
+      "grade": "3",
+      "subject": "Writing",
+      "standard": "W.3.1",
+      "objective": "Write an opinion with organized reasons, linking language, and a conclusion.",
+      "resourceType": "Writing workshop",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-md-g3-word-jobs",
+      "title": "Word Jobs: Nouns, Verbs, Adjectives, and Adverbs",
+      "state": "Maryland",
+      "grade": "3",
+      "subject": "Grammar",
+      "standard": "L1.a (Grade 3)",
+      "objective": "Explain how nouns, pronouns, verbs, adjectives, and adverbs function in sentences.",
+      "resourceType": "Grammar classwork",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-md-g4-three-forms",
+      "title": "One Missing Bell, Three Literary Forms",
+      "state": "Maryland",
+      "grade": "4",
+      "subject": "Reading / drama / poetry",
+      "standard": "RL.4.5",
+      "objective": "Compare how prose, drama, and poetry use structural features to tell an event.",
+      "resourceType": "Small-group genre lab",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-ct-g4-inference-notebook",
+      "title": "The Unsent Note: An Inference Notebook",
+      "state": "Connecticut",
+      "grade": "4",
+      "subject": "Reading",
+      "standard": "4.RL.1",
+      "objective": "Support explanations and inferences with details from an original story.",
+      "resourceType": "Independent reading practice",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-ct-g4-opinion-evidence",
+      "title": "Choose the Class Exhibit: Opinion with Evidence",
+      "state": "Connecticut",
+      "grade": "4",
+      "subject": "Writing",
+      "standard": "4.W.1",
+      "objective": "Organize an opinion and support reasons with provided facts and details.",
+      "resourceType": "Writing small-group workshop",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-oh-g5-context-lab",
+      "title": "Context Lab: Meanings Beyond One Sentence",
+      "state": "Ohio",
+      "grade": "5",
+      "subject": "Vocabulary",
+      "standard": "L.5.4",
+      "objective": "Infer and verify a word meaning using surrounding context.",
+      "resourceType": "Vocabulary warm-ups",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-oh-g6-window-seat",
+      "title": "The Window Seat: Narrator Perspective Lab",
+      "state": "Ohio",
+      "grade": "6",
+      "subject": "Reading",
+      "standard": "RL.6.6",
+      "objective": "Explain how first-person narration develops a narrator’s perspective.",
+      "resourceType": "Reading homework / classwork",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-nj-g2-vowel-trails",
+      "title": "Vowel-Team Trails: AI, AY, EE, and EA",
+      "state": "New Jersey",
+      "grade": "2",
+      "subject": "Phonics / spelling",
+      "standard": "L.RF.2.3",
+      "objective": "Decode common long-vowel words with ai, ay, ee, and ea.",
+      "resourceType": "Phonics task practice",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-nj-g6-pronoun-repair",
+      "title": "Pronoun Repair Shop: Case and Clarity",
+      "state": "New Jersey",
+      "grade": "6",
+      "subject": "Grammar",
+      "standard": "L.SS.6.1",
+      "objective": "Use subject, object, and possessive pronouns and clarify their referents.",
+      "resourceType": "Grammar editing workshop",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-de-g5-time-editor",
+      "title": "The Time Editor: Keep Verb Tenses Consistent",
+      "state": "Delaware",
+      "grade": "5",
+      "subject": "Grammar / writing",
+      "standard": "CCSS.ELA-Literacy.L.5.1.d",
+      "objective": "Recognize and repair inappropriate tense shifts while preserving intended time.",
+      "resourceType": "Editing warm-ups",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-de-g6-purpose-lens",
+      "title": "Purpose Lens: Two Notices, Different Aims",
+      "state": "Delaware",
+      "grade": "6",
+      "subject": "Reading informational text",
+      "standard": "CCSS.ELA-Literacy.RI.6.6",
+      "objective": "Explain an author’s purpose or viewpoint through wording and selected details.",
+      "resourceType": "Reading small-group analysis",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-nc-g7-word-choice",
+      "title": "When the Hallway Wakes: Poetry Word-Choice Lab",
+      "state": "North Carolina",
+      "grade": "7",
+      "subject": "Poetry / reading",
+      "standard": "RL.7.4",
+      "objective": "Interpret figurative language and analyze how specific words shape meaning and tone.",
+      "resourceType": "Poetry task practice",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-nc-g8-claim-check",
+      "title": "The Quiet Room Proposal: Claims and Evidence Lab",
+      "state": "North Carolina",
+      "grade": "8",
+      "subject": "Reading / argument analysis",
+      "standard": "RI.8.8",
+      "objective": "Evaluate claims, reasoning, and the relevance and sufficiency of evidence.",
+      "resourceType": "Small-group argument lab",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-college-french-negation",
+      "title": "French 101: Say What Is Not Happening",
+      "state": "",
+      "grade": "College",
+      "subject": "French",
+      "standard": "Course objective",
+      "objective": "Form and interpret present-tense negation with ne/n’ … pas.",
+      "resourceType": "Language practice packet",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    },
+    {
+      "id": "daily-20260915-college-speech-openings",
+      "title": "Public Speaking 101: Openings That Orient",
+      "state": "",
+      "grade": "College",
+      "subject": "Communications / public speaking",
+      "standard": "Course objective",
+      "objective": "Design an accurate informative-speech opening for a defined audience.",
+      "resourceType": "Speech planning workshop",
+      "formats": [
+        "PDF"
+      ],
+      "status": "private_draft",
+      "date": "2026-09-15"
+    }
+  ],
+  "rotation_notes": [
+    "Count each unique product once; collection placements are not additional products.",
+    "State-neutral professional and exam resources do not count as verified coverage of any state.",
+    "Prior entries are retained as historical records; this release did not re-audit their files or standards.",
+    "Next academic batches should favor states and subjects with no verified coverage, plus early elementary student content. Continue NC EOG attention without treating adult planning tools as academic grade coverage.",
+    "SAT and ACT additions on September 15 cover mathematics skills only, not complete exam preparation."
+  ],
+  "state_rotation": {
+    "Alabama": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Alaska": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Arizona": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Arkansas": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "California": {
+      "historically_recorded_products": 1,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Colorado": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Connecticut": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Delaware": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Florida": {
+      "historically_recorded_products": 1,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Georgia": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Hawaii": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Idaho": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Illinois": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Indiana": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Iowa": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Kansas": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Kentucky": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Louisiana": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Maine": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Maryland": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Massachusetts": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Michigan": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Minnesota": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Mississippi": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Missouri": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Montana": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Nebraska": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Nevada": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "New Hampshire": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "New Jersey": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "New Mexico": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "New York": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "North Carolina": {
+      "historically_recorded_products": 4,
+      "new_verified_products_2026_09_15": 30
+    },
+    "North Dakota": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Ohio": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Oklahoma": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Oregon": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Pennsylvania": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Rhode Island": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "South Carolina": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "South Dakota": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Tennessee": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Texas": {
+      "historically_recorded_products": 1,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Utah": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Vermont": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Virginia": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Washington": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "West Virginia": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Wisconsin": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    },
+    "Wyoming": {
+      "historically_recorded_products": 0,
+      "new_verified_products_2026_09_15": 0
+    }
+  },
+  "release_2026_09_15": {
+    "unique_products": 90,
+    "collection_counts": {
+      "EOG & State Test Prep": 30,
+      "Task Cards": 30,
+      "Warm-Ups": 30,
+      "PowerPoints": 30,
+      "Sub Plans": 30,
+      "Emergency Sub Plans": 30,
+      "Fall Packets": 30,
+      "Winter Packets": 30,
+      "Spring Break Packets": 30,
+      "Summer Packets": 30,
+      "Lesson Plan Templates": 30,
+      "Classroom Management": 30,
+      "Classroom Décor": 30,
+      "Classroom Ideas": 30,
+      "Teacher Behavior Supports": 30,
+      "Parent Behavior Supports": 30,
+      "New Teacher Tips": 30,
+      "SAT Preparation": 30,
+      "ACT Preparation": 30
+    },
+    "academic_grade_counts": {
+      "Grade 3": 5,
+      "Grade 4": 5,
+      "Grade 5": 5,
+      "Grade 6": 5,
+      "Grade 7": 5,
+      "Grade 8": 5
+    },
+    "educator_audience_grade_counts": {
+      "Pre-K": 30,
+      "Kindergarten": 30,
+      "Grade 1": 30,
+      "Grade 2": 30,
+      "Grade 3": 30,
+      "Grade 4": 30,
+      "Grade 5": 30,
+      "Grade 6": 30,
+      "Grade 7": 30,
+      "Grade 8": 30,
+      "Grade 9": 30,
+      "Grade 10": 30,
+      "Grade 11": 30,
+      "Grade 12": 30
+    },
+    "exam_preparation_grade_counts": {
+      "Grade 9": 30,
+      "Grade 10": 30,
+      "Grade 11": 30,
+      "Grade 12": 30
+    },
+    "subject_counts": {
+      "Mathematics": 60,
+      "Classroom Practice": 30
+    },
+    "formats": {
+      "PDF": 120,
+      "PPTX": 30,
+      "ZIP": 30
+    },
+    "automated_test_count": 35,
+    "verification_note": "35 automated application and resource-integrity tests, including exact bytes for the ten older PDFs after storage compaction."
+  },
+  "stateCoverageCounts": {
+    "Alabama": 0,
+    "Alaska": 0,
+    "Arizona": 0,
+    "Arkansas": 0,
+    "California": 1,
+    "Colorado": 0,
+    "Connecticut": 2,
+    "Delaware": 2,
+    "Florida": 1,
+    "Georgia": 0,
+    "Hawaii": 0,
+    "Idaho": 0,
+    "Illinois": 2,
+    "Indiana": 0,
+    "Iowa": 0,
+    "Kansas": 0,
+    "Kentucky": 0,
+    "Louisiana": 0,
+    "Maine": 0,
+    "Maryland": 2,
+    "Massachusetts": 2,
+    "Michigan": 2,
+    "Minnesota": 0,
+    "Mississippi": 0,
+    "Missouri": 0,
+    "Montana": 0,
+    "Nebraska": 0,
+    "Nevada": 0,
+    "New Hampshire": 0,
+    "New Jersey": 2,
+    "New Mexico": 0,
+    "New York": 0,
+    "North Carolina": 36,
+    "North Dakota": 0,
+    "Ohio": 2,
+    "Oklahoma": 0,
+    "Oregon": 0,
+    "Pennsylvania": 0,
+    "Rhode Island": 0,
+    "South Carolina": 0,
+    "South Dakota": 0,
+    "Tennessee": 0,
+    "Texas": 1,
+    "Utah": 0,
+    "Vermont": 0,
+    "Virginia": 0,
+    "Washington": 0,
+    "West Virginia": 0,
+    "Wisconsin": 0,
+    "Wyoming": 0
+  },
+  "rotationNote": "Count only specifically aligned state products; nationwide teacher tools do not count as completed academic coverage for all states or grades. September 15 daily batch adds 18 K–8/Pre-K literacy resources across 9 states and 2 college resources, including 8 newly represented states. Next prioritize zero-count states, science/social studies/CTE/languages, and unrepresented high-school academic levels. Previous same-day 90-product expansion is a separate batch."
+}

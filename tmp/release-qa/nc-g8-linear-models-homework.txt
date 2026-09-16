@@ -1,0 +1,105 @@
+SAINT PIERRE LEARNING RESOURCES
+© 2026 Saint Pierre Learning Resources  Single-teacher license  Private draft
+Page 1
+ Linear Models Homework and Exit
+ Ticket
+ Grade 8  Mathematics
+ Homework
+ Original Practice  Assessment  Complete Teacher Key
+
+SAINT PIERRE LEARNING RESOURCES
+© 2026 Saint Pierre Learning Resources  Single-teacher license  Private draft
+Page 2
+Teacher Guide
+Level: Grade 8
+State: North Carolina
+Subject: Mathematics
+Resource type: Homework
+Estimated time: 40-50 minutes
+Standard / objective: NC.8.F.4 - Analyze functions that model linear relationships; determine and interpret rate of
+change and initial value from two values or from a graph, table, or description.
+Source note: North Carolina Department of Public Instruction, Mathematics Standards Vertical Progression:
+https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open; NC Check-Ins 2.0 Mathematics
+Specifications: https://www.dpi.nc.gov/documents/accountability/testing/nc-checkin/nc-check-ins-20-mathematics-grades-3-8-specifications
+(accessed September 14, 2026).
+What is included: branded cover, teacher guide, student directions, 16 original practice items, 5-item exit ticket,
+complete answer key/worked guidance, differentiation supports, printing notes, and license statement.
+Purpose: Build linear models from tables and contexts and interpret slope and initial value with units.
+Preparation: Print student pages single-sided or assign through a secure LMS. Review the key and select tools
+allowed for your learners. No special commercial curriculum is required.
+Access and differentiation
+AIG: require a second representation, proof, counterexample, transfer task, or student-created extension. 504:
+provide extended time, chunked sections, breaks, reduced copying, and accessible digital zoom as specified by
+the plan. EC: preteach vocabulary, model one item, provide manipulatives/visuals, and accept aligned response
+modes from the IEP. ESL: preview key terms, provide bilingual resources and sentence frames, and allow partner
+rehearsal. Use each learner’s current plan; this guide does not replace it.
+
+SAINT PIERRE LEARNING RESOURCES
+© 2026 Saint Pierre Learning Resources  Single-teacher license  Private draft
+Page 3
+Student Practice
+Learning focus: Build linear models from tables and contexts and interpret slope and initial value with units.
+Directions: Complete all items. Show calculations, cite evidence, or explain your reasoning when requested. Check
+your work before submitting.
+1. Find slope through (2,7) and (6,19).
+2. Write y=mx+b when m=4 and b=-2.
+3. Table: x 0,2,4; y 5,11,17. Find m and b.
+4. A taxi charges $4 plus $2.50 per mile. Model.
+5. Interpret 4 in the taxi model.
+6. Find taxi cost for 8 miles.
+7. Line through (3,10) with slope 2. Find b.
+8. Compare y=3x+1 and y=3x-5.
+
+SAINT PIERRE LEARNING RESOURCES
+© 2026 Saint Pierre Learning Resources  Single-teacher license  Private draft
+Page 4
+Student Practice - Continued
+9. A tank has 90 L and drains 6 L/min. Model.
+10. When is tank at 42 L?
+11. Does (5,16) lie on y=3x+1?
+12. From y values 8,13,18 as x rises by 1, find rate.
+13. Write context for y=12x+30.
+14. Explain negative slope in context.
+15. Find equation through (0,-3),(4,5).
+16. State one limitation of a linear model.
+
+SAINT PIERRE LEARNING RESOURCES
+© 2026 Saint Pierre Learning Resources  Single-teacher license  Private draft
+Page 5
+Exit Ticket
+Complete independently in 8-10 minutes.
+1. State the main skill or concept in your own words.
+2. Create one accurate example that uses today’s skill.
+3. Explain how you checked your example.
+4. Identify one common error and correct it.
+5. Rate your confidence from 1-4 and name your next practice step.
+Quick rubric: 4 = accurate, complete, and well justified; 3 = accurate with minor omission; 2 = partial
+understanding; 1 = limited evidence; 0 = blank or unrelated.
+
+SAINT PIERRE LEARNING RESOURCES
+© 2026 Saint Pierre Learning Resources  Single-teacher license  Private draft
+Page 6
+Complete Teacher Answer Key
+1. 3
+2. y=4x-2
+3. m=3, b=5
+4. C=2.5m+4
+5. $4 initial fee
+6. $24
+7. 4
+8. Same rate; first starts 6 units higher
+9. V=90-6t
+10. 8 minutes
+11. Yes
+12. 5
+13. Answers vary; $30 start plus $12 per unit
+14. Output decreases as input increases
+15. y=2x-3
+16. Constant rate may not continue outside observed range.
+Exit ticket guidance: Responses vary. Award full credit when the student accurately explains the focus, supplies
+a correct example, describes a valid check, identifies and corrects a realistic misconception, and chooses a
+specific next step.
+Verification: Fixed responses and calculations were checked during production. Open responses are evaluated
+against the criteria above.
+Originality and use: This packet contains original educational content. It does not reproduce released-test items or branded curriculum.
+One purchaser may use it with their own students; redistribution, resale, and public posting are not permitted.

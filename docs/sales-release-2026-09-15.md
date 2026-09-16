@@ -1,0 +1,13 @@
+# Approved sales release — September 15, 2026
+
+The user explicitly requested the 90 previews and private drafts be uploaded and offered for sale. This release enables 120 additional complete products: the 90 expansion bundles, twenty daily literacy PDFs, and ten corrected September 14 PDFs. Together with the original ten products, the store will offer 130 resources after deployment.
+
+Full files remain private server payloads and are delivered only to the owner or the account with a verified paid entitlement. Public assets contain covers and selected student samples only. A one-time migration during initialization activates only the explicit approved release list, updates stale draft rows, sets the correct PDF/ZIP delivery pointers, and leaves PayPal runtime settings unchanged. Future unapproved inventory remains hidden. Once a product has its release pointer, routine catalog reads do not reapprove it or clear later readiness holds. The owner preparation action can explicitly refresh the release.
+
+Original ninety bundles and twenty daily PDFs retain exact authored bytes. Their earlier content/layout/answer reviews are recorded in resource-expansion-2026-09-15.md and daily-review-2026-09-15.md. All ten older PDFs were revised and rendered: Chinese glyphs and tone-marked pinyin repaired; French accents and German forms corrected; two Grade 3 questions made genuinely two-step; an unsupported multiplication-error diagnosis corrected; task cards now have bordered writing spaces; draft footers removed; ASL clearly labeled as an instructor-led reflection companion; art materials clearly require learner-created sketches. All eighty changed PDF pages were inspected in contact sheets. Prices retain the previous suggested values ($4–$12 across the release). No real purchase was made.
+
+Validation: TypeScript check and production build passed. Forty-two tests passed across the full run and the corrected owner-inventory rerun. Tests verified exact paid delivery and refund revocation for all 120 released products. Client assets were checked to exclude complete file payloads. Public thumbnail/sample paths were checked for all 120 listings.
+
+Nine historical inventory cards (three Grade 7 ELA PowerPoints and six novel-study PDFs) still lack corresponding source files in this checkout and available attachments. No replacement files were invented or falsely listed as those originals. The cards remain saved pending the actual files.
+
+Operational note: preserve PAYPAL_MODE=live and PAYPAL_LIVE_ENABLED=true while maintaining drafts. Product approval must be controlled per resource. Do not globally close sales merely to create private drafts.

@@ -1,0 +1,933 @@
+[
+  {
+    "productId": "ca-grade4-multidigit",
+    "title": "Multi-Digit Operations: Place-Value Strategies",
+    "file": "product-files/ca-grade4-multidigit.pdf",
+    "bytes": 1149086,
+    "sha256": "ba87d909946c054bda2358f22abe829e67d8d135aa29a7295291747b01b79dd9"
+  },
+  {
+    "productId": "fl-grade5-theme",
+    "title": "Theme Detectives: Evidence in Original Fiction",
+    "file": "product-files/fl-grade5-theme.pdf",
+    "bytes": 1151493,
+    "sha256": "b4d14b5c6db2428e2f83163ef417565b184cb42fac230982050b49b949ce896f"
+  },
+  {
+    "productId": "tx-grade7-elements-compounds",
+    "title": "Elements & Compounds: Particle Evidence Lab",
+    "file": "product-files/tx-grade7-elements-compounds.pdf",
+    "bytes": 1149459,
+    "sha256": "8016d826f836d310fcfad6b69092cf22071f6e68ccf310b1d7b87cc65754c1cb"
+  },
+  {
+    "productId": "college-composition-claims",
+    "title": "College Composition: Claims, Evidence & Reasoning",
+    "file": "product-files/college-composition-claims.pdf",
+    "bytes": 1149554,
+    "sha256": "9d1f0e86d974b09a799059ee8a6e66e44887070d98e738bf010bd75f73a7b151"
+  },
+  {
+    "productId": "college-algebra-linear",
+    "title": "College Algebra: Linear Models in Context",
+    "file": "product-files/college-algebra-linear.pdf",
+    "bytes": 1148907,
+    "sha256": "639c6721771d1b8088a0cd105c47c71307e45b0f526487043f3e8ed48f1213ae"
+  },
+  {
+    "productId": "college-biology-membranes",
+    "title": "General Biology: Cell Membrane Transport",
+    "file": "product-files/college-biology-membranes.pdf",
+    "bytes": 1149211,
+    "sha256": "f680576ec39546627e40e4c5ee814f7d94039768a7efde6dd22824e84cfec3e7"
+  },
+  {
+    "productId": "college-psych-research",
+    "title": "Intro Psychology: Research Methods & Ethics",
+    "file": "product-files/college-psych-research.pdf",
+    "bytes": 1149240,
+    "sha256": "8b98038a5c651e75628891790425ae4104d6d0594b902b7015c9e5918853f09f"
+  },
+  {
+    "productId": "spanish101-campus",
+    "title": "Spanish 101: Campus Conversations",
+    "file": "product-files/spanish101-campus.pdf",
+    "bytes": 1149670,
+    "sha256": "ee61ce34cd19b96ed19770f96982c27f2d0438eaf141475464df2b0fd379b131"
+  },
+  {
+    "productId": "college-accounting-cycle",
+    "title": "Financial Accounting: Transaction Analysis",
+    "file": "product-files/college-accounting-cycle.pdf",
+    "bytes": 1148905,
+    "sha256": "64c563938d57e4ef916fa0a7b2d34b7d5615e596147c2dee19c98cc64807afa2"
+  },
+  {
+    "productId": "college-programming-python",
+    "title": "Introduction to Programming: Python Decisions",
+    "file": "product-files/college-programming-python.pdf",
+    "bytes": 1149189,
+    "sha256": "f1a6dae81e543a1979efb5201335c7cfd1f0ad64387b2640dd7bd27af1da2934"
+  },
+  {
+    "productId": "nc-g3-equal-groups-teaching-bundle",
+    "title": "Equal Groups and Fair Shares Teaching Bundle",
+    "file": "product-files/nc-g3-equal-groups-teaching-bundle.zip",
+    "bytes": 10717190,
+    "sha256": "fd3b45f5ed66b6f34091f8f77432b4c31c39644599aa86708dec5fd862527a26"
+  },
+  {
+    "productId": "nc-g3-two-step-teaching-bundle",
+    "title": "Two Decisions, One Story Teaching Bundle",
+    "file": "product-files/nc-g3-two-step-teaching-bundle.zip",
+    "bytes": 10715719,
+    "sha256": "de7b04d6ae9bd41c7019acd558e1f7ea9574bc14900f8e3cabb0fa2c459b2d14"
+  },
+  {
+    "productId": "nc-g3-place-add-teaching-bundle",
+    "title": "Build and Regroup to 1,000 Teaching Bundle",
+    "file": "product-files/nc-g3-place-add-teaching-bundle.zip",
+    "bytes": 10716113,
+    "sha256": "451cc82df3ec93a5d4e01e2b630b847ef7b981034a0538f8466e67b94285e346"
+  },
+  {
+    "productId": "nc-g3-fraction-model-teaching-bundle",
+    "title": "Fractions on Strips and Number Lines Teaching Bundle",
+    "file": "product-files/nc-g3-fraction-model-teaching-bundle.zip",
+    "bytes": 10718219,
+    "sha256": "edde1e6319097ba6307f03f5bd955d20432e503f503390f8743a6ff28c01218f"
+  },
+  {
+    "productId": "nc-g3-tile-area-teaching-bundle",
+    "title": "Tile It, Split It, Find the Area Teaching Bundle",
+    "file": "product-files/nc-g3-tile-area-teaching-bundle.zip",
+    "bytes": 10717674,
+    "sha256": "204ef8eb5e8c02dd5732be9d1a09bf575343c45de514559c3b47872d25997c31"
+  },
+  {
+    "productId": "nc-g4-multi-add-teaching-bundle",
+    "title": "Regrouping with Large Numbers Teaching Bundle",
+    "file": "product-files/nc-g4-multi-add-teaching-bundle.zip",
+    "bytes": 10719741,
+    "sha256": "96f76443fd6e63707d1bed97f64807b5ac7535fd3300dbbc53a7f126bdebe999"
+  },
+  {
+    "productId": "nc-g4-partial-products-teaching-bundle",
+    "title": "Partial Products, Clear Thinking Teaching Bundle",
+    "file": "product-files/nc-g4-partial-products-teaching-bundle.zip",
+    "bytes": 10721157,
+    "sha256": "06be426fe2d979bc0cf389fcfed2ff5001d03fbdab22802e6a4814c9bbd8ccf5"
+  },
+  {
+    "productId": "nc-g4-division-remainders-teaching-bundle",
+    "title": "Division with Meaningful Remainders Teaching Bundle",
+    "file": "product-files/nc-g4-division-remainders-teaching-bundle.zip",
+    "bytes": 10719876,
+    "sha256": "91428abc1e8e36a246bcb2384cc0a471971ab9f31ad9b40afe6512deba4c8cec"
+  },
+  {
+    "productId": "nc-g4-like-fractions-teaching-bundle",
+    "title": "Join and Separate Fraction Parts Teaching Bundle",
+    "file": "product-files/nc-g4-like-fractions-teaching-bundle.zip",
+    "bytes": 10713083,
+    "sha256": "47c6a043eae813d5cb58bdcd05410426f8494fbb7b99cdc840003aa2c649547d"
+  },
+  {
+    "productId": "nc-g4-area-perimeter-teaching-bundle",
+    "title": "Same Area, Different Borders Teaching Bundle",
+    "file": "product-files/nc-g4-area-perimeter-teaching-bundle.zip",
+    "bytes": 10720141,
+    "sha256": "9d5579966264e930227b5072c81c7f4dd94576960c6a4e9ff796c192850c0bd9"
+  },
+  {
+    "productId": "nc-g5-standard-multiply-teaching-bundle",
+    "title": "Multiplication with a Reasonableness Check Teaching Bundle",
+    "file": "product-files/nc-g5-standard-multiply-teaching-bundle.zip",
+    "bytes": 10720647,
+    "sha256": "aad02e55b8aed3b83672d8061bf0513ec0848e354c50bd08ff04e5117823fe16"
+  },
+  {
+    "productId": "nc-g5-decimal-money-teaching-bundle",
+    "title": "Decimal Decisions at the Supply Desk Teaching Bundle",
+    "file": "product-files/nc-g5-decimal-money-teaching-bundle.zip",
+    "bytes": 10720942,
+    "sha256": "052b2ab57c1136a0e741147c1fb8a53b4ddca425326f8413f31d74ec88d43e37"
+  },
+  {
+    "productId": "nc-g5-unlike-fractions-teaching-bundle",
+    "title": "Related Denominators, Shared Units Teaching Bundle",
+    "file": "product-files/nc-g5-unlike-fractions-teaching-bundle.zip",
+    "bytes": 10715363,
+    "sha256": "d0ca37c1a194082394cf64a4ad71cef332e780c3a980eadf156a389d64625b5e"
+  },
+  {
+    "productId": "nc-g5-fraction-sharing-teaching-bundle",
+    "title": "Sharing Quantities Fairly Teaching Bundle",
+    "file": "product-files/nc-g5-fraction-sharing-teaching-bundle.zip",
+    "bytes": 10716789,
+    "sha256": "4f8fc80098021936ba753493e01a66b51520b4e32761030f6280a6689e4a7a29"
+  },
+  {
+    "productId": "nc-g5-prism-volume-teaching-bundle",
+    "title": "Pack the Prism Teaching Bundle",
+    "file": "product-files/nc-g5-prism-volume-teaching-bundle.zip",
+    "bytes": 10720924,
+    "sha256": "169dd7173bb9fd1ebcd2bcd30e8cbefd5a03c6288e95ba5d09dad4095708a48c"
+  },
+  {
+    "productId": "nc-g6-ratio-tables-teaching-bundle",
+    "title": "Ratio Tables That Tell a Story Teaching Bundle",
+    "file": "product-files/nc-g6-ratio-tables-teaching-bundle.zip",
+    "bytes": 10720224,
+    "sha256": "6d8c80f1ff9dce1b5f5622ae61f53dd9083c3f2f009b3b4364d192ef2b9d770a"
+  },
+  {
+    "productId": "nc-g6-percent-benchmarks-teaching-bundle",
+    "title": "Percent Benchmarks in Action Teaching Bundle",
+    "file": "product-files/nc-g6-percent-benchmarks-teaching-bundle.zip",
+    "bytes": 10720648,
+    "sha256": "dac3c95d3407eb8fd80cdda5c55656471eb9ddeacde06e1b3c479350311d7360"
+  },
+  {
+    "productId": "nc-g6-one-step-equations-teaching-bundle",
+    "title": "Balance a One-Step Equation Teaching Bundle",
+    "file": "product-files/nc-g6-one-step-equations-teaching-bundle.zip",
+    "bytes": 10714753,
+    "sha256": "cd9058371a66fb66ca6ceb0b8b091e8ede0cf7ba449276500b890377e3375846"
+  },
+  {
+    "productId": "nc-g6-triangle-area-teaching-bundle",
+    "title": "Triangles from Rectangles Teaching Bundle",
+    "file": "product-files/nc-g6-triangle-area-teaching-bundle.zip",
+    "bytes": 10717459,
+    "sha256": "279d12758747f1928febc3774346aeb698fa563f45617169e2dc463ff924eb7d"
+  },
+  {
+    "productId": "nc-g6-center-spread-teaching-bundle",
+    "title": "Center and Spread Data Lab Teaching Bundle",
+    "file": "product-files/nc-g6-center-spread-teaching-bundle.zip",
+    "bytes": 10722167,
+    "sha256": "a374b4b4fe6adac0bfd6c167ebe23bba5a4dbec7ec56c059ca9f863e14bcb015"
+  },
+  {
+    "productId": "nc-g7-proportion-models-teaching-bundle",
+    "title": "Proportional or Not? Teaching Bundle",
+    "file": "product-files/nc-g7-proportion-models-teaching-bundle.zip",
+    "bytes": 10721722,
+    "sha256": "c2bae26a193d88d0b8c6f337cbe662ed324fa458b17c10eb2ec4b356cb2850d6"
+  },
+  {
+    "productId": "nc-g7-signed-change-teaching-bundle",
+    "title": "Signed Numbers, Real Changes Teaching Bundle",
+    "file": "product-files/nc-g7-signed-change-teaching-bundle.zip",
+    "bytes": 10714598,
+    "sha256": "11b4a7901869d795f0443c2221cbf528d6a8c2715ca3ba29f4592726967f5ce6"
+  },
+  {
+    "productId": "nc-g7-multi-step-equations-teaching-bundle",
+    "title": "Equations from Quantities Teaching Bundle",
+    "file": "product-files/nc-g7-multi-step-equations-teaching-bundle.zip",
+    "bytes": 10719098,
+    "sha256": "0144f6362d00d6a41650a16441d2748acc69f4d0d31470dc26d816e016bb7217"
+  },
+  {
+    "productId": "nc-g7-circle-measures-teaching-bundle",
+    "title": "Radius, Border, and Circle Area Teaching Bundle",
+    "file": "product-files/nc-g7-circle-measures-teaching-bundle.zip",
+    "bytes": 10722277,
+    "sha256": "a320495f4d6a25fe6c0564f9124808048396b7ebff1dcdde41bc550ccdbc7f6b"
+  },
+  {
+    "productId": "nc-g7-chance-models-teaching-bundle",
+    "title": "Build a Fair Probability Model Teaching Bundle",
+    "file": "product-files/nc-g7-chance-models-teaching-bundle.zip",
+    "bytes": 10721227,
+    "sha256": "7112d36c1a4458c6a5a08fb95fbe613f05b310748e6c538d1a8ec2aa7cd56c36"
+  },
+  {
+    "productId": "nc-g8-both-sides-teaching-bundle",
+    "title": "Variables on Both Sides Teaching Bundle",
+    "file": "product-files/nc-g8-both-sides-teaching-bundle.zip",
+    "bytes": 10717630,
+    "sha256": "86503252e202441a3e5c8c317a9af3adea988f1f50696a4164a590d302e54be7"
+  },
+  {
+    "productId": "nc-g8-linear-functions-teaching-bundle",
+    "title": "A Rate and a Starting Value Teaching Bundle",
+    "file": "product-files/nc-g8-linear-functions-teaching-bundle.zip",
+    "bytes": 10723366,
+    "sha256": "a099e255fa6c16cbda9f7120fb330f995c0906180183d75c98018a461d175fb6"
+  },
+  {
+    "productId": "nc-g8-right-triangles-teaching-bundle",
+    "title": "Right-Triangle Route Planner Teaching Bundle",
+    "file": "product-files/nc-g8-right-triangles-teaching-bundle.zip",
+    "bytes": 10719839,
+    "sha256": "00b198ea2f18f187c9132499ead2b516093f9e6cf4b45857dfd6488d05d44cae"
+  },
+  {
+    "productId": "nc-g8-scatter-data-teaching-bundle",
+    "title": "Patterns in Paired Data Teaching Bundle",
+    "file": "product-files/nc-g8-scatter-data-teaching-bundle.zip",
+    "bytes": 10743494,
+    "sha256": "71c693b3e4000814941a12aa09f4ad932f7d0365b6d78411c2b02f8476df3c38"
+  },
+  {
+    "productId": "nc-g8-integer-exponents-teaching-bundle",
+    "title": "Exponent Rules with Reasons Teaching Bundle",
+    "file": "product-files/nc-g8-integer-exponents-teaching-bundle.zip",
+    "bytes": 10717360,
+    "sha256": "b29b408468a8c96954b584bc0ac6ef6bdd0354d89ccdd39ce788b5c3f0968a1e"
+  },
+  {
+    "productId": "teacher-a-calm-arrival-toolkit",
+    "title": "A Calm Arrival Toolkit",
+    "file": "product-files/teacher-a-calm-arrival-toolkit.pdf",
+    "bytes": 1204940,
+    "sha256": "d0710e66343b082e28757c090e4ed1914ab2b858da5c20e7ed90e958e9033d2b"
+  },
+  {
+    "productId": "teacher-directions-students-can-use-toolkit",
+    "title": "Directions Students Can Use Toolkit",
+    "file": "product-files/teacher-directions-students-can-use-toolkit.pdf",
+    "bytes": 1204990,
+    "sha256": "6d09879b6a6d9ccc85dc377cd46b1196155c6774c37fae1d897ee04339a40c2f"
+  },
+  {
+    "productId": "teacher-transitions-with-a-destination-toolkit",
+    "title": "Transitions with a Destination Toolkit",
+    "file": "product-files/teacher-transitions-with-a-destination-toolkit.pdf",
+    "bytes": 1205002,
+    "sha256": "ffd874ca48597557993981522a15bff3e2513242f6ad59066be85189b054a0f7"
+  },
+  {
+    "productId": "teacher-materials-with-a-home-toolkit",
+    "title": "Materials with a Home Toolkit",
+    "file": "product-files/teacher-materials-with-a-home-toolkit.pdf",
+    "bytes": 1204971,
+    "sha256": "a0983ff6d107a97203155be1c0037e3640d0274e5940a63ff208830392538545"
+  },
+  {
+    "productId": "teacher-asking-for-help-with-confidence-toolkit",
+    "title": "Asking for Help with Confidence Toolkit",
+    "file": "product-files/teacher-asking-for-help-with-confidence-toolkit.pdf",
+    "bytes": 1205088,
+    "sha256": "99b3bff2d6ed950ff847c56ded6417925ee1fc4fddef3ddf9802c086435824fc"
+  },
+  {
+    "productId": "teacher-partners-who-both-participate-toolkit",
+    "title": "Partners Who Both Participate Toolkit",
+    "file": "product-files/teacher-partners-who-both-participate-toolkit.pdf",
+    "bytes": 1205092,
+    "sha256": "f2920232a970c860e558a8cffa2a964142797f64bd36bd4de9146456d5561b9b"
+  },
+  {
+    "productId": "teacher-group-roles-that-rotate-toolkit",
+    "title": "Group Roles That Rotate Toolkit",
+    "file": "product-files/teacher-group-roles-that-rotate-toolkit.pdf",
+    "bytes": 1205135,
+    "sha256": "5f1a7c17886aa1ece18ec355f7d05c9b231043c836a8f339323e67784973e095"
+  },
+  {
+    "productId": "teacher-listening-with-visible-evidence-toolkit",
+    "title": "Listening with Visible Evidence Toolkit",
+    "file": "product-files/teacher-listening-with-visible-evidence-toolkit.pdf",
+    "bytes": 1205053,
+    "sha256": "64c782a87c252ae943e0ec9446471cdf54ce39a0a7f123e4abf91b6745e8d49f"
+  },
+  {
+    "productId": "teacher-discussion-without-a-rush-toolkit",
+    "title": "Discussion without a Rush Toolkit",
+    "file": "product-files/teacher-discussion-without-a-rush-toolkit.pdf",
+    "bytes": 1205006,
+    "sha256": "895311d659315051a8a6ca7bc7dd268020b5b71483e539048b4f53cc61cb287b"
+  },
+  {
+    "productId": "teacher-feedback-that-gives-a-next-step-toolkit",
+    "title": "Feedback That Gives a Next Step Toolkit",
+    "file": "product-files/teacher-feedback-that-gives-a-next-step-toolkit.pdf",
+    "bytes": 1204836,
+    "sha256": "3ff141eb40ffc1a464142fa87839700acefd04721bfb26411acd4a77b0e93992"
+  },
+  {
+    "productId": "teacher-mistakes-as-information-toolkit",
+    "title": "Mistakes as Information Toolkit",
+    "file": "product-files/teacher-mistakes-as-information-toolkit.pdf",
+    "bytes": 1204848,
+    "sha256": "9c3e269171870bec08f3727582bb6aad43e3b07f27a08c6602e5c9cc34419c41"
+  },
+  {
+    "productId": "teacher-a-first-step-for-starting-work-toolkit",
+    "title": "A First Step for Starting Work Toolkit",
+    "file": "product-files/teacher-a-first-step-for-starting-work-toolkit.pdf",
+    "bytes": 1205098,
+    "sha256": "613ff251f11d927e8133c87e0f9917299ccbeecf48b0cf79b3836e6f15b7d7ee"
+  },
+  {
+    "productId": "teacher-pacing-with-checkpoints-toolkit",
+    "title": "Pacing with Checkpoints Toolkit",
+    "file": "product-files/teacher-pacing-with-checkpoints-toolkit.pdf",
+    "bytes": 1205116,
+    "sha256": "c781f150507d041cce1cbbe993dfb67671c204be91e104495d137106758502e9"
+  },
+  {
+    "productId": "teacher-meaningful-work-after-finishing-toolkit",
+    "title": "Meaningful Work after Finishing Toolkit",
+    "file": "product-files/teacher-meaningful-work-after-finishing-toolkit.pdf",
+    "bytes": 1205078,
+    "sha256": "e8a8ef31d20b48de475b3d6a6fe5eecc29d8e689bbaadbbfe9f175b516965bce"
+  },
+  {
+    "productId": "teacher-finishing-unfinished-work-toolkit",
+    "title": "Finishing Unfinished Work Toolkit",
+    "file": "product-files/teacher-finishing-unfinished-work-toolkit.pdf",
+    "bytes": 1205180,
+    "sha256": "980301a53edba33ce051146a88653fc50a4c8fb1c119ab356afbc9a61250aacc"
+  },
+  {
+    "productId": "teacher-organization-learners-can-explain-toolkit",
+    "title": "Organization Learners Can Explain Toolkit",
+    "file": "product-files/teacher-organization-learners-can-explain-toolkit.pdf",
+    "bytes": 1205015,
+    "sha256": "18006a3b3dfdbcc8e8d92853d273913a95585e90bf637e845e59bdc99f75b800"
+  },
+  {
+    "productId": "teacher-a-welcoming-return-after-absence-toolkit",
+    "title": "A Welcoming Return after Absence Toolkit",
+    "file": "product-files/teacher-a-welcoming-return-after-absence-toolkit.pdf",
+    "bytes": 1205091,
+    "sha256": "a0f7a91d0572423e63521584a3eea6596a7fccbd056c7e5c203890892f0d9881"
+  },
+  {
+    "productId": "teacher-homework-with-a-clear-purpose-toolkit",
+    "title": "Homework with a Clear Purpose Toolkit",
+    "file": "product-files/teacher-homework-with-a-clear-purpose-toolkit.pdf",
+    "bytes": 1205231,
+    "sha256": "bedeba5526dc78ed155947dd0d530ddda2dbf18b7a324c9141dc288047770bb1"
+  },
+  {
+    "productId": "teacher-reading-time-with-stamina-and-choice-toolkit",
+    "title": "Reading Time with Stamina and Choice Toolkit",
+    "file": "product-files/teacher-reading-time-with-stamina-and-choice-toolkit.pdf",
+    "bytes": 1205168,
+    "sha256": "c4aa07cebdf65e6f9742944f64120025aedb97ee7894272c57b6be6d218e03f5"
+  },
+  {
+    "productId": "teacher-revision-with-a-purpose-toolkit",
+    "title": "Revision with a Purpose Toolkit",
+    "file": "product-files/teacher-revision-with-a-purpose-toolkit.pdf",
+    "bytes": 1204985,
+    "sha256": "b4377a9f4fcd74b72974b0e284135f438a7cc58ac700960bf582c1aa6f1e2aeb"
+  },
+  {
+    "productId": "teacher-math-talk-beyond-the-answer-toolkit",
+    "title": "Math Talk beyond the Answer Toolkit",
+    "file": "product-files/teacher-math-talk-beyond-the-answer-toolkit.pdf",
+    "bytes": 1205113,
+    "sha256": "35854b0ecf590d383780586b0d6021651fccbe909519d4097b71868e5dd967ea"
+  },
+  {
+    "productId": "teacher-project-materials-and-careful-setup-toolkit",
+    "title": "Project Materials and Careful Setup Toolkit",
+    "file": "product-files/teacher-project-materials-and-careful-setup-toolkit.pdf",
+    "bytes": 1205284,
+    "sha256": "73e1d1e59f71d8d8879dec7922098d5e44a681c14b4d2de21878cfba4d59d2ea"
+  },
+  {
+    "productId": "teacher-digital-focus-with-a-defined-task-toolkit",
+    "title": "Digital Focus with a Defined Task Toolkit",
+    "file": "product-files/teacher-digital-focus-with-a-defined-task-toolkit.pdf",
+    "bytes": 1205160,
+    "sha256": "324e7f88b3af12de9d0888ab28958155cf1687bb1beb2ac1d00bb08b89b34233"
+  },
+  {
+    "productId": "teacher-shared-devices-shared-thinking-toolkit",
+    "title": "Shared Devices, Shared Thinking Toolkit",
+    "file": "product-files/teacher-shared-devices-shared-thinking-toolkit.pdf",
+    "bytes": 1205203,
+    "sha256": "4a7b8210053316f8ae0e05cad10b205744bb23f22eb3cc5ece2e09b5b11101cf"
+  },
+  {
+    "productId": "teacher-movement-with-a-learning-purpose-toolkit",
+    "title": "Movement with a Learning Purpose Toolkit",
+    "file": "product-files/teacher-movement-with-a-learning-purpose-toolkit.pdf",
+    "bytes": 1205146,
+    "sha256": "5ab4539d455de1109b7a612981c9823247240c8de2637fed407d082223ce7a24"
+  },
+  {
+    "productId": "teacher-a-calm-space-with-a-return-plan-toolkit",
+    "title": "A Calm Space with a Return Plan Toolkit",
+    "file": "product-files/teacher-a-calm-space-with-a-return-plan-toolkit.pdf",
+    "bytes": 1205172,
+    "sha256": "1044760bf533b4cc2554ce143be10dd3e52550bfb2c0f9f37245c9d4f7a3a521"
+  },
+  {
+    "productId": "teacher-disagreement-with-a-repair-route-toolkit",
+    "title": "Disagreement with a Repair Route Toolkit",
+    "file": "product-files/teacher-disagreement-with-a-repair-route-toolkit.pdf",
+    "bytes": 1205211,
+    "sha256": "9e7b72a6b77ca94d4523bda812c87ccae213d9317c2f0f77e72d0bc56644097a"
+  },
+  {
+    "productId": "teacher-a-substitute-day-students-understand-toolkit",
+    "title": "A Substitute Day Students Understand Toolkit",
+    "file": "product-files/teacher-a-substitute-day-students-understand-toolkit.pdf",
+    "bytes": 1205247,
+    "sha256": "f68a02a800de1c336ca03165ed193d13bed4c22e305fefae0bfcf05a63487559"
+  },
+  {
+    "productId": "teacher-family-messages-that-invite-partnership-toolkit",
+    "title": "Family Messages That Invite Partnership Toolkit",
+    "file": "product-files/teacher-family-messages-that-invite-partnership-toolkit.pdf",
+    "bytes": 1205115,
+    "sha256": "1b9eeff54ce283b21bd7ff6229cbf7fe11dc6cd9bf546ff0b7efff2c4d4933ee"
+  },
+  {
+    "productId": "teacher-student-voice-in-classroom-routines-toolkit",
+    "title": "Student Voice in Classroom Routines Toolkit",
+    "file": "product-files/teacher-student-voice-in-classroom-routines-toolkit.pdf",
+    "bytes": 1205121,
+    "sha256": "b805572a9049f02e98bb0c349575cf04530c35a339d7d6912f3abf193b869380"
+  },
+  {
+    "productId": "sat-act-linear-solve-math-skill-builder",
+    "title": "Linear Equations with Structure \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-linear-solve-math-skill-builder.pdf",
+    "bytes": 1199432,
+    "sha256": "3bcb88f24d897194a5ecc0e118f2ea142f58e812f1fd3791f275b7939d6cd3c1"
+  },
+  {
+    "productId": "sat-act-linear-context-math-skill-builder",
+    "title": "Translate a Cost Story \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-linear-context-math-skill-builder.pdf",
+    "bytes": 1199621,
+    "sha256": "ff34c49ea44127deaef42efc62fb14bc8e23615487d1fbea3a7bc2060871367d"
+  },
+  {
+    "productId": "sat-act-systems-math-skill-builder",
+    "title": "Two Constraints, One Solution \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-systems-math-skill-builder.pdf",
+    "bytes": 1200560,
+    "sha256": "ad017d7314352d6257c342d6e17622e5f2b78d3b81486ccf452d2cc6b0af2ba6"
+  },
+  {
+    "productId": "sat-act-inequalities-math-skill-builder",
+    "title": "Inequalities and Feasible Choices \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-inequalities-math-skill-builder.pdf",
+    "bytes": 1200556,
+    "sha256": "b42c29710c4e77696567e5d8deaf09edfe168a6503390b5ee42ec8c21b9b26df"
+  },
+  {
+    "productId": "sat-act-literal-math-skill-builder",
+    "title": "Rearrange a Formula \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-literal-math-skill-builder.pdf",
+    "bytes": 1199958,
+    "sha256": "2b08d7a447038721387bd3e2cf5a3df14ecd709e518a4a49d42536e278cf2d2f"
+  },
+  {
+    "productId": "sat-act-slope-math-skill-builder",
+    "title": "Slope from Different Representations \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-slope-math-skill-builder.pdf",
+    "bytes": 1199967,
+    "sha256": "284b6133c46ea09d502e1379a8a03221583ee7b936350863d07bde7daa9165de"
+  },
+  {
+    "productId": "sat-act-line-relations-math-skill-builder",
+    "title": "Parallel and Perpendicular Lines \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-line-relations-math-skill-builder.pdf",
+    "bytes": 1200804,
+    "sha256": "07950ea8ebea8afc9668636285560c2b41144c816ba595981d931f8830e0bc04"
+  },
+  {
+    "productId": "sat-act-break-even-math-skill-builder",
+    "title": "Compare Two Linear Plans \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-break-even-math-skill-builder.pdf",
+    "bytes": 1200506,
+    "sha256": "d24e4aa088e6ac80343ed891d1f5bd8ae7ba5b99cd78a3292a606612651e4b31"
+  },
+  {
+    "productId": "sat-act-factoring-math-skill-builder",
+    "title": "Factor to Reveal Structure \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-factoring-math-skill-builder.pdf",
+    "bytes": 1199514,
+    "sha256": "a1d4bb2755cf6463c17e25120308b6032eabda76cbb0eac496082c3d44495b54"
+  },
+  {
+    "productId": "sat-act-quadratic-roots-math-skill-builder",
+    "title": "Quadratic Solutions and Constraints \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-quadratic-roots-math-skill-builder.pdf",
+    "bytes": 1199490,
+    "sha256": "012744daab48244a9e0b040a1a1621bf58d9ea76b4114b7e45ed287171e2f8e9"
+  },
+  {
+    "productId": "sat-act-vertex-math-skill-builder",
+    "title": "Read a Quadratic Vertex \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-vertex-math-skill-builder.pdf",
+    "bytes": 1200647,
+    "sha256": "5397ed215bb17b906dfd4dd0bc61d517090af710992b1167ccecce9470fa1aac"
+  },
+  {
+    "productId": "sat-act-exponents-math-skill-builder",
+    "title": "Equivalent Exponential Expressions \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-exponents-math-skill-builder.pdf",
+    "bytes": 1199200,
+    "sha256": "e73467718691c6d477a0d50670df6f49527fe59c026cb6c5593acc689fa992d5"
+  },
+  {
+    "productId": "sat-act-radicals-math-skill-builder",
+    "title": "Radical Equations and Checks \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-radicals-math-skill-builder.pdf",
+    "bytes": 1199515,
+    "sha256": "4e07ec75573f67f5631680476a1d8a5edcbd49e1bee4e0057f3a4c47566d5a24"
+  },
+  {
+    "productId": "sat-act-growth-math-skill-builder",
+    "title": "Repeated Percent Growth \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-growth-math-skill-builder.pdf",
+    "bytes": 1201002,
+    "sha256": "22ff7d7517dc5df4f3534bba3e564a5ef3593574ec32544081d266f12286abfb"
+  },
+  {
+    "productId": "sat-act-rational-math-skill-builder",
+    "title": "Rational Equations with Restrictions \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-rational-math-skill-builder.pdf",
+    "bytes": 1199803,
+    "sha256": "2017f66eb708f12eed11db2973a0af9ceba729b8be446ab29a492c5db6a71adc"
+  },
+  {
+    "productId": "sat-act-functions-math-skill-builder",
+    "title": "Function Notation and Inputs \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-functions-math-skill-builder.pdf",
+    "bytes": 1199633,
+    "sha256": "2cdda518f7a5b365f510620e8c339e63749c188c76f4f82e441c61781ccb6055"
+  },
+  {
+    "productId": "sat-act-percent-change-math-skill-builder",
+    "title": "Percent Change in Two Stages \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-percent-change-math-skill-builder.pdf",
+    "bytes": 1200175,
+    "sha256": "c58f3870948263ca3d016248b04151e1d8b6c698c6b3786cc3e5f936495fc973"
+  },
+  {
+    "productId": "sat-act-units-math-skill-builder",
+    "title": "Units That Cancel \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-units-math-skill-builder.pdf",
+    "bytes": 1199514,
+    "sha256": "6306ffec2e5ceb0b208b273845f92e16caff06a5a24b2b22179622f88ee7f162"
+  },
+  {
+    "productId": "sat-act-weighted-mean-math-skill-builder",
+    "title": "Averages with Unequal Group Sizes \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-weighted-mean-math-skill-builder.pdf",
+    "bytes": 1200518,
+    "sha256": "94f4f7eeb4b6a22e7b96546e88bb8dfc0d2eefbe93dbbb258a93b562562c3af8"
+  },
+  {
+    "productId": "sat-act-outliers-math-skill-builder",
+    "title": "Center and the Effect of an Outlier \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-outliers-math-skill-builder.pdf",
+    "bytes": 1200461,
+    "sha256": "62389a12d26776f113c47537475751c42a5488a868977d891783b98098f3f0f3"
+  },
+  {
+    "productId": "sat-act-probability-math-skill-builder",
+    "title": "Probability with a Defined Sample Space \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-probability-math-skill-builder.pdf",
+    "bytes": 1200246,
+    "sha256": "be02ae9ca690a92ac16e6b0bc460dc62af59d0ff4a194a4749a96585d48a9bd1"
+  },
+  {
+    "productId": "sat-act-conditional-math-skill-builder",
+    "title": "Read a Two-Way Count Table \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-conditional-math-skill-builder.pdf",
+    "bytes": 1200553,
+    "sha256": "883875f94db6f6b1227853b92e62703d492ad8cf10f0fcf2d80af7337d430fbe"
+  },
+  {
+    "productId": "sat-act-prediction-math-skill-builder",
+    "title": "Use a Linear Prediction Model \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-prediction-math-skill-builder.pdf",
+    "bytes": 1200917,
+    "sha256": "13e21d13023f80bba4d03705ce930cdda4077b2b08fca6c9bb24d2ecf6f91903"
+  },
+  {
+    "productId": "sat-act-sampling-math-skill-builder",
+    "title": "What a Sample Can Support \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-sampling-math-skill-builder.pdf",
+    "bytes": 1202673,
+    "sha256": "116bec995f34b8677643591b8dc9cf0987d4e42be6c2f59138e19abb0d8558c7"
+  },
+  {
+    "productId": "sat-act-angles-math-skill-builder",
+    "title": "Triangle Angles with Algebra \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-angles-math-skill-builder.pdf",
+    "bytes": 1199151,
+    "sha256": "44c6754ea03753e4a53172d724b419db190b9203c1b2aa529745ca3376ffb0ca"
+  },
+  {
+    "productId": "sat-act-trigonometry-math-skill-builder",
+    "title": "Right-Triangle Ratios \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-trigonometry-math-skill-builder.pdf",
+    "bytes": 1200347,
+    "sha256": "7b467ed37340cadcee45c34e39dc23b381090300f309d8a64640ff1b0bbaeae1"
+  },
+  {
+    "productId": "sat-act-circles-math-skill-builder",
+    "title": "Circle Measures from a Constraint \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-circles-math-skill-builder.pdf",
+    "bytes": 1200460,
+    "sha256": "3e3f3e9e1c562c9c5809663a957e2ee1d0a3f490caf12f6fdac410dbe2baf347"
+  },
+  {
+    "productId": "sat-act-similarity-math-skill-builder",
+    "title": "Scale Factors and Similar Figures \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-similarity-math-skill-builder.pdf",
+    "bytes": 1200095,
+    "sha256": "27b06a6d3d3e49496af77b03bb37ec72a06e3b11297f782caff03c21340d2095"
+  },
+  {
+    "productId": "sat-act-volume-math-skill-builder",
+    "title": "Volume and Dimensional Scaling \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-volume-math-skill-builder.pdf",
+    "bytes": 1200593,
+    "sha256": "f20031112011e8c45efb3ae378c4a44ff4bc1e1ccbcd95469eb698ceea57ebf9"
+  },
+  {
+    "productId": "sat-act-distance-math-skill-builder",
+    "title": "Coordinate Distance and Midpoints \u2022 SAT / ACT Math Skill Builder",
+    "file": "product-files/sat-act-distance-math-skill-builder.pdf",
+    "bytes": 1199962,
+    "sha256": "81bea55a349880867ed18cabe2fee293857a504e03f338ef47695e52617a6da4"
+  },
+  {
+    "productId": "daily-20260915-ma-pk-rhyme-circle",
+    "title": "Rhyme Circle: Listen, Match, Invent",
+    "file": "product-files/daily-20260915-ma-pk-rhyme-circle.pdf",
+    "bytes": 1191417,
+    "sha256": "daf44dbf937f31b07f417ab4e20b4ebbf0b65ce7fb691cff13371c9d33de7637"
+  },
+  {
+    "productId": "daily-20260915-ma-k-story-path",
+    "title": "Story Path: Retell Two Tiny Adventures",
+    "file": "product-files/daily-20260915-ma-k-story-path.pdf",
+    "bytes": 1192557,
+    "sha256": "110eefc8831f1f24691a54555542892ee7a69954bc3598133def137429dfd874"
+  },
+  {
+    "productId": "daily-20260915-il-g1-digraph-workshop",
+    "title": "Two Letters, One Sound: SH and CH Workshop",
+    "file": "product-files/daily-20260915-il-g1-digraph-workshop.pdf",
+    "bytes": 1191812,
+    "sha256": "3d350d15d381010ef9774f4af72c71725296d8c60667482f045abd3558e26fd2"
+  },
+  {
+    "productId": "daily-20260915-il-g2-plural-detectives",
+    "title": "Plural Detectives: More Than One",
+    "file": "product-files/daily-20260915-il-g2-plural-detectives.pdf",
+    "bytes": 1191521,
+    "sha256": "1703d7e085764c207709fb5d1233e0d7ded8dcb84414486295a2f615b7f3f77f"
+  },
+  {
+    "productId": "daily-20260915-mi-g2-lantern-lesson",
+    "title": "The Lantern Helpers: Recount and Find a Lesson",
+    "file": "product-files/daily-20260915-mi-g2-lantern-lesson.pdf",
+    "bytes": 1192662,
+    "sha256": "9eb70f5d94638f3691223552275e03f69bf9aa5654a0709a15ef5af59b8aa314"
+  },
+  {
+    "productId": "daily-20260915-mi-g3-recess-letter",
+    "title": "A Better Recess Corner: Opinion Letter Workshop",
+    "file": "product-files/daily-20260915-mi-g3-recess-letter.pdf",
+    "bytes": 1193071,
+    "sha256": "12f36aad236cf8126e8d65dd63f21cef9cd39f0ea445c2d64bb2fb5e3f4d7a92"
+  },
+  {
+    "productId": "daily-20260915-md-g3-word-jobs",
+    "title": "Word Jobs: Nouns, Verbs, Adjectives, and Adverbs",
+    "file": "product-files/daily-20260915-md-g3-word-jobs.pdf",
+    "bytes": 1192499,
+    "sha256": "80d39607916c1b29e88b0131fac6bca8af2d005e80e50c4da77c2d26d1d5264d"
+  },
+  {
+    "productId": "daily-20260915-md-g4-three-forms",
+    "title": "One Missing Bell, Three Literary Forms",
+    "file": "product-files/daily-20260915-md-g4-three-forms.pdf",
+    "bytes": 1195186,
+    "sha256": "29f896229a30eb2bd3f15b9f0edcd04e7320e5fe56576359e536225aebba66e1"
+  },
+  {
+    "productId": "daily-20260915-ct-g4-inference-notebook",
+    "title": "The Unsent Note: An Inference Notebook",
+    "file": "product-files/daily-20260915-ct-g4-inference-notebook.pdf",
+    "bytes": 1193722,
+    "sha256": "0e3946d87e1a9e3470254529af2435795ea048c99185d242777857640e926a1b"
+  },
+  {
+    "productId": "daily-20260915-ct-g4-opinion-evidence",
+    "title": "Choose the Class Exhibit: Opinion with Evidence",
+    "file": "product-files/daily-20260915-ct-g4-opinion-evidence.pdf",
+    "bytes": 1193357,
+    "sha256": "a69b2892d7061cd6f028473b8c17cd38f75acf88dc4840dab9e4e181143314c4"
+  },
+  {
+    "productId": "daily-20260915-oh-g5-context-lab",
+    "title": "Context Lab: Meanings Beyond One Sentence",
+    "file": "product-files/daily-20260915-oh-g5-context-lab.pdf",
+    "bytes": 1193702,
+    "sha256": "3601e1dd742e4128d131a75785535ee07ac4a0f0f16dcc0cd46067db730348c7"
+  },
+  {
+    "productId": "daily-20260915-oh-g6-window-seat",
+    "title": "The Window Seat: Narrator Perspective Lab",
+    "file": "product-files/daily-20260915-oh-g6-window-seat.pdf",
+    "bytes": 1194025,
+    "sha256": "acebc7851e8b99302cb2ecbadb1e64f93e66874e31099197141107d8dc63802a"
+  },
+  {
+    "productId": "daily-20260915-nj-g2-vowel-trails",
+    "title": "Vowel-Team Trails: AI, AY, EE, and EA",
+    "file": "product-files/daily-20260915-nj-g2-vowel-trails.pdf",
+    "bytes": 1191805,
+    "sha256": "048cd84ea9da3dcd7ab5f3c908988bb36edd8d134f8b2e0d692b16cfecb612bb"
+  },
+  {
+    "productId": "daily-20260915-nj-g6-pronoun-repair",
+    "title": "Pronoun Repair Shop: Case and Clarity",
+    "file": "product-files/daily-20260915-nj-g6-pronoun-repair.pdf",
+    "bytes": 1192456,
+    "sha256": "dfa935743fa3d1753dc7d40b60f9df192111ae8c57d06088f14a34cca22b55ce"
+  },
+  {
+    "productId": "daily-20260915-de-g5-time-editor",
+    "title": "The Time Editor: Keep Verb Tenses Consistent",
+    "file": "product-files/daily-20260915-de-g5-time-editor.pdf",
+    "bytes": 1193096,
+    "sha256": "9ce7544684180c57faace071a349375b761bd790649af643e8b5a2216ead5db9"
+  },
+  {
+    "productId": "daily-20260915-de-g6-purpose-lens",
+    "title": "Purpose Lens: Two Notices, Different Aims",
+    "file": "product-files/daily-20260915-de-g6-purpose-lens.pdf",
+    "bytes": 1194848,
+    "sha256": "2a15aea51f7c88a9eb75f502084deae07ff61aef5976e0b8cbda98035497cfe3"
+  },
+  {
+    "productId": "daily-20260915-nc-g7-word-choice",
+    "title": "When the Hallway Wakes: Poetry Word-Choice Lab",
+    "file": "product-files/daily-20260915-nc-g7-word-choice.pdf",
+    "bytes": 1194891,
+    "sha256": "6d5c1cffcde06d2f41f50ce0aedc8ecef8bb9c1fca83cefbb23df4ee85d26f7e"
+  },
+  {
+    "productId": "daily-20260915-nc-g8-claim-check",
+    "title": "The Quiet Room Proposal: Claims and Evidence Lab",
+    "file": "product-files/daily-20260915-nc-g8-claim-check.pdf",
+    "bytes": 1194482,
+    "sha256": "29f5aa66b53767351a321a85529032524b732859f7c0b2e7658fcedff39aee4e"
+  },
+  {
+    "productId": "daily-20260915-college-french-negation",
+    "title": "French 101: Say What Is Not Happening",
+    "file": "product-files/daily-20260915-college-french-negation.pdf",
+    "bytes": 1192196,
+    "sha256": "6293d683efd6cf7072b4514b6800a00e788caca0023f42c5d3b0f354288959ff"
+  },
+  {
+    "productId": "daily-20260915-college-speech-openings",
+    "title": "Public Speaking 101: Openings That Orient",
+    "file": "product-files/daily-20260915-college-speech-openings.pdf",
+    "bytes": 1195054,
+    "sha256": "3a6792699fce64887ca437cb8e76af386d29dc85368576e732fbb78bbb91abe8"
+  },
+  {
+    "productId": "nc-g3-two-step-task-cards",
+    "title": "Two-Step Story Problem Task Cards",
+    "file": "product-files/nc-g3-two-step-task-cards.pdf",
+    "bytes": 1173842,
+    "sha256": "b956c331b02e86c50cdd8fe855619be2b8a3f7c0db3641aa74273df67d75a3e0"
+  },
+  {
+    "productId": "nc-g5-multiplication-warmups",
+    "title": "Multi-Digit Multiplication Warm-Up Week",
+    "file": "product-files/nc-g5-multiplication-warmups.pdf",
+    "bytes": 1173375,
+    "sha256": "f76ef7232505fa72d1c05c7e70423dbc7c2040889721e08e2c623cba57706457"
+  },
+  {
+    "productId": "nc-g6-rates-small-group",
+    "title": "Rates and Percent Small-Group Lab",
+    "file": "product-files/nc-g6-rates-small-group.pdf",
+    "bytes": 1173090,
+    "sha256": "aea682d42cc0983176977491316f14555205b8e065dd7fcff0b3e31b22185134"
+  },
+  {
+    "productId": "nc-g8-linear-models-homework",
+    "title": "Linear Models Homework and Exit Ticket",
+    "file": "product-files/nc-g8-linear-models-homework.pdf",
+    "bytes": 1173180,
+    "sha256": "4303cd610064cbc8801da6cacbc0352c253a8b1f4964eaad097c0a3361d2a258"
+  },
+  {
+    "productId": "college-french101-cafe",
+    "title": "French 101 Caf\u00e9 Conversations",
+    "file": "product-files/college-french101-cafe.pdf",
+    "bytes": 1173472,
+    "sha256": "a02834143b670ad25efe20ae16ecfa5a8a0cd7326acd59bab8d415f8082b7065"
+  },
+  {
+    "productId": "college-german101-introductions",
+    "title": "German 101 Introductions Practice",
+    "file": "product-files/college-german101-introductions.pdf",
+    "bytes": 1173261,
+    "sha256": "b9c905944045bc6b98a14d885ce78777fc859ed570eca6c9191cef9790eed95f"
+  },
+  {
+    "productId": "college-mandarin101-campus",
+    "title": "Mandarin 101 Campus Basics",
+    "file": "product-files/college-mandarin101-campus.pdf",
+    "bytes": 1175384,
+    "sha256": "7d0237178813baabdabdb02b7c7e04cd45d6c10b8c7f9853e8b9b538da8d9998"
+  },
+  {
+    "productId": "college-asl101-classroom",
+    "title": "ASL 101 Classroom Communication Reflection Guide",
+    "file": "product-files/college-asl101-classroom.pdf",
+    "bytes": 1173587,
+    "sha256": "e9b87dd8c9263420f2c74d0a2aa56e8366e57aef0932061607b8a9d7550b5ba2"
+  },
+  {
+    "productId": "college-art-composition",
+    "title": "Art Appreciation Composition Detective",
+    "file": "product-files/college-art-composition.pdf",
+    "bytes": 1173251,
+    "sha256": "2a80e7e4cc1211e386ad9d3ee68030f152abf79ae743196a52347d8c821c6db1"
+  },
+  {
+    "productId": "college-engineering-design",
+    "title": "Introduction to Engineering Design Challenge",
+    "file": "product-files/college-engineering-design.pdf",
+    "bytes": 1173462,
+    "sha256": "19e9c4c4eb603149fd9362dd3aea7b54e4dd5b269265ddf418ba081d7b12aa23"
+  },
+  {
+    "productId": "rl7-1-citing-textual-evidence",
+    "title": "Citing Textual Evidence",
+    "file": "product-files/rl7-1-citing-textual-evidence.zip",
+    "bytes": 5766101,
+    "sha256": "fa55565a19f85bc95934506cb63828addf9c70a7468d7edb131f84323625b064"
+  },
+  {
+    "productId": "rl7-2-theme-objective-summary",
+    "title": "Theme and Objective Summary",
+    "file": "product-files/rl7-2-theme-objective-summary.zip",
+    "bytes": 2564020,
+    "sha256": "c62eedff41be255b210ecf2e7a10b95162af649680bb6a56e0962388256af205"
+  },
+  {
+    "productId": "rl7-3-story-elements",
+    "title": "How Story Elements Interact",
+    "file": "product-files/rl7-3-story-elements.zip",
+    "bytes": 3241896,
+    "sha256": "c3a7eb443949d725d6aa817042e02e7587ac47343db7ebbc635c5606e779fa0b"
+  }
+]

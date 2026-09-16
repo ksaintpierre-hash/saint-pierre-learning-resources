@@ -1,0 +1,1898 @@
+[
+  {
+    "id": "daily-20260915-ma-pk-rhyme-circle",
+    "title": "Rhyme Circle: Listen, Match, Invent",
+    "state": "Massachusetts",
+    "grade": "Pre-K",
+    "subject": "Phonological awareness",
+    "standard": "Pre-K RF 2(a)",
+    "objective": "With adult support, recognize and generate spoken rhymes.",
+    "resourceType": "Small-group oral practice",
+    "level": "Pre-K",
+    "grades": [
+      "Pre-K"
+    ],
+    "states": [
+      "Massachusetts"
+    ],
+    "collections": [
+      "Small-group oral practice"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 400,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-ma-pk-rhyme-circle.pdf",
+        "pages": 15,
+        "sha256": "daf44dbf937f31b07f417ab4e20b4ebbf0b65ce7fb691cff13371c9d33de7637"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-ma-pk-rhyme-circle-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Rhyme Circle: Listen, Match, Invent; Pre-K • Massachusetts • Phonological awareness; private draft cover.",
+    "summary": "With adult support, recognize and generate spoken rhymes. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Rhyme Circle: Listen, Match, Invent gives Pre-K learners a focused route from explicit modeling to supported practice and independent application. A rhyme has the same ending sound, even when its spelling differs. Say each pair naturally, then stretch the ending. Children may answer by speaking, pointing to a yes/no card, or giving a thumbs signal. Adults read every word; printed-word reading is not expected. Accept a playful invented word if its ending genuinely rhymes, then model a real word. Use four prompts per sitting.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Adult routine",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Four 8–12-minute supported sessions and a 5-minute oral check.",
+    "studentDirections": "Listen to the adult, then speak, point, draw, or act your response. Ask to hear the words or story again.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask the learner to invent a new rhyme pair or retell from another character’s view; explain the choice.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Read all directions and stories aloud; model one response; use gestures, pictures drawn by the learner, or AAC. Record exact responses without demanding writing.",
+      "ESL": "Explain word meanings with gestures before rhyme listening. Invite home-language retelling first; compare the target English sounds without judging accent."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.doe.mass.edu/frameworks/ela/2017-06.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test. The source prints Pre-K Reading Foundations, standard 2, subsection a (PDF page 30); this reference preserves that structure rather than inventing a compact code.",
+    "tags": [
+      "Pre-K",
+      "Massachusetts",
+      "Phonological awareness",
+      "Small-group oral practice",
+      "Pre-K RF 2(a)",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-ma-pk-rhyme-circle.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-ma-pk-rhyme-circle-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-ma-k-story-path",
+    "title": "Story Path: Retell Two Tiny Adventures",
+    "state": "Massachusetts",
+    "grade": "Kindergarten",
+    "subject": "Reading / oral language",
+    "standard": "RL.K.2",
+    "objective": "Retell key events from a familiar read-aloud with prompting and support.",
+    "resourceType": "Read-aloud classwork",
+    "level": "Kindergarten",
+    "grades": [
+      "Kindergarten"
+    ],
+    "states": [
+      "Massachusetts"
+    ],
+    "collections": [
+      "Read-aloud classwork"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 400,
+    "pages": 16,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-ma-k-story-path.pdf",
+        "pages": 16,
+        "sha256": "110eefc8831f1f24691a54555542892ee7a69954bc3598133def137429dfd874"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-ma-k-story-path-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Story Path: Retell Two Tiny Adventures; Kindergarten • Massachusetts • Reading / oral language; private draft cover.",
+    "summary": "Retell key events from a familiar read-aloud with prompting and support. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Story Path: Retell Two Tiny Adventures gives Kindergarten learners a focused route from explicit modeling to supported practice and independent application. Read one story aloud twice before questioning. A retell says what happened, in order, and includes the important problem and ending. Model first, next, and finally. Children may speak, draw, or act. Adults record dictated words; do not score handwriting or decoding.",
+    "included": [
+      "1 print-ready 16-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "2 original text/reference section(s): A. The Paper Boat; B. A Place for the Seed",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Four 8–12-minute supported sessions and a 5-minute oral check.",
+    "studentDirections": "Listen to the adult, then speak, point, draw, or act your response. Ask to hear the words or story again.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask the learner to invent a new rhyme pair or retell from another character’s view; explain the choice.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Read all directions and stories aloud; model one response; use gestures, pictures drawn by the learner, or AAC. Record exact responses without demanding writing.",
+      "ESL": "Explain word meanings with gestures before rhyme listening. Invite home-language retelling first; compare the target English sounds without judging accent."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.doe.mass.edu/frameworks/ela/2017-06.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Kindergarten",
+      "Massachusetts",
+      "Reading / oral language",
+      "Read-aloud classwork",
+      "RL.K.2",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-ma-k-story-path.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-ma-k-story-path-thumbnail.png",
+    "previewPages": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "daily-20260915-il-g1-digraph-workshop",
+    "title": "Two Letters, One Sound: SH and CH Workshop",
+    "state": "Illinois",
+    "grade": "1",
+    "subject": "Phonics",
+    "standard": "CC.1.R.F.3.a",
+    "objective": "Read common sh and ch consonant digraphs in words and short sentences.",
+    "resourceType": "Phonics independent practice",
+    "level": "Grade 1",
+    "grades": [
+      "Grade 1"
+    ],
+    "states": [
+      "Illinois"
+    ],
+    "collections": [
+      "Phonics independent practice"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 450,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-il-g1-digraph-workshop.pdf",
+        "pages": 15,
+        "sha256": "3d350d15d381010ef9774f4af72c71725296d8c60667482f045abd3558e26fd2"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-il-g1-digraph-workshop-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Two Letters, One Sound: SH and CH Workshop; Grade 1 • Illinois • Phonics; private draft cover.",
+    "summary": "Read common sh and ch consonant digraphs in words and short sentences. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Two Letters, One Sound: SH and CH Workshop gives Grade 1 learners a focused route from explicit modeling to supported practice and independent application. In these words, sh works together for one sound, as in shop. Ch works together for one sound, as in chin. Point under the two letters together; blend the remaining sounds. Do not add an extra uh to consonants. This packet covers sh/ch, not every digraph. An adult reads directions, not the target word during the initial attempt.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Read-and-check bank",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.isbe.net/Documents/ELA_common_core_standards.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 1",
+      "Illinois",
+      "Phonics",
+      "Phonics independent practice",
+      "CC.1.R.F.3.a",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-il-g1-digraph-workshop.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-il-g1-digraph-workshop-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-il-g2-plural-detectives",
+    "title": "Plural Detectives: More Than One",
+    "state": "Illinois",
+    "grade": "2",
+    "subject": "Grammar / spelling",
+    "standard": "CC.2.L.1.b",
+    "objective": "Form and use frequent irregular plural nouns in sentences.",
+    "resourceType": "Grammar warm-ups",
+    "level": "Grade 2",
+    "grades": [
+      "Grade 2"
+    ],
+    "states": [
+      "Illinois"
+    ],
+    "collections": [
+      "Grammar warm-ups"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 450,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-il-g2-plural-detectives.pdf",
+        "pages": 15,
+        "sha256": "1703d7e085764c207709fb5d1233e0d7ded8dcb84414486295a2f615b7f3f77f"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-il-g2-plural-detectives-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Plural Detectives: More Than One; Grade 2 • Illinois • Grammar / spelling; private draft cover.",
+    "summary": "Form and use frequent irregular plural nouns in sentences. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Plural Detectives: More Than One gives Grade 2 learners a focused route from explicit modeling to supported practice and independent application. Many plural nouns add s, but irregular plurals change differently or stay the same. Use the bank to learn the forms, then cover it for the exit check. A plural tells how many; it does not show ownership. Use these tasks in four short practice sessions.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Reference bank",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.isbe.net/Documents/ELA_common_core_standards.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 2",
+      "Illinois",
+      "Grammar / spelling",
+      "Grammar warm-ups",
+      "CC.2.L.1.b",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-il-g2-plural-detectives.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-il-g2-plural-detectives-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-mi-g2-lantern-lesson",
+    "title": "The Lantern Helpers: Recount and Find a Lesson",
+    "state": "Michigan",
+    "grade": "2",
+    "subject": "Reading",
+    "standard": "RL.2.2",
+    "objective": "Recount an original story and connect its central lesson to key events.",
+    "resourceType": "Reading classwork",
+    "level": "Grade 2",
+    "grades": [
+      "Grade 2"
+    ],
+    "states": [
+      "Michigan"
+    ],
+    "collections": [
+      "Reading classwork"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 500,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-mi-g2-lantern-lesson.pdf",
+        "pages": 15,
+        "sha256": "9eb70f5d94638f3691223552275e03f69bf9aa5654a0709a15ef5af59b8aa314"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-mi-g2-lantern-lesson-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above The Lantern Helpers: Recount and Find a Lesson; Grade 2 • Michigan • Reading; private draft cover.",
+    "summary": "Recount an original story and connect its central lesson to key events. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "The Lantern Helpers: Recount and Find a Lesson gives Grade 2 learners a focused route from explicit modeling to supported practice and independent application. A topic is a short label, such as helping. A lesson is an idea a reader can use, such as asking for help can solve a problem. Retell the main events before naming the lesson. This original realistic story gives focused practice; it is not a folktale or a complete study of the standard’s range of cultures and genres.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): The Lantern Helpers",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.michigan.gov/-/media/Project/Websites/mde/Literacy/Content-Standards/ELA_Standards.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 2",
+      "Michigan",
+      "Reading",
+      "Reading classwork",
+      "RL.2.2",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-mi-g2-lantern-lesson.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-mi-g2-lantern-lesson-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-mi-g3-recess-letter",
+    "title": "A Better Recess Corner: Opinion Letter Workshop",
+    "state": "Michigan",
+    "grade": "3",
+    "subject": "Writing",
+    "standard": "W.3.1",
+    "objective": "Write an opinion with organized reasons, linking language, and a conclusion.",
+    "resourceType": "Writing workshop",
+    "level": "Grade 3",
+    "grades": [
+      "Grade 3"
+    ],
+    "states": [
+      "Michigan"
+    ],
+    "collections": [
+      "Writing workshop"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 550,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-mi-g3-recess-letter.pdf",
+        "pages": 15,
+        "sha256": "12f36aad236cf8126e8d65dd63f21cef9cd39f0ea445c2d64bb2fb5e3f4d7a92"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-mi-g3-recess-letter-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above A Better Recess Corner: Opinion Letter Workshop; Grade 3 • Michigan • Writing; private draft cover.",
+    "summary": "Write an opinion with organized reasons, linking language, and a conclusion. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "A Better Recess Corner: Opinion Letter Workshop gives Grade 3 learners a focused route from explicit modeling to supported practice and independent application. An opinion states what you think should happen. Reasons explain why. Introduce the topic, state one clear opinion, group useful reasons, connect them with because/also/therefore, and end by returning to your opinion. Use the fictional planning notes without claiming they describe your own school.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Fictional planning notes",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.michigan.gov/-/media/Project/Websites/mde/Literacy/Content-Standards/ELA_Standards.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 3",
+      "Michigan",
+      "Writing",
+      "Writing workshop",
+      "W.3.1",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-mi-g3-recess-letter.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-mi-g3-recess-letter-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-md-g3-word-jobs",
+    "title": "Word Jobs: Nouns, Verbs, Adjectives, and Adverbs",
+    "state": "Maryland",
+    "grade": "3",
+    "subject": "Grammar",
+    "standard": "L1.a (Grade 3)",
+    "objective": "Explain how nouns, pronouns, verbs, adjectives, and adverbs function in sentences.",
+    "resourceType": "Grammar classwork",
+    "level": "Grade 3",
+    "grades": [
+      "Grade 3"
+    ],
+    "states": [
+      "Maryland"
+    ],
+    "collections": [
+      "Grammar classwork"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 500,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-md-g3-word-jobs.pdf",
+        "pages": 15,
+        "sha256": "80d39607916c1b29e88b0131fac6bca8af2d005e80e50c4da77c2d26d1d5264d"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-md-g3-word-jobs-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Word Jobs: Nouns, Verbs, Adjectives, and Adverbs; Grade 3 • Maryland • Grammar; private draft cover.",
+    "summary": "Explain how nouns, pronouns, verbs, adjectives, and adverbs function in sentences. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Word Jobs: Nouns, Verbs, Adjectives, and Adverbs gives Grade 3 learners a focused route from explicit modeling to supported practice and independent application. A word’s job depends on its sentence. A noun names; a pronoun can replace a noun; a verb expresses an action or state; an adjective describes a noun; an adverb can describe how an action happens. Ask what the word does here, not just what ending it has. This packet uses clear examples, not all possible word jobs.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Word-job reference",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://marylandpublicschools.org/programs/Documents/ELA/revised-standards/Grade-Levels/Grade-3-Language-A.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test. The revised Grade 3 Language document labels this skill L1.a; the grade is supplied separately, as in the source.",
+    "tags": [
+      "Grade 3",
+      "Maryland",
+      "Grammar",
+      "Grammar classwork",
+      "L1.a (Grade 3)",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-md-g3-word-jobs.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-md-g3-word-jobs-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-md-g4-three-forms",
+    "title": "One Missing Bell, Three Literary Forms",
+    "state": "Maryland",
+    "grade": "4",
+    "subject": "Reading / drama / poetry",
+    "standard": "RL.4.5",
+    "objective": "Compare how prose, drama, and poetry use structural features to tell an event.",
+    "resourceType": "Small-group genre lab",
+    "level": "Grade 4",
+    "grades": [
+      "Grade 4"
+    ],
+    "states": [
+      "Maryland"
+    ],
+    "collections": [
+      "Small-group genre lab"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 550,
+    "pages": 17,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-md-g4-three-forms.pdf",
+        "pages": 17,
+        "sha256": "29f896229a30eb2bd3f15b9f0edcd04e7320e5fe56576359e536225aebba66e1"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-md-g4-three-forms-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above One Missing Bell, Three Literary Forms; Grade 4 • Maryland • Reading / drama / poetry; private draft cover.",
+    "summary": "Compare how prose, drama, and poetry use structural features to tell an event. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "One Missing Bell, Three Literary Forms gives Grade 4 learners a focused route from explicit modeling to supported practice and independent application. Prose commonly uses sentences and paragraphs; drama gives actors dialogue and stage directions; poetry uses purposeful lines and may group them in stanzas. Not all poems rhyme. Compare the effect of each form, not just its appearance. Read all three original versions below.",
+    "included": [
+      "1 print-ready 17-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "3 original text/reference section(s): A. Prose: The Bell; B. Drama: The Bell; C. Poem: The Bell",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://marylandpublicschools.org/programs/Documents/ELA/revised-standards/Grade-Levels/Grade-4-Reading-Literature-A.pdf",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 4",
+      "Maryland",
+      "Reading / drama / poetry",
+      "Small-group genre lab",
+      "RL.4.5",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-md-g4-three-forms.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-md-g4-three-forms-thumbnail.png",
+    "previewPages": [
+      7,
+      8
+    ]
+  },
+  {
+    "id": "daily-20260915-ct-g4-inference-notebook",
+    "title": "The Unsent Note: An Inference Notebook",
+    "state": "Connecticut",
+    "grade": "4",
+    "subject": "Reading",
+    "standard": "4.RL.1",
+    "objective": "Support explanations and inferences with details from an original story.",
+    "resourceType": "Independent reading practice",
+    "level": "Grade 4",
+    "grades": [
+      "Grade 4"
+    ],
+    "states": [
+      "Connecticut"
+    ],
+    "collections": [
+      "Independent reading practice"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 550,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-ct-g4-inference-notebook.pdf",
+        "pages": 15,
+        "sha256": "0e3946d87e1a9e3470254529af2435795ea048c99185d242777857640e926a1b"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-ct-g4-inference-notebook-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above The Unsent Note: An Inference Notebook; Grade 4 • Connecticut • Reading; private draft cover.",
+    "summary": "Support explanations and inferences with details from an original story. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "The Unsent Note: An Inference Notebook gives Grade 4 learners a focused route from explicit modeling to supported practice and independent application. An inference joins a text clue to reasonable thinking. It is not a guess with no evidence. Separate what the story states from what you infer. Use a short quote or accurate paraphrase and explain why it supports your idea.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): The Unsent Note",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://portal.ct.gov/-/media/sde/language-arts/ct-core-standards/ct-core-standards-for-ela-at-a-glance-grade-4.pdf?rev=98e99f6998a342c4a252c5f77fdafe94",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 4",
+      "Connecticut",
+      "Reading",
+      "Independent reading practice",
+      "4.RL.1",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-ct-g4-inference-notebook.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-ct-g4-inference-notebook-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-ct-g4-opinion-evidence",
+    "title": "Choose the Class Exhibit: Opinion with Evidence",
+    "state": "Connecticut",
+    "grade": "4",
+    "subject": "Writing",
+    "standard": "4.W.1",
+    "objective": "Organize an opinion and support reasons with provided facts and details.",
+    "resourceType": "Writing small-group workshop",
+    "level": "Grade 4",
+    "grades": [
+      "Grade 4"
+    ],
+    "states": [
+      "Connecticut"
+    ],
+    "collections": [
+      "Writing small-group workshop"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 550,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-ct-g4-opinion-evidence.pdf",
+        "pages": 15,
+        "sha256": "a69b2892d7061cd6f028473b8c17cd38f75acf88dc4840dab9e4e181143314c4"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-ct-g4-opinion-evidence-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Choose the Class Exhibit: Opinion with Evidence; Grade 4 • Connecticut • Writing; private draft cover.",
+    "summary": "Organize an opinion and support reasons with provided facts and details. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Choose the Class Exhibit: Opinion with Evidence gives Grade 4 learners a focused route from explicit modeling to supported practice and independent application. Use an opinion, organized reasons, supporting details, linking phrases, and a conclusion. A reason tells why; a fact or detail makes that reason concrete. Both choices below can produce a strong response. Evaluate the writing’s support, not whether you agree with the choice.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Fictional exhibit brief",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://portal.ct.gov/-/media/sde/language-arts/ct-core-standards/ct-core-standards-for-ela-at-a-glance-grade-4.pdf?rev=98e99f6998a342c4a252c5f77fdafe94",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 4",
+      "Connecticut",
+      "Writing",
+      "Writing small-group workshop",
+      "4.W.1",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-ct-g4-opinion-evidence.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-ct-g4-opinion-evidence-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-oh-g5-context-lab",
+    "title": "Context Lab: Meanings Beyond One Sentence",
+    "state": "Ohio",
+    "grade": "5",
+    "subject": "Vocabulary",
+    "standard": "L.5.4",
+    "objective": "Infer and verify a word meaning using surrounding context.",
+    "resourceType": "Vocabulary warm-ups",
+    "level": "Grade 5",
+    "grades": [
+      "Grade 5"
+    ],
+    "states": [
+      "Ohio"
+    ],
+    "collections": [
+      "Vocabulary warm-ups"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 500,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-oh-g5-context-lab.pdf",
+        "pages": 15,
+        "sha256": "3601e1dd742e4128d131a75785535ee07ac4a0f0f16dcc0cd46067db730348c7"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-oh-g5-context-lab-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Context Lab: Meanings Beyond One Sentence; Grade 5 • Ohio • Vocabulary; private draft cover.",
+    "summary": "Infer and verify a word meaning using surrounding context. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Context Lab: Meanings Beyond One Sentence gives Grade 5 learners a focused route from explicit modeling to supported practice and independent application. Read before and after the target word. Look for examples, contrasts, causes, and explanations. Substitute a possible meaning and reread. Context may narrow a meaning without proving it; use the supplied mini-glossary for final verification. Focus is the context strand of the revised 2026 standard, not every strategy in the full standard.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Verification glossary",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/English-Language-Art/English-Language-Arts-Standards/2026-Revised-ELA-Standards-K-12.pdf.aspx?lang=en-US",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test. Uses the current 2026 revised standard; no claim is made that existing released tests have been updated to this revision.",
+    "tags": [
+      "Grade 5",
+      "Ohio",
+      "Vocabulary",
+      "Vocabulary warm-ups",
+      "L.5.4",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-oh-g5-context-lab.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-oh-g5-context-lab-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-oh-g6-window-seat",
+    "title": "The Window Seat: Narrator Perspective Lab",
+    "state": "Ohio",
+    "grade": "6",
+    "subject": "Reading",
+    "standard": "RL.6.6",
+    "objective": "Explain how first-person narration develops a narrator’s perspective.",
+    "resourceType": "Reading homework / classwork",
+    "level": "Grade 6",
+    "grades": [
+      "Grade 6"
+    ],
+    "states": [
+      "Ohio"
+    ],
+    "collections": [
+      "Reading homework / classwork"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 600,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-oh-g6-window-seat.pdf",
+        "pages": 15,
+        "sha256": "acebc7851e8b99302cb2ecbadb1e64f93e66874e31099197141107d8dc63802a"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-oh-g6-window-seat-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above The Window Seat: Narrator Perspective Lab; Grade 6 • Ohio • Reading; private draft cover.",
+    "summary": "Explain how first-person narration develops a narrator’s perspective. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "The Window Seat: Narrator Perspective Lab gives Grade 6 learners a focused route from explicit modeling to supported practice and independent application. Point of view describes the narration; perspective describes the narrator’s outlook. A first-person narrator tells only what they observe, remember, or think, not everyone’s inner thoughts. Trace word choices and selected details. A narrator may revise an interpretation when new evidence appears.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): The Window Seat",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/English-Language-Art/English-Language-Arts-Standards/2026-Revised-ELA-Standards-K-12.pdf.aspx?lang=en-US",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test. Uses the current 2026 revised standard; no claim is made that existing released tests have been updated to this revision.",
+    "tags": [
+      "Grade 6",
+      "Ohio",
+      "Reading",
+      "Reading homework / classwork",
+      "RL.6.6",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-oh-g6-window-seat.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-oh-g6-window-seat-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-nj-g2-vowel-trails",
+    "title": "Vowel-Team Trails: AI, AY, EE, and EA",
+    "state": "New Jersey",
+    "grade": "2",
+    "subject": "Phonics / spelling",
+    "standard": "L.RF.2.3",
+    "objective": "Decode common long-vowel words with ai, ay, ee, and ea.",
+    "resourceType": "Phonics task practice",
+    "level": "Grade 2",
+    "grades": [
+      "Grade 2"
+    ],
+    "states": [
+      "New Jersey"
+    ],
+    "collections": [
+      "Phonics task practice"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 450,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-nj-g2-vowel-trails.pdf",
+        "pages": 15,
+        "sha256": "048cd84ea9da3dcd7ab5f3c908988bb36edd8d134f8b2e0d692b16cfecb612bb"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-nj-g2-vowel-trails-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Vowel-Team Trails: AI, AY, EE, and EA; Grade 2 • New Jersey • Phonics / spelling; private draft cover.",
+    "summary": "Decode common long-vowel words with ai, ay, ee, and ea. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Vowel-Team Trails: AI, AY, EE, and EA gives Grade 2 learners a focused route from explicit modeling to supported practice and independent application. In these examples, ai and ay spell long a; ee and ea spell long e. Underline the team, blend the word, and check its meaning. These patterns are common, not universal: ea in bread has a different sound. Teach the listed patterns explicitly; do not teach “two vowels always say the first vowel’s name.”",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Practice bank",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.nj.gov/education/standards/ela/2023/2.shtml",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 2",
+      "New Jersey",
+      "Phonics / spelling",
+      "Phonics task practice",
+      "L.RF.2.3",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-nj-g2-vowel-trails.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-nj-g2-vowel-trails-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-nj-g6-pronoun-repair",
+    "title": "Pronoun Repair Shop: Case and Clarity",
+    "state": "New Jersey",
+    "grade": "6",
+    "subject": "Grammar",
+    "standard": "L.SS.6.1",
+    "objective": "Use subject, object, and possessive pronouns and clarify their referents.",
+    "resourceType": "Grammar editing workshop",
+    "level": "Grade 6",
+    "grades": [
+      "Grade 6"
+    ],
+    "states": [
+      "New Jersey"
+    ],
+    "collections": [
+      "Grammar editing workshop"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 550,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-nj-g6-pronoun-repair.pdf",
+        "pages": 15,
+        "sha256": "dfa935743fa3d1753dc7d40b60f9df192111ae8c57d06088f14a34cca22b55ce"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-nj-g6-pronoun-repair-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Pronoun Repair Shop: Case and Clarity; Grade 6 • New Jersey • Grammar; private draft cover.",
+    "summary": "Use subject, object, and possessive pronouns and clarify their referents. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Pronoun Repair Shop: Case and Clarity gives Grade 6 learners a focused route from explicit modeling to supported practice and independent application. Use subject forms for the doer (I, she, he, we, they); object forms after a verb or preposition (me, her, him, us, them); possessive forms to show belonging (my/mine, her/hers, our/ours). For a compound, temporarily remove the other noun to hear the case. Name an unclear referent instead of guessing. This is focused practice within L.SS.6.1.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Case and clarity reference",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.nj.gov/education/standards/ela/2023/6.shtml",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 6",
+      "New Jersey",
+      "Grammar",
+      "Grammar editing workshop",
+      "L.SS.6.1",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-nj-g6-pronoun-repair.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-nj-g6-pronoun-repair-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-de-g5-time-editor",
+    "title": "The Time Editor: Keep Verb Tenses Consistent",
+    "state": "Delaware",
+    "grade": "5",
+    "subject": "Grammar / writing",
+    "standard": "CCSS.ELA-Literacy.L.5.1.d",
+    "objective": "Recognize and repair inappropriate tense shifts while preserving intended time.",
+    "resourceType": "Editing warm-ups",
+    "level": "Grade 5",
+    "grades": [
+      "Grade 5"
+    ],
+    "states": [
+      "Delaware"
+    ],
+    "collections": [
+      "Editing warm-ups"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 500,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-de-g5-time-editor.pdf",
+        "pages": 15,
+        "sha256": "9ce7544684180c57faace071a349375b761bd790649af643e8b5a2216ead5db9"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-de-g5-time-editor-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above The Time Editor: Keep Verb Tenses Consistent; Grade 5 • Delaware • Grammar / writing; private draft cover.",
+    "summary": "Recognize and repair inappropriate tense shifts while preserving intended time. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "The Time Editor: Keep Verb Tenses Consistent gives Grade 5 learners a focused route from explicit modeling to supported practice and independent application. Choose a time frame, then keep verbs consistent unless the meaning genuinely moves to another time. Words such as yesterday, now, and tomorrow can justify a shift. Do not change every verb blindly; explain when the event happens. This packet targets tense consistency, not a full verb-tense course.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Editing checklist",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://education.delaware.gov/educators/academic-support/standards-and-assessments/english-and-language-arts/standards/",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "State-linked standard text",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/L/5/",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "DDOE assessment overview",
+        "url": "https://education.delaware.gov/educators/academic-support/standards-and-assessments/english-and-language-arts/assessments/",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 5",
+      "Delaware",
+      "Grammar / writing",
+      "Editing warm-ups",
+      "CCSS.ELA-Literacy.L.5.1.d",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-de-g5-time-editor.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-de-g5-time-editor-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-de-g6-purpose-lens",
+    "title": "Purpose Lens: Two Notices, Different Aims",
+    "state": "Delaware",
+    "grade": "6",
+    "subject": "Reading informational text",
+    "standard": "CCSS.ELA-Literacy.RI.6.6",
+    "objective": "Explain an author’s purpose or viewpoint through wording and selected details.",
+    "resourceType": "Reading small-group analysis",
+    "level": "Grade 6",
+    "grades": [
+      "Grade 6"
+    ],
+    "states": [
+      "Delaware"
+    ],
+    "collections": [
+      "Reading small-group analysis"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 550,
+    "pages": 16,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-de-g6-purpose-lens.pdf",
+        "pages": 16,
+        "sha256": "2a15aea51f7c88a9eb75f502084deae07ff61aef5976e0b8cbda98035497cfe3"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-de-g6-purpose-lens-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Purpose Lens: Two Notices, Different Aims; Grade 6 • Delaware • Reading informational text; private draft cover.",
+    "summary": "Explain an author’s purpose or viewpoint through wording and selected details. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Purpose Lens: Two Notices, Different Aims gives Grade 6 learners a focused route from explicit modeling to supported practice and independent application. Purpose is what a writer seeks to do: explain, inform, persuade, or another goal. Viewpoint is the writer’s position or outlook. Identify audience, word choice, and selection of details. A text can inform while also trying to persuade. These notices describe an invented community event; they are not real announcements.",
+    "included": [
+      "1 print-ready 16-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "2 original text/reference section(s): A. Event notice (fictional); B. Organizer’s invitation (fictional)",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://education.delaware.gov/educators/academic-support/standards-and-assessments/english-and-language-arts/standards/",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "State-linked standard text",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RI/6/",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "DDOE assessment overview",
+        "url": "https://education.delaware.gov/educators/academic-support/standards-and-assessments/english-and-language-arts/assessments/",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test.",
+    "tags": [
+      "Grade 6",
+      "Delaware",
+      "Reading informational text",
+      "Reading small-group analysis",
+      "CCSS.ELA-Literacy.RI.6.6",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-de-g6-purpose-lens.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-de-g6-purpose-lens-thumbnail.png",
+    "previewPages": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "daily-20260915-nc-g7-word-choice",
+    "title": "When the Hallway Wakes: Poetry Word-Choice Lab",
+    "state": "North Carolina",
+    "grade": "7",
+    "subject": "Poetry / reading",
+    "standard": "RL.7.4",
+    "objective": "Interpret figurative language and analyze how specific words shape meaning and tone.",
+    "resourceType": "Poetry task practice",
+    "level": "Grade 7",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "collections": [
+      "Poetry task practice"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 600,
+    "pages": 16,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-nc-g7-word-choice.pdf",
+        "pages": 16,
+        "sha256": "6d5c1cffcde06d2f41f50ce0aedc8ecef8bb9c1fca83cefbb23df4ee85d26f7e"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-nc-g7-word-choice-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above When the Hallway Wakes: Poetry Word-Choice Lab; Grade 7 • North Carolina • Poetry / reading; private draft cover.",
+    "summary": "Interpret figurative language and analyze how specific words shape meaning and tone. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "When the Hallway Wakes: Poetry Word-Choice Lab gives Grade 7 learners a focused route from explicit modeling to supported practice and independent application. Name a device only after interpreting its meaning. Explain what a word adds that a neutral substitute would lose. Tone is the speaker’s attitude, not merely the reader’s feeling. These original short poems are focused teaching texts, not full-length EOG simulations. The released EOG form informed text-dependent question design; no released content is reproduced.",
+    "included": [
+      "1 print-ready 16-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "2 original text/reference section(s): A. Before the Bell; B. After the Fair",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.dpi.nc.gov/documents/publications/catalog/cm205-gr7-understandingelascos/open",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "NCDPI EOG released reading form (structure review only)",
+        "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-reading-grade-7-released-form/open",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "NCDPI ELA implementation schedule",
+        "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-teaching-and-learning/standard-course-study/english-language-arts/standard-course-study-supporting-resources",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test. NCDPI states the 2017 ELA standards apply in 2026–27; the 2026 revision begins in 2027–28. Released-form review informed text-dependent item design only.",
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "Poetry / reading",
+      "Poetry task practice",
+      "RL.7.4",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-nc-g7-word-choice.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-nc-g7-word-choice-thumbnail.png",
+    "previewPages": [
+      6,
+      7
+    ]
+  },
+  {
+    "id": "daily-20260915-nc-g8-claim-check",
+    "title": "The Quiet Room Proposal: Claims and Evidence Lab",
+    "state": "North Carolina",
+    "grade": "8",
+    "subject": "Reading / argument analysis",
+    "standard": "RI.8.8",
+    "objective": "Evaluate claims, reasoning, and the relevance and sufficiency of evidence.",
+    "resourceType": "Small-group argument lab",
+    "level": "Grade 8",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "collections": [
+      "Small-group argument lab"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 600,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-nc-g8-claim-check.pdf",
+        "pages": 15,
+        "sha256": "29f5aa66b53767351a321a85529032524b732859f7c0b2e7658fcedff39aee4e"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-nc-g8-claim-check-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above The Quiet Room Proposal: Claims and Evidence Lab; Grade 8 • North Carolina • Reading / argument analysis; private draft cover.",
+    "summary": "Evaluate claims, reasoning, and the relevance and sufficiency of evidence. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "The Quiet Room Proposal: Claims and Evidence Lab gives Grade 8 learners a focused route from explicit modeling to supported practice and independent application. Trace claim → reason → evidence → warrant (why evidence supports claim). Relevant evidence concerns the claim; sufficient evidence is enough in quality and scope to justify it. An anecdote may illustrate a point without proving a broad conclusion. All names, counts, and surveys below are invented classroom data; no real school research is claimed.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Proposal (fictional)",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "Official state standard",
+        "url": "https://www.dpi.nc.gov/documents/publications/catalog/cm206-gr8-understandingelascos/open",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "NCDPI EOG released reading form (structure review only)",
+        "url": "https://www.dpi.nc.gov/documents/accountability/testing/eog/eog-reading-grade-8-released-form/open",
+        "accessed": "2026-09-15"
+      },
+      {
+        "title": "NCDPI ELA implementation schedule",
+        "url": "https://www.dpi.nc.gov/districts-schools/classroom-resources/office-teaching-and-learning/standard-course-study/english-language-arts/standard-course-study-supporting-resources",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "The objective is original wording describing a focused part of the cited standard; this is not a full curriculum or official practice test. NCDPI states the 2017 ELA standards apply in 2026–27; the 2026 revision begins in 2027–28. Released-form review informed text-dependent item design only.",
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "Reading / argument analysis",
+      "Small-group argument lab",
+      "RI.8.8",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-nc-g8-claim-check.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-nc-g8-claim-check-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-college-french-negation",
+    "title": "French 101: Say What Is Not Happening",
+    "state": "",
+    "grade": "College",
+    "subject": "French",
+    "standard": "Course objective",
+    "objective": "Form and interpret present-tense negation with ne/n’ … pas.",
+    "resourceType": "Language practice packet",
+    "level": "College",
+    "grades": [
+      "College"
+    ],
+    "states": [],
+    "collections": [
+      "Language practice packet"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 600,
+    "pages": 15,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-college-french-negation.pdf",
+        "pages": 15,
+        "sha256": "6293d683efd6cf7072b4514b6800a00e788caca0023f42c5d3b0f354288959ff"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-college-french-negation-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above French 101: Say What Is Not Happening; College • French; private draft cover.",
+    "summary": "Form and interpret present-tense negation with ne/n’ … pas. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "French 101: Say What Is Not Happening gives College learners a focused route from explicit modeling to supported practice and independent application. In the written forms practiced here, place ne before the conjugated verb and pas after it. Before a vowel or mute h, ne becomes n’. Keep the verb conjugation. Ordinary spoken French sometimes drops ne; this packet practices the full written form. The supplied sentences avoid indefinite/partitive-object changes so the focus stays on placement. This independent French 101 resource claims no accreditation, transfer, or equivalency.",
+    "included": [
+      "1 print-ready 15-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "1 original text/reference section(s): Support bank",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "University teaching reference",
+        "url": "https://laits.utexas.edu/tex/gr/neg2.html",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "Introductory college course-level skill practice; no accreditation, guaranteed transfer, credential, or universal course equivalency is claimed.",
+    "tags": [
+      "College",
+      "college",
+      "French",
+      "Language practice packet",
+      "Course objective",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-college-french-negation.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-college-french-negation-thumbnail.png",
+    "previewPages": [
+      5,
+      6
+    ]
+  },
+  {
+    "id": "daily-20260915-college-speech-openings",
+    "title": "Public Speaking 101: Openings That Orient",
+    "state": "",
+    "grade": "College",
+    "subject": "Communications / public speaking",
+    "standard": "Course objective",
+    "objective": "Design an accurate informative-speech opening for a defined audience.",
+    "resourceType": "Speech planning workshop",
+    "level": "College",
+    "grades": [
+      "College"
+    ],
+    "states": [],
+    "collections": [
+      "Speech planning workshop"
+    ],
+    "approved": false,
+    "ready": false,
+    "status": "private_draft",
+    "publicationStatus": "Private draft — awaiting Katia’s publication approval; not for sale.",
+    "priceCents": 650,
+    "pages": 16,
+    "slides": 0,
+    "formats": [
+      "PDF"
+    ],
+    "files": [
+      {
+        "format": "PDF",
+        "name": "daily-20260915-college-speech-openings.pdf",
+        "pages": 16,
+        "sha256": "3a6792699fce64887ca437cb8e76af386d29dc85368576e732fbb78bbb91abe8"
+      }
+    ],
+    "thumbnailFile": "daily-20260915-college-speech-openings-thumbnail.png",
+    "thumbnailAlt": "Official KSP Haitian-flag book logo above Public Speaking 101: Openings That Orient; College • Communications / public speaking; private draft cover.",
+    "summary": "Design an accurate informative-speech opening for a defined audience. Includes models, practice, exit check, and answer guidance.",
+    "detailedDescription": "Public Speaking 101: Openings That Orient gives College learners a focused route from explicit modeling to supported practice and independent application. An informative opening draws attention, names the topic, shows audience relevance, establishes an honest basis for speaking, and previews the route. Do not invent personal experience, statistics, credentials, or sources. A hypothetical situation must be labeled hypothetical. This introductory college practice has no accreditation or universal course-equivalency claim.",
+    "included": [
+      "1 print-ready 16-page PDF",
+      "1 professional branded cover",
+      "1 teacher-use guide",
+      "1 mini-lesson with 2 explained models",
+      "2 original text/reference section(s): Fictional speaking brief; Sample opening for analysis",
+      "16 original practice tasks across 4 pages",
+      "1 four-task exit check",
+      "4 teacher answer-key pages covering all 20 tasks",
+      "1 differentiation and local scoring page",
+      "1 sources, printing, and license page",
+      "1 storefront thumbnail (PNG)"
+    ],
+    "minutes": "Two 30–40-minute sessions plus a 10–15-minute exit check; extended writing or speech rehearsal may take longer.",
+    "studentDirections": "Read the lesson and supplied text or reference. Attempt each task before viewing the key. Explain when asked. Use separate paper for full drafts or longer answers; the PDF is not a fillable form.",
+    "teacherUse": "Model the two examples; use tasks 1–4 as a readiness check. Assign four tasks per practice block, then use the independent exit responses to select a specific reteaching move. For extended writing, supply separate paper. Keep answer pages separate.",
+    "answerKey": "Answers or explicit acceptable-response criteria for all 20 tasks; two explained models; local 0–2-per-task exit rubric. Open-ended answers allow justified alternatives.",
+    "differentiation": {
+      "AIG": "Ask for a counterexample, an alternative supported interpretation, or a newly written item with an explanation. Add depth rather than speed.",
+      "504": "Follow the individual plan: breaks, enlarged print, extra time, reduced copying, or an alternative response method as documented. These are classroom options, not a statement of permitted test accommodations.",
+      "EC": "Follow the IEP; show one task at a time, model the first decision, and permit dictated reasoning when appropriate. For decoding practice, distinguish an adult-read direction from an adult-read target word.",
+      "ESL": "Preview task verbs and key vocabulary, allow home-language planning, and offer “My answer is ___ because ___.” Evaluate the targeted skill separately from unrelated language errors. For French, retain the target French sentence while explaining directions in a familiar language."
+    },
+    "preparation": "Print the selected pages; provide pencil and extra paper. Read the teacher guide and prerequisite vocabulary. Adult facilitation is required for Pre-K/Kindergarten. No outside novel, paid app, or external passage required.",
+    "printing": "US Letter, actual size; print student pages separately from keys. Color branding remains legible in grayscale.",
+    "digitalUse": "Selectable-text PDF for viewing or optional annotation; not a fillable form or certified tagged PDF. Use only a restricted classroom LMS.",
+    "license": "Single teacher and their own students; private classroom/LMS use. No resale, public redistribution, or sharing of complete files.",
+    "originalContent": "All student passages, practice tasks, model explanations, and answer guidance are original. No released questions or branded curriculum copied. Official logo reused unchanged.",
+    "sources": [
+      {
+        "title": "University teaching reference",
+        "url": "https://www.unr.edu/writing-speaking-center/writing-speaking-resources/speech-introductions",
+        "accessed": "2026-09-15"
+      }
+    ],
+    "researchNotes": "Introductory college course-level skill practice; no accreditation, guaranteed transfer, credential, or universal course equivalency is claimed.",
+    "tags": [
+      "College",
+      "college",
+      "Communications / public speaking",
+      "Speech planning workshop",
+      "Course objective",
+      "answer key",
+      "printable"
+    ],
+    "pdf": "resources/private-drafts/2026-09-15/daily-20260915-college-speech-openings.pdf",
+    "thumbnail": "resources/private-drafts/2026-09-15/daily-20260915-college-speech-openings-thumbnail.png",
+    "previewPages": [
+      6,
+      7
+    ]
+  }
+]

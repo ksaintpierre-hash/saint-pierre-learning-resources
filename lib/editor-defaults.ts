@@ -1,0 +1,10 @@
+export const defaultSite = {
+ heroTitle: 'A clear plan.', heroAccent: 'A purposeful lesson.',
+ heroText: 'Explore student practice for grades 3–12 and introductory college courses, plus clearly labeled educator and family tools for Pre-K–12. Explore real sample pages, a clear learning objective, and the teacher guidance inside each resource.',
+ buttonLabel: 'Browse resources', buttonUrl: '/#shop',
+ seoTitle: 'Saint Pierre Learning Resources | Printable Teaching Resources',
+ seoDescription: 'Explore printable education resources and sample pages from Saint Pierre Learning Resources. Find focused school and introductory college practice with clear objectives, teacher guidance, and answer keys.',
+ navigation: [{label:'Shop',url:'/#shop'},{label:'Collections',url:'/#collections'},{label:'All 50 States',url:'/#states'},{label:'Daily Hub',url:'/#daily'},{label:'Cart',url:'/cart'},{label:'Log in',url:'/account'}],
+ collections: [] as {title:string;description:string}[],
+ supportText: '', licenseText: '', samplerTitle: '', samplerFile: '',
+};

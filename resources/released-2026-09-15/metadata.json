@@ -1,0 +1,792 @@
+[
+  {
+    "slug": "nc-g3-two-step-task-cards",
+    "title": "Two-Step Story Problem Task Cards",
+    "level": "Grade 3",
+    "state": "North Carolina",
+    "subject": "Mathematics",
+    "rtype": "Task Cards",
+    "standard": "NC.3.OA.8 - Solve two-step word problems using addition, subtraction, and multiplication, representing problems with equations containing a symbol for the unknown.",
+    "source": "North Carolina Department of Public Instruction, Mathematics Standards Vertical Progression: https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open; NC Check-Ins 2.0 Mathematics Specifications: https://www.dpi.nc.gov/documents/accountability/testing/nc-checkin/nc-check-ins-20-mathematics-grades-3-8-specifications (accessed September 14, 2026).",
+    "price": "$5.00",
+    "time": "35-45 minutes",
+    "focus": "Solve and represent two-step problems, then check whether answers are reasonable.",
+    "qs": [
+      [
+        "A class packs 6 boxes with 8 markers each, then gives away 15 markers. How many remain?",
+        "33"
+      ],
+      [
+        "Mia reads 24 pages Monday and 18 Tuesday. Her book has 70 pages. How many remain?",
+        "28"
+      ],
+      [
+        "Four teams collect 9 cans each and then collect 17 more. Total?",
+        "53"
+      ],
+      [
+        "A garden has 7 rows with 9 plants each. Three plants in each row do not bloom. How many plants bloom?",
+        "7 × (9 − 3) = 42 blooming plants."
+      ],
+      [
+        "A store had 85 notebooks, sold 29, then received 40. How many now?",
+        "96"
+      ],
+      [
+        "Five buses carry 7 students each. Twelve more arrive by car. Total?",
+        "47"
+      ],
+      [
+        "Write an equation for 9 bags of 4 apples with 11 apples eaten.",
+        "9 x 4 - 11 = 25"
+      ],
+      [
+        "A player earns 8 points in each of 3 rounds and loses 5 penalty points. Score?",
+        "19"
+      ],
+      [
+        "Lena has $50, buys two games at $14 each. Money left?",
+        "$22"
+      ],
+      [
+        "A baker makes 72 rolls and sells 4 trays with 8 rolls each. How many rolls remain?",
+        "72 − 4 × 8 = 40 rolls remain."
+      ],
+      [
+        "Choose the first operation: 6 shelves hold 5 books each; 9 are borrowed.",
+        "Multiply 6 x 5"
+      ],
+      [
+        "Explain how to check 7 x 6 + 18 = 60.",
+        "42 + 18 = 60; reverse with 60 - 18 = 42"
+      ],
+      [
+        "Create a two-step problem with answer 26.",
+        "Answers vary; both operations and equation required."
+      ],
+      [
+        "A student says 4 x 9 - 7 = 29. Is the student correct?",
+        "Yes; 36 - 7 = 29"
+      ],
+      [
+        "Estimate whether 8 x 6 + 13 could equal 90.",
+        "No; 48 + 13 = 61"
+      ],
+      [
+        "Represent: 45 stickers shared among 5 students, then each gets 2 more.",
+        "45 / 5 + 2 = 11"
+      ]
+    ]
+  },
+  {
+    "slug": "nc-g5-multiplication-warmups",
+    "title": "Multi-Digit Multiplication Warm-Up Week",
+    "level": "Grade 5",
+    "state": "North Carolina",
+    "subject": "Mathematics",
+    "rtype": "Warm-Ups",
+    "standard": "NC.5.NBT.5 - Demonstrate fluency with multiplication of whole numbers up to three digits by two digits using the standard algorithm.",
+    "source": "North Carolina Department of Public Instruction, Mathematics Standards Vertical Progression: https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open; NC Check-Ins 2.0 Mathematics Specifications: https://www.dpi.nc.gov/documents/accountability/testing/nc-checkin/nc-check-ins-20-mathematics-grades-3-8-specifications (accessed September 14, 2026).",
+    "price": "$5.00",
+    "time": "Five 10-minute warm-ups",
+    "focus": "Build accurate, fluent standard-algorithm multiplication with estimation and error analysis.",
+    "qs": [
+      [
+        "34 x 26",
+        "884"
+      ],
+      [
+        "128 x 14",
+        "1,792"
+      ],
+      [
+        "305 x 22",
+        "6,710"
+      ],
+      [
+        "Estimate 247 x 31 using compatible numbers.",
+        "About 7,500"
+      ],
+      [
+        "46 x 19",
+        "874"
+      ],
+      [
+        "215 x 43",
+        "9,245"
+      ],
+      [
+        "A printer makes 125 pages per minute for 24 minutes.",
+        "3,000 pages"
+      ],
+      [
+        "Check this answer: 63 × 27 = 1,071. Show correct partial products.",
+        "63 × 20 = 1,260; 63 × 7 = 441; total 1,701. The final answer alone does not show which step was mistaken."
+      ],
+      [
+        "408 x 16",
+        "6,528"
+      ],
+      [
+        "72 x 35",
+        "2,520"
+      ],
+      [
+        "Which is reasonable for 296 x 18: 532, 5,328, or 53,280?",
+        "5,328"
+      ],
+      [
+        "A theater has 36 rows of 128 seats.",
+        "4,608 seats"
+      ],
+      [
+        "504 x 29",
+        "14,616"
+      ],
+      [
+        "99 x 47",
+        "4,653"
+      ],
+      [
+        "Use a second method to check 214 x 32.",
+        "6,848; e.g., 214 x 30 + 214 x 2"
+      ],
+      [
+        "Explain why the second partial product shifts one place.",
+        "It represents multiplication by tens, not ones."
+      ]
+    ]
+  },
+  {
+    "slug": "nc-g6-rates-small-group",
+    "title": "Rates and Percent Small-Group Lab",
+    "level": "Grade 6",
+    "state": "North Carolina",
+    "subject": "Mathematics",
+    "rtype": "Small-Group Work",
+    "standard": "NC.6.RP.3 - Use ratio and rate reasoning to solve real-world and mathematical problems, including unit rates and percentages.",
+    "source": "North Carolina Department of Public Instruction, Mathematics Standards Vertical Progression: https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open; NC Check-Ins 2.0 Mathematics Specifications: https://www.dpi.nc.gov/documents/accountability/testing/nc-checkin/nc-check-ins-20-mathematics-grades-3-8-specifications (accessed September 14, 2026).",
+    "price": "$6.00",
+    "time": "45-55 minutes",
+    "focus": "Use tables, unit rates, and percentages to compare situations and justify decisions.",
+    "qs": [
+      [
+        "3 notebooks cost $7.50. Unit price?",
+        "$2.50"
+      ],
+      [
+        "A car travels 180 miles in 3 hours. Unit rate?",
+        "60 mph"
+      ],
+      [
+        "Complete equivalent ratio 4:7 = 12:__.",
+        "21"
+      ],
+      [
+        "25% of 80",
+        "20"
+      ],
+      [
+        "A $40 item is discounted 15%. Discount amount?",
+        "$6"
+      ],
+      [
+        "A recipe uses 2 cups for 5 servings. Cups per serving?",
+        "0.4 cup"
+      ],
+      [
+        "Which is cheaper: 6 pens for $9 or 10 for $16?",
+        "6 for $9; $1.50 each vs. $1.60"
+      ],
+      [
+        "18 is what percent of 60?",
+        "30%"
+      ],
+      [
+        "Increase 50 by 12%.",
+        "56"
+      ],
+      [
+        "A map scale is 1 inch:8 miles. 3.5 inches represents?",
+        "28 miles"
+      ],
+      [
+        "A runner completes 5 km in 25 min. Minutes per km?",
+        "5"
+      ],
+      [
+        "Explain why 0.35 and 35% are equivalent.",
+        "Percent means per hundred; 35/100 = 0.35"
+      ],
+      [
+        "Create a ratio table for 4 tickets costing $30.",
+        "1:$7.50, 2:$15, 4:$30"
+      ],
+      [
+        "A class of 24 has 18 present. Percent present?",
+        "75%"
+      ],
+      [
+        "Tax is 7% on $60. Total?",
+        "$64.20"
+      ],
+      [
+        "Compare 7/10, 68%, and 0.72.",
+        "68% < 7/10 < 0.72"
+      ]
+    ]
+  },
+  {
+    "slug": "nc-g8-linear-models-homework",
+    "title": "Linear Models Homework and Exit Ticket",
+    "level": "Grade 8",
+    "state": "North Carolina",
+    "subject": "Mathematics",
+    "rtype": "Homework",
+    "standard": "NC.8.F.4 - Analyze functions that model linear relationships; determine and interpret rate of change and initial value from two values or from a graph, table, or description.",
+    "source": "North Carolina Department of Public Instruction, Mathematics Standards Vertical Progression: https://www.dpi.nc.gov/documents/publications/catalog/ma196-vertical-progression-math/open; NC Check-Ins 2.0 Mathematics Specifications: https://www.dpi.nc.gov/documents/accountability/testing/nc-checkin/nc-check-ins-20-mathematics-grades-3-8-specifications (accessed September 14, 2026).",
+    "price": "$6.00",
+    "time": "40-50 minutes",
+    "focus": "Build linear models from tables and contexts and interpret slope and initial value with units.",
+    "qs": [
+      [
+        "Find slope through (2,7) and (6,19).",
+        "3"
+      ],
+      [
+        "Write y=mx+b when m=4 and b=-2.",
+        "y=4x-2"
+      ],
+      [
+        "Table: x 0,2,4; y 5,11,17. Find m and b.",
+        "m=3, b=5"
+      ],
+      [
+        "A taxi charges $4 plus $2.50 per mile. Model.",
+        "C=2.5m+4"
+      ],
+      [
+        "Interpret 4 in the taxi model.",
+        "$4 initial fee"
+      ],
+      [
+        "Find taxi cost for 8 miles.",
+        "$24"
+      ],
+      [
+        "Line through (3,10) with slope 2. Find b.",
+        "4"
+      ],
+      [
+        "Compare y=3x+1 and y=3x-5.",
+        "Same rate; first starts 6 units higher"
+      ],
+      [
+        "A tank has 90 L and drains 6 L/min. Model.",
+        "V=90-6t"
+      ],
+      [
+        "When is tank at 42 L?",
+        "8 minutes"
+      ],
+      [
+        "Does (5,16) lie on y=3x+1?",
+        "Yes"
+      ],
+      [
+        "From y values 8,13,18 as x rises by 1, find rate.",
+        "5"
+      ],
+      [
+        "Write context for y=12x+30.",
+        "Answers vary; $30 start plus $12 per unit"
+      ],
+      [
+        "Explain negative slope in context.",
+        "Output decreases as input increases"
+      ],
+      [
+        "Find equation through (0,-3),(4,5).",
+        "y=2x-3"
+      ],
+      [
+        "State one limitation of a linear model.",
+        "Constant rate may not continue outside observed range."
+      ]
+    ]
+  },
+  {
+    "slug": "college-french101-cafe",
+    "title": "French 101 Café Conversations",
+    "level": "College - French 101",
+    "state": "Not applicable",
+    "subject": "French",
+    "rtype": "Independent Work",
+    "standard": "Course objective - Exchange basic greetings and cafe requests using polite expressions, articles, and present-tense forms of être and avoir.",
+    "source": "Course objective; grammar reference: https://www.laits.utexas.edu/tex/index.html. Original practice; no affiliation.",
+    "price": "$6.00",
+    "time": "35-45 minutes",
+    "focus": "Use beginner French for greetings, identity, and simple cafe interactions.",
+    "qs": [
+      [
+        "Translate: Good morning.",
+        "Bonjour."
+      ],
+      [
+        "Complete: Je ___ étudiante.",
+        "suis"
+      ],
+      [
+        "Complete with avoir: Nous ___ deux cafés.",
+        "avons"
+      ],
+      [
+        "Say: I would like a tea, please.",
+        "Je voudrais un thé, s’il vous plaît."
+      ],
+      [
+        "Choose article for croissant: un or une?",
+        "un"
+      ],
+      [
+        "Ask: How are you?",
+        "Comment allez-vous ?"
+      ],
+      [
+        "Reply: I am well, thank you.",
+        "Je vais bien, merci."
+      ],
+      [
+        "Translate: The bill, please.",
+        "L’addition, s’il vous plaît."
+      ],
+      [
+        "Complete: Tu ___ faim.",
+        "as"
+      ],
+      [
+        "Write an indefinite plural: un café.",
+        "des cafés"
+      ],
+      [
+        "Put in order: voudrais / je / de l’eau.",
+        "Je voudrais de l’eau."
+      ],
+      [
+        "Give a polite closing.",
+        "Merci. Au revoir."
+      ],
+      [
+        "Write a two-line greeting exchange.",
+        "Answers vary; accurate greeting and response."
+      ],
+      [
+        "Correct: Je es professeur.",
+        "Je suis professeur."
+      ],
+      [
+        "Translate: We have a reservation.",
+        "Nous avons une réservation."
+      ],
+      [
+        "Write a four-line cafe dialogue.",
+        "Must include greeting, request, response, and thanks."
+      ]
+    ]
+  },
+  {
+    "slug": "college-german101-introductions",
+    "title": "German 101 Introductions Practice",
+    "level": "College - German 101",
+    "state": "Not applicable",
+    "subject": "German",
+    "rtype": "Classwork",
+    "standard": "Course objective - Introduce oneself and exchange basic personal information using greetings, pronouns, sein, heißen, and regular present-tense verbs.",
+    "source": "Course-level learning objective; no accreditation, transfer, or universal equivalency claimed.",
+    "price": "$6.00",
+    "time": "35-45 minutes",
+    "focus": "Build accurate beginner introductions and short exchanges in German.",
+    "qs": [
+      [
+        "Translate: Good morning.",
+        "Guten Morgen."
+      ],
+      [
+        "Complete with heißen: Ich ___ Katia.",
+        "heiße (heisse is the Swiss spelling)."
+      ],
+      [
+        "Complete: Wir ___ Studierende.",
+        "sind"
+      ],
+      [
+        "Ask informally: What is your name?",
+        "Wie heißt du?"
+      ],
+      [
+        "Ask formally: Where are you from?",
+        "Woher kommen Sie?"
+      ],
+      [
+        "Reply: I come from Haiti.",
+        "Ich komme aus Haiti."
+      ],
+      [
+        "Conjugate lernen for er.",
+        "lernt"
+      ],
+      [
+        "Translate: She speaks German.",
+        "Sie spricht Deutsch."
+      ],
+      [
+        "Correct: Du ist nett.",
+        "Du bist nett."
+      ],
+      [
+        "Plural pronoun for they",
+        "sie"
+      ],
+      [
+        "Complete: Ihr ___ hier.",
+        "seid"
+      ],
+      [
+        "Give a polite goodbye.",
+        "Auf Wiedersehen."
+      ],
+      [
+        "Write a two-line introduction.",
+        "Answers vary; greeting and name required."
+      ],
+      [
+        "Say you are learning English.",
+        "Ich lerne Englisch."
+      ],
+      [
+        "Question for place of residence.",
+        "Wo wohnst du?"
+      ],
+      [
+        "Write a four-line partner dialogue.",
+        "Must include greeting, two information exchanges, and closing."
+      ]
+    ]
+  },
+  {
+    "slug": "college-mandarin101-campus",
+    "title": "Mandarin 101 Campus Basics",
+    "level": "College - Mandarin 101",
+    "state": "Not applicable",
+    "subject": "Mandarin Chinese",
+    "rtype": "Language practice cards",
+    "standard": "Course objective - Interpret basic greetings, name questions, identity sentences, and selected numbers using characters and tone-marked pinyin.",
+    "source": "Course-level learning objective; no accreditation, transfer, or universal equivalency claimed.",
+    "price": "$6.00",
+    "time": "35-45 minutes",
+    "focus": "Practice respectful beginner exchanges with characters, pinyin, and English meaning.",
+    "qs": [
+      [
+        "你好 (nǐ hǎo) means?",
+        "Hello. In speech, the first third tone changes before another third tone."
+      ],
+      [
+        "谢谢 (xièxie) means?",
+        "Thank you; the second syllable is neutral tone."
+      ],
+      [
+        "你叫什么名字？(Nǐ jiào shénme míngzi?) asks what?",
+        "What is your name?"
+      ],
+      [
+        "Translate: 我叫 Katia。(Wǒ jiào Katia.)",
+        "My name is Katia."
+      ],
+      [
+        "Write tone-marked pinyin for 再见.",
+        "zàijiàn"
+      ],
+      [
+        "Number 五",
+        "5"
+      ],
+      [
+        "Number 八",
+        "8"
+      ],
+      [
+        "Translate: 我是学生。(Wǒ shì xuésheng.)",
+        "I am a student."
+      ],
+      [
+        "Which pronoun means I/me: 我 (wǒ) or 你 (nǐ)?",
+        "我 (wǒ)"
+      ],
+      [
+        "Which pronoun means you?",
+        "你 (nǐ)"
+      ],
+      [
+        "Put in order: 叫 / 我 / Leonidas",
+        "我叫 Leonidas."
+      ],
+      [
+        "Write: Nice to meet you. Include tone-marked pinyin.",
+        "很高兴认识你。Hěn gāoxìng rènshi nǐ."
+      ],
+      [
+        "Count 1–5 in tone-marked pinyin.",
+        "yī, èr, sān, sì, wǔ"
+      ],
+      [
+        "What does 是 (shì) do in the model 我是学生?",
+        "Links the subject to a noun identifying them. Do not insert 是 before every adjective."
+      ],
+      [
+        "Write a two-line greeting.",
+        "Answers vary; accurate greeting and reply."
+      ],
+      [
+        "Write a four-line introduction with pinyin support.",
+        "Must include greeting, name question/answer, and closing."
+      ]
+    ]
+  },
+  {
+    "slug": "college-asl101-classroom",
+    "title": "ASL 101 Classroom Communication Reflection Guide",
+    "level": "College - ASL 101",
+    "state": "Not applicable",
+    "subject": "American Sign Language",
+    "rtype": "Reflection and discussion guide",
+    "standard": "Course objective - Explain visual-attention norms and reflect on fingerspelling and classroom exchanges after qualified live or video instruction.",
+    "source": "Instructor-led prerequisite. ASL University reference: https://www.lifeprint.com/asl101/topics/parameters-asl.htm. No affiliation or endorsement.",
+    "price": "$6.00",
+    "time": "35-45 minutes",
+    "focus": "Reflect on visual communication, fingerspelling habits, and classroom interaction after an ASL lesson. This is a text-based companion, not an illustrated sign dictionary or standalone signing course.",
+    "qs": [
+      [
+        "What should you establish before signing?",
+        "Visual attention/eye contact."
+      ],
+      [
+        "Name one respectful way to gain attention.",
+        "Wave within sight, tap shoulder lightly, or use room light with permission."
+      ],
+      [
+        "Why is mouthing every English word not ASL grammar?",
+        "ASL has its own grammar and nonmanual markers."
+      ],
+      [
+        "What is fingerspelling mainly used for?",
+        "Names, places, and terms without a known sign."
+      ],
+      [
+        "How should beginners fingerspell a name?",
+        "Smoothly at readable pace, not letter-by-letter punching."
+      ],
+      [
+        "What nonmanual signal commonly marks yes/no questions?",
+        "Raised eyebrows with appropriate body posture."
+      ],
+      [
+        "What marks many WH-questions?",
+        "Furrowed/lowered eyebrows near the question."
+      ],
+      [
+        "Where should hands stay for clear signing?",
+        "Comfortable signing space visible to partner."
+      ],
+      [
+        "Why avoid grabbing a Deaf signer for attention?",
+        "It is intrusive; use respectful visual/tactile norms."
+      ],
+      [
+        "What is gloss?",
+        "A limited written notation for discussing signs, not ASL itself."
+      ],
+      [
+        "Plan a greeting sequence.",
+        "Attention, greeting, name exchange, closing."
+      ],
+      [
+        "How can a partner request repetition?",
+        "Use an appropriate repeat/again request and puzzled facial expression."
+      ],
+      [
+        "Why does eye gaze matter?",
+        "It maintains attention and carries grammatical/social information."
+      ],
+      [
+        "Describe an accessible seating arrangement.",
+        "Clear sightlines, adequate light, minimal visual obstruction."
+      ],
+      [
+        "Self-assess fingerspelling.",
+        "Check hand position, rhythm, clarity, and eye gaze."
+      ],
+      [
+        "Write a practice plan.",
+        "Short repeated practice with feedback from qualified sources."
+      ]
+    ]
+  },
+  {
+    "slug": "college-art-composition",
+    "title": "Art Appreciation Composition Detective",
+    "level": "College - Art Appreciation",
+    "state": "Not applicable",
+    "subject": "Fine Arts",
+    "rtype": "Analysis Packet",
+    "standard": "Course objective - Analyze how line, shape, color, value, texture, space, emphasis, balance, rhythm, and unity affect meaning in original compositions.",
+    "source": "Original discussion and drawing prompts. Learners create two abstract sketches on separate paper; no artwork reproductions or ready-made composition studies are included.",
+    "price": "$7.00",
+    "time": "45-60 minutes",
+    "focus": "Use art vocabulary to compare and revise two abstract sketches you create: one calm composition and one crowded or tense composition.",
+    "qs": [
+      [
+        "Define emphasis.",
+        "A focal area given greater visual attention."
+      ],
+      [
+        "Define balance.",
+        "Distribution of visual weight."
+      ],
+      [
+        "How can contrast create emphasis?",
+        "A strong difference isolates or highlights an element."
+      ],
+      [
+        "Difference between shape and form?",
+        "Shape is two-dimensional; form appears or is three-dimensional."
+      ],
+      [
+        "What can repeated lines create?",
+        "Rhythm or movement."
+      ],
+      [
+        "How does value affect depth?",
+        "Light-dark shifts can suggest volume and distance."
+      ],
+      [
+        "Describe symmetrical balance.",
+        "Visual weight mirrors across an axis."
+      ],
+      [
+        "Describe asymmetrical balance.",
+        "Unequal elements achieve visual equilibrium."
+      ],
+      [
+        "What is negative space?",
+        "Area around and between subjects."
+      ],
+      [
+        "How can warm colors affect focus?",
+        "They may appear to advance and attract attention."
+      ],
+      [
+        "Choose two elements to show calm.",
+        "Answers vary; e.g., horizontal lines and low contrast."
+      ],
+      [
+        "Choose two elements to show tension.",
+        "Answers vary; e.g., diagonals and sharp contrast."
+      ],
+      [
+        "Explain unity.",
+        "Parts feel intentionally related as a whole."
+      ],
+      [
+        "Revise a crowded composition.",
+        "Increase negative space and strengthen hierarchy."
+      ],
+      [
+        "Write a three-sentence formal analysis.",
+        "Must name evidence and explain effect."
+      ],
+      [
+        "Distinguish observation from interpretation.",
+        "Observation states visible facts; interpretation explains possible meaning."
+      ]
+    ]
+  },
+  {
+    "slug": "college-engineering-design",
+    "title": "Introduction to Engineering Design Challenge",
+    "level": "College - Introductory Engineering",
+    "state": "Not applicable",
+    "subject": "Engineering / CTE",
+    "rtype": "Project Packet",
+    "standard": "Course objective - Define a design problem, distinguish criteria from constraints, generate and compare concepts, plan a fair test, and justify an evidence-based iteration.",
+    "source": "Course-level learning objective; no accreditation, transfer, or universal equivalency claimed.",
+    "price": "$7.00",
+    "time": "60-90 minutes",
+    "focus": "Design a paper structure using at most 10 sheets, supporting 500 g for 10 seconds on a low tabletop. Record three trials, inspect failures, and justify one redesign. Use small classroom-safe weights under instructor supervision.",
+    "qs": [
+      [
+        "Define criterion.",
+        "A desired feature or measure of success."
+      ],
+      [
+        "Define constraint.",
+        "A limit the design must obey."
+      ],
+      [
+        "Given max 10 sheets, identify the constraint.",
+        "Use no more than 10 sheets."
+      ],
+      [
+        "Given support 500 g, identify the criterion.",
+        "Support at least 500 g."
+      ],
+      [
+        "Why generate multiple concepts?",
+        "To compare alternatives before committing."
+      ],
+      [
+        "Name a fair-test variable to control.",
+        "Same load placement, materials, span, or test time."
+      ],
+      [
+        "What is a prototype?",
+        "A testable representation of a design idea."
+      ],
+      [
+        "Why record failure location?",
+        "It reveals where and how to improve the design."
+      ],
+      [
+        "Create a weighted decision matrix with three criteria.",
+        "Answers vary; criteria, weights, scores, totals required."
+      ],
+      [
+        "What makes test evidence reliable?",
+        "Consistent procedure and repeat trials."
+      ],
+      [
+        "Distinguish accuracy from precision.",
+        "Accuracy is closeness to true value; precision is repeatability."
+      ],
+      [
+        "Suggest one safety rule.",
+        "Keep loads low, protect hands/eyes, and clear the test area."
+      ],
+      [
+        "How can triangles strengthen structures?",
+        "They resist shape change and distribute loads."
+      ],
+      [
+        "State a testable claim about folded paper.",
+        "Answers vary; must identify design change and measurable outcome."
+      ],
+      [
+        "Use evidence to justify an iteration.",
+        "Cite test result, failure mode, and planned change."
+      ],
+      [
+        "Reflect on tradeoffs.",
+        "Explain how improving one criterion may reduce another."
+      ]
+    ]
+  }
+]

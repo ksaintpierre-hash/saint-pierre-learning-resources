@@ -1,0 +1,22 @@
+import {spawnSync,spawn} from 'node:child_process';
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import path from 'node:path';
+const root=process.cwd(),node=process.execPath;
+const run=(args,env={})=>{const r=spawnSync(node,args,{stdio:'inherit',env:{...process.env,...env}});if(r.status!==0)process.exit(r.status||1);};
+run(['scripts/run-framework.mjs','build'],{VITE_STORE_PREVIEW:'true'});
+const q=v=>"'"+String(v).replaceAll("'","''")+"'";
+const catalog=JSON.parse(await readFile('snapshots/catalog-2026-09-16.json','utf8')).products;
+const site=JSON.parse(await readFile('snapshots/homepage-2026-09-16.json','utf8'));
+const sql=[];
+for(const name of ['0000_lean_leader','0001_secure_checkout','0002_clumsy_warlock'])sql.push(await readFile('drizzle/'+name+'.sql','utf8'));
+for(const p of catalog)sql.push(`INSERT INTO store_products(id,title,price_cents,approved,metadata,storage_key,ready) VALUES(${q(p.id)},${q(p.title)},${Number(p.priceCents)},1,${q(JSON.stringify({...p,editorManaged:true}))},'preview/no-delivery',1);`);
+sql.push(`INSERT INTO editor_documents(id,draft,live,revision,published_revision,updated_at) VALUES('site',${q(JSON.stringify(site))},${q(JSON.stringify(site))},1,1,${q(new Date().toISOString())});`);
+await mkdir('.sites-runtime/staging',{recursive:true});await writeFile('.sites-runtime/staging/bootstrap.sql',sql.join('\n'));
+if(process.argv.includes('--build-only')){console.log('Read-only staging build ready. No live site was changed.');process.exit(0);}
+const state=path.join(root,'.wrangler','staging-'+Date.now());
+const config=path.join(root,'dist/server/wrangler.json');
+const wrangler='node_modules/wrangler/bin/wrangler.js';
+run(['--import','./scripts/sites-env.mjs',wrangler,'d1','execute','DB','--local','--config',config,'--persist-to',state,'--file','.sites-runtime/staging/bootstrap.sql']);
+console.log('Starting isolated staging preview on localhost. No production database, payment secrets, or publishing command is used.');
+const child=spawn(node,['--import','./scripts/sites-env.mjs',wrangler,'dev','--local','--config',config,'--persist-to',state,'--ip','127.0.0.1','--port','4175','--inspector-port','0'],{stdio:'inherit',env:{...process.env,VITE_STORE_PREVIEW:'true'}});
+for(const signal of ['SIGINT','SIGTERM'])process.on(signal,()=>child.kill(signal));child.on('exit',code=>process.exit(code||0));

@@ -1,0 +1,202 @@
+{
+  "ca-grade4-multidigit": {
+    "fit": "Multi-digit addition and subtraction practice after an introduction to regrouping.",
+    "prerequisites": "Read whole numbers to 100,000 and identify place values.",
+    "model": "Model 40,003 - 18,756 = 21,247. Rename across the zeros, subtract by place, then check that 21,247 + 18,756 = 40,003.",
+    "misconception": "Subtracting the smaller digit from the larger digit in each column ignores place value. Ask the learner to show the renamed number.",
+    "supports": {
+      "AIG": "Create two different subtraction problems with the same difference and justify both.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Use a place-value chart and counters to represent regrouping before recording digits.",
+      "ESL": "Rehearse: I regrouped one ___ as ten ___. Preteach sum, difference, and estimate."
+    },
+    "exitItems": [
+      "Solve 60,002 - 24,785. Show regrouping.",
+      "Check your difference using addition and explain why the check works."
+    ],
+    "exitAnswers": [
+      "35,217. The written work must preserve place value through the zeros.",
+      "35,217 + 24,785 = 60,002. Addition reverses subtraction."
+    ]
+  },
+  "fl-grade5-theme": {
+    "fit": "A focused lesson on how a theme develops across one original story.",
+    "prerequisites": "Identify characters, a problem, and the sequence of events.",
+    "model": "Contrast a topic (teamwork) with a theme (accepting help can turn a setback into progress). Trace Mina restarting, accepting paint, and sharing the finished sign.",
+    "misconception": "A theme is not a one-word topic or a plot summary. Require a general lesson and evidence from more than one part of the story.",
+    "supports": {
+      "AIG": "Defend a second plausible theme using different evidence from the same text.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Use a three-box beginning/middle/end organizer and rehearse the explanation aloud.",
+      "ESL": "Rehearse: At first ___. Later ___. By the end ___. These changes suggest ___."
+    },
+    "exitItems": [
+      "State a theme of The Garden Sign as a complete sentence.",
+      "Explain how an early event and the ending develop that theme."
+    ],
+    "exitAnswers": [
+      "Possible: Accepting help while persisting through setbacks can lead to shared success. Other defensible themes are acceptable.",
+      "For example, Mina first tries to repair the sign alone, then accepts neighbors’ materials and help; carrying it together at the end shows her change. Credit accurate evidence and an explicit connection."
+    ]
+  },
+  "tx-grade7-elements-compounds": {
+    "fit": "Paper-based comparison of elements, compounds, symbols, and particle descriptions. No laboratory equipment is required.",
+    "prerequisites": "Recognize an atom and read simple element symbols.",
+    "model": "Compare O₂ and CO₂: O₂ has two atoms of one element; CO₂ has three atoms of two elements. Count kinds of atoms before classifying. NaCl represents a ratio in an ionic compound, not a discrete molecule.",
+    "misconception": "More than one atom does not automatically mean compound. The number of different elements matters.",
+    "supports": {
+      "AIG": "Explain why both O₂ and O₃ are elements even though their molecules differ.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Use labeled counters for atom types; keep labels as well as colors.",
+      "ESL": "Rehearse: This is a ___ because it contains ___ kind(s) of atom."
+    },
+    "exitItems": [
+      "Classify N₂ and CO₂ as element or compound. Explain each.",
+      "Consider two separate water molecules (H₂O). How many H and O atoms are present in total?"
+    ],
+    "exitAnswers": [
+      "N₂ is an element (nitrogen only). CO₂ is a compound (carbon and oxygen chemically combined).",
+      "Four hydrogen atoms and two oxygen atoms. Each H₂O molecule contains two H and one O."
+    ]
+  },
+  "college-composition-claims": {
+    "fit": "A short first-year writing workshop on claims, evidence, and reasoning.",
+    "prerequisites": "Write complete paragraphs and distinguish fact from opinion.",
+    "model": "Use the fictional 68-of-100 survey as evidence of this sample’s evening library use. Explain why it supports considering later hours, but does not establish what all students need.",
+    "misconception": "Repeating a statistic is not analysis; a small fictional sample is not a real campus research finding.",
+    "supports": {
+      "AIG": "Develop an alternative explanation and propose better evidence to test it.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Use separate claim, evidence, and reasoning boxes before combining a paragraph.",
+      "ESL": "Rehearse: This evidence supports ___ because ___. A limitation is ___."
+    },
+    "exitItems": [
+      "A fictional survey finds that 12 of 20 evening students use a tutoring center. Write a cautious claim supported by this sample.",
+      "Explain one limitation and what additional evidence would strengthen the claim."
+    ],
+    "exitAnswers": [
+      "Example: Tutoring is used by a majority of the surveyed evening students. Avoid a claim about all students or about causes.",
+      "The sample is small and may be unrepresentative. A larger, more representative survey or usage records would strengthen the evidence."
+    ]
+  },
+  "college-algebra-linear": {
+    "fit": "Introductory algebra review of constant-rate models, not a complete college algebra course.",
+    "prerequisites": "Solve one-step equations and interpret ordered pairs.",
+    "model": "For C(h)=18+6h, identify the $18 starting fee and $6 per hour. Set 18+6h=72, subtract 18, then divide by 6 to get 9 hours.",
+    "misconception": "The intercept is the starting cost, not the hourly rate. Units should appear in interpretations.",
+    "supports": {
+      "AIG": "Compare two pricing models and identify when each costs less.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Use a table for h=0,1,2 before writing the rule; annotate units.",
+      "ESL": "Rehearse: Each additional hour changes cost by ___. At zero hours, ___."
+    },
+    "exitItems": [
+      "A rental costs $12 plus $4 per hour. Write C(h), then find C(5).",
+      "For this model, how many hours cost $40? Explain the meaning of the solution."
+    ],
+    "exitAnswers": [
+      "C(h)=12+4h; C(5)=$32.",
+      "12+4h=40 gives h=7 hours. Seven hours of rental costs $40 under this pricing rule."
+    ]
+  },
+  "college-biology-membranes": {
+    "fit": "Concept review of membrane transport using simplified concentration scenarios.",
+    "prerequisites": "Identify a membrane, solute, solvent, and concentration.",
+    "model": "Assume water crosses but the solute cannot. With 2% solute inside and 8% outside, net water movement is out. State this permeability assumption before predicting.",
+    "misconception": "Tonicity depends on nonpenetrating solutes; a percentage comparison alone is incomplete without membrane assumptions.",
+    "supports": {
+      "AIG": "Explain how the prediction changes if the solute crosses the membrane freely.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Draw a labeled membrane and arrows; count particles using the same volume on each side.",
+      "ESL": "Rehearse: Net water moves ___ because the nonpenetrating solute concentration is ___."
+    },
+    "exitItems": [
+      "A cell has 3% nonpenetrating solute; the solution has 1%. Water can cross. Predict net water movement.",
+      "A carrier moves solute against its gradient using energy. Identify the transport type and explain."
+    ],
+    "exitAnswers": [
+      "Water moves into the cell; the external solution is hypotonic under the stated assumptions.",
+      "Active transport. Movement against the gradient requires an energy source."
+    ]
+  },
+  "college-psych-research": {
+    "fit": "Introductory review of research designs, variables, and ethical reasoning.",
+    "prerequisites": "Distinguish a measured outcome from a proposed explanation.",
+    "model": "In a randomized fictional experiment comparing quiet and music study conditions, sound condition is the independent variable and quiz score is the dependent variable.",
+    "misconception": "Random assignment supports group comparability; random sampling supports population representation. They serve different purposes.",
+    "supports": {
+      "AIG": "Identify a confound and redesign the study to reduce it.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Sort short examples into manipulated variable, measured outcome, and uncontrolled factor.",
+      "ESL": "Rehearse: The researchers change ___ and measure ___. This design can/cannot ___."
+    },
+    "exitItems": [
+      "Students choose whether to attend tutoring. Attendees score higher. Does this prove tutoring caused higher scores? Explain.",
+      "For a randomized study of quiet versus music, identify the independent and dependent variables if the outcome is quiz score."
+    ],
+    "exitAnswers": [
+      "No. Self-selection and other differences, such as motivation or prior knowledge, may explain the association.",
+      "Independent variable: sound condition. Dependent variable: quiz score."
+    ]
+  },
+  "spanish101-campus": {
+    "fit": "Beginning Spanish practice with introductions and present-tense forms.",
+    "prerequisites": "Recognize Spanish subject pronouns and basic greetings.",
+    "model": "Model: Buenos días. Me llamo Ana. Soy estudiante. Estudio español. Show how -ar becomes -o for yo and -a for ella/él/usted.",
+    "misconception": "Match verb endings to the subject; formal usted uses third-person singular forms.",
+    "supports": {
+      "AIG": "Extend a dialogue to include a formal introduction and a plural response.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Provide a subject-pronoun/verb-ending chart and practice one sentence at a time.",
+      "ESL": "Use a bilingual phrase bank, then rehearse a brief exchange with a partner."
+    },
+    "exitItems": [
+      "Complete: Yo ___ español. (estudiar) Nosotros ___ estudiantes. (ser)",
+      "Write a formal question asking someone their name, followed by an appropriate answer."
+    ],
+    "exitAnswers": [
+      "estudio; somos.",
+      "¿Cómo se llama usted? Me llamo ___. Accept an appropriate name and correct verb form."
+    ]
+  },
+  "college-accounting-cycle": {
+    "fit": "Foundational accounting-equation practice with a single sequence of transactions.",
+    "prerequisites": "Identify assets, liabilities, revenue, and expenses.",
+    "model": "Owner investment of $8,000 increases cash and owner equity equally. Buying equipment for $1,200 cash changes asset composition, not total assets.",
+    "misconception": "A cash payment is not always an expense: purchasing equipment exchanges one asset for another.",
+    "supports": {
+      "AIG": "Add a new transaction that changes assets and liabilities without changing equity.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Use an Assets = Liabilities + Equity table with one row per transaction.",
+      "ESL": "Rehearse: ___ increases/decreases by ___, so the equation stays balanced."
+    },
+    "exitItems": [
+      "Starting from zero, an owner invests $2,000 cash and buys $300 supplies on account. Find assets, liabilities, and equity.",
+      "The business pays $100 of the amount owed. Recalculate all three totals."
+    ],
+    "exitAnswers": [
+      "Assets $2,300; liabilities $300; equity $2,000.",
+      "Assets $2,200; liabilities $200; equity $2,000. Cash and accounts payable each decrease $100."
+    ]
+  },
+  "college-programming-python": {
+    "fit": "Paper-based Python 3 tracing and conditional practice; a Python interpreter is optional.",
+    "prerequisites": "Recognize variables, numbers, and strings.",
+    "model": "Trace x=3. The condition x>5 is False, so the else branch doubles x to 6. Emphasize that only one branch runs and indentation defines the block.",
+    "misconception": "Use == to compare and = to assign. elif and else belong on separate lines with correctly indented bodies.",
+    "supports": {
+      "AIG": "Add a boundary case and explain whether the threshold should use > or >=.",
+      "504": "Offer chunked tasks, reduced copying, extra time, and breaks as specified in the learner’s plan.",
+      "EC": "Use a trace table with columns for line, condition, and variable value.",
+      "ESL": "Rehearse: The condition is ___, so the program executes ___ and outputs ___."
+    },
+    "exitItems": [
+      "If score is 75, what does this rule print: print(\"pass\" if score >= 70 else \"retry\")? Explain.",
+      "Write a Boolean condition that is True when age is at least 18 and has_id is True."
+    ],
+    "exitAnswers": [
+      "pass, because 75 >= 70 is True.",
+      "age >= 18 and has_id (or age >= 18 and has_id == True)."
+    ]
+  }
+}

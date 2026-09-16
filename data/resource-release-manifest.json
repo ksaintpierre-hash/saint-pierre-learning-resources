@@ -1,0 +1,1358 @@
+{
+  "date": "2026-09-15",
+  "stats": {
+    "products": 90,
+    "pdfFiles": 120,
+    "pptxFiles": 30,
+    "printablePages": 3120,
+    "slides": 300,
+    "uniqueChunks": 10069,
+    "privatePayloadBytes": 12833846,
+    "privatePayloadGzipBytes": 8050024,
+    "collectionCounts": {
+      "EOG & State Test Prep": 30,
+      "Task Cards": 30,
+      "Warm-Ups": 30,
+      "PowerPoints": 30,
+      "Sub Plans": 30,
+      "Emergency Sub Plans": 30,
+      "Fall Packets": 30,
+      "Winter Packets": 30,
+      "Spring Break Packets": 30,
+      "Summer Packets": 30,
+      "Lesson Plan Templates": 30,
+      "Classroom Management": 30,
+      "Classroom D\u00e9cor": 30,
+      "Classroom Ideas": 30,
+      "Teacher Behavior Supports": 30,
+      "Parent Behavior Supports": 30,
+      "New Teacher Tips": 30,
+      "SAT Preparation": 30,
+      "ACT Preparation": 30
+    }
+  },
+  "files": {
+    "nc-g3-equal-groups-teaching-bundle.zip": {
+      "bytes": 10717190,
+      "sha256": "fd3b45f5ed66b6f34091f8f77432b4c31c39644599aa86708dec5fd862527a26",
+      "contentType": "application/zip"
+    },
+    "nc-g3-equal-groups-teaching-bundle.pdf": {
+      "bytes": 1234321,
+      "sha256": "0d1670f1c46e534e42c069b3337935067f76da14ea3df879199f84f8fd987f87",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-equal-groups-teaching-bundle.pptx": {
+      "bytes": 9220948,
+      "sha256": "65d0ab4281554c40b5ed7470011e3b0cc7d6a0409c4f70d8417853035263a6fb",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g3-equal-groups-teaching-bundle-slides.pdf": {
+      "bytes": 261427,
+      "sha256": "5ee282aa4094b298d6969f7c7c592a6a9a6e21ac52094f709efd047b0b1811e4",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-two-step-teaching-bundle.zip": {
+      "bytes": 10715719,
+      "sha256": "de7b04d6ae9bd41c7019acd558e1f7ea9574bc14900f8e3cabb0fa2c459b2d14",
+      "contentType": "application/zip"
+    },
+    "nc-g3-two-step-teaching-bundle.pdf": {
+      "bytes": 1233188,
+      "sha256": "c77dc4c2c3102cfec6c87f1c9ef431e555b6f99942d3a45207e896c146b93ace",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-two-step-teaching-bundle.pptx": {
+      "bytes": 9220854,
+      "sha256": "f776ae4344f06255b2ade753cafa4c087daa4a3f897fb84bc487ef7a70802750",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g3-two-step-teaching-bundle-slides.pdf": {
+      "bytes": 261207,
+      "sha256": "c57e7d5ebc3c2ede593eec5d997a133e99e3bc90f932255257b7cadadb69d946",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-place-add-teaching-bundle.zip": {
+      "bytes": 10716113,
+      "sha256": "451cc82df3ec93a5d4e01e2b630b847ef7b981034a0538f8466e67b94285e346",
+      "contentType": "application/zip"
+    },
+    "nc-g3-place-add-teaching-bundle.pdf": {
+      "bytes": 1232578,
+      "sha256": "accefb603e1e470a87917f3cf22615a3f9cab02934c20c74aae2026dbdc5edf1",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-place-add-teaching-bundle.pptx": {
+      "bytes": 9220905,
+      "sha256": "c872f57ee7436911ee9b6c2974c37ccb2be50d82d457dbcec4bf01c8723e9b09",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g3-place-add-teaching-bundle-slides.pdf": {
+      "bytes": 262154,
+      "sha256": "e9dab23df6efa26fef875892378ee7afd66ddccce3a1206f3abe408e7c63fa31",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-fraction-model-teaching-bundle.zip": {
+      "bytes": 10718219,
+      "sha256": "edde1e6319097ba6307f03f5bd955d20432e503f503390f8743a6ff28c01218f",
+      "contentType": "application/zip"
+    },
+    "nc-g3-fraction-model-teaching-bundle.pdf": {
+      "bytes": 1234488,
+      "sha256": "fc73e48adb4db1faaf6a5bb4f647152ed51cfd5f0a8f9d46c0884ab06afefaab",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-fraction-model-teaching-bundle.pptx": {
+      "bytes": 9221125,
+      "sha256": "74bf5d3e35420c721492348e56977ba51a1c1a696fe4277ca53ebf18b0415771",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g3-fraction-model-teaching-bundle-slides.pdf": {
+      "bytes": 262100,
+      "sha256": "b5362f623e2d61d15dbaa45a85414acae51af7f78934126cd325e1324536e429",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-tile-area-teaching-bundle.zip": {
+      "bytes": 10717674,
+      "sha256": "204ef8eb5e8c02dd5732be9d1a09bf575343c45de514559c3b47872d25997c31",
+      "contentType": "application/zip"
+    },
+    "nc-g3-tile-area-teaching-bundle.pdf": {
+      "bytes": 1235027,
+      "sha256": "4f6d53e33c305e5c59166629526f4909de4240ba7fcf594049e762229a1a38ad",
+      "contentType": "application/pdf"
+    },
+    "nc-g3-tile-area-teaching-bundle.pptx": {
+      "bytes": 9221075,
+      "sha256": "313011b52830dd893436048d022d7a9e3b8fa08b8852a402962322193f74f4b9",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g3-tile-area-teaching-bundle-slides.pdf": {
+      "bytes": 261096,
+      "sha256": "86fe2eca7381df833ee08ab9660f87c193d996907b2f0a235e17e49c18ffd1f8",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-multi-add-teaching-bundle.zip": {
+      "bytes": 10719741,
+      "sha256": "96f76443fd6e63707d1bed97f64807b5ac7535fd3300dbbc53a7f126bdebe999",
+      "contentType": "application/zip"
+    },
+    "nc-g4-multi-add-teaching-bundle.pdf": {
+      "bytes": 1233667,
+      "sha256": "eb55c2febb05946a02c424eb0d73d14b00e6dfd2204fb68c7cfddadd23dc681c",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-multi-add-teaching-bundle.pptx": {
+      "bytes": 9221051,
+      "sha256": "d884a94fef7b28b5512ca514482a5faf242287b59116501d16b9830bd1a050b6",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g4-multi-add-teaching-bundle-slides.pdf": {
+      "bytes": 264547,
+      "sha256": "e496c629bb385a87bf0e6c3b05f6513fdb9a8dd22c406ad07478fc1888eca84f",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-partial-products-teaching-bundle.zip": {
+      "bytes": 10721157,
+      "sha256": "06be426fe2d979bc0cf389fcfed2ff5001d03fbdab22802e6a4814c9bbd8ccf5",
+      "contentType": "application/zip"
+    },
+    "nc-g4-partial-products-teaching-bundle.pdf": {
+      "bytes": 1234470,
+      "sha256": "3c0e859b105404c2c7868c66cb205e16935c7dadfed8de4088060a7a5aae8172",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-partial-products-teaching-bundle.pptx": {
+      "bytes": 9221231,
+      "sha256": "53ac8a489a82dce08d28f3bd3aa6bcbe1e3131ef2a9e4c351d0e100da6a7815f",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g4-partial-products-teaching-bundle-slides.pdf": {
+      "bytes": 264938,
+      "sha256": "535d7a55b97233adee79769a907cbb1d63cb12836e570f3c7f73f453c2afe612",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-division-remainders-teaching-bundle.zip": {
+      "bytes": 10719876,
+      "sha256": "91428abc1e8e36a246bcb2384cc0a471971ab9f31ad9b40afe6512deba4c8cec",
+      "contentType": "application/zip"
+    },
+    "nc-g4-division-remainders-teaching-bundle.pdf": {
+      "bytes": 1233805,
+      "sha256": "af1f5328ddd7be777be3c347efafa51c7aa97b2651a8cdcea9ec3a40f7aea027",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-division-remainders-teaching-bundle.pptx": {
+      "bytes": 9221253,
+      "sha256": "51632973199d4250e68e917e3828ee9a55e74ffafe93eb52c2f092a984dc0bba",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g4-division-remainders-teaching-bundle-slides.pdf": {
+      "bytes": 264282,
+      "sha256": "ca0c985433cdcb9a95917468bd707780f217dbd5f8f588c7f02c0ec8dae49118",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-like-fractions-teaching-bundle.zip": {
+      "bytes": 10713083,
+      "sha256": "47c6a043eae813d5cb58bdcd05410426f8494fbb7b99cdc840003aa2c649547d",
+      "contentType": "application/zip"
+    },
+    "nc-g4-like-fractions-teaching-bundle.pdf": {
+      "bytes": 1232123,
+      "sha256": "19afe41865c649f614c4b2fc78a4be8b539ba87b4e834f0e89c91cc6dd8a2ad3",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-like-fractions-teaching-bundle.pptx": {
+      "bytes": 9220883,
+      "sha256": "e1506309099b9c70f9faccffe90dfccae05d3ca72edd0cccbd42f9453141d607",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g4-like-fractions-teaching-bundle-slides.pdf": {
+      "bytes": 259571,
+      "sha256": "516aad3f3d233c1977ec78e9a084973b0a729838451bb09815853d18068a5db6",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-area-perimeter-teaching-bundle.zip": {
+      "bytes": 10720141,
+      "sha256": "9d5579966264e930227b5072c81c7f4dd94576960c6a4e9ff796c192850c0bd9",
+      "contentType": "application/zip"
+    },
+    "nc-g4-area-perimeter-teaching-bundle.pdf": {
+      "bytes": 1234511,
+      "sha256": "be899201468bea8673c17fe01545ac716b64feec957f07f7d28dbe6c0d5be1cc",
+      "contentType": "application/pdf"
+    },
+    "nc-g4-area-perimeter-teaching-bundle.pptx": {
+      "bytes": 9221246,
+      "sha256": "07f88af2a16e492f2a41e5805a7c9a06f7d40c0682b5781e96d474ce15f9f6ca",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g4-area-perimeter-teaching-bundle-slides.pdf": {
+      "bytes": 263878,
+      "sha256": "db19191cb35858ef84c27073faf465c40f527e9e37fe830f6052cf9ebee5de90",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-standard-multiply-teaching-bundle.zip": {
+      "bytes": 10720647,
+      "sha256": "aad02e55b8aed3b83672d8061bf0513ec0848e354c50bd08ff04e5117823fe16",
+      "contentType": "application/zip"
+    },
+    "nc-g5-standard-multiply-teaching-bundle.pdf": {
+      "bytes": 1234398,
+      "sha256": "e430a87274798a858dd7a5cc9600baed171be88fbca73b9ebee13eedb96a8908",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-standard-multiply-teaching-bundle.pptx": {
+      "bytes": 9221240,
+      "sha256": "7bdbd224cd2a1fd4ba89aa19573c932dfc9bc84045e3299800c57a6dd27eb861",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g5-standard-multiply-teaching-bundle-slides.pdf": {
+      "bytes": 264485,
+      "sha256": "f3a2f0cd7065361a47c7a20b8dcfab4bd0cd785487be353f37ce0d3a3ef13d7c",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-decimal-money-teaching-bundle.zip": {
+      "bytes": 10720942,
+      "sha256": "052b2ab57c1136a0e741147c1fb8a53b4ddca425326f8413f31d74ec88d43e37",
+      "contentType": "application/zip"
+    },
+    "nc-g5-decimal-money-teaching-bundle.pdf": {
+      "bytes": 1234286,
+      "sha256": "73bef3ab7ba04103aefb639c68cfb5d3d8c4c53b6bc9274f532fb223d9fa8699",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-decimal-money-teaching-bundle.pptx": {
+      "bytes": 9221113,
+      "sha256": "e30d761be32923ba234830c0f969ffeea2ded37a41928aa88c51aa35afbef610",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g5-decimal-money-teaching-bundle-slides.pdf": {
+      "bytes": 265043,
+      "sha256": "6daf4eab3efb67a7352c43889235b2a392e295131eb03ed1dd322294f9c5387b",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-unlike-fractions-teaching-bundle.zip": {
+      "bytes": 10715363,
+      "sha256": "d0ca37c1a194082394cf64a4ad71cef332e780c3a980eadf156a389d64625b5e",
+      "contentType": "application/zip"
+    },
+    "nc-g5-unlike-fractions-teaching-bundle.pdf": {
+      "bytes": 1232326,
+      "sha256": "70a12029a059710458b311e5736ffa1f227eded31efb558b8129bf617c514217",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-unlike-fractions-teaching-bundle.pptx": {
+      "bytes": 9220908,
+      "sha256": "615bd64323352e8b59c9ecf1aea8d21f43e609692ee9a27b0c713a2a7924d667",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g5-unlike-fractions-teaching-bundle-slides.pdf": {
+      "bytes": 261611,
+      "sha256": "1a10cae8f1973805e2f226990e560b594cc546aa0bb1b5d9f715890d0083f494",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-fraction-sharing-teaching-bundle.zip": {
+      "bytes": 10716789,
+      "sha256": "4f8fc80098021936ba753493e01a66b51520b4e32761030f6280a6689e4a7a29",
+      "contentType": "application/zip"
+    },
+    "nc-g5-fraction-sharing-teaching-bundle.pdf": {
+      "bytes": 1233000,
+      "sha256": "b48978aea1a67d606974c88bf8741bb0dab6473e8c0ac5aa4dd97553cf755f22",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-fraction-sharing-teaching-bundle.pptx": {
+      "bytes": 9221152,
+      "sha256": "95cd82e264248ea4b1340f098cec53ce07c92bb07ac09f809c7329f9b83a9dd7",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g5-fraction-sharing-teaching-bundle-slides.pdf": {
+      "bytes": 262119,
+      "sha256": "7be0e11c2d09a45ec2b95d986e0e835472c55a5961b138718a0eba5210147a13",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-prism-volume-teaching-bundle.zip": {
+      "bytes": 10720924,
+      "sha256": "169dd7173bb9fd1ebcd2bcd30e8cbefd5a03c6288e95ba5d09dad4095708a48c",
+      "contentType": "application/zip"
+    },
+    "nc-g5-prism-volume-teaching-bundle.pdf": {
+      "bytes": 1236394,
+      "sha256": "01c3fe08592c25e270833288ae6f9efac44d92e6a19595bf74ff67ab2587c755",
+      "contentType": "application/pdf"
+    },
+    "nc-g5-prism-volume-teaching-bundle.pptx": {
+      "bytes": 9221136,
+      "sha256": "a5b62faa58cb0d203c06c94bcf6fe04736001dcf1807376df1a35602aab45ea9",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g5-prism-volume-teaching-bundle-slides.pdf": {
+      "bytes": 262900,
+      "sha256": "be4b27899e7fca28a6881bd15161ad9cdf6a44f9188340054b5bbac8f48f9cfc",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-ratio-tables-teaching-bundle.zip": {
+      "bytes": 10720224,
+      "sha256": "6d8c80f1ff9dce1b5f5622ae61f53dd9083c3f2f009b3b4364d192ef2b9d770a",
+      "contentType": "application/zip"
+    },
+    "nc-g6-ratio-tables-teaching-bundle.pdf": {
+      "bytes": 1234515,
+      "sha256": "97617f49d95792b056247815c45070034fe4eced9e0362f5a01609db5eaa26a8",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-ratio-tables-teaching-bundle.pptx": {
+      "bytes": 9221213,
+      "sha256": "79fc6a292f71f7ad95b893ed2900f01bc5cf46e29710dd68ddf400bd77456ff4",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g6-ratio-tables-teaching-bundle-slides.pdf": {
+      "bytes": 264002,
+      "sha256": "176a78bf92da8eaaad542c7e7be6bd284704f366a31b11332e3c7b67ab879109",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-percent-benchmarks-teaching-bundle.zip": {
+      "bytes": 10720648,
+      "sha256": "dac3c95d3407eb8fd80cdda5c55656471eb9ddeacde06e1b3c479350311d7360",
+      "contentType": "application/zip"
+    },
+    "nc-g6-percent-benchmarks-teaching-bundle.pdf": {
+      "bytes": 1233112,
+      "sha256": "4481bc67578cd749a5f30939c6e37480693652ed58f400a574790daf22071a45",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-percent-benchmarks-teaching-bundle.pptx": {
+      "bytes": 9221167,
+      "sha256": "ed54bddde1b86a0dec1652ffb4a8e6d7028c54d3f9e7644b1fdfcd445404aca3",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g6-percent-benchmarks-teaching-bundle-slides.pdf": {
+      "bytes": 265839,
+      "sha256": "2bda72a3df0bacef2e3549723f81b146f04b3ffd5e76d7e48a8b125349dd39d4",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-one-step-equations-teaching-bundle.zip": {
+      "bytes": 10714753,
+      "sha256": "cd9058371a66fb66ca6ceb0b8b091e8ede0cf7ba449276500b890377e3375846",
+      "contentType": "application/zip"
+    },
+    "nc-g6-one-step-equations-teaching-bundle.pdf": {
+      "bytes": 1232012,
+      "sha256": "0b90eff1984bb72e512a24b7a227f85841aebdd19246334746a6363fe769da70",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-one-step-equations-teaching-bundle.pptx": {
+      "bytes": 9220782,
+      "sha256": "5278fe0ad60ba900f4afb8919ce57d269cf4849e95db92af99520506755699b9",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g6-one-step-equations-teaching-bundle-slides.pdf": {
+      "bytes": 261429,
+      "sha256": "6e9272b22c96229e66cc8bf6130368f5ba8c732cde14e92a2d41da96191afd19",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-triangle-area-teaching-bundle.zip": {
+      "bytes": 10717459,
+      "sha256": "279d12758747f1928febc3774346aeb698fa563f45617169e2dc463ff924eb7d",
+      "contentType": "application/zip"
+    },
+    "nc-g6-triangle-area-teaching-bundle.pdf": {
+      "bytes": 1234073,
+      "sha256": "635548edc3ac5e2281c9b79a3438f7651b4b3aa74cd78a6ca51174b8218857e6",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-triangle-area-teaching-bundle.pptx": {
+      "bytes": 9221183,
+      "sha256": "d2564e3fa19f6dd31c88df59261dc37e6d67db73f37d708f9cc26d735c9b015e",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g6-triangle-area-teaching-bundle-slides.pdf": {
+      "bytes": 261703,
+      "sha256": "dd40d148ea7d14f0dc0deed935c09766963bd8d68f4bf70e63cca8aa3408d3eb",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-center-spread-teaching-bundle.zip": {
+      "bytes": 10722167,
+      "sha256": "a374b4b4fe6adac0bfd6c167ebe23bba5a4dbec7ec56c059ca9f863e14bcb015",
+      "contentType": "application/zip"
+    },
+    "nc-g6-center-spread-teaching-bundle.pdf": {
+      "bytes": 1234419,
+      "sha256": "5902fa3a728964cbdbce14739a1c025807730a9dd55420542633e1362207340c",
+      "contentType": "application/pdf"
+    },
+    "nc-g6-center-spread-teaching-bundle.pptx": {
+      "bytes": 9221223,
+      "sha256": "24b41f16479e9d97e392b73d9b74a747def06f3c2edaa026945d8943e076888b",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g6-center-spread-teaching-bundle-slides.pdf": {
+      "bytes": 266025,
+      "sha256": "564f24000f10538262091234473c608f2cc7ba3f3271f61e9ebdcc3d37a9ddf4",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-proportion-models-teaching-bundle.zip": {
+      "bytes": 10721722,
+      "sha256": "c2bae26a193d88d0b8c6f337cbe662ed324fa458b17c10eb2ec4b356cb2850d6",
+      "contentType": "application/zip"
+    },
+    "nc-g7-proportion-models-teaching-bundle.pdf": {
+      "bytes": 1233909,
+      "sha256": "e3925995ec329e27351a0588a6e8a83e7f47e7a59bef8175a734c2df0b478df5",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-proportion-models-teaching-bundle.pptx": {
+      "bytes": 9221067,
+      "sha256": "33d568f6fbf917f9f3db18eb9278ce24dcb9adfbf190b24adcc5d8f5501c43a4",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g7-proportion-models-teaching-bundle-slides.pdf": {
+      "bytes": 266222,
+      "sha256": "ed4399cd597598ce70d7bd523f83831196108ebf740f2c72602b444b5c145c76",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-signed-change-teaching-bundle.zip": {
+      "bytes": 10714598,
+      "sha256": "11b4a7901869d795f0443c2221cbf528d6a8c2715ca3ba29f4592726967f5ce6",
+      "contentType": "application/zip"
+    },
+    "nc-g7-signed-change-teaching-bundle.pdf": {
+      "bytes": 1232260,
+      "sha256": "e38dfe85393fa91e65fd959e5d944b0581e195350c7eb367af0ec71a54550451",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-signed-change-teaching-bundle.pptx": {
+      "bytes": 9220850,
+      "sha256": "69b6d192467c96853cb1846fb8fca2e922dc3ed6ab22fe5a74fafa5a1fda9854",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g7-signed-change-teaching-bundle-slides.pdf": {
+      "bytes": 260988,
+      "sha256": "a88377fff5c58256c95a51f1e9077979cfd6a40e4bb66988fb0f38a4eda3e1bb",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-multi-step-equations-teaching-bundle.zip": {
+      "bytes": 10719098,
+      "sha256": "0144f6362d00d6a41650a16441d2748acc69f4d0d31470dc26d816e016bb7217",
+      "contentType": "application/zip"
+    },
+    "nc-g7-multi-step-equations-teaching-bundle.pdf": {
+      "bytes": 1234404,
+      "sha256": "9e2b8c4ea61022ddf8649558202a1a60167ae2676d81aa9ccce5101158083cca",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-multi-step-equations-teaching-bundle.pptx": {
+      "bytes": 9221114,
+      "sha256": "d651e7f079e288478fd00c9a133586308081fd40c90b66845d345e3de23143ba",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g7-multi-step-equations-teaching-bundle-slides.pdf": {
+      "bytes": 263038,
+      "sha256": "ecc11224aa2e066fb665d1478d65f0e65fd8cc7b0eae295b3871c85a9b854149",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-circle-measures-teaching-bundle.zip": {
+      "bytes": 10722277,
+      "sha256": "a320495f4d6a25fe6c0564f9124808048396b7ebff1dcdde41bc550ccdbc7f6b",
+      "contentType": "application/zip"
+    },
+    "nc-g7-circle-measures-teaching-bundle.pdf": {
+      "bytes": 1236606,
+      "sha256": "12aa7b32a4f0edfe3b4f7979a0cdeef7ffb2a03be7f7e458be5f4466625f9767",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-circle-measures-teaching-bundle.pptx": {
+      "bytes": 9221393,
+      "sha256": "6beebe60de37a609e11aeefd927d16bf8e8b0e022944bae22f85d8f6ad212d5b",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g7-circle-measures-teaching-bundle-slides.pdf": {
+      "bytes": 263766,
+      "sha256": "324157008b9229eb949fb51bb7706526ad19f2319885075f1423df48c5977c37",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-chance-models-teaching-bundle.zip": {
+      "bytes": 10721227,
+      "sha256": "7112d36c1a4458c6a5a08fb95fbe613f05b310748e6c538d1a8ec2aa7cd56c36",
+      "contentType": "application/zip"
+    },
+    "nc-g7-chance-models-teaching-bundle.pdf": {
+      "bytes": 1234347,
+      "sha256": "875882dc7cad3f3cbc5471b693673d5f847a3072bd1ce95083a77bf8b310ffd8",
+      "contentType": "application/pdf"
+    },
+    "nc-g7-chance-models-teaching-bundle.pptx": {
+      "bytes": 9221433,
+      "sha256": "1db2cc68a187dc7ea516a891eda7b5ab86a329c51c2a94b02ab14446ac5a7bea",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g7-chance-models-teaching-bundle-slides.pdf": {
+      "bytes": 264947,
+      "sha256": "91399b60c79a826994189da6c8058fc2f3a2fdc0a1c4d78456c750eba77cf5bb",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-both-sides-teaching-bundle.zip": {
+      "bytes": 10717630,
+      "sha256": "86503252e202441a3e5c8c317a9af3adea988f1f50696a4164a590d302e54be7",
+      "contentType": "application/zip"
+    },
+    "nc-g8-both-sides-teaching-bundle.pdf": {
+      "bytes": 1233234,
+      "sha256": "5d01ed741b19f48dee85eed05e7fbf4b4d54c5c8640ce43baa02d0e1d0687b06",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-both-sides-teaching-bundle.pptx": {
+      "bytes": 9220807,
+      "sha256": "9d94e4c62822b77aa41182b141de3dc8f2caf85e9af4d0f85914e4ee68b09c33",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g8-both-sides-teaching-bundle-slides.pdf": {
+      "bytes": 263107,
+      "sha256": "9e2c743caf2f1112625487403f85c3b107a5799a56b0ad006520e4dcf451a707",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-linear-functions-teaching-bundle.zip": {
+      "bytes": 10723366,
+      "sha256": "a099e255fa6c16cbda9f7120fb330f995c0906180183d75c98018a461d175fb6",
+      "contentType": "application/zip"
+    },
+    "nc-g8-linear-functions-teaching-bundle.pdf": {
+      "bytes": 1235069,
+      "sha256": "5b4a61c217e8c0f375c80cc125ec11c0746e7d4da7b25cac3022199de9d6b68a",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-linear-functions-teaching-bundle.pptx": {
+      "bytes": 9221461,
+      "sha256": "b7da7b07caf9fea9f391dbdd6cd37115399c4ad0ee1634cf8c27727c8cdd74a9",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g8-linear-functions-teaching-bundle-slides.pdf": {
+      "bytes": 266318,
+      "sha256": "74fa0d4c4d8b55db71ae87990986f9713450d4b11c41a1114fff2a72aa3e9f87",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-right-triangles-teaching-bundle.zip": {
+      "bytes": 10719839,
+      "sha256": "00b198ea2f18f187c9132499ead2b516093f9e6cf4b45857dfd6488d05d44cae",
+      "contentType": "application/zip"
+    },
+    "nc-g8-right-triangles-teaching-bundle.pdf": {
+      "bytes": 1234431,
+      "sha256": "0696d782e59d07985f84336d0c7e829344f93955e2abae016047d89b144ceb94",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-right-triangles-teaching-bundle.pptx": {
+      "bytes": 9221182,
+      "sha256": "e03e42efbba7cac3dc5ed19aabeca55987161fc29b5955139526a41e2ee45800",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g8-right-triangles-teaching-bundle-slides.pdf": {
+      "bytes": 263714,
+      "sha256": "9a1143d56944f1113f4ac022e0af04470f43b72f8452f495a40ce3d3c07713c6",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-scatter-data-teaching-bundle.zip": {
+      "bytes": 10743494,
+      "sha256": "71c693b3e4000814941a12aa09f4ad932f7d0365b6d78411c2b02f8476df3c38",
+      "contentType": "application/zip"
+    },
+    "nc-g8-scatter-data-teaching-bundle.pdf": {
+      "bytes": 1252575,
+      "sha256": "23318fab6e601d6e57b94a9653566efb54dab766d1b2d1672d3e19fcccab5d63",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-scatter-data-teaching-bundle.pptx": {
+      "bytes": 9221769,
+      "sha256": "f9b9b8889c56a14ce5f4dfeed047beb21309d1704c612c93e084069d6a0d7204",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g8-scatter-data-teaching-bundle-slides.pdf": {
+      "bytes": 268656,
+      "sha256": "f17add250abe072db9e0db4f7cb7bca267a124a149367ab568ce6e415f5e33ac",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-integer-exponents-teaching-bundle.zip": {
+      "bytes": 10717360,
+      "sha256": "b29b408468a8c96954b584bc0ac6ef6bdd0354d89ccdd39ce788b5c3f0968a1e",
+      "contentType": "application/zip"
+    },
+    "nc-g8-integer-exponents-teaching-bundle.pdf": {
+      "bytes": 1233142,
+      "sha256": "1caef93befc493695faa52007ee3b658dd11b782990104f787a8a3bae7a19ddd",
+      "contentType": "application/pdf"
+    },
+    "nc-g8-integer-exponents-teaching-bundle.pptx": {
+      "bytes": 9220932,
+      "sha256": "562cd8823eb8811681c4e2c01274ecb73a8e7337cef72d9fc8b0f360e46b65e1",
+      "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "nc-g8-integer-exponents-teaching-bundle-slides.pdf": {
+      "bytes": 262762,
+      "sha256": "5bea085c3a597a6e0ddf923ce1a9829fd3c9122e0cd099b87019ace1ef1d51de",
+      "contentType": "application/pdf"
+    },
+    "teacher-a-calm-arrival-toolkit.pdf": {
+      "bytes": 1204940,
+      "sha256": "d0710e66343b082e28757c090e4ed1914ab2b858da5c20e7ed90e958e9033d2b",
+      "contentType": "application/pdf"
+    },
+    "teacher-directions-students-can-use-toolkit.pdf": {
+      "bytes": 1204990,
+      "sha256": "6d09879b6a6d9ccc85dc377cd46b1196155c6774c37fae1d897ee04339a40c2f",
+      "contentType": "application/pdf"
+    },
+    "teacher-transitions-with-a-destination-toolkit.pdf": {
+      "bytes": 1205002,
+      "sha256": "ffd874ca48597557993981522a15bff3e2513242f6ad59066be85189b054a0f7",
+      "contentType": "application/pdf"
+    },
+    "teacher-materials-with-a-home-toolkit.pdf": {
+      "bytes": 1204971,
+      "sha256": "a0983ff6d107a97203155be1c0037e3640d0274e5940a63ff208830392538545",
+      "contentType": "application/pdf"
+    },
+    "teacher-asking-for-help-with-confidence-toolkit.pdf": {
+      "bytes": 1205088,
+      "sha256": "99b3bff2d6ed950ff847c56ded6417925ee1fc4fddef3ddf9802c086435824fc",
+      "contentType": "application/pdf"
+    },
+    "teacher-partners-who-both-participate-toolkit.pdf": {
+      "bytes": 1205092,
+      "sha256": "f2920232a970c860e558a8cffa2a964142797f64bd36bd4de9146456d5561b9b",
+      "contentType": "application/pdf"
+    },
+    "teacher-group-roles-that-rotate-toolkit.pdf": {
+      "bytes": 1205135,
+      "sha256": "5f1a7c17886aa1ece18ec355f7d05c9b231043c836a8f339323e67784973e095",
+      "contentType": "application/pdf"
+    },
+    "teacher-listening-with-visible-evidence-toolkit.pdf": {
+      "bytes": 1205053,
+      "sha256": "64c782a87c252ae943e0ec9446471cdf54ce39a0a7f123e4abf91b6745e8d49f",
+      "contentType": "application/pdf"
+    },
+    "teacher-discussion-without-a-rush-toolkit.pdf": {
+      "bytes": 1205006,
+      "sha256": "895311d659315051a8a6ca7bc7dd268020b5b71483e539048b4f53cc61cb287b",
+      "contentType": "application/pdf"
+    },
+    "teacher-feedback-that-gives-a-next-step-toolkit.pdf": {
+      "bytes": 1204836,
+      "sha256": "3ff141eb40ffc1a464142fa87839700acefd04721bfb26411acd4a77b0e93992",
+      "contentType": "application/pdf"
+    },
+    "teacher-mistakes-as-information-toolkit.pdf": {
+      "bytes": 1204848,
+      "sha256": "9c3e269171870bec08f3727582bb6aad43e3b07f27a08c6602e5c9cc34419c41",
+      "contentType": "application/pdf"
+    },
+    "teacher-a-first-step-for-starting-work-toolkit.pdf": {
+      "bytes": 1205098,
+      "sha256": "613ff251f11d927e8133c87e0f9917299ccbeecf48b0cf79b3836e6f15b7d7ee",
+      "contentType": "application/pdf"
+    },
+    "teacher-pacing-with-checkpoints-toolkit.pdf": {
+      "bytes": 1205116,
+      "sha256": "c781f150507d041cce1cbbe993dfb67671c204be91e104495d137106758502e9",
+      "contentType": "application/pdf"
+    },
+    "teacher-meaningful-work-after-finishing-toolkit.pdf": {
+      "bytes": 1205078,
+      "sha256": "e8a8ef31d20b48de475b3d6a6fe5eecc29d8e689bbaadbbfe9f175b516965bce",
+      "contentType": "application/pdf"
+    },
+    "teacher-finishing-unfinished-work-toolkit.pdf": {
+      "bytes": 1205180,
+      "sha256": "980301a53edba33ce051146a88653fc50a4c8fb1c119ab356afbc9a61250aacc",
+      "contentType": "application/pdf"
+    },
+    "teacher-organization-learners-can-explain-toolkit.pdf": {
+      "bytes": 1205015,
+      "sha256": "18006a3b3dfdbcc8e8d92853d273913a95585e90bf637e845e59bdc99f75b800",
+      "contentType": "application/pdf"
+    },
+    "teacher-a-welcoming-return-after-absence-toolkit.pdf": {
+      "bytes": 1205091,
+      "sha256": "a0f7a91d0572423e63521584a3eea6596a7fccbd056c7e5c203890892f0d9881",
+      "contentType": "application/pdf"
+    },
+    "teacher-homework-with-a-clear-purpose-toolkit.pdf": {
+      "bytes": 1205231,
+      "sha256": "bedeba5526dc78ed155947dd0d530ddda2dbf18b7a324c9141dc288047770bb1",
+      "contentType": "application/pdf"
+    },
+    "teacher-reading-time-with-stamina-and-choice-toolkit.pdf": {
+      "bytes": 1205168,
+      "sha256": "c4aa07cebdf65e6f9742944f64120025aedb97ee7894272c57b6be6d218e03f5",
+      "contentType": "application/pdf"
+    },
+    "teacher-revision-with-a-purpose-toolkit.pdf": {
+      "bytes": 1204985,
+      "sha256": "b4377a9f4fcd74b72974b0e284135f438a7cc58ac700960bf582c1aa6f1e2aeb",
+      "contentType": "application/pdf"
+    },
+    "teacher-math-talk-beyond-the-answer-toolkit.pdf": {
+      "bytes": 1205113,
+      "sha256": "35854b0ecf590d383780586b0d6021651fccbe909519d4097b71868e5dd967ea",
+      "contentType": "application/pdf"
+    },
+    "teacher-project-materials-and-careful-setup-toolkit.pdf": {
+      "bytes": 1205284,
+      "sha256": "73e1d1e59f71d8d8879dec7922098d5e44a681c14b4d2de21878cfba4d59d2ea",
+      "contentType": "application/pdf"
+    },
+    "teacher-digital-focus-with-a-defined-task-toolkit.pdf": {
+      "bytes": 1205160,
+      "sha256": "324e7f88b3af12de9d0888ab28958155cf1687bb1beb2ac1d00bb08b89b34233",
+      "contentType": "application/pdf"
+    },
+    "teacher-shared-devices-shared-thinking-toolkit.pdf": {
+      "bytes": 1205203,
+      "sha256": "4a7b8210053316f8ae0e05cad10b205744bb23f22eb3cc5ece2e09b5b11101cf",
+      "contentType": "application/pdf"
+    },
+    "teacher-movement-with-a-learning-purpose-toolkit.pdf": {
+      "bytes": 1205146,
+      "sha256": "5ab4539d455de1109b7a612981c9823247240c8de2637fed407d082223ce7a24",
+      "contentType": "application/pdf"
+    },
+    "teacher-a-calm-space-with-a-return-plan-toolkit.pdf": {
+      "bytes": 1205172,
+      "sha256": "1044760bf533b4cc2554ce143be10dd3e52550bfb2c0f9f37245c9d4f7a3a521",
+      "contentType": "application/pdf"
+    },
+    "teacher-disagreement-with-a-repair-route-toolkit.pdf": {
+      "bytes": 1205211,
+      "sha256": "9e7b72a6b77ca94d4523bda812c87ccae213d9317c2f0f77e72d0bc56644097a",
+      "contentType": "application/pdf"
+    },
+    "teacher-a-substitute-day-students-understand-toolkit.pdf": {
+      "bytes": 1205247,
+      "sha256": "f68a02a800de1c336ca03165ed193d13bed4c22e305fefae0bfcf05a63487559",
+      "contentType": "application/pdf"
+    },
+    "teacher-family-messages-that-invite-partnership-toolkit.pdf": {
+      "bytes": 1205115,
+      "sha256": "1b9eeff54ce283b21bd7ff6229cbf7fe11dc6cd9bf546ff0b7efff2c4d4933ee",
+      "contentType": "application/pdf"
+    },
+    "teacher-student-voice-in-classroom-routines-toolkit.pdf": {
+      "bytes": 1205121,
+      "sha256": "b805572a9049f02e98bb0c349575cf04530c35a339d7d6912f3abf193b869380",
+      "contentType": "application/pdf"
+    },
+    "sat-act-linear-solve-math-skill-builder.pdf": {
+      "bytes": 1199432,
+      "sha256": "3bcb88f24d897194a5ecc0e118f2ea142f58e812f1fd3791f275b7939d6cd3c1",
+      "contentType": "application/pdf"
+    },
+    "sat-act-linear-context-math-skill-builder.pdf": {
+      "bytes": 1199621,
+      "sha256": "ff34c49ea44127deaef42efc62fb14bc8e23615487d1fbea3a7bc2060871367d",
+      "contentType": "application/pdf"
+    },
+    "sat-act-systems-math-skill-builder.pdf": {
+      "bytes": 1200560,
+      "sha256": "ad017d7314352d6257c342d6e17622e5f2b78d3b81486ccf452d2cc6b0af2ba6",
+      "contentType": "application/pdf"
+    },
+    "sat-act-inequalities-math-skill-builder.pdf": {
+      "bytes": 1200556,
+      "sha256": "b42c29710c4e77696567e5d8deaf09edfe168a6503390b5ee42ec8c21b9b26df",
+      "contentType": "application/pdf"
+    },
+    "sat-act-literal-math-skill-builder.pdf": {
+      "bytes": 1199958,
+      "sha256": "2b08d7a447038721387bd3e2cf5a3df14ecd709e518a4a49d42536e278cf2d2f",
+      "contentType": "application/pdf"
+    },
+    "sat-act-slope-math-skill-builder.pdf": {
+      "bytes": 1199967,
+      "sha256": "284b6133c46ea09d502e1379a8a03221583ee7b936350863d07bde7daa9165de",
+      "contentType": "application/pdf"
+    },
+    "sat-act-line-relations-math-skill-builder.pdf": {
+      "bytes": 1200804,
+      "sha256": "07950ea8ebea8afc9668636285560c2b41144c816ba595981d931f8830e0bc04",
+      "contentType": "application/pdf"
+    },
+    "sat-act-break-even-math-skill-builder.pdf": {
+      "bytes": 1200506,
+      "sha256": "d24e4aa088e6ac80343ed891d1f5bd8ae7ba5b99cd78a3292a606612651e4b31",
+      "contentType": "application/pdf"
+    },
+    "sat-act-factoring-math-skill-builder.pdf": {
+      "bytes": 1199514,
+      "sha256": "a1d4bb2755cf6463c17e25120308b6032eabda76cbb0eac496082c3d44495b54",
+      "contentType": "application/pdf"
+    },
+    "sat-act-quadratic-roots-math-skill-builder.pdf": {
+      "bytes": 1199490,
+      "sha256": "012744daab48244a9e0b040a1a1621bf58d9ea76b4114b7e45ed287171e2f8e9",
+      "contentType": "application/pdf"
+    },
+    "sat-act-vertex-math-skill-builder.pdf": {
+      "bytes": 1200647,
+      "sha256": "5397ed215bb17b906dfd4dd0bc61d517090af710992b1167ccecce9470fa1aac",
+      "contentType": "application/pdf"
+    },
+    "sat-act-exponents-math-skill-builder.pdf": {
+      "bytes": 1199200,
+      "sha256": "e73467718691c6d477a0d50670df6f49527fe59c026cb6c5593acc689fa992d5",
+      "contentType": "application/pdf"
+    },
+    "sat-act-radicals-math-skill-builder.pdf": {
+      "bytes": 1199515,
+      "sha256": "4e07ec75573f67f5631680476a1d8a5edcbd49e1bee4e0057f3a4c47566d5a24",
+      "contentType": "application/pdf"
+    },
+    "sat-act-growth-math-skill-builder.pdf": {
+      "bytes": 1201002,
+      "sha256": "22ff7d7517dc5df4f3534bba3e564a5ef3593574ec32544081d266f12286abfb",
+      "contentType": "application/pdf"
+    },
+    "sat-act-rational-math-skill-builder.pdf": {
+      "bytes": 1199803,
+      "sha256": "2017f66eb708f12eed11db2973a0af9ceba729b8be446ab29a492c5db6a71adc",
+      "contentType": "application/pdf"
+    },
+    "sat-act-functions-math-skill-builder.pdf": {
+      "bytes": 1199633,
+      "sha256": "2cdda518f7a5b365f510620e8c339e63749c188c76f4f82e441c61781ccb6055",
+      "contentType": "application/pdf"
+    },
+    "sat-act-percent-change-math-skill-builder.pdf": {
+      "bytes": 1200175,
+      "sha256": "c58f3870948263ca3d016248b04151e1d8b6c698c6b3786cc3e5f936495fc973",
+      "contentType": "application/pdf"
+    },
+    "sat-act-units-math-skill-builder.pdf": {
+      "bytes": 1199514,
+      "sha256": "6306ffec2e5ceb0b208b273845f92e16caff06a5a24b2b22179622f88ee7f162",
+      "contentType": "application/pdf"
+    },
+    "sat-act-weighted-mean-math-skill-builder.pdf": {
+      "bytes": 1200518,
+      "sha256": "94f4f7eeb4b6a22e7b96546e88bb8dfc0d2eefbe93dbbb258a93b562562c3af8",
+      "contentType": "application/pdf"
+    },
+    "sat-act-outliers-math-skill-builder.pdf": {
+      "bytes": 1200461,
+      "sha256": "62389a12d26776f113c47537475751c42a5488a868977d891783b98098f3f0f3",
+      "contentType": "application/pdf"
+    },
+    "sat-act-probability-math-skill-builder.pdf": {
+      "bytes": 1200246,
+      "sha256": "be02ae9ca690a92ac16e6b0bc460dc62af59d0ff4a194a4749a96585d48a9bd1",
+      "contentType": "application/pdf"
+    },
+    "sat-act-conditional-math-skill-builder.pdf": {
+      "bytes": 1200553,
+      "sha256": "883875f94db6f6b1227853b92e62703d492ad8cf10f0fcf2d80af7337d430fbe",
+      "contentType": "application/pdf"
+    },
+    "sat-act-prediction-math-skill-builder.pdf": {
+      "bytes": 1200917,
+      "sha256": "13e21d13023f80bba4d03705ce930cdda4077b2b08fca6c9bb24d2ecf6f91903",
+      "contentType": "application/pdf"
+    },
+    "sat-act-sampling-math-skill-builder.pdf": {
+      "bytes": 1202673,
+      "sha256": "116bec995f34b8677643591b8dc9cf0987d4e42be6c2f59138e19abb0d8558c7",
+      "contentType": "application/pdf"
+    },
+    "sat-act-angles-math-skill-builder.pdf": {
+      "bytes": 1199151,
+      "sha256": "44c6754ea03753e4a53172d724b419db190b9203c1b2aa529745ca3376ffb0ca",
+      "contentType": "application/pdf"
+    },
+    "sat-act-trigonometry-math-skill-builder.pdf": {
+      "bytes": 1200347,
+      "sha256": "7b467ed37340cadcee45c34e39dc23b381090300f309d8a64640ff1b0bbaeae1",
+      "contentType": "application/pdf"
+    },
+    "sat-act-circles-math-skill-builder.pdf": {
+      "bytes": 1200460,
+      "sha256": "3e3f3e9e1c562c9c5809663a957e2ee1d0a3f490caf12f6fdac410dbe2baf347",
+      "contentType": "application/pdf"
+    },
+    "sat-act-similarity-math-skill-builder.pdf": {
+      "bytes": 1200095,
+      "sha256": "27b06a6d3d3e49496af77b03bb37ec72a06e3b11297f782caff03c21340d2095",
+      "contentType": "application/pdf"
+    },
+    "sat-act-volume-math-skill-builder.pdf": {
+      "bytes": 1200593,
+      "sha256": "f20031112011e8c45efb3ae378c4a44ff4bc1e1ccbcd95469eb698ceea57ebf9",
+      "contentType": "application/pdf"
+    },
+    "sat-act-distance-math-skill-builder.pdf": {
+      "bytes": 1199962,
+      "sha256": "81bea55a349880867ed18cabe2fee293857a504e03f338ef47695e52617a6da4",
+      "contentType": "application/pdf"
+    }
+  },
+  "products": {
+    "nc-g3-equal-groups-teaching-bundle": {
+      "default": "nc-g3-equal-groups-teaching-bundle.zip",
+      "pdf": "nc-g3-equal-groups-teaching-bundle.pdf",
+      "pptx": "nc-g3-equal-groups-teaching-bundle.pptx",
+      "slides": "nc-g3-equal-groups-teaching-bundle-slides.pdf"
+    },
+    "nc-g3-two-step-teaching-bundle": {
+      "default": "nc-g3-two-step-teaching-bundle.zip",
+      "pdf": "nc-g3-two-step-teaching-bundle.pdf",
+      "pptx": "nc-g3-two-step-teaching-bundle.pptx",
+      "slides": "nc-g3-two-step-teaching-bundle-slides.pdf"
+    },
+    "nc-g3-place-add-teaching-bundle": {
+      "default": "nc-g3-place-add-teaching-bundle.zip",
+      "pdf": "nc-g3-place-add-teaching-bundle.pdf",
+      "pptx": "nc-g3-place-add-teaching-bundle.pptx",
+      "slides": "nc-g3-place-add-teaching-bundle-slides.pdf"
+    },
+    "nc-g3-fraction-model-teaching-bundle": {
+      "default": "nc-g3-fraction-model-teaching-bundle.zip",
+      "pdf": "nc-g3-fraction-model-teaching-bundle.pdf",
+      "pptx": "nc-g3-fraction-model-teaching-bundle.pptx",
+      "slides": "nc-g3-fraction-model-teaching-bundle-slides.pdf"
+    },
+    "nc-g3-tile-area-teaching-bundle": {
+      "default": "nc-g3-tile-area-teaching-bundle.zip",
+      "pdf": "nc-g3-tile-area-teaching-bundle.pdf",
+      "pptx": "nc-g3-tile-area-teaching-bundle.pptx",
+      "slides": "nc-g3-tile-area-teaching-bundle-slides.pdf"
+    },
+    "nc-g4-multi-add-teaching-bundle": {
+      "default": "nc-g4-multi-add-teaching-bundle.zip",
+      "pdf": "nc-g4-multi-add-teaching-bundle.pdf",
+      "pptx": "nc-g4-multi-add-teaching-bundle.pptx",
+      "slides": "nc-g4-multi-add-teaching-bundle-slides.pdf"
+    },
+    "nc-g4-partial-products-teaching-bundle": {
+      "default": "nc-g4-partial-products-teaching-bundle.zip",
+      "pdf": "nc-g4-partial-products-teaching-bundle.pdf",
+      "pptx": "nc-g4-partial-products-teaching-bundle.pptx",
+      "slides": "nc-g4-partial-products-teaching-bundle-slides.pdf"
+    },
+    "nc-g4-division-remainders-teaching-bundle": {
+      "default": "nc-g4-division-remainders-teaching-bundle.zip",
+      "pdf": "nc-g4-division-remainders-teaching-bundle.pdf",
+      "pptx": "nc-g4-division-remainders-teaching-bundle.pptx",
+      "slides": "nc-g4-division-remainders-teaching-bundle-slides.pdf"
+    },
+    "nc-g4-like-fractions-teaching-bundle": {
+      "default": "nc-g4-like-fractions-teaching-bundle.zip",
+      "pdf": "nc-g4-like-fractions-teaching-bundle.pdf",
+      "pptx": "nc-g4-like-fractions-teaching-bundle.pptx",
+      "slides": "nc-g4-like-fractions-teaching-bundle-slides.pdf"
+    },
+    "nc-g4-area-perimeter-teaching-bundle": {
+      "default": "nc-g4-area-perimeter-teaching-bundle.zip",
+      "pdf": "nc-g4-area-perimeter-teaching-bundle.pdf",
+      "pptx": "nc-g4-area-perimeter-teaching-bundle.pptx",
+      "slides": "nc-g4-area-perimeter-teaching-bundle-slides.pdf"
+    },
+    "nc-g5-standard-multiply-teaching-bundle": {
+      "default": "nc-g5-standard-multiply-teaching-bundle.zip",
+      "pdf": "nc-g5-standard-multiply-teaching-bundle.pdf",
+      "pptx": "nc-g5-standard-multiply-teaching-bundle.pptx",
+      "slides": "nc-g5-standard-multiply-teaching-bundle-slides.pdf"
+    },
+    "nc-g5-decimal-money-teaching-bundle": {
+      "default": "nc-g5-decimal-money-teaching-bundle.zip",
+      "pdf": "nc-g5-decimal-money-teaching-bundle.pdf",
+      "pptx": "nc-g5-decimal-money-teaching-bundle.pptx",
+      "slides": "nc-g5-decimal-money-teaching-bundle-slides.pdf"
+    },
+    "nc-g5-unlike-fractions-teaching-bundle": {
+      "default": "nc-g5-unlike-fractions-teaching-bundle.zip",
+      "pdf": "nc-g5-unlike-fractions-teaching-bundle.pdf",
+      "pptx": "nc-g5-unlike-fractions-teaching-bundle.pptx",
+      "slides": "nc-g5-unlike-fractions-teaching-bundle-slides.pdf"
+    },
+    "nc-g5-fraction-sharing-teaching-bundle": {
+      "default": "nc-g5-fraction-sharing-teaching-bundle.zip",
+      "pdf": "nc-g5-fraction-sharing-teaching-bundle.pdf",
+      "pptx": "nc-g5-fraction-sharing-teaching-bundle.pptx",
+      "slides": "nc-g5-fraction-sharing-teaching-bundle-slides.pdf"
+    },
+    "nc-g5-prism-volume-teaching-bundle": {
+      "default": "nc-g5-prism-volume-teaching-bundle.zip",
+      "pdf": "nc-g5-prism-volume-teaching-bundle.pdf",
+      "pptx": "nc-g5-prism-volume-teaching-bundle.pptx",
+      "slides": "nc-g5-prism-volume-teaching-bundle-slides.pdf"
+    },
+    "nc-g6-ratio-tables-teaching-bundle": {
+      "default": "nc-g6-ratio-tables-teaching-bundle.zip",
+      "pdf": "nc-g6-ratio-tables-teaching-bundle.pdf",
+      "pptx": "nc-g6-ratio-tables-teaching-bundle.pptx",
+      "slides": "nc-g6-ratio-tables-teaching-bundle-slides.pdf"
+    },
+    "nc-g6-percent-benchmarks-teaching-bundle": {
+      "default": "nc-g6-percent-benchmarks-teaching-bundle.zip",
+      "pdf": "nc-g6-percent-benchmarks-teaching-bundle.pdf",
+      "pptx": "nc-g6-percent-benchmarks-teaching-bundle.pptx",
+      "slides": "nc-g6-percent-benchmarks-teaching-bundle-slides.pdf"
+    },
+    "nc-g6-one-step-equations-teaching-bundle": {
+      "default": "nc-g6-one-step-equations-teaching-bundle.zip",
+      "pdf": "nc-g6-one-step-equations-teaching-bundle.pdf",
+      "pptx": "nc-g6-one-step-equations-teaching-bundle.pptx",
+      "slides": "nc-g6-one-step-equations-teaching-bundle-slides.pdf"
+    },
+    "nc-g6-triangle-area-teaching-bundle": {
+      "default": "nc-g6-triangle-area-teaching-bundle.zip",
+      "pdf": "nc-g6-triangle-area-teaching-bundle.pdf",
+      "pptx": "nc-g6-triangle-area-teaching-bundle.pptx",
+      "slides": "nc-g6-triangle-area-teaching-bundle-slides.pdf"
+    },
+    "nc-g6-center-spread-teaching-bundle": {
+      "default": "nc-g6-center-spread-teaching-bundle.zip",
+      "pdf": "nc-g6-center-spread-teaching-bundle.pdf",
+      "pptx": "nc-g6-center-spread-teaching-bundle.pptx",
+      "slides": "nc-g6-center-spread-teaching-bundle-slides.pdf"
+    },
+    "nc-g7-proportion-models-teaching-bundle": {
+      "default": "nc-g7-proportion-models-teaching-bundle.zip",
+      "pdf": "nc-g7-proportion-models-teaching-bundle.pdf",
+      "pptx": "nc-g7-proportion-models-teaching-bundle.pptx",
+      "slides": "nc-g7-proportion-models-teaching-bundle-slides.pdf"
+    },
+    "nc-g7-signed-change-teaching-bundle": {
+      "default": "nc-g7-signed-change-teaching-bundle.zip",
+      "pdf": "nc-g7-signed-change-teaching-bundle.pdf",
+      "pptx": "nc-g7-signed-change-teaching-bundle.pptx",
+      "slides": "nc-g7-signed-change-teaching-bundle-slides.pdf"
+    },
+    "nc-g7-multi-step-equations-teaching-bundle": {
+      "default": "nc-g7-multi-step-equations-teaching-bundle.zip",
+      "pdf": "nc-g7-multi-step-equations-teaching-bundle.pdf",
+      "pptx": "nc-g7-multi-step-equations-teaching-bundle.pptx",
+      "slides": "nc-g7-multi-step-equations-teaching-bundle-slides.pdf"
+    },
+    "nc-g7-circle-measures-teaching-bundle": {
+      "default": "nc-g7-circle-measures-teaching-bundle.zip",
+      "pdf": "nc-g7-circle-measures-teaching-bundle.pdf",
+      "pptx": "nc-g7-circle-measures-teaching-bundle.pptx",
+      "slides": "nc-g7-circle-measures-teaching-bundle-slides.pdf"
+    },
+    "nc-g7-chance-models-teaching-bundle": {
+      "default": "nc-g7-chance-models-teaching-bundle.zip",
+      "pdf": "nc-g7-chance-models-teaching-bundle.pdf",
+      "pptx": "nc-g7-chance-models-teaching-bundle.pptx",
+      "slides": "nc-g7-chance-models-teaching-bundle-slides.pdf"
+    },
+    "nc-g8-both-sides-teaching-bundle": {
+      "default": "nc-g8-both-sides-teaching-bundle.zip",
+      "pdf": "nc-g8-both-sides-teaching-bundle.pdf",
+      "pptx": "nc-g8-both-sides-teaching-bundle.pptx",
+      "slides": "nc-g8-both-sides-teaching-bundle-slides.pdf"
+    },
+    "nc-g8-linear-functions-teaching-bundle": {
+      "default": "nc-g8-linear-functions-teaching-bundle.zip",
+      "pdf": "nc-g8-linear-functions-teaching-bundle.pdf",
+      "pptx": "nc-g8-linear-functions-teaching-bundle.pptx",
+      "slides": "nc-g8-linear-functions-teaching-bundle-slides.pdf"
+    },
+    "nc-g8-right-triangles-teaching-bundle": {
+      "default": "nc-g8-right-triangles-teaching-bundle.zip",
+      "pdf": "nc-g8-right-triangles-teaching-bundle.pdf",
+      "pptx": "nc-g8-right-triangles-teaching-bundle.pptx",
+      "slides": "nc-g8-right-triangles-teaching-bundle-slides.pdf"
+    },
+    "nc-g8-scatter-data-teaching-bundle": {
+      "default": "nc-g8-scatter-data-teaching-bundle.zip",
+      "pdf": "nc-g8-scatter-data-teaching-bundle.pdf",
+      "pptx": "nc-g8-scatter-data-teaching-bundle.pptx",
+      "slides": "nc-g8-scatter-data-teaching-bundle-slides.pdf"
+    },
+    "nc-g8-integer-exponents-teaching-bundle": {
+      "default": "nc-g8-integer-exponents-teaching-bundle.zip",
+      "pdf": "nc-g8-integer-exponents-teaching-bundle.pdf",
+      "pptx": "nc-g8-integer-exponents-teaching-bundle.pptx",
+      "slides": "nc-g8-integer-exponents-teaching-bundle-slides.pdf"
+    },
+    "teacher-a-calm-arrival-toolkit": {
+      "default": "teacher-a-calm-arrival-toolkit.pdf",
+      "pdf": "teacher-a-calm-arrival-toolkit.pdf"
+    },
+    "teacher-directions-students-can-use-toolkit": {
+      "default": "teacher-directions-students-can-use-toolkit.pdf",
+      "pdf": "teacher-directions-students-can-use-toolkit.pdf"
+    },
+    "teacher-transitions-with-a-destination-toolkit": {
+      "default": "teacher-transitions-with-a-destination-toolkit.pdf",
+      "pdf": "teacher-transitions-with-a-destination-toolkit.pdf"
+    },
+    "teacher-materials-with-a-home-toolkit": {
+      "default": "teacher-materials-with-a-home-toolkit.pdf",
+      "pdf": "teacher-materials-with-a-home-toolkit.pdf"
+    },
+    "teacher-asking-for-help-with-confidence-toolkit": {
+      "default": "teacher-asking-for-help-with-confidence-toolkit.pdf",
+      "pdf": "teacher-asking-for-help-with-confidence-toolkit.pdf"
+    },
+    "teacher-partners-who-both-participate-toolkit": {
+      "default": "teacher-partners-who-both-participate-toolkit.pdf",
+      "pdf": "teacher-partners-who-both-participate-toolkit.pdf"
+    },
+    "teacher-group-roles-that-rotate-toolkit": {
+      "default": "teacher-group-roles-that-rotate-toolkit.pdf",
+      "pdf": "teacher-group-roles-that-rotate-toolkit.pdf"
+    },
+    "teacher-listening-with-visible-evidence-toolkit": {
+      "default": "teacher-listening-with-visible-evidence-toolkit.pdf",
+      "pdf": "teacher-listening-with-visible-evidence-toolkit.pdf"
+    },
+    "teacher-discussion-without-a-rush-toolkit": {
+      "default": "teacher-discussion-without-a-rush-toolkit.pdf",
+      "pdf": "teacher-discussion-without-a-rush-toolkit.pdf"
+    },
+    "teacher-feedback-that-gives-a-next-step-toolkit": {
+      "default": "teacher-feedback-that-gives-a-next-step-toolkit.pdf",
+      "pdf": "teacher-feedback-that-gives-a-next-step-toolkit.pdf"
+    },
+    "teacher-mistakes-as-information-toolkit": {
+      "default": "teacher-mistakes-as-information-toolkit.pdf",
+      "pdf": "teacher-mistakes-as-information-toolkit.pdf"
+    },
+    "teacher-a-first-step-for-starting-work-toolkit": {
+      "default": "teacher-a-first-step-for-starting-work-toolkit.pdf",
+      "pdf": "teacher-a-first-step-for-starting-work-toolkit.pdf"
+    },
+    "teacher-pacing-with-checkpoints-toolkit": {
+      "default": "teacher-pacing-with-checkpoints-toolkit.pdf",
+      "pdf": "teacher-pacing-with-checkpoints-toolkit.pdf"
+    },
+    "teacher-meaningful-work-after-finishing-toolkit": {
+      "default": "teacher-meaningful-work-after-finishing-toolkit.pdf",
+      "pdf": "teacher-meaningful-work-after-finishing-toolkit.pdf"
+    },
+    "teacher-finishing-unfinished-work-toolkit": {
+      "default": "teacher-finishing-unfinished-work-toolkit.pdf",
+      "pdf": "teacher-finishing-unfinished-work-toolkit.pdf"
+    },
+    "teacher-organization-learners-can-explain-toolkit": {
+      "default": "teacher-organization-learners-can-explain-toolkit.pdf",
+      "pdf": "teacher-organization-learners-can-explain-toolkit.pdf"
+    },
+    "teacher-a-welcoming-return-after-absence-toolkit": {
+      "default": "teacher-a-welcoming-return-after-absence-toolkit.pdf",
+      "pdf": "teacher-a-welcoming-return-after-absence-toolkit.pdf"
+    },
+    "teacher-homework-with-a-clear-purpose-toolkit": {
+      "default": "teacher-homework-with-a-clear-purpose-toolkit.pdf",
+      "pdf": "teacher-homework-with-a-clear-purpose-toolkit.pdf"
+    },
+    "teacher-reading-time-with-stamina-and-choice-toolkit": {
+      "default": "teacher-reading-time-with-stamina-and-choice-toolkit.pdf",
+      "pdf": "teacher-reading-time-with-stamina-and-choice-toolkit.pdf"
+    },
+    "teacher-revision-with-a-purpose-toolkit": {
+      "default": "teacher-revision-with-a-purpose-toolkit.pdf",
+      "pdf": "teacher-revision-with-a-purpose-toolkit.pdf"
+    },
+    "teacher-math-talk-beyond-the-answer-toolkit": {
+      "default": "teacher-math-talk-beyond-the-answer-toolkit.pdf",
+      "pdf": "teacher-math-talk-beyond-the-answer-toolkit.pdf"
+    },
+    "teacher-project-materials-and-careful-setup-toolkit": {
+      "default": "teacher-project-materials-and-careful-setup-toolkit.pdf",
+      "pdf": "teacher-project-materials-and-careful-setup-toolkit.pdf"
+    },
+    "teacher-digital-focus-with-a-defined-task-toolkit": {
+      "default": "teacher-digital-focus-with-a-defined-task-toolkit.pdf",
+      "pdf": "teacher-digital-focus-with-a-defined-task-toolkit.pdf"
+    },
+    "teacher-shared-devices-shared-thinking-toolkit": {
+      "default": "teacher-shared-devices-shared-thinking-toolkit.pdf",
+      "pdf": "teacher-shared-devices-shared-thinking-toolkit.pdf"
+    },
+    "teacher-movement-with-a-learning-purpose-toolkit": {
+      "default": "teacher-movement-with-a-learning-purpose-toolkit.pdf",
+      "pdf": "teacher-movement-with-a-learning-purpose-toolkit.pdf"
+    },
+    "teacher-a-calm-space-with-a-return-plan-toolkit": {
+      "default": "teacher-a-calm-space-with-a-return-plan-toolkit.pdf",
+      "pdf": "teacher-a-calm-space-with-a-return-plan-toolkit.pdf"
+    },
+    "teacher-disagreement-with-a-repair-route-toolkit": {
+      "default": "teacher-disagreement-with-a-repair-route-toolkit.pdf",
+      "pdf": "teacher-disagreement-with-a-repair-route-toolkit.pdf"
+    },
+    "teacher-a-substitute-day-students-understand-toolkit": {
+      "default": "teacher-a-substitute-day-students-understand-toolkit.pdf",
+      "pdf": "teacher-a-substitute-day-students-understand-toolkit.pdf"
+    },
+    "teacher-family-messages-that-invite-partnership-toolkit": {
+      "default": "teacher-family-messages-that-invite-partnership-toolkit.pdf",
+      "pdf": "teacher-family-messages-that-invite-partnership-toolkit.pdf"
+    },
+    "teacher-student-voice-in-classroom-routines-toolkit": {
+      "default": "teacher-student-voice-in-classroom-routines-toolkit.pdf",
+      "pdf": "teacher-student-voice-in-classroom-routines-toolkit.pdf"
+    },
+    "sat-act-linear-solve-math-skill-builder": {
+      "default": "sat-act-linear-solve-math-skill-builder.pdf",
+      "pdf": "sat-act-linear-solve-math-skill-builder.pdf"
+    },
+    "sat-act-linear-context-math-skill-builder": {
+      "default": "sat-act-linear-context-math-skill-builder.pdf",
+      "pdf": "sat-act-linear-context-math-skill-builder.pdf"
+    },
+    "sat-act-systems-math-skill-builder": {
+      "default": "sat-act-systems-math-skill-builder.pdf",
+      "pdf": "sat-act-systems-math-skill-builder.pdf"
+    },
+    "sat-act-inequalities-math-skill-builder": {
+      "default": "sat-act-inequalities-math-skill-builder.pdf",
+      "pdf": "sat-act-inequalities-math-skill-builder.pdf"
+    },
+    "sat-act-literal-math-skill-builder": {
+      "default": "sat-act-literal-math-skill-builder.pdf",
+      "pdf": "sat-act-literal-math-skill-builder.pdf"
+    },
+    "sat-act-slope-math-skill-builder": {
+      "default": "sat-act-slope-math-skill-builder.pdf",
+      "pdf": "sat-act-slope-math-skill-builder.pdf"
+    },
+    "sat-act-line-relations-math-skill-builder": {
+      "default": "sat-act-line-relations-math-skill-builder.pdf",
+      "pdf": "sat-act-line-relations-math-skill-builder.pdf"
+    },
+    "sat-act-break-even-math-skill-builder": {
+      "default": "sat-act-break-even-math-skill-builder.pdf",
+      "pdf": "sat-act-break-even-math-skill-builder.pdf"
+    },
+    "sat-act-factoring-math-skill-builder": {
+      "default": "sat-act-factoring-math-skill-builder.pdf",
+      "pdf": "sat-act-factoring-math-skill-builder.pdf"
+    },
+    "sat-act-quadratic-roots-math-skill-builder": {
+      "default": "sat-act-quadratic-roots-math-skill-builder.pdf",
+      "pdf": "sat-act-quadratic-roots-math-skill-builder.pdf"
+    },
+    "sat-act-vertex-math-skill-builder": {
+      "default": "sat-act-vertex-math-skill-builder.pdf",
+      "pdf": "sat-act-vertex-math-skill-builder.pdf"
+    },
+    "sat-act-exponents-math-skill-builder": {
+      "default": "sat-act-exponents-math-skill-builder.pdf",
+      "pdf": "sat-act-exponents-math-skill-builder.pdf"
+    },
+    "sat-act-radicals-math-skill-builder": {
+      "default": "sat-act-radicals-math-skill-builder.pdf",
+      "pdf": "sat-act-radicals-math-skill-builder.pdf"
+    },
+    "sat-act-growth-math-skill-builder": {
+      "default": "sat-act-growth-math-skill-builder.pdf",
+      "pdf": "sat-act-growth-math-skill-builder.pdf"
+    },
+    "sat-act-rational-math-skill-builder": {
+      "default": "sat-act-rational-math-skill-builder.pdf",
+      "pdf": "sat-act-rational-math-skill-builder.pdf"
+    },
+    "sat-act-functions-math-skill-builder": {
+      "default": "sat-act-functions-math-skill-builder.pdf",
+      "pdf": "sat-act-functions-math-skill-builder.pdf"
+    },
+    "sat-act-percent-change-math-skill-builder": {
+      "default": "sat-act-percent-change-math-skill-builder.pdf",
+      "pdf": "sat-act-percent-change-math-skill-builder.pdf"
+    },
+    "sat-act-units-math-skill-builder": {
+      "default": "sat-act-units-math-skill-builder.pdf",
+      "pdf": "sat-act-units-math-skill-builder.pdf"
+    },
+    "sat-act-weighted-mean-math-skill-builder": {
+      "default": "sat-act-weighted-mean-math-skill-builder.pdf",
+      "pdf": "sat-act-weighted-mean-math-skill-builder.pdf"
+    },
+    "sat-act-outliers-math-skill-builder": {
+      "default": "sat-act-outliers-math-skill-builder.pdf",
+      "pdf": "sat-act-outliers-math-skill-builder.pdf"
+    },
+    "sat-act-probability-math-skill-builder": {
+      "default": "sat-act-probability-math-skill-builder.pdf",
+      "pdf": "sat-act-probability-math-skill-builder.pdf"
+    },
+    "sat-act-conditional-math-skill-builder": {
+      "default": "sat-act-conditional-math-skill-builder.pdf",
+      "pdf": "sat-act-conditional-math-skill-builder.pdf"
+    },
+    "sat-act-prediction-math-skill-builder": {
+      "default": "sat-act-prediction-math-skill-builder.pdf",
+      "pdf": "sat-act-prediction-math-skill-builder.pdf"
+    },
+    "sat-act-sampling-math-skill-builder": {
+      "default": "sat-act-sampling-math-skill-builder.pdf",
+      "pdf": "sat-act-sampling-math-skill-builder.pdf"
+    },
+    "sat-act-angles-math-skill-builder": {
+      "default": "sat-act-angles-math-skill-builder.pdf",
+      "pdf": "sat-act-angles-math-skill-builder.pdf"
+    },
+    "sat-act-trigonometry-math-skill-builder": {
+      "default": "sat-act-trigonometry-math-skill-builder.pdf",
+      "pdf": "sat-act-trigonometry-math-skill-builder.pdf"
+    },
+    "sat-act-circles-math-skill-builder": {
+      "default": "sat-act-circles-math-skill-builder.pdf",
+      "pdf": "sat-act-circles-math-skill-builder.pdf"
+    },
+    "sat-act-similarity-math-skill-builder": {
+      "default": "sat-act-similarity-math-skill-builder.pdf",
+      "pdf": "sat-act-similarity-math-skill-builder.pdf"
+    },
+    "sat-act-volume-math-skill-builder": {
+      "default": "sat-act-volume-math-skill-builder.pdf",
+      "pdf": "sat-act-volume-math-skill-builder.pdf"
+    },
+    "sat-act-distance-math-skill-builder": {
+      "default": "sat-act-distance-math-skill-builder.pdf",
+      "pdf": "sat-act-distance-math-skill-builder.pdf"
+    }
+  }
+}

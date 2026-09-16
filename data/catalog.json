@@ -1,0 +1,243 @@
+[
+  {
+    "id": "ca-grade4-multidigit",
+    "title": "Multi-Digit Operations: Place-Value Strategies",
+    "level": "Grade 4 \u2022 California",
+    "subject": "Mathematics",
+    "standard": "CA CCSS.MATH.CONTENT.4.NBT.B.4 \u2014 Fluently add and subtract multi-digit whole numbers using the standard algorithm.",
+    "source": "California Department of Education: https://www2.cde.ca.gov/cacs/math?c2=4%2C1%2C1%2C2",
+    "description": "Use place value to estimate, add, subtract, and check multi-digit whole-number calculations.",
+    "priceCents": 500,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "fl-grade5-theme",
+    "title": "Theme Detectives: Evidence in Original Fiction",
+    "level": "Grade 5 \u2022 Florida",
+    "subject": "Reading",
+    "standard": "ELA.5.R.1.2 \u2014 Explain the development of stated or implied theme(s) throughout a literary text.",
+    "source": "Florida Department of Education B.E.S.T. ELA Standards: https://www.fldoe.org/core/fileparse.php/7539/urlt/elabeststandardsfinal.pdf",
+    "description": "Read an original story about a student repairing a community garden sign; trace how choices and consequences develop a theme.",
+    "priceCents": 500,
+    "pages": 6,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Original fiction reading passage",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "tx-grade7-elements-compounds",
+    "title": "Elements & Compounds: Particle Evidence Lab",
+    "level": "Grade 7 \u2022 Texas",
+    "subject": "Science",
+    "standard": "TEKS 7.6(A) \u2014 Compare and contrast elements and compounds in terms of atoms and molecules, chemical symbols, and chemical formulas.",
+    "source": "Texas Education Agency TEKS Guide - Science 7.6A: https://teksguide.org/teks/s76a/overview",
+    "description": "Analyze particle models and formulas to distinguish elements from compounds.",
+    "priceCents": 600,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "college-composition-claims",
+    "title": "College Composition: Claims, Evidence & Reasoning",
+    "level": "College \u2022 First-Year Writing",
+    "subject": "English Composition",
+    "standard": "Course objective \u2014 Develop a focused arguable thesis, evaluate evidence, and connect evidence to claims through explicit reasoning.",
+    "source": "Course-level objective; no accreditation or universal equivalency claimed.",
+    "description": "Revise weak claims, evaluate source notes, and build an evidence-reasoning paragraph.",
+    "priceCents": 700,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "college-algebra-linear",
+    "title": "College Algebra: Linear Models in Context",
+    "level": "College \u2022 Introductory Algebra",
+    "subject": "Mathematics",
+    "standard": "Course objective \u2014 Interpret slope and intercept, construct linear models, solve linear equations, and evaluate model limitations.",
+    "source": "Course-level objective; no accreditation or universal equivalency claimed.",
+    "description": "Model constant-rate situations and interpret parameters with units.",
+    "priceCents": 700,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "college-biology-membranes",
+    "title": "General Biology: Cell Membrane Transport",
+    "level": "College \u2022 General Biology I",
+    "subject": "Biology",
+    "standard": "Course objective \u2014 Predict passive and active transport outcomes using concentration gradients, membrane properties, and energy requirements.",
+    "source": "Course-level objective; no accreditation or universal equivalency claimed.",
+    "description": "Use concentration scenarios to compare diffusion, osmosis, facilitated diffusion, and active transport.",
+    "priceCents": 700,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "college-psych-research",
+    "title": "Intro Psychology: Research Methods & Ethics",
+    "level": "College \u2022 Introductory Psychology",
+    "subject": "Psychology",
+    "standard": "Course objective \u2014 Distinguish research designs, identify variables and bias, interpret correlation cautiously, and apply core human-subject protections.",
+    "source": "Course-level objective; no accreditation or universal equivalency claimed.",
+    "description": "Evaluate fictional studies without confusing correlation and causation.",
+    "priceCents": 600,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "spanish101-campus",
+    "title": "Spanish 101: Campus Conversations",
+    "level": "College \u2022 Spanish 101",
+    "subject": "World Language",
+    "standard": "Course objective \u2014 Exchange greetings and basic personal information and use common present-tense forms of ser, llamarse, and regular -ar verbs.",
+    "source": "Course-level objective; no accreditation or universal equivalency claimed.",
+    "description": "Practice respectful greetings, introductions, and basic present-tense sentences.",
+    "priceCents": 600,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "college-accounting-cycle",
+    "title": "Financial Accounting: Transaction Analysis",
+    "level": "College \u2022 Introductory Accounting",
+    "subject": "Business",
+    "standard": "Course objective \u2014 Analyze transactions using the accounting equation and explain changes in assets, liabilities, and equity.",
+    "source": "Course-level objective; no accreditation or universal equivalency claimed.",
+    "description": "Track assets, liabilities, and equity through original small-business scenarios.",
+    "priceCents": 700,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  },
+  {
+    "id": "college-programming-python",
+    "title": "Introduction to Programming: Python Decisions",
+    "level": "College \u2022 Introductory Computer Science",
+    "subject": "Computer Science",
+    "standard": "Course objective \u2014 Trace variables and conditionals, write Boolean expressions, and create small input-process-output programs in Python.",
+    "source": "Course-level objective; no accreditation or universal equivalency claimed.",
+    "description": "Trace and write short Python programs using if, elif, else, comparison, and Boolean operators.",
+    "priceCents": 700,
+    "pages": 5,
+    "approved": true,
+    "formats": [
+      "PDF"
+    ],
+    "resourceType": "Lesson and practice packet",
+    "minutes": "40\u201350 minutes",
+    "included": [
+      "Teacher guide",
+      "Eight guided and independent practice tasks",
+      "Assessment / exit ticket",
+      "Answer key with worked guidance",
+      "Accessibility and differentiation notes"
+    ]
+  }
+]

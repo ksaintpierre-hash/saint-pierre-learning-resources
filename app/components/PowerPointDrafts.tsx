@@ -1,0 +1,3 @@
+export default function PowerPointDrafts({drafts}:{drafts:{title:string;slides:number;price:string;note:string}[]}) {
+  return <section className="sales-panel"><h2>Private PowerPoint drafts</h2><p>Inventory awaiting final file verification and your publication approval. These cards do not publish files or make them available for sale.</p><div className="draft-product-grid">{drafts.map((draft) => <article key={draft.title}><span>PRIVATE DRAFT</span><h3>{draft.title}</h3><p>{draft.note}</p><small>Editable PPTX · {draft.slides} slides · Suggested price {draft.price}</small></article>)}</div></section>;
+}

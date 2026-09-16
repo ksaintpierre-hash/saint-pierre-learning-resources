@@ -1,0 +1,17 @@
+{
+  "rl7-1-citing-textual-evidence": {
+    "name": "rl7-1-citing-textual-evidence.zip",
+    "bytes": 5766101,
+    "sha256": "fa55565a19f85bc95934506cb63828addf9c70a7468d7edb131f84323625b064"
+  },
+  "rl7-2-theme-objective-summary": {
+    "name": "rl7-2-theme-objective-summary.zip",
+    "bytes": 2564020,
+    "sha256": "c62eedff41be255b210ecf2e7a10b95162af649680bb6a56e0962388256af205"
+  },
+  "rl7-3-story-elements": {
+    "name": "rl7-3-story-elements.zip",
+    "bytes": 3241896,
+    "sha256": "c3a7eb443949d725d6aa817042e02e7587ac47343db7ebbc635c5606e779fa0b"
+  }
+}

@@ -1,0 +1,3 @@
+.category-strip{grid-template-columns:repeat(6,1fr)}
+@media(max-width:900px){.category-strip{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:640px){.category-strip{grid-template-columns:1fr}}
