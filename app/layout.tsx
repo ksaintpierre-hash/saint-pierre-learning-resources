@@ -1,5 +1,11 @@
 import { PREVIEW_MODE } from '../lib/preview-mode';
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+
+export const viewport: Viewport = {
+  themeColor: '#137078',
+  width: 'device-width',
+  initialScale: 1,
+};
 import "./globals.css";
 import "./portal.css";
 import "./category.css";

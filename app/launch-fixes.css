@@ -65,3 +65,9 @@ section[id]{scroll-margin-top:100px}
 .footer-social{display:flex;gap:18px;flex-wrap:wrap;margin-top:6px}
 .footer-social a{color:#93a2b3;font-size:.85rem;font-weight:700;text-decoration:none;border-bottom:1px solid #ffffff22;padding-bottom:2px}
 .footer-social a:hover{color:#fff;border-color:#fff}
+
+/* Route transition loading UI */
+.loading-shell{min-height:60vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;color:var(--muted)}
+.loading-spinner{width:40px;height:40px;border:3px solid #e0e8ea;border-top-color:#137078;border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.loading-spinner{animation:none;border-color:#137078}}
