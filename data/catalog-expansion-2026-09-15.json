@@ -10584,5 +10584,100 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-ri72-central-ideas-summary",
+    "title": "Central Ideas and Summary: Determining Two or More Central Ideas and Writing an Objective Summary",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.7.2 — Determine two or more central ideas in a text and analyze their development over the course of the text; provide an objective summary of the text.",
+    "objective": "Determine two or more central ideas in an informational text about urban heat islands, analyze how each develops across the text, and write an objective summary.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 17,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read an original informational article about the urban heat island effect; determine two central ideas, trace their development, and write an objective summary through vocabulary preview, Central Idea Tracker, partner discussion, 10 questions, intervention frames, enrichment challenges, and exit ticket.",
+    "summary": "A complete 80-minute RI.7.2 practice packet with original informational passage about urban heat islands, vocabulary preview, Central Idea Tracker, partner discussion, 10 questions (MC + open-response including full summary), intervention frames, enrichment challenges, exit ticket with summary checklist, and full answer key.",
+    "included": [
+      "1 original informational passage (6 paragraphs, approx. 1030L)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview (5 terms)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions (CI/KD/C symbols)",
+      "Guided practice: Central Idea Tracker + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response (including full objective summary)",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: central idea + summary checklist + self-assessment",
+      "Complete answer key with Central Idea Tracker answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read the passage carefully and annotate using the symbols provided. Use evidence from the text to support every answer. Include paragraph numbers.",
+    "teacherUse": "Use the Central Idea Tracker as guided practice before releasing to independent work. Consider connecting to science curriculum if students are studying climate or environmental science.",
+    "answerKey": "Suggested answers for Central Idea Tracker; worked explanations for all MC items; detailed scoring guidance for all open-response questions including objective summary; differentiation notes.",
+    "preparation": "Print pages 1-17 for students. Keep answer key pages for teacher use only.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original informational passage, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require multi-paragraph analysis. Extension: find one additional source about urban heat islands.",
+      "504": "Allow extended time. Provide Central Idea Tracker partially pre-filled. Reduce Q12 to two details. Allow oral responses.",
+      "EC": "Pre-teach: urban heat island, impervious surface, evapotranspiration, urban canyon, central idea. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion and Q13 before writing independently."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RI.7.2",
+      "reading",
+      "informational text",
+      "central idea",
+      "objective summary",
+      "urban heat island",
+      "science",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Central Ideas and Summary: RI.7.2 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-ri72-central-ideas-summary.png",
+        "page": 1,
+        "alt": "First page of the Central Ideas and Summary worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
