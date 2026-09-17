@@ -13051,5 +13051,99 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-rl76-character-perspectives",
+    "title": "Character Perspectives: How Authors Develop and Contrast Different Characters’ Perspectives",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.7.6 — Analyze how an author develops and contrasts the perspectives of different characters in a text.",
+    "objective": "Analyze how the author develops and contrasts the perspectives of Rosario and Gerald by examining what each character does, says, and thinks throughout the story.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 16,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read an original story about two co-directors of a community garden with contrasting perspectives; analyze how the author develops and contrasts each character through actions, dialogue, and internal thoughts.",
+    "summary": "A complete 80-minute RL.7.6 practice packet with original fiction passage, vocabulary preview, Perspective Comparison Chart, partner discussion, 10 questions, intervention frames, enrichment challenges, exit ticket, and full answer key.",
+    "included": [
+      "1 original fiction passage (14 paragraphs, approx. 970L)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview (5 words)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions with symbols (R/G/C/S)",
+      "Guided practice: Perspective Comparison Chart + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: perspective analysis + contrast sentence + self-assessment",
+      "Complete answer key with Perspective Comparison Chart answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read the passage carefully and annotate using the symbols provided. Use evidence from the text to support every answer.",
+    "teacherUse": "Use the Perspective Comparison Chart as guided practice before releasing to independent work. Use the exit ticket to assess perspective analysis skills.",
+    "answerKey": "Suggested answers for Perspective Comparison Chart; worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes.",
+    "preparation": "Print pages 1-16 for students. Keep answer key pages for teacher use only. Review the Perspective Comparison Chart and annotation symbols before class.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original fiction passage, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require analytical paragraphs and creative rewriting. Extension: write a scene from Gerald's point of view.",
+      "504": "Allow extended time. Provide Perspective Comparison Chart partially pre-filled. Reduce Q12 to two moments. Allow oral responses.",
+      "EC": "Pre-teach: perspective, contrast, internal thoughts, dialogue. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion before writing independently."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RL.7.6",
+      "reading",
+      "character perspective",
+      "point of view",
+      "contrast",
+      "fiction",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Character Perspectives: RL.7.6 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-rl76-character-perspectives.png",
+        "page": 1,
+        "alt": "First page of the Character Perspectives worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
