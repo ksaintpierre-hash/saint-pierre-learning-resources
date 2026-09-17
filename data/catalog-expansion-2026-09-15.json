@@ -10968,5 +10968,101 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-ri76-point-of-view-purpose",
+    "title": "Author's Point of View and Purpose: Determining POV and Analyzing How Authors Distinguish Their Positions",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.7.6 — Determine an author's point of view or purpose in a text and analyze how the author distinguishes his or her position from that of others.",
+    "objective": "Determine each author's point of view and purpose in two passages on school uniforms, analyze how each author distinguishes their position from the opposing view, and compare how the two authors address the same topic differently.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 17,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read two original persuasive passages on school uniforms (one pro, one anti); determine each author’s point of view and purpose, analyze how each distinguishes their position from the opposing view, through vocabulary preview, POV Comparison Chart, partner discussion, 10 questions, intervention frames, enrichment challenges, and exit ticket.",
+    "summary": "A complete 80-minute RI.7.6 practice packet with two original persuasive passages on school uniforms, vocabulary preview, POV Comparison Chart, partner discussion, 10 questions (MC + open-response), intervention frames, enrichment challenges, exit ticket, and full answer key.",
+    "included": [
+      "2 original persuasive passages (4 paragraphs each)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview (5 terms)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions for both passages (POV/P/D symbols)",
+      "Guided practice: POV Comparison Chart + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: POV + purpose + distinguishing move + self-assessment",
+      "Complete answer key with POV Comparison Chart answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read both passages carefully and annotate using the symbols provided. Use evidence from both passages to support every answer. Include paragraph labels (A1, B2, etc.).",
+    "teacherUse": "Use the POV Comparison Chart as guided practice before releasing to independent work. Remind students that the goal is to analyze the authors’ techniques, not to debate the topic itself.",
+    "answerKey": "Suggested answers for POV Comparison Chart; worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes.",
+    "preparation": "Print pages 1-17 for students. Keep answer key pages for teacher use only.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original persuasive passages, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require equity analysis and creative rewriting. Extension: find a real editorial on school uniforms and analyze the author’s techniques.",
+      "504": "Allow extended time. Provide POV Comparison Chart partially pre-filled. Reduce Q12 to one technique per passage. Allow oral responses.",
+      "EC": "Pre-teach: point of view, purpose, distinguish, equity, counterargument. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion before writing independently."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RI.7.6",
+      "reading",
+      "informational text",
+      "point of view",
+      "purpose",
+      "persuasive",
+      "school uniforms",
+      "compare contrast",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Author's Point of View and Purpose: RI.7.6 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-ri76-point-of-view-purpose.png",
+        "page": 1,
+        "alt": "First page of the Author's Point of View and Purpose worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
