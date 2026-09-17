@@ -13623,5 +13623,101 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-ri74-word-meaning-tone",
+    "title": "Word Meaning and Tone in Informational Text: Determining Word Meaning and Analyzing Word Choice",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.7.4 — Determine the meaning of words and phrases as they are used in a text; analyze the impact of a specific word choice on meaning and tone.",
+    "objective": "Determine the meaning of words and phrases in an informational text about microplastics using context clues, and analyze how specific word choices shape the meaning and tone of the passage.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 16,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read an original informational article about microplastic pollution; determine word meaning using context clues and analyze how word choice shapes tone through vocabulary preview, Word Analysis Chart, partner discussion, 10 questions, intervention frames, enrichment challenges, and exit ticket.",
+    "summary": "A complete 80-minute RI.7.4 practice packet with original informational passage about microplastics, vocabulary preview, Word Analysis Chart, partner discussion, 10 questions (MC + open-response), intervention frames, enrichment challenges, exit ticket, and full answer key.",
+    "included": [
+      "1 original informational passage (6 paragraphs, approx. 1050L)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview (5 terms)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions (W/T/C symbols)",
+      "Guided practice: Word Analysis Chart + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: word meaning + tone analysis + self-assessment",
+      "Complete answer key with Word Analysis Chart answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read the passage carefully and annotate using the symbols provided. Use evidence from the text to support every answer. Include paragraph numbers.",
+    "teacherUse": "Use the Word Analysis Chart as guided practice before releasing to independent work. Consider connecting to science curriculum if students are studying environmental science.",
+    "answerKey": "Suggested answers for Word Analysis Chart; worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes.",
+    "preparation": "Print pages 1-16 for students. Keep answer key pages for teacher use only.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original informational passage, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require tonal shift analysis and creative rewriting. Extension: find a second article about microplastics with a different tone.",
+      "504": "Allow extended time. Provide Word Analysis Chart partially pre-filled. Reduce Q12 to two words. Allow oral responses.",
+      "EC": "Pre-teach: microplastics, biodegrade, endocrine disruptor, leach, tone. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion before writing independently."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RI.7.4",
+      "reading",
+      "informational text",
+      "word meaning",
+      "tone",
+      "context clues",
+      "microplastics",
+      "science",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Word Meaning and Tone in Informational Text: RI.7.4 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-ri74-word-meaning-tone.png",
+        "page": 1,
+        "alt": "First page of the Word Meaning and Tone in Informational Text worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
