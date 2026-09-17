@@ -12567,5 +12567,96 @@
         "alt": "Actual student practice page 4; sample from college engineering design."
       }
     ]
+  },
+  {
+    "id": "nc-g7-rl71-textual-evidence",
+    "title": "Textual Evidence Detectives: Citing Evidence in Literary Text",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.7.1 — Cite several pieces of textual evidence to support analysis of what the text says explicitly as well as inferences drawn from the text.",
+    "objective": "Cite several pieces of textual evidence to support analysis of explicit statements and inferences drawn from literary text.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 7,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read an original story about a community garden under threat; cite explicit and inferred evidence across warm-up, guided practice, independent practice, small-group work, and an exit ticket.",
+    "summary": "A complete RL.7.1 practice packet with original fiction passage, evidence organizer, multiple-choice, open-response, intervention support, enrichment challenge, exit ticket, and full answer key.",
+    "detailedDescription": "Students read an original 7-paragraph fiction passage about a teacher who fights to save a community garden. The packet moves from a 5-minute warm-up through a teacher-guided evidence organizer, independent multiple-choice and open-response questions, differentiated small-group tasks (intervention sentence frame + enrichment analytical paragraph), and a self-assessed exit ticket. The answer key includes worked explanations for every multiple-choice item and detailed scoring guidance for every open-response question, plus AIG, 504, EC, and ESL differentiation notes.",
+    "included": [
+      "1 original fiction passage (7 paragraphs, approx. 950L)",
+      "Warm-up (2 questions)",
+      "Guided practice with evidence organizer graphic (3 tasks)",
+      "Independent practice (5 questions: 3 MC + 2 open-response)",
+      "Small-group work (intervention sentence frame + enrichment challenge)",
+      "Exit ticket with self-assessment scale",
+      "Complete answer key with scoring guidance and differentiation notes"
+    ],
+    "minutes": "45–60 minutes (or split across two class periods)",
+    "studentDirections": "Read the passage carefully, noting the paragraph numbers. Use evidence from the text to support every answer. Quote or closely paraphrase the text and include the paragraph number.",
+    "teacherUse": "Use the warm-up as a bell-ringer. Work through the evidence organizer together before releasing students to independent practice. Use the exit ticket to determine next-day groupings.",
+    "answerKey": "Worked explanations for all multiple-choice items; detailed scoring guidance for all open-response questions; differentiation notes for AIG, 504, EC, and ESL learners.",
+    "preparation": "Print pages 1-7 for students. Keep page 8 (answer key) for teacher use only. Review the evidence organizer before class.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original fiction passage, questions, answer key, and graphic organizer. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment challenge (Q12) requires a full analytical paragraph with three pieces of evidence. Extension: compare Maya's use of evidence to the RL.7.1 standard itself.",
+      "504": "Allow extended time. Permit annotation and highlighting. Reduce Q10 to two pieces of evidence.",
+      "EC": "Pre-teach: explicit, inference, textual evidence. Provide sentence frame for all open-response. Allow oral responses.",
+      "ESL": "Preview key vocabulary: demolished, petition, council, preserve. Allow bilingual glossary. Pair for Q5 before independent writing."
+    },
+    "license": "Single-teacher classroom use with the teacher's own learners and their families in a private classroom platform. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RL.7.1",
+      "reading",
+      "textual evidence",
+      "inference",
+      "literary text",
+      "fiction",
+      "worksheets",
+      "exit ticket",
+      "EOG prep"
+    ],
+    "thumbnailAlt": "Cover of Textual Evidence Detectives: RL.7.1 Grade 7 ELA North Carolina worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-rl71-textual-evidence.png",
+        "page": 1,
+        "alt": "First page of the Textual Evidence Detectives worksheet showing the reading passage."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
