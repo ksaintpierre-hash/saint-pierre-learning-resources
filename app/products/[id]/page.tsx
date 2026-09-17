@@ -6,7 +6,20 @@ import VisitTracker from '../../components/VisitTracker';
 
 export const dynamic = "force-dynamic";
 
-export async function generateMetadata({params}:{params:Promise<{id:string}>}){const {id}=await params;const p=(await publicCatalog()).find(p=>p.id===id);return p?{title:p.seoTitle||p.title+' | Saint Pierre',description:p.seoDescription||p.description}:{};}
+export async function generateMetadata({params}:{params:Promise<{id:string}>}){
+  const {id}=await params;
+  const p=(await publicCatalog()).find(p=>p.id===id);
+  if(!p)return{};
+  const title=p.seoTitle||p.title+' | Saint Pierre Learning Resources';
+  const description=p.seoDescription||p.description;
+  const image='https://saintpierreresources.com'+(p.thumbnailSrc||'/product-thumbnails/'+p.id+'.png');
+  return {
+    title,
+    description,
+    openGraph:{title,description,url:'https://saintpierreresources.com/products/'+p.id,siteName:'Saint Pierre Learning Resources',images:[{url:image,width:1160,height:1500,alt:p.title+' cover'}],type:'website'},
+    twitter:{card:'summary_large_image',title,description,images:[image]},
+  };
+}
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const catalog = await publicCatalog();
@@ -79,5 +92,18 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
       </article>
     </section>
     {related.length>0&&<section className="detail-grid"><article><h2>You may also like</h2><ul>{related.map(x=><li key={x.id}><a href={'/products/'+x.id}>{x.title}</a> · ${(x.priceCents/100).toFixed(2)}</li>)}</ul></article></section>}
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
+      "@context":"https://schema.org",
+      "@type":"Product",
+      "name":p.title,
+      "description":p.description,
+      "image":"https://saintpierreresources.com"+(p.thumbnailSrc||"/product-thumbnails/"+p.id+".png"),
+      "url":"https://saintpierreresources.com/products/"+p.id,
+      "brand":{"@type":"Brand","name":"Saint Pierre Learning Resources"},
+      "offers":{"@type":"Offer","priceCurrency":"USD","price":(p.priceCents/100).toFixed(2),"availability":"https://schema.org/InStock","seller":{"@type":"Organization","name":"Saint Pierre Learning Resources"}},
+      "audience":{"@type":"EducationalAudience","educationalRole":p.audience||"student"},
+      "educationalLevel":p.level,
+      "teaches":p.standard,
+    })}}/>
   </main>;
 }

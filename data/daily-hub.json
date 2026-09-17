@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "type": "news",
+      "summary": "News of the Day: North Carolina expands skills-based learning evidence",
+      "body": "On September 14, 2026, NCDPI announced a $3,990,756 federal grant for Skills for the Future 2.0. The planned three-year expansion, October 2026–September 2029, will directly serve 6,000 additional students and train 250 educators. The initiative uses classroom work and reflection to document skills such as collaboration and communication. These are announced plans, not proof of future results, and the program complements academic records rather than guaranteeing admission or employment.",
+      "linkText": "Read NCDPI\u2019s announcement \u00b7 September 14, 2026",
+      "linkUrl": "https://www.dpi.nc.gov/news/press-releases/2026/09/14/ncdpi-awarded-nearly-4-million-help-students-show-skills-matter-after-graduation"
+    },
+    {
+      "type": "article",
+      "summary": "Article of the Day: A small portfolio can tell a clearer learning story",
+      "body": "A useful learning portfolio does not need every worksheet. Try a three-piece collection: a first attempt, a revised attempt, and a brief explanation of what changed. Give the collection one purpose. If the goal is supporting an inference, the student can point to a newly added text detail and explain how it strengthens the answer. If the goal is collaboration, the reflection can describe a specific contribution, a response to a partner, and a next step.\n\nKeep the comparison fair. Record the task, date, and help available for each attempt. A polished final page should not hide the adult prompts or group work that helped produce it. Those supports are part of the learning story, not something to erase.\n\nEnd with a decision: What should the learner try next? A short portfolio conference can focus on one visible improvement and one unresolved question. Avoid treating a single attractive artifact as proof of broad mastery. Start small, protect student privacy, and use your school\u2019s approved storage and sharing process."
+    },
+    {
+      "type": "teacher",
+      "summary": "Teacher Advice: Name one observable criterion first",
+      "body": "Before collecting work, write one checkable criterion: \u201cThe response includes a relevant text detail and explains the connection.\u201d Show a brief example and a nonexample. During review, mark the exact place the criterion appears\u2014or the place it is missing. Let the learner revise that part before adding more tasks. Keep accommodations in place and avoid evaluating unrelated handwriting or speed when they are not the learning goal."
+    },
+    {
+      "type": "parent",
+      "summary": "Parent Advice: Ask about one revision",
+      "body": "Ask, \u201cWhat did you change, and why?\u201d Let your child point, speak, draw, or use their usual communication support. Follow with, \u201cWhat would you like help with next?\u201d Notice a specific action\u2014adding a detail, checking a word, or listening to a partner\u2014without comparing the child to others. Share questions through the teacher\u2019s usual channel; do not post identifiable student work publicly."
+    }
+  ]
+}

@@ -16,6 +16,7 @@ const baseMetadata: Metadata = {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
+  manifest: "/manifest.json",
   openGraph: {
     title: "Saint Pierre Learning Resources | Printable Teaching Resources",
     description: "Explore printable education resources and sample pages from Saint Pierre Learning Resources. Find focused school and introductory college practice with clear objectives, teacher guidance, and answer keys.",
@@ -60,7 +61,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{PREVIEW_MODE&&<div role="status" style={{background:"#fff0b5",color:"#163249",padding:"14px",textAlign:"center",fontSize:"16px"}}>Private staging preview — payments, sign-in, and messages are disabled.</div>}{children}</body>
+      <body className="antialiased"><a href="#main-content" className="skip-link">Skip to main content</a>{PREVIEW_MODE&&<div role="status" style={{background:"#fff0b5",color:"#163249",padding:"14px",textAlign:"center",fontSize:"16px"}}>Private staging preview — payments, sign-in, and messages are disabled.</div>}{children}</body>
     </html>
   );
 }
