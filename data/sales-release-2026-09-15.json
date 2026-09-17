@@ -13242,5 +13242,101 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-rl79-fiction-vs-history",
+    "title": "Fiction vs. History: Comparing Fictional and Historical Accounts of the Same Event",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.7.9 — Compare and contrast a fictional portrayal of a time, place, or character and a historical account of the same period as a means of understanding how authors of fiction use or alter history.",
+    "objective": "Compare a fictional story and a historical account of the 1960 Greensboro sit-ins, identifying what the author kept accurate, what was altered, and why those choices affect meaning.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 18,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Compare an original historical fiction story set during the 1960 Greensboro sit-ins to an original historical account of the same event; analyze what the author kept accurate, altered, and invented, and why those choices affect meaning.",
+    "summary": "A complete 80-minute RL.7.9 practice packet with original historical fiction story and historical account, vocabulary preview, Fact vs. Fiction Chart, partner discussion, 10 questions, intervention frames, enrichment challenges, exit ticket, and full answer key.",
+    "included": [
+      "1 original historical fiction story (9 paragraphs, approx. 960L)",
+      "1 original historical account (5 paragraphs)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview (6 terms)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions for both texts (different symbols for each)",
+      "Guided practice: Fact vs. Fiction Chart + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: fact vs. fiction analysis + author purpose + self-assessment",
+      "Complete answer key with Fact vs. Fiction Chart answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read both texts carefully and annotate using the symbols provided. Use evidence from both texts to support every answer.",
+    "teacherUse": "Provide brief background on the civil rights movement before reading. Use the Fact vs. Fiction Chart as guided practice before releasing to independent work.",
+    "answerKey": "Suggested answers for Fact vs. Fiction Chart; worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes.",
+    "preparation": "Print pages 1-18 for students. Keep answer key pages for teacher use only. Review the Fact vs. Fiction Chart and annotation symbols before class.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original historical fiction story and original historical account summary, questions, answer key, and graphic organizers. No official released-test items or branded content. Historical facts are drawn from the public record.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require analytical paragraphs and creative historical fiction writing. Extension: research one additional fact about the Greensboro sit-ins.",
+      "504": "Allow extended time. Provide Fact vs. Fiction Chart partially pre-filled. Reduce Q12 to one text per comparison point. Allow oral responses.",
+      "EC": "Pre-teach: segregated, nonviolent, sit-in, desegregated, fictional, historical account. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion before writing independently."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RL.7.9",
+      "reading",
+      "fiction vs history",
+      "historical fiction",
+      "civil rights",
+      "Greensboro sit-ins",
+      "compare contrast",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Fiction vs. History: RL.7.9 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-rl79-fiction-vs-history.png",
+        "page": 1,
+        "alt": "First page of the Fiction vs. History worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
