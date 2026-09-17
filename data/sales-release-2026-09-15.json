@@ -12755,5 +12755,103 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-rl73-story-elements",
+    "title": "Story Element Interactions: Analyzing How Character, Setting, and Plot Interact",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.7.3 — Analyze how particular elements of a story or drama interact.",
+    "objective": "Analyze how setting, character, and plot interact in a literary text, explaining how changes in one element affect the others using specific textual evidence.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 14,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read an original story about a girl who moves to a farm and loses a beloved horse; analyze how setting, character, and plot interact through vocabulary preview, Element Interaction Map, partner discussion, independent practice, intervention frames, enrichment challenges, and exit ticket.",
+    "summary": "A complete 80-minute RL.7.3 practice packet with original fiction passage, vocabulary preview, lesson plan overview, Element Interaction Map organizer, partner discussion with sentence starters, 11 questions (MC + open-response), intervention frames, enrichment challenges, exit ticket with self-assessment, and full answer key.",
+    "detailedDescription": "Students read an original 12-paragraph fiction passage about Nadia, who moves from Raleigh to a farm and forms a bond with an aging horse named Copper. The 80-minute packet includes a vocabulary preview, annotation directions with symbols (S/C/P/?), a teacher-guided Element Interaction Map, structured partner discussion, 4 MC + 7 open-response questions, differentiated small-group work (2 intervention frames + 2 enrichment challenges), and a 2-part exit ticket with 4-level self-assessment. The answer key includes worked explanations for every MC item, detailed scoring guidance for every open-response question, and AIG/504/EC/ESL differentiation notes.",
+    "included": [
+      "1 original fiction passage (12 paragraphs, approx. 970L)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview table (5 words)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions with symbols (S/C/P/?)",
+      "Guided practice: Element Interaction Map + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters and note space",
+      "Independent practice: 4 MC + 7 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: element interaction analysis + self-assessment",
+      "Complete answer key with scoring guidance and differentiation notes"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read the passage and annotate using the symbols provided. Use evidence from the text to support every answer. Quote or closely paraphrase the text and include the paragraph number.",
+    "teacherUse": "Use Section 1 as a bell-ringer vocabulary preview. Work through the Element Interaction Map together before partner discussion. Use the exit ticket to assess element interaction analysis skills.",
+    "answerKey": "Worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes for AIG, 504, EC, and ESL learners.",
+    "preparation": "Print pages 1-14 for students. Keep answer key pages for teacher use only. Review the Element Interaction Map and annotation symbols before class.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original fiction passage, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment challenges Q17 and Q18 require analytical paragraphs with four pieces of evidence. Extension: compare element interactions across two texts.",
+      "504": "Allow extended time. Permit annotation. Reduce Q12 to two moments. Allow oral responses for exit ticket.",
+      "EC": "Pre-teach: setting, character, plot, conflict, interaction. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion before writing independently."
+    },
+    "license": "Single-teacher classroom use with the teacher's own learners and their families in a private classroom platform. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RL.7.3",
+      "reading",
+      "story elements",
+      "character",
+      "setting",
+      "plot",
+      "interaction",
+      "fiction",
+      "worksheets",
+      "exit ticket",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Story Element Interactions: RL.7.3 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-rl73-story-elements.png",
+        "page": 1,
+        "alt": "First page of the Story Element Interactions worksheet showing the lesson plan overview."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
