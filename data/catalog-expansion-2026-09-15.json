@@ -10679,5 +10679,100 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-ri73-interactions-informational",
+    "title": "Interactions in Informational Text: Analyzing How Individuals, Events, and Ideas Interact",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.7.3 — Analyze the interactions between individuals, events, and ideas in a text.",
+    "objective": "Analyze how individuals (Jonas Salk, Roosevelt), events (1952 outbreak, 1954 trial), and ideas (killed-virus vaccine) interact to produce the development of the polio vaccine.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 15,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read an original informational article about the development of the polio vaccine; analyze how individuals, events, and ideas interact through vocabulary preview, Interaction Web, partner discussion, 10 questions, intervention frames, enrichment challenges, and exit ticket.",
+    "summary": "A complete 80-minute RI.7.3 practice packet with original informational passage about the polio vaccine, vocabulary preview, Interaction Web organizer, partner discussion, 10 questions (MC + open-response), intervention frames, enrichment challenges, exit ticket, and full answer key.",
+    "included": [
+      "1 original informational passage (6 paragraphs, approx. 1040L)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview (5 terms)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions (P/E/I/arrow symbols)",
+      "Guided practice: Interaction Web + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: interaction analysis + connection + self-assessment",
+      "Complete answer key with Interaction Web answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read the passage carefully and annotate using the symbols provided. Use evidence from the text to support every answer. Include paragraph numbers.",
+    "teacherUse": "Use the Interaction Web as guided practice before releasing to independent work. Consider connecting to science or social studies curriculum.",
+    "answerKey": "Suggested answers for Interaction Web; worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes.",
+    "preparation": "Print pages 1-15 for students. Keep answer key pages for teacher use only.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original informational passage, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require chain-of-interaction analysis and counterfactual reasoning. Extension: research one additional interaction not in the passage.",
+      "504": "Allow extended time. Provide Interaction Web partially pre-filled. Reduce Q12 to two interactions. Allow oral responses.",
+      "EC": "Pre-teach: poliovirus, clinical trial, inactivated, virologist, mobilize. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion before writing independently."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RI.7.3",
+      "reading",
+      "informational text",
+      "interactions",
+      "individuals events ideas",
+      "polio vaccine",
+      "science history",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Interactions in Informational Text: RI.7.3 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-ri73-interactions-informational.png",
+        "page": 1,
+        "alt": "First page of the Interactions in Informational Text worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
