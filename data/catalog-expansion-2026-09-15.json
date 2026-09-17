@@ -9809,5 +9809,102 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-rl72-theme-summary",
+    "title": "Theme Trackers: Determining Theme and Writing an Objective Summary",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.7.2 — Determine a theme of a text and analyze its development over the course of the text; provide an objective summary of the text.",
+    "objective": "Determine the theme of a literary text, analyze how it develops across the text using textual evidence, and write an objective summary.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 17,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Read an original story about a student who discovers the value of persistence; trace theme development across 12 paragraphs through vocabulary preview, guided organizer, partner discussion, independent practice, small-group work, and exit ticket.",
+    "summary": "A complete 80-minute RL.7.2 practice packet with original fiction passage, vocabulary preview, lesson plan overview, Theme Tracker organizer, partner discussion with sentence starters, 10 questions (MC + open-response), intervention frames, enrichment challenges, exit ticket with summary checklist, and full answer key.",
+    "detailedDescription": "Students read an original 12-paragraph fiction passage about a reluctant robotics team member who learns the value of persistence. The 80-minute packet includes a vocabulary preview table, prior knowledge warm-up, annotated reading with quick check, teacher-guided Theme Tracker organizer, structured partner discussion with sentence starters, 8 independent questions (4 MC + 4 open-response including a full objective summary task), differentiated small-group work (2 intervention frames + 2 enrichment challenges), and a 3-part exit ticket with objective summary checklist and 4-level self-assessment. The answer key includes worked explanations for every MC item, detailed scoring guidance for every open-response question, and AIG/504/EC/ESL differentiation notes.",
+    "included": [
+      "1 original fiction passage (12 paragraphs, approx. 980L)",
+      "80-minute lesson plan overview table",
+      "Vocabulary preview table (5 words with definition + student sentence)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions and quick check",
+      "Guided practice: Theme Tracker organizer + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters and note space",
+      "Independent practice: 4 MC + 4 open-response (including objective summary)",
+      "Small-group work: 2 intervention sentence frames + 2 enrichment challenges",
+      "Exit ticket: theme statement + 2 evidence + objective summary checklist + self-assessment",
+      "Complete answer key with scoring guidance and differentiation notes"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read the passage carefully and annotate for theme clues. Use evidence from the text to support every answer. Quote or closely paraphrase the text and include the paragraph number.",
+    "teacherUse": "Use Section 1 as a bell-ringer vocabulary preview. Work through the Theme Tracker together before partner discussion. Use the exit ticket summary checklist to assess objective summary skills.",
+    "answerKey": "Worked explanations for all MC items; detailed scoring guidance for all open-response questions including objective summary; differentiation notes for AIG, 504, EC, and ESL learners.",
+    "preparation": "Print pages 1-17 for students. Keep answer key pages for teacher use only. Review the Theme Tracker organizer and discussion sentence starters before class.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing. Consider projecting the passage during guided practice.",
+    "originality": "Original fiction passage, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment challenges Q16 and Q17 require analytical paragraphs with four pieces of evidence. Extension: compare theme development across two texts.",
+      "504": "Allow extended time. Permit annotation. Reduce Q12 to two moments. Allow oral responses for exit ticket.",
+      "EC": "Pre-teach: theme, objective summary, persistence, prototype. Provide both sentence frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview already included. Allow bilingual glossary. Pair for partner discussion and Q13 before writing independently."
+    },
+    "license": "Single-teacher classroom use with the teacher's own learners and their families in a private classroom platform. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RL.7.2",
+      "reading",
+      "theme",
+      "objective summary",
+      "literary text",
+      "fiction",
+      "worksheets",
+      "exit ticket",
+      "EOG prep",
+      "80 minute",
+      "block period"
+    ],
+    "thumbnailAlt": "Cover of Theme Trackers: RL.7.2 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-rl72-theme-summary.png",
+        "page": 1,
+        "alt": "First page of the Theme Trackers worksheet showing the lesson plan overview."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
