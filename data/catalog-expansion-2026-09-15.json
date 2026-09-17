@@ -10004,5 +10004,104 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-rl74-word-meaning-sound",
+    "title": "Word Meaning and Sound Devices: Context Clues, Word Choice, Rhyme, and Repetition",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.7.4 — Determine the meaning of words and phrases as they are used in a text; analyze the impact of rhymes and repetitions of sounds on meaning and tone in a specific line or section of a literary work.",
+    "objective": "Determine word meaning using context clues in prose and analyze how rhyme and repetition of sounds affect meaning and tone in a poem.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 16,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Analyze word meaning in an original prose excerpt and sound devices in an original poem about a harbor after a storm; includes vocabulary preview, Word Analysis Chart, Sound Device Map, partner discussion, 10 questions, intervention frames, enrichment challenges, and exit ticket.",
+    "summary": "A complete 80-minute RL.7.4 practice packet with two original texts (prose excerpt + poem), vocabulary and literary terms preview, Word Analysis Chart, Sound Device Map, partner discussion, 10 questions (MC + open-response), intervention frames, enrichment challenges, exit ticket, and full answer key.",
+    "included": [
+      "1 original prose excerpt (5 paragraphs, approx. 960L)",
+      "1 original poem (3 stanzas, 12 lines)",
+      "80-minute lesson plan overview table",
+      "Vocabulary and literary terms preview (7 terms)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions for both texts",
+      "Guided practice: Word Analysis Chart + Sound Device Map + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: word meaning + sound device analysis + self-assessment",
+      "Complete answer key with Word Analysis Chart answers, Sound Device Map answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read both texts carefully and annotate using the symbols provided. Use evidence from the texts to support every answer.",
+    "teacherUse": "Read the poem aloud before students annotate -- hearing the sound devices is essential. Use the Word Analysis Chart and Sound Device Map as guided practice before releasing to independent work.",
+    "answerKey": "Suggested answers for Word Analysis Chart and Sound Device Map; worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes.",
+    "preparation": "Print pages 1-16 for students. Keep answer key pages for teacher use only. Read the poem aloud at least once before students annotate.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original prose excerpt, original poem, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require multi-text analytical paragraphs. Extension: write an original stanza using two sound devices and explain the tonal choices.",
+      "504": "Allow extended time. Reduce Q12 and Q13 to one example each. Allow oral responses for exit ticket.",
+      "EC": "Pre-teach: alliteration, onomatopoeia, assonance, tone, context clue. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Read poem aloud before annotation. Allow bilingual glossary. Pair for partner discussion."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RL.7.4",
+      "reading",
+      "word meaning",
+      "context clues",
+      "sound devices",
+      "alliteration",
+      "rhyme",
+      "tone",
+      "poetry",
+      "fiction",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Word Meaning and Sound Devices: RL.7.4 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-rl74-word-meaning-sound.png",
+        "page": 1,
+        "alt": "First page of the Word Meaning and Sound Devices worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
