@@ -4,6 +4,7 @@ import catalog from '../data/catalog.json';
 import elaRelease from '../data/ela-release.json';
 import elaFiles from './ela-upload-manifest.json';
 import salesRelease from '../data/sales-release-2026-09-15.json';
+import catalogExpansion from '../data/catalog-expansion-2026-09-15.json';
 import { privateProducts } from './private-products';
 import { hasResourceFile, resourceFile, resourceMetadata } from './resource-files';
 import dailyDrafts from './daily-drafts-2026-09-15.json';
@@ -66,7 +67,7 @@ export async function provision(){
  await activateReleasedFiles(true);
  return {ready:true,released:salesRelease.length};
 }
-export async function publicCatalog(){await initialize();const {results}=await db().prepare('SELECT id,title,price_cents,metadata,ready FROM store_products WHERE approved=1').all<{id:string;title:string;price_cents:number;metadata:string;ready:number}>();return results.map(p=>({...JSON.parse(p.metadata),...(JSON.parse(p.metadata).editorManaged?{}:listingMetadata.find(item=>item.id===p.id)),id:p.id,title:p.title,priceCents:p.price_cents,ready:!!p.ready}));}
+export async function publicCatalog(){await initialize();const {results}=await db().prepare('SELECT id,title,price_cents,metadata,ready FROM store_products WHERE approved=1').all<{id:string;title:string;price_cents:number;metadata:string;ready:number}>();const expansionMap=Object.fromEntries(catalogExpansion.map((e:Record<string,unknown>)=>[e.id,e]));return results.map(p=>({...JSON.parse(p.metadata),...(JSON.parse(p.metadata).editorManaged?{}:listingMetadata.find(item=>item.id===p.id)),...(expansionMap[p.id]||{}),id:p.id,title:p.title,priceCents:p.price_cents,ready:!!p.ready}));}
 export function configured(){return !PREVIEW_MODE && !!(setting('PAYPAL_CLIENT_ID')&&setting('PAYPAL_CLIENT_SECRET')&&setting('PAYPAL_WEBHOOK_ID'));}
 export async function checkoutAllowed(request:Request){const user=await customer(request);if(!configured())throw new StoreError(503,'Checkout is being prepared. Please check back soon.');if(mode()==='sandbox'&&!owner(user))throw new StoreError(403,'Checkout is not open yet.');if(mode()==='live'&&setting('PAYPAL_LIVE_ENABLED')!=='true')throw new StoreError(503,'Checkout is not open yet.');return user;}
 export async function paypal(path:string,method='GET',payload?:unknown,requestId?:string){
