@@ -10296,5 +10296,102 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g7-rl77-text-vs-media",
+    "title": "Text vs. Media: Comparing a Written Story to Its Film Version",
+    "level": "Grade 7 • North Carolina",
+    "grades": [
+      "Grade 7"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.7.7 — Compare and contrast a written story, drama, or poem to its audio, filmed, staged, or multimedia version, analyzing the effects of techniques unique to each medium.",
+    "objective": "Compare and contrast a written story and its film version, analyzing how techniques unique to each medium create different effects on the audience.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 18,
+    "additionalPdfPages": 1,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Compare an original short story about a runner who finishes second to its film scene description; analyze how internal thoughts, sound design, montage, camera angles, and slow motion create different effects across mediums.",
+    "summary": "A complete 80-minute RL.7.7 practice packet with original written story and film scene description, vocabulary preview, Media Comparison Chart, partner discussion, 10 questions, intervention frames, enrichment challenges, exit ticket, and full answer key.",
+    "included": [
+      "1 original short story (12 paragraphs, approx. 960L)",
+      "1 original film scene description (7 paragraphs)",
+      "80-minute lesson plan overview table",
+      "Vocabulary and film terms preview (5 terms)",
+      "Warm-up (3 prior knowledge questions)",
+      "Annotation directions for both texts (different symbols for each)",
+      "Guided practice: Media Comparison Chart + 4 teacher-led questions",
+      "Partner discussion: 3 questions with sentence starters",
+      "Independent practice: 4 MC + 6 open-response",
+      "Small-group work: 2 intervention frames + 2 enrichment challenges",
+      "Exit ticket: medium comparison + evaluation + self-assessment",
+      "Complete answer key with Media Comparison Chart answers, MC explanations, and open-response scoring guidance"
+    ],
+    "minutes": "80 minutes (full block period)",
+    "studentDirections": "Read both texts carefully and annotate using the symbols provided. Use evidence from both texts to support every answer.",
+    "teacherUse": "Use the Media Comparison Chart as guided practice before releasing to independent work. Consider showing a short film clip of a race scene before reading to activate prior knowledge about film techniques.",
+    "answerKey": "Suggested answers for Media Comparison Chart; worked explanations for all MC items; detailed scoring guidance for all open-response questions; differentiation notes.",
+    "preparation": "Print pages 1-18 for students. Keep answer key pages for teacher use only. Review the Media Comparison Chart and annotation symbols before class.",
+    "digitalNotes": "Print US Letter at actual size. Separate student pages from the answer key before distributing.",
+    "originality": "Original short story, original film scene description, questions, answer key, and graphic organizers. No official released-test items or branded content.",
+    "accessibility": {
+      "AIG": "Enrichment Q17 and Q18 require analytical paragraphs and creative film scene writing. Extension: write a film scene description for a scene from a book they have read.",
+      "504": "Allow extended time. Provide Media Comparison Chart partially pre-filled. Reduce Q12 to one technique per medium. Allow oral responses.",
+      "EC": "Pre-teach: medium, technique, sound design, montage, close-up. Provide both frames for all open-response. Allow oral responses.",
+      "ESL": "Vocabulary preview included. Allow bilingual glossary. Pair for partner discussion before writing independently."
+    },
+    "license": "Single-teacher classroom use. Do not redistribute files or post publicly.",
+    "source": "NCDPI ELA Standards, https://www.dpi.nc.gov",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 7",
+        "url": "https://www.dpi.nc.gov"
+      }
+    ],
+    "tags": [
+      "Grade 7",
+      "North Carolina",
+      "RL.7.7",
+      "reading",
+      "text vs media",
+      "film",
+      "compare contrast",
+      "medium",
+      "technique",
+      "fiction",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Text vs. Media: RL.7.7 Grade 7 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g7-rl77-text-vs-media.png",
+        "page": 1,
+        "alt": "First page of the Text vs. Media worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
