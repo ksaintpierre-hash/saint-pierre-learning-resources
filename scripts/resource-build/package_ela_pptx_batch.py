@@ -40,6 +40,8 @@ JOBS = [
     ('nc-g8-ri86-authors-purpose-counterevidence', 'ri86-authors-purpose-counterevidence-ppt', 'ri86-authors-purpose-counterevidence', 'The Case for a Later Bell', 'RI.8.6', '8'),
     ('nc-g8-rl87-script-vs-production', 'rl87-script-vs-production-ppt', 'rl87-script-vs-production', "The Director's Choices", 'RL.8.7', '8'),
     ('nc-g8-ri87-medium-tradeoffs', 'ri87-medium-tradeoffs-ppt', 'ri87-medium-tradeoffs', 'A Shipwreck, Told Three Ways', 'RI.8.7', '8'),
+    ('nc-g8-rl89-modern-underdog-pattern', 'rl89-modern-underdog-pattern-ppt', 'rl89-modern-underdog-pattern', 'The Last Bakery on Cedar Street', 'RL.8.9', '8'),
+    ('nc-g8-ri88-evaluating-arguments', 'ri88-evaluating-arguments-ppt', 'ri88-evaluating-arguments', 'Should Cedar Falls Ban Plastic Bags?', 'RI.8.8', '8'),
 ]
 
 

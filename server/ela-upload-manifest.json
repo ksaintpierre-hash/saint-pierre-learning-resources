@@ -153,5 +153,15 @@
     "name": "ri87-medium-tradeoffs.zip",
     "bytes": 96498,
     "sha256": "ed8064cba81e0a75225662dd10e3a0c0285ff7a680d7452263af0e26a0e04771"
+  },
+  "rl89-modern-underdog-pattern": {
+    "name": "rl89-modern-underdog-pattern.zip",
+    "bytes": 95764,
+    "sha256": "8edc2eeec8aeb1a2fe97eb8d78c5489e1bb7e9ef175880db9321e5f9dfaa8937"
+  },
+  "ri88-evaluating-arguments": {
+    "name": "ri88-evaluating-arguments.zip",
+    "bytes": 95497,
+    "sha256": "8ae1585784c6000dc0f9c413c54a2e8f64da32f3d2001d9b0a829a67e968b4f4"
   }
 }

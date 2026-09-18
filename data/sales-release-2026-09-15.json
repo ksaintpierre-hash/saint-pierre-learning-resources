@@ -14487,5 +14487,133 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g8-rl89-modern-underdog-pattern",
+    "title": "The Last Bakery on Cedar Street",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.8.9 — Analyze how a modern work of fiction draws on themes, patterns of events, or character types from myths, traditional stories, or religious works such as the Bible, including describing how the material is rendered new.",
+    "objective": "Analyze how a modern story draws on a traditional story pattern, such as the underdog-versus-giant pattern found in myths and traditional stories, and describe how the modern version renders that pattern new.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Analyze how a modern story draws on a traditional story pattern, such as the underdog-versus-giant pattern found in myths and traditional stories, and describe how the modern version renders that pattern new.",
+    "summary": "An 80-minute RL.8.9 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RL/8/9/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RL/8/9/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RL.8.9",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of The Last Bakery on Cedar Street: RL.8.9 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-rl89-modern-underdog-pattern.png",
+        "page": 6,
+        "alt": "Sample page from The Last Bakery on Cedar Street worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "nc-g8-ri88-evaluating-arguments",
+    "title": "Should Cedar Falls Ban Single-Use Plastic Bags?",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.8.8 — Delineate and evaluate the argument and specific claims in a text, assessing whether the reasoning is sound and the evidence is relevant and sufficient; recognize when irrelevant evidence is introduced.",
+    "objective": "Delineate the specific claims in an argumentative text, evaluate whether the reasoning connecting evidence to each claim is sound, and recognize when evidence introduced is irrelevant to the claim it is meant to support.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Delineate the specific claims in an argumentative text, evaluate whether the reasoning connecting evidence to each claim is sound, and recognize when evidence introduced is irrelevant to the claim it is meant to support.",
+    "summary": "An 80-minute RI.8.8 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RI/8/8/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RI/8/8/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RI.8.8",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Should Cedar Falls Ban Single-Use Plastic Bags?: RI.8.8 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-ri88-evaluating-arguments.png",
+        "page": 6,
+        "alt": "Sample page from Should Cedar Falls Ban Single-Use Plastic Bags? worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
