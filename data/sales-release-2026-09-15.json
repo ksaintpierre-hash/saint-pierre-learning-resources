@@ -12113,460 +12113,327 @@
   },
   {
     "id": "college-french101-cafe",
-    "title": "French 101 Café Conversations",
-    "level": "College - French 101",
+    "title": "French 101: Café de la Place — A Full Conversation Session",
+    "level": "French 101",
     "grades": [
       "College"
     ],
-    "states": [],
-    "state": "State-neutral",
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
     "subject": "French",
-    "standard": "Course objective - Exchange basic greetings and cafe requests using polite expressions, articles, and present-tense forms of être and avoir.",
-    "objective": "Use beginner French for greetings, identity, and simple cafe interactions.",
-    "resourceType": "Independent Work",
+    "standard": "COURSE-OBJ.FR101.2 — Exchange greetings, personal information, and café requests using polite expressions, articles, and the present tense of être, avoir, and -er verbs.",
+    "objective": "Use beginner French accurately and politely to greet, introduce yourself, order at a café, and ask simple questions about people and preferences.",
+    "resourceType": "Complete course practice packet",
     "collections": [
+      "College Resources",
+      "Worksheets",
       "Classwork",
       "Independent Work",
-      "Worksheets",
-      "Exit Tickets"
+      "Small-Group Work"
     ],
-    "approved": true,
-    "status": "published",
-    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
-    "distributionFormat": "PDF",
     "formats": [
       "PDF"
     ],
-    "pages": 8,
-    "slides": 0,
-    "priceCents": 600,
-    "minutes": "35-45 minutes",
-    "description": "Use beginner French for greetings, identity, and simple cafe interactions.",
-    "summary": "Use beginner French for greetings, identity, and simple cafe interactions.",
-    "detailedDescription": "A focused practice and reflection resource with teacher guidance, a model prompt, four pages of bordered practice cards, a reflection ticket, and answer guidance. Use beginner French for greetings, identity, and simple cafe interactions.",
-    "included": [
-      "8-page printable PDF",
-      "Teacher guide and first-prompt model",
-      "16 bordered practice prompts across four pages",
-      "Five-question reflection exit ticket",
-      "Teacher answer guidance and local reflection criteria",
-      "Differentiation, sources, and single-teacher license"
-    ],
-    "source": "Course objective; grammar reference: https://www.laits.utexas.edu/tex/index.html. Original practice; no affiliation.",
-    "studentDirections": "Show work or explain each response. Use extra paper for extended responses.",
-    "teacherUse": "Model first; assign one four-prompt block at a time. Keep the key separate.",
-    "answerKey": "Answers and criteria for the sixteen prompts and reflection ticket.",
-    "accessibility": {
-      "AIG": "Use a second method or transfer example.",
-      "504": "Follow the learner’s plan for time, breaks, format, and copying.",
-      "EC": "Model steps and accept aligned response modes.",
-      "ESL": "Preview vocabulary, use bilingual references, and rehearse."
-    },
-    "preparation": "Print practice separately from keys. Provide extra paper. ",
-    "digitalNotes": "US Letter, actual size. Optional annotation in a restricted LMS; not a fillable PDF.",
-    "license": "Single-teacher use with their own learners. No resale, redistribution, or public posting.",
-    "originality": "Original prompts and explanations; no released exam questions or third-party curriculum reproduced.",
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Use beginner French accurately and politely to greet, introduce yourself, order at a café, and ask simple questions about people and preferences.",
+    "summary": "A complete French 101 session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
     "tags": [
+      "French 101",
       "French",
-      "College - French 101",
-      "Independent Work",
-      "answer guidance",
-      "printable"
+      "college",
+      "worksheets"
     ],
-    "thumbnailAlt": "KSP-branded cover of French 101 Café Conversations.",
+    "thumbnailAlt": "Cover of French 101: Café de la Place — A Full Conversation Session: French 101 course practice packet.",
     "previews": [
       {
         "src": "/product-previews/college-french101-cafe.png",
-        "page": 3,
-        "alt": "Actual student practice page 3; sample from college french101 cafe."
-      },
-      {
-        "src": "/product-previews/college-french101-cafe-2.png",
-        "page": 4,
-        "alt": "Actual student practice page 4; sample from college french101 cafe."
+        "page": 6,
+        "alt": "Sample page from French 101: Café de la Place — A Full Conversation Session packet."
       }
-    ]
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   },
   {
     "id": "college-german101-introductions",
-    "title": "German 101 Introductions Practice",
-    "level": "College - German 101",
+    "title": "German 101: Erste Woche an der Uni — A Full Introductions Session",
+    "level": "German 101",
     "grades": [
       "College"
     ],
-    "states": [],
-    "state": "State-neutral",
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
     "subject": "German",
-    "standard": "Course objective - Introduce oneself and exchange basic personal information using greetings, pronouns, sein, heißen, and regular present-tense verbs.",
-    "objective": "Build accurate beginner introductions and short exchanges in German.",
-    "resourceType": "Classwork",
+    "standard": "COURSE-OBJ.DE101.2 — Introduce yourself and exchange basic personal information using greetings, pronouns, sein, heißen, and regular present-tense verbs.",
+    "objective": "Use beginner German accurately to greet others, introduce yourself, ask and answer questions about origin, and describe simple daily activities.",
+    "resourceType": "Complete course practice packet",
     "collections": [
+      "College Resources",
+      "Worksheets",
       "Classwork",
       "Independent Work",
-      "Worksheets",
-      "Exit Tickets"
+      "Small-Group Work"
     ],
-    "approved": true,
-    "status": "published",
-    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
-    "distributionFormat": "PDF",
     "formats": [
       "PDF"
     ],
-    "pages": 8,
-    "slides": 0,
-    "priceCents": 600,
-    "minutes": "35-45 minutes",
-    "description": "Build accurate beginner introductions and short exchanges in German.",
-    "summary": "Build accurate beginner introductions and short exchanges in German.",
-    "detailedDescription": "A focused practice and reflection resource with teacher guidance, a model prompt, four pages of bordered practice cards, a reflection ticket, and answer guidance. Build accurate beginner introductions and short exchanges in German.",
-    "included": [
-      "8-page printable PDF",
-      "Teacher guide and first-prompt model",
-      "16 bordered practice prompts across four pages",
-      "Five-question reflection exit ticket",
-      "Teacher answer guidance and local reflection criteria",
-      "Differentiation, sources, and single-teacher license"
-    ],
-    "source": "Course-level learning objective; no accreditation, transfer, or universal equivalency claimed.",
-    "studentDirections": "Show work or explain each response. Use extra paper for extended responses.",
-    "teacherUse": "Model first; assign one four-prompt block at a time. Keep the key separate.",
-    "answerKey": "Answers and criteria for the sixteen prompts and reflection ticket.",
-    "accessibility": {
-      "AIG": "Use a second method or transfer example.",
-      "504": "Follow the learner’s plan for time, breaks, format, and copying.",
-      "EC": "Model steps and accept aligned response modes.",
-      "ESL": "Preview vocabulary, use bilingual references, and rehearse."
-    },
-    "preparation": "Print practice separately from keys. Provide extra paper. ",
-    "digitalNotes": "US Letter, actual size. Optional annotation in a restricted LMS; not a fillable PDF.",
-    "license": "Single-teacher use with their own learners. No resale, redistribution, or public posting.",
-    "originality": "Original prompts and explanations; no released exam questions or third-party curriculum reproduced.",
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Use beginner German accurately to greet others, introduce yourself, ask and answer questions about origin, and describe simple daily activities.",
+    "summary": "A complete German 101 session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
     "tags": [
+      "German 101",
       "German",
-      "College - German 101",
-      "Classwork",
-      "answer guidance",
-      "printable"
+      "college",
+      "worksheets"
     ],
-    "thumbnailAlt": "KSP-branded cover of German 101 Introductions Practice.",
+    "thumbnailAlt": "Cover of German 101: Erste Woche an der Uni — A Full Introductions Session: German 101 course practice packet.",
     "previews": [
       {
         "src": "/product-previews/college-german101-introductions.png",
-        "page": 3,
-        "alt": "Actual student practice page 3; sample from college german101 introductions."
-      },
-      {
-        "src": "/product-previews/college-german101-introductions-2.png",
-        "page": 4,
-        "alt": "Actual student practice page 4; sample from college german101 introductions."
+        "page": 6,
+        "alt": "Sample page from German 101: Erste Woche an der Uni — A Full Introductions Session packet."
       }
-    ]
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   },
   {
     "id": "college-mandarin101-campus",
-    "title": "Mandarin 101 Campus Basics",
-    "level": "College - Mandarin 101",
+    "title": "Mandarin 101: 在校园里 — A Full Campus Introductions Session",
+    "level": "Mandarin 101",
     "grades": [
       "College"
     ],
-    "states": [],
-    "state": "State-neutral",
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
     "subject": "Mandarin Chinese",
-    "standard": "Course objective - Interpret basic greetings, name questions, identity sentences, and selected numbers using characters and tone-marked pinyin.",
-    "objective": "Practice respectful beginner exchanges with characters, pinyin, and English meaning.",
-    "resourceType": "Language practice cards",
+    "standard": "COURSE-OBJ.ZH101.2 — Exchange greetings, personal information, and campus-related requests using correct tone, the verbs 是 and 叫, and 吗 / verb-not-verb question patterns.",
+    "objective": "Use beginner Mandarin accurately to greet others, introduce yourself, state nationality and current activity, and ask simple yes/no questions about campus life.",
+    "resourceType": "Complete course practice packet",
     "collections": [
+      "College Resources",
+      "Worksheets",
       "Classwork",
       "Independent Work",
-      "Worksheets",
-      "Exit Tickets",
-      "Task Cards"
+      "Small-Group Work"
     ],
-    "approved": true,
-    "status": "published",
-    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
-    "distributionFormat": "PDF",
     "formats": [
       "PDF"
     ],
-    "pages": 8,
-    "slides": 0,
-    "priceCents": 600,
-    "minutes": "35-45 minutes",
-    "description": "Practice respectful beginner exchanges with characters, pinyin, and English meaning.",
-    "summary": "Practice respectful beginner exchanges with characters, pinyin, and English meaning.",
-    "detailedDescription": "A focused practice and reflection resource with teacher guidance, a model prompt, four pages of bordered practice cards, a reflection ticket, and answer guidance. Practice respectful beginner exchanges with characters, pinyin, and English meaning.",
-    "included": [
-      "8-page printable PDF",
-      "Teacher guide and first-prompt model",
-      "16 bordered practice prompts across four pages",
-      "Five-question reflection exit ticket",
-      "Teacher answer guidance and local reflection criteria",
-      "Differentiation, sources, and single-teacher license"
-    ],
-    "source": "Course-level learning objective; no accreditation, transfer, or universal equivalency claimed.",
-    "studentDirections": "Show work or explain each response. Use extra paper for extended responses.",
-    "teacherUse": "Model first; assign one four-prompt block at a time. Keep the key separate.",
-    "answerKey": "Answers and criteria for the sixteen prompts and reflection ticket.",
-    "accessibility": {
-      "AIG": "Use a second method or transfer example.",
-      "504": "Follow the learner’s plan for time, breaks, format, and copying.",
-      "EC": "Model steps and accept aligned response modes.",
-      "ESL": "Preview vocabulary, use bilingual references, and rehearse."
-    },
-    "preparation": "Print practice separately from keys. Provide extra paper. ",
-    "digitalNotes": "US Letter, actual size. Optional annotation in a restricted LMS; not a fillable PDF.",
-    "license": "Single-teacher use with their own learners. No resale, redistribution, or public posting.",
-    "originality": "Original prompts and explanations; no released exam questions or third-party curriculum reproduced.",
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Use beginner Mandarin accurately to greet others, introduce yourself, state nationality and current activity, and ask simple yes/no questions about campus life.",
+    "summary": "A complete Mandarin 101 session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
     "tags": [
+      "Mandarin 101",
       "Mandarin Chinese",
-      "College - Mandarin 101",
-      "Language practice cards",
-      "answer guidance",
-      "printable"
+      "college",
+      "worksheets"
     ],
-    "thumbnailAlt": "KSP-branded cover of Mandarin 101 Campus Basics.",
+    "thumbnailAlt": "Cover of Mandarin 101: 在校园里 — A Full Campus Introductions Session: Mandarin 101 course practice packet.",
     "previews": [
       {
         "src": "/product-previews/college-mandarin101-campus.png",
-        "page": 3,
-        "alt": "Actual student practice page 3; sample from college mandarin101 campus."
-      },
-      {
-        "src": "/product-previews/college-mandarin101-campus-2.png",
-        "page": 4,
-        "alt": "Actual student practice page 4; sample from college mandarin101 campus."
+        "page": 6,
+        "alt": "Sample page from Mandarin 101: 在校园里 — A Full Campus Introductions Session packet."
       }
-    ]
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   },
   {
     "id": "college-asl101-classroom",
-    "title": "ASL 101 Classroom Communication Reflection Guide",
-    "level": "College - ASL 101",
+    "title": "ASL 101: Classroom Communication and Fingerspelling — A Full Practice Session",
+    "level": "ASL 101",
     "grades": [
       "College"
     ],
-    "states": [],
-    "state": "State-neutral",
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
     "subject": "American Sign Language",
-    "standard": "Course objective - Explain visual-attention norms and reflect on fingerspelling and classroom exchanges after qualified live or video instruction.",
-    "objective": "Reflect on visual communication, fingerspelling habits, and classroom interaction after an ASL lesson. This is a text-based companion, not an illustrated sign dictionary or standalone signing course.",
-    "resourceType": "Reflection and discussion guide",
+    "standard": "COURSE-OBJ.ASL101.2 — Apply visual-attention etiquette, fingerspell names and unfamiliar terms at a readable pace, and produce beginner greetings and questions with the correct nonmanual signals.",
+    "objective": "Use beginner ASL etiquette and vocabulary accurately to get attention respectfully, fingerspell names, and ask and answer yes/no and WH-questions with correct facial grammar.",
+    "resourceType": "Complete course practice packet",
     "collections": [
+      "College Resources",
+      "Worksheets",
       "Classwork",
       "Independent Work",
-      "Worksheets",
-      "Exit Tickets"
+      "Small-Group Work"
     ],
-    "approved": true,
-    "status": "published",
-    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
-    "distributionFormat": "PDF",
     "formats": [
       "PDF"
     ],
-    "pages": 8,
-    "slides": 0,
-    "priceCents": 600,
-    "minutes": "35-45 minutes",
-    "description": "Reflect on visual communication, fingerspelling habits, and classroom interaction after an ASL lesson. This is a text-based companion, not an illustrated sign dictionary or standalone signing course.",
-    "summary": "Reflect on visual communication, fingerspelling habits, and classroom interaction after an ASL lesson. This is a text-based companion, not an illustrated sign dictionary or standalone signing course.",
-    "detailedDescription": "A focused practice and reflection resource with teacher guidance, a model prompt, four pages of bordered practice cards, a reflection ticket, and answer guidance. Reflect on visual communication, fingerspelling habits, and classroom interaction after an ASL lesson. This is a text-based companion, not an illustrated sign dictionary or standalone signing course.",
-    "included": [
-      "8-page printable PDF",
-      "Teacher guide and first-prompt model",
-      "16 bordered practice prompts across four pages",
-      "Five-question reflection exit ticket",
-      "Teacher answer guidance and local reflection criteria",
-      "Differentiation, sources, and single-teacher license"
-    ],
-    "source": "Instructor-led prerequisite. ASL University reference: https://www.lifeprint.com/asl101/topics/parameters-asl.htm. No affiliation or endorsement.",
-    "studentDirections": "Show work or explain each response. Use extra paper for extended responses.",
-    "teacherUse": "Model first; assign one four-prompt block at a time. Keep the key separate.",
-    "answerKey": "Answers and criteria for the sixteen prompts and reflection ticket.",
-    "accessibility": {
-      "AIG": "Use a second method or transfer example.",
-      "504": "Follow the learner’s plan for time, breaks, format, and copying.",
-      "EC": "Model steps and accept aligned response modes.",
-      "ESL": "Preview vocabulary, use bilingual references, and rehearse."
-    },
-    "preparation": "Print practice separately from keys. Provide extra paper. Qualified prior live or video signing instruction is required; no sign illustrations or videos are included.",
-    "digitalNotes": "US Letter, actual size. Optional annotation in a restricted LMS; not a fillable PDF.",
-    "license": "Single-teacher use with their own learners. No resale, redistribution, or public posting.",
-    "originality": "Original prompts and explanations; no released exam questions or third-party curriculum reproduced.",
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Use beginner ASL etiquette and vocabulary accurately to get attention respectfully, fingerspell names, and ask and answer yes/no and WH-questions with correct facial grammar.",
+    "summary": "A complete ASL 101 session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
     "tags": [
+      "ASL 101",
       "American Sign Language",
-      "College - ASL 101",
-      "Reflection and discussion guide",
-      "answer guidance",
-      "printable"
+      "college",
+      "worksheets"
     ],
-    "thumbnailAlt": "KSP-branded cover of ASL 101 Classroom Communication Reflection Guide.",
+    "thumbnailAlt": "Cover of ASL 101: Classroom Communication and Fingerspelling — A Full Practice Session: ASL 101 course practice packet.",
     "previews": [
       {
         "src": "/product-previews/college-asl101-classroom.png",
-        "page": 3,
-        "alt": "Actual student practice page 3; sample from college asl101 classroom."
-      },
-      {
-        "src": "/product-previews/college-asl101-classroom-2.png",
-        "page": 4,
-        "alt": "Actual student practice page 4; sample from college asl101 classroom."
+        "page": 6,
+        "alt": "Sample page from ASL 101: Classroom Communication and Fingerspelling — A Full Practice Session packet."
       }
-    ]
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   },
   {
     "id": "college-art-composition",
-    "title": "Art Appreciation Composition Detective",
-    "level": "College - Art Appreciation",
+    "title": "Art Appreciation 101: The Composition Detective — A Full Analysis Session",
+    "level": "Art Appreciation",
     "grades": [
       "College"
     ],
-    "states": [],
-    "state": "State-neutral",
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
     "subject": "Fine Arts",
-    "standard": "Course objective - Analyze how line, shape, color, value, texture, space, emphasis, balance, rhythm, and unity affect meaning in original compositions.",
-    "objective": "Use art vocabulary to compare and revise two abstract sketches you create: one calm composition and one crowded or tense composition.",
-    "resourceType": "Analysis Packet",
+    "standard": "COURSE-OBJ.ART101.2 — Analyze how line, shape, color, value, contrast, space, emphasis, and balance work together to create calm or tension in an original composition, using precise formal-analysis vocabulary.",
+    "objective": "Use precise art vocabulary to analyze and justify claims about how the formal elements of two original abstract compositions create meaning and mood.",
+    "resourceType": "Complete course practice packet",
     "collections": [
+      "College Resources",
+      "Worksheets",
       "Classwork",
       "Independent Work",
-      "Worksheets",
-      "Exit Tickets"
+      "Small-Group Work"
     ],
-    "approved": true,
-    "status": "published",
-    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
-    "distributionFormat": "PDF",
     "formats": [
       "PDF"
     ],
-    "pages": 8,
-    "slides": 0,
-    "priceCents": 700,
-    "minutes": "45-60 minutes",
-    "description": "Use art vocabulary to compare and revise two abstract sketches you create: one calm composition and one crowded or tense composition.",
-    "summary": "Use art vocabulary to compare and revise two abstract sketches you create: one calm composition and one crowded or tense composition.",
-    "detailedDescription": "A focused practice and reflection resource with teacher guidance, a model prompt, four pages of bordered practice cards, a reflection ticket, and answer guidance. Use art vocabulary to compare and revise two abstract sketches you create: one calm composition and one crowded or tense composition.",
-    "included": [
-      "8-page printable PDF",
-      "Teacher guide and first-prompt model",
-      "16 bordered practice prompts across four pages",
-      "Five-question reflection exit ticket",
-      "Teacher answer guidance and local reflection criteria",
-      "Differentiation, sources, and single-teacher license"
-    ],
-    "source": "Original discussion and drawing prompts. Learners create two abstract sketches on separate paper; no artwork reproductions or ready-made composition studies are included.",
-    "studentDirections": "Show work or explain each response. Use extra paper for extended responses.",
-    "teacherUse": "Model first; assign one four-prompt block at a time. Keep the key separate.",
-    "answerKey": "Answers and criteria for the sixteen prompts and reflection ticket.",
-    "accessibility": {
-      "AIG": "Use a second method or transfer example.",
-      "504": "Follow the learner’s plan for time, breaks, format, and copying.",
-      "EC": "Model steps and accept aligned response modes.",
-      "ESL": "Preview vocabulary, use bilingual references, and rehearse."
-    },
-    "preparation": "Print practice separately from keys. Provide extra paper. ",
-    "digitalNotes": "US Letter, actual size. Optional annotation in a restricted LMS; not a fillable PDF.",
-    "license": "Single-teacher use with their own learners. No resale, redistribution, or public posting.",
-    "originality": "Original prompts and explanations; no released exam questions or third-party curriculum reproduced.",
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Use precise art vocabulary to analyze and justify claims about how the formal elements of two original abstract compositions create meaning and mood.",
+    "summary": "A complete Art Appreciation session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
     "tags": [
+      "Art Appreciation",
       "Fine Arts",
-      "College - Art Appreciation",
-      "Analysis Packet",
-      "answer guidance",
-      "printable"
+      "college",
+      "worksheets"
     ],
-    "thumbnailAlt": "KSP-branded cover of Art Appreciation Composition Detective.",
+    "thumbnailAlt": "Cover of Art Appreciation 101: The Composition Detective — A Full Analysis Session: Art Appreciation course practice packet.",
     "previews": [
       {
         "src": "/product-previews/college-art-composition.png",
-        "page": 3,
-        "alt": "Actual student practice page 3; sample from college art composition."
-      },
-      {
-        "src": "/product-previews/college-art-composition-2.png",
-        "page": 4,
-        "alt": "Actual student practice page 4; sample from college art composition."
+        "page": 6,
+        "alt": "Sample page from Art Appreciation 101: The Composition Detective — A Full Analysis Session packet."
       }
-    ]
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   },
   {
     "id": "college-engineering-design",
-    "title": "Introduction to Engineering Design Challenge",
-    "level": "College - Introductory Engineering",
+    "title": "Engineering Design 101: The Paper Tower Challenge — A Full Design Session",
+    "level": "Engineering Design",
     "grades": [
       "College"
     ],
-    "states": [],
-    "state": "State-neutral",
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
     "subject": "Engineering / CTE",
-    "standard": "Course objective - Define a design problem, distinguish criteria from constraints, generate and compare concepts, plan a fair test, and justify an evidence-based iteration.",
-    "objective": "Design a paper structure using at most 10 sheets, supporting 500 g for 10 seconds on a low tabletop. Record three trials, inspect failures, and justify one redesign. Use small classroom-safe weights under instructor supervision.",
-    "resourceType": "Project Packet",
+    "standard": "COURSE-OBJ.ENGR101.2 — Define a design problem, distinguish criteria from constraints, generate and compare concepts using a weighted decision matrix, plan a fair test, and justify an evidence-based iteration.",
+    "objective": "Apply the engineering design process to define a problem, plan a fair test, and justify a design iteration using test evidence rather than guesswork.",
+    "resourceType": "Complete course practice packet",
     "collections": [
+      "College Resources",
+      "Worksheets",
       "Classwork",
       "Independent Work",
-      "Worksheets",
-      "Exit Tickets"
+      "Small-Group Work"
     ],
-    "approved": true,
-    "status": "published",
-    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
-    "distributionFormat": "PDF",
     "formats": [
       "PDF"
     ],
-    "pages": 8,
-    "slides": 0,
-    "priceCents": 700,
-    "minutes": "60-90 minutes",
-    "description": "Design a paper structure using at most 10 sheets, supporting 500 g for 10 seconds on a low tabletop. Record three trials, inspect failures, and justify one redesign. Use small classroom-safe weights under instructor supervision.",
-    "summary": "Design a paper structure using at most 10 sheets, supporting 500 g for 10 seconds on a low tabletop. Record three trials, inspect failures, and justify one redesign. Use small classroom-safe weights under instructor supervision.",
-    "detailedDescription": "A focused practice and reflection resource with teacher guidance, a model prompt, four pages of bordered practice cards, a reflection ticket, and answer guidance. Design a paper structure using at most 10 sheets, supporting 500 g for 10 seconds on a low tabletop. Record three trials, inspect failures, and justify one redesign. Use small classroom-safe weights under instructor supervision.",
-    "included": [
-      "8-page printable PDF",
-      "Teacher guide and first-prompt model",
-      "16 bordered practice prompts across four pages",
-      "Five-question reflection exit ticket",
-      "Teacher answer guidance and local reflection criteria",
-      "Differentiation, sources, and single-teacher license"
-    ],
-    "source": "Course-level learning objective; no accreditation, transfer, or universal equivalency claimed.",
-    "studentDirections": "Show work or explain each response. Use extra paper for extended responses.",
-    "teacherUse": "Model first; assign one four-prompt block at a time. Keep the key separate.",
-    "answerKey": "Answers and criteria for the sixteen prompts and reflection ticket.",
-    "accessibility": {
-      "AIG": "Use a second method or transfer example.",
-      "504": "Follow the learner’s plan for time, breaks, format, and copying.",
-      "EC": "Model steps and accept aligned response modes.",
-      "ESL": "Preview vocabulary, use bilingual references, and rehearse."
-    },
-    "preparation": "Print practice separately from keys. Provide extra paper. ",
-    "digitalNotes": "US Letter, actual size. Optional annotation in a restricted LMS; not a fillable PDF.",
-    "license": "Single-teacher use with their own learners. No resale, redistribution, or public posting.",
-    "originality": "Original prompts and explanations; no released exam questions or third-party curriculum reproduced.",
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Apply the engineering design process to define a problem, plan a fair test, and justify a design iteration using test evidence rather than guesswork.",
+    "summary": "A complete Engineering Design session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
     "tags": [
+      "Engineering Design",
       "Engineering / CTE",
-      "College - Introductory Engineering",
-      "Project Packet",
-      "answer guidance",
-      "printable"
+      "college",
+      "worksheets"
     ],
-    "thumbnailAlt": "KSP-branded cover of Introduction to Engineering Design Challenge.",
+    "thumbnailAlt": "Cover of Engineering Design 101: The Paper Tower Challenge — A Full Design Session: Engineering Design course practice packet.",
     "previews": [
       {
         "src": "/product-previews/college-engineering-design.png",
-        "page": 3,
-        "alt": "Actual student practice page 3; sample from college engineering design."
-      },
-      {
-        "src": "/product-previews/college-engineering-design-2.png",
-        "page": 4,
-        "alt": "Actual student practice page 4; sample from college engineering design."
+        "page": 6,
+        "alt": "Sample page from Engineering Design 101: The Paper Tower Challenge — A Full Design Session packet."
       }
-    ]
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   },
   {
     "id": "nc-g7-rl71-textual-evidence",

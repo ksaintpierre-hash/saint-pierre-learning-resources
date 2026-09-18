@@ -19,6 +19,7 @@ LOGO=ROOT/'public/brand/saint-pierre-logo.png'
 NAVY='#172D46';TEAL='#246A70';GOLD='#B08838';INK='#233547';GRAY='#536574'
 for name,file in [('Body','DejaVuSans.ttf'),('Bold','DejaVuSans-Bold.ttf'),('Title','DejaVuSerif.ttf')]:
  pdfmetrics.registerFont(TTFont(name,'/usr/share/fonts/truetype/dejavu/'+file))
+pdfmetrics.registerFont(TTFont('CJK','/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc',subfontIndex=0))
 W,H=612,792
 class Book:
  def __init__(self,path,title,level):
@@ -35,7 +36,7 @@ class Book:
   self.c.drawImage(str(LOGO),x,y,width=w,height=h,mask='auto',preserveAspectRatio=True)
   return h
  def text(self,txt,x=48,y=680,w=516,size=11.5,font='Body',color=INK,leading=None):
-  s=ParagraphStyle('p',fontName=font,fontSize=size,leading=leading or size*1.4,textColor=HexColor(color),spaceAfter=0)
+  s=ParagraphStyle('p',fontName=font,fontSize=size,leading=leading or size*1.4,textColor=HexColor(color),spaceAfter=0,wordWrap='CJK' if font=='CJK' else None)
   p=Paragraph(escape(str(txt)).replace('\n','<br/>'),s);pw,ph=p.wrap(w,700)
   if (y>60 and y-ph<59) or y-ph<0:raise ValueError(f'Overflow {self.title} page {self.n}: {txt[:50]} bottom {y-ph}')
   p.drawOn(self.c,x,y-ph);self.layouts.append({'page':self.n,'x':x,'y':y-ph,'w':w,'h':ph,'text':txt})
@@ -43,18 +44,18 @@ class Book:
  def lines(self,y,count=3,x=48,w=516,gap=25):
   self.c.setStrokeColor(HexColor('#C7D0D6'));self.c.setLineWidth(.5)
   for i in range(count):self.c.line(x,y-i*gap,x+w,y-i*gap)
- def page(self,title,kicker='STUDENT PRACTICE'):
+ def page(self,title,kicker='STUDENT PRACTICE',title_font='Title'):
   if self.n:self.c.showPage()
   self.n+=1;self.c.setFillColor(HexColor(TEAL));self.c.rect(0,H-8,W,8,fill=1,stroke=0)
   self.text(kicker,48,754,size=8.5,font='Bold',color=TEAL)
-  self.text(title,48,732,w=516,size=23,font='Title',color=NAVY,leading=24)
+  self.text(title,48,732,w=516,size=23,font=title_font,color=NAVY,leading=24)
   self.c.setStrokeColor(HexColor('#D6DEE1'));self.c.line(48,60,564,60)
   self.logo(48,14,42);self.text('© 2026 Saint Pierre Learning Resources',98,42,w=365,size=7.4,color=GRAY)
   self.c.setFont('Body',8);self.c.setFillColor(HexColor(GRAY));self.c.drawRightString(564,29,str(self.n))
- def cover(self,subtitle,description):
+ def cover(self,subtitle,description,title_font='Title'):
   self.page('', 'SAINT PIERRE LEARNING RESOURCES')
   self.logo(48,574,175)
-  y=self.text(self.title,48,540,w=506,size=33,font='Title',color=NAVY,leading=41)
+  y=self.text(self.title,48,540,w=506,size=33,font=title_font,color=NAVY,leading=41)
   y=self.text(self.level,48,y-28,size=15,font='Bold',color=TEAL)
   y=self.text(subtitle,48,y-26,size=15)
   self.text(description,48,y-30,size=12,w=485)
@@ -83,22 +84,22 @@ class Book:
    c.lines([(x+20,y+10,x+190,y+10),(x+20,y+10,x+20,y+78)])
    for px,py in pairs:c.circle(x+20+px*23,y+10+py/maxy*65,2,fill=1)
    c.drawString(x+185,y,'x');c.drawString(x+5,y+75,'y')
- def questions(self,title,items,start=1,per=4,kicker='STUDENT PRACTICE',directions='Show your thinking with a drawing, equation, or explanation. Use the space under each question.'):
+ def questions(self,title,items,start=1,per=4,kicker='STUDENT PRACTICE',directions='Show your thinking with a drawing, equation, or explanation. Use the space under each question.',font='Body'):
   for offset in range(0,len(items),per):
    chunk=items[offset:offset+per];self.page(title,kicker)
    self.text(directions,48,681,size=10,color=GRAY)
    top=637;space=554/per
    for j,t in enumerate(chunk):
-    y=top-j*space;bottom=self.text(f'{start+offset+j}. '+t['q'],48,y,size=11.2)
+    y=top-j*space;bottom=self.text(f'{start+offset+j}. '+t['q'],48,y,size=11.2,font=font)
     if t.get('diagram') and space>=175:self.diagram(t['diagram'],62,bottom-90)
     self.lines(max(y-space+28,82),1)
- def key(self,title,items,labels=None,per=6):
+ def key(self,title,items,labels=None,per=6,font='Body'):
   for offset in range(0,len(items),per):
    self.page(title,'TEACHER ANSWER KEY');y=678
    for j,t in enumerate(items[offset:offset+per]):
     label=labels[offset+j] if labels else str(offset+j+1)
     y=self.text(f'{label}. {t["answer"]}',48,y,size=11,font='Bold',color=TEAL)
-    y=self.text(t['work'],48,y-4,size=10.2)-14
+    y=self.text(t['work'],48,y-4,size=10.2,font=font)-14
  def finish(self):
   self.c.save();assert len(PdfReader(self.path).pages)==self.n
   (TMP/(self.path.stem+'-layout.json')).write_text(json.dumps(self.layouts,ensure_ascii=False))
