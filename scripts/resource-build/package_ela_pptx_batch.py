@@ -38,6 +38,8 @@ JOBS = [
     ('nc-g8-ri85-paragraph-structure', 'ri85-paragraph-structure-ppt', 'ri85-paragraph-structure', 'The Magnetic Map: How Sea Turtles Navigate Home', 'RI.8.5', '8'),
     ('nc-g8-rl86-dramatic-irony', 'rl86-dramatic-irony-ppt', 'rl86-dramatic-irony', 'What Naomi Already Knew', 'RL.8.6', '8'),
     ('nc-g8-ri86-authors-purpose-counterevidence', 'ri86-authors-purpose-counterevidence-ppt', 'ri86-authors-purpose-counterevidence', 'The Case for a Later Bell', 'RI.8.6', '8'),
+    ('nc-g8-rl87-script-vs-production', 'rl87-script-vs-production-ppt', 'rl87-script-vs-production', "The Director's Choices", 'RL.8.7', '8'),
+    ('nc-g8-ri87-medium-tradeoffs', 'ri87-medium-tradeoffs-ppt', 'ri87-medium-tradeoffs', 'A Shipwreck, Told Three Ways', 'RI.8.7', '8'),
 ]
 
 

@@ -14359,5 +14359,133 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g8-rl87-script-vs-production",
+    "title": "The Director's Choices",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.8.7 — Analyze the extent to which a filmed or live production of a story or drama stays faithful to or departs from the text or script, evaluating the choices made by the director or actors.",
+    "objective": "Compare a script excerpt to a description of its staged production, and evaluate the extent to which specific directorial and acting choices stay faithful to or depart from the written text.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Compare a script excerpt to a description of its staged production, and evaluate the extent to which specific directorial and acting choices stay faithful to or depart from the written text.",
+    "summary": "An 80-minute RL.8.7 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RL/8/7/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RL/8/7/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RL.8.7",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of The Director's Choices: RL.8.7 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-rl87-script-vs-production.png",
+        "page": 6,
+        "alt": "Sample page from The Director's Choices worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "nc-g8-ri87-medium-tradeoffs",
+    "title": "A Shipwreck, Told Three Ways",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.8.7 — Evaluate the advantages and disadvantages of using different mediums (e.g., print or digital text, video, multimedia) to present a particular topic or idea.",
+    "objective": "Evaluate the specific advantages and disadvantages of presenting the same topic through different mediums, such as print text, video, and interactive multimedia.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Evaluate the specific advantages and disadvantages of presenting the same topic through different mediums, such as print text, video, and interactive multimedia.",
+    "summary": "An 80-minute RI.8.7 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RI/8/7/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RI/8/7/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RI.8.7",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of A Shipwreck, Told Three Ways: RI.8.7 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-ri87-medium-tradeoffs.png",
+        "page": 6,
+        "alt": "Sample page from A Shipwreck, Told Three Ways worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]

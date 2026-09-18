@@ -143,5 +143,15 @@
     "name": "ri86-authors-purpose-counterevidence.zip",
     "bytes": 94536,
     "sha256": "f4df96cb661aca2e2fad7f93dac07a11dd2fd0c7aa8145be5e04ebb412a68c67"
+  },
+  "rl87-script-vs-production": {
+    "name": "rl87-script-vs-production.zip",
+    "bytes": 90860,
+    "sha256": "982339c6fcca3754a7f8ff46a51680721821971ab8c96308039339a5c37b2d98"
+  },
+  "ri87-medium-tradeoffs": {
+    "name": "ri87-medium-tradeoffs.zip",
+    "bytes": 96498,
+    "sha256": "ed8064cba81e0a75225662dd10e3a0c0285ff7a680d7452263af0e26a0e04771"
   }
 }

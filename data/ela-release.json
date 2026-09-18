@@ -1187,5 +1187,87 @@
         "page": 7
       }
     ]
+  },
+  {
+    "id": "rl87-script-vs-production",
+    "title": "The Director's Choices",
+    "level": "Grade 8",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.8.7",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/8/",
+    "description": "A complete RL.8.7 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 8 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 8 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl87-script-vs-production.png",
+        "alt": "Sample slide from The Director's Choices",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri87-medium-tradeoffs",
+    "title": "A Shipwreck, Told Three Ways",
+    "level": "Grade 8",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.8.7",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RI/8/",
+    "description": "A complete RI.8.7 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 24,
+    "slides": 24,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "24-slide editable PowerPoint",
+      "24-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 8 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 8 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri87-medium-tradeoffs.png",
+        "alt": "Sample slide from A Shipwreck, Told Three Ways",
+        "page": 7
+      }
+    ]
   }
 ]
