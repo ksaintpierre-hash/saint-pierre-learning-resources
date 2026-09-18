@@ -50,11 +50,12 @@ async function activateReleasedFiles(force=false){
  // once so publication does not depend on a browser login. Later withdrawals stay closed.
  const {results}=await db().prepare('SELECT id,storage_key,metadata FROM store_products').all<{id:string;storage_key:string;metadata:string}>();
  const pending=new Set(results.filter(p=>!JSON.parse(p.metadata).editorManaged&&(force||!p.storage_key.startsWith('bundled/'))).map(p=>p.id));
- const updates=salesRelease.filter(p=>pending.has(p.id)).map(p=>{
+ // One listing with a missing file must never block every other listing's activation.
+ const updates=salesRelease.filter(p=>pending.has(p.id)).flatMap(p=>{
   const file=resourceMetadata(p.id);
-  if(!file||file.bytes<=0||!file.sha256)throw new StoreError(503,'A release file is missing. No new resources were enabled.');
-  return db().prepare('UPDATE store_products SET title=?,price_cents=?,approved=1,metadata=?,storage_key=?,ready=1 WHERE id=?'+(force?'':" AND storage_key NOT LIKE 'bundled/%'"))
-   .bind(p.title,p.priceCents,JSON.stringify(p),'bundled/'+file.sha256+'/'+file.name,p.id);
+  if(!file||file.bytes<=0||!file.sha256)return [];
+  return [db().prepare('UPDATE store_products SET title=?,price_cents=?,approved=1,metadata=?,storage_key=?,ready=1 WHERE id=?'+(force?'':" AND storage_key NOT LIKE 'bundled/%'"))
+   .bind(p.title,p.priceCents,JSON.stringify(p),'bundled/'+file.sha256+'/'+file.name,p.id)];
  });
  if(updates.length)await db().batch(updates);
 }
