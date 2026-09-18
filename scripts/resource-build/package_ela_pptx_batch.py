@@ -36,6 +36,8 @@ JOBS = [
     ('nc-g8-ri84-technical-word-choice', 'ri84-technical-word-choice-ppt', 'ri84-technical-word-choice', 'Words in the White Coat', 'RI.8.4', '8'),
     ('nc-g8-rl85-structure-shapes-meaning', 'rl85-structure-shapes-meaning-ppt', 'rl85-structure-shapes-meaning', 'Match Point, Told Two Ways', 'RL.8.5', '8'),
     ('nc-g8-ri85-paragraph-structure', 'ri85-paragraph-structure-ppt', 'ri85-paragraph-structure', 'The Magnetic Map: How Sea Turtles Navigate Home', 'RI.8.5', '8'),
+    ('nc-g8-rl86-dramatic-irony', 'rl86-dramatic-irony-ppt', 'rl86-dramatic-irony', 'What Naomi Already Knew', 'RL.8.6', '8'),
+    ('nc-g8-ri86-authors-purpose-counterevidence', 'ri86-authors-purpose-counterevidence-ppt', 'ri86-authors-purpose-counterevidence', 'The Case for a Later Bell', 'RI.8.6', '8'),
 ]
 
 

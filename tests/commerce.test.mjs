@@ -13,7 +13,7 @@ await build({entryPoints:['server/commerce.ts'],bundle:true,define:{'import.meta
 const s=await import('../.sites-runtime/tests/commerce.mjs');
 await s.initialize();
 const releaseBeforeProvision=await s.publicCatalog();
-assert.equal(releaseBeforeProvision.filter(p=>p.ready).length,146);
+assert.equal(releaseBeforeProvision.filter(p=>p.ready).length,148);
 await s.provision();
 const D=globalThis.__storeEnv.DB;
 const id='aaaaaaaa-aaaa-4aaa-aaaa-aaaaaaaaaaaa';
@@ -99,7 +99,7 @@ test('approved daily releases are listed while full files still require owner or
 test('the complete release supports protected delivery for every new product',async()=>{
  const release=JSON.parse(await readFile('data/sales-release-2026-09-15.json','utf8'));
  const payload=JSON.parse(await readFile('server/resource-payload.json','utf8'));
- assert.equal(release.length,146);
+ assert.equal(release.length,148);
  for(const p of release){
   const row=await D.prepare('SELECT approved,ready,storage_key FROM store_products WHERE id=?').bind(p.id).first();
   assert.equal(row.approved,1,p.id);assert.equal(row.ready,1,p.id);assert.match(row.storage_key,/^bundled\//);

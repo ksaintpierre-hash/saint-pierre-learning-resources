@@ -133,5 +133,15 @@
     "name": "ri85-paragraph-structure.zip",
     "bytes": 91850,
     "sha256": "e96402f0e5f5ccc240ef03ffa56a6b580967c767edc94841c8237dbdc453364e"
+  },
+  "rl86-dramatic-irony": {
+    "name": "rl86-dramatic-irony.zip",
+    "bytes": 92005,
+    "sha256": "202a5bb882e071c9185c26967746251fbadcea5227f6a006e9d2999d34093611"
+  },
+  "ri86-authors-purpose-counterevidence": {
+    "name": "ri86-authors-purpose-counterevidence.zip",
+    "bytes": 94536,
+    "sha256": "f4df96cb661aca2e2fad7f93dac07a11dd2fd0c7aa8145be5e04ebb412a68c67"
   }
 }
