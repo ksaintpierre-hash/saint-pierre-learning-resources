@@ -11,6 +11,8 @@ import base64, hashlib, json, re, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_math import Book, ROOT, TEAL, GRAY, NAVY
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from watermark_previews import watermark
 
 OUT = ROOT / 'resources/2026-09-18'
 OUT.mkdir(parents=True, exist_ok=True)
@@ -178,6 +180,7 @@ def build_one(row):
     preview_page = 5
     preview_path = OUT / (slug + '-preview.png')
     doc[preview_page].get_pixmap(matrix=fitz.Matrix(1.2, 1.2), alpha=False).save(preview_path)
+    watermark(preview_path)
     return b.path, thumb_path, preview_path, pages, preview_page + 1
 
 

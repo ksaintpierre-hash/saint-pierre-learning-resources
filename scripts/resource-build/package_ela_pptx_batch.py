@@ -13,6 +13,8 @@ PRODUCT_FILES = ROOT / 'product-files'
 PREVIEWS = ROOT / 'public/product-previews'
 THUMBS = ROOT / 'public/product-thumbnails'
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(ROOT / 'scripts'))
+from watermark_previews import watermark
 
 JOBS = [
     ('nc-g7-rl76-character-perspectives', 'rl76-character-perspectives-ppt', 'rl76-character-perspectives', 'Character Perspectives', 'RL.7.6', '7'),
@@ -68,6 +70,7 @@ def main():
         doc[0].get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False).save(str(THUMBS / (product_id + '.png')))
         preview_page = min(6, n_slides - 1)
         doc[preview_page].get_pixmap(matrix=fitz.Matrix(1.5, 1.5), alpha=False).save(str(PREVIEWS / (product_id + '.png')))
+        watermark(PREVIEWS / (product_id + '.png'))
 
         start_here = BUILD / ('START-HERE-' + product_id + '.txt')
         start_here.write_text(
