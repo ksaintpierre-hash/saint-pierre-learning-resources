@@ -103,5 +103,15 @@
     "name": "ri82-central-ideas-summary.zip",
     "bytes": 93596,
     "sha256": "57bea40fd08d4ec7d22ac2d4580ce94906e4edb177c29086386da3cc0ebaaad6"
+  },
+  "rl83-dialogue-propels-action": {
+    "name": "rl83-dialogue-propels-action.zip",
+    "bytes": 91091,
+    "sha256": "086154b2ad4f3a44f40871458076aca0a990b912f8cc667e934a4c55be3535d3"
+  },
+  "ri83-connections-distinctions": {
+    "name": "ri83-connections-distinctions.zip",
+    "bytes": 91490,
+    "sha256": "3c0855c68277f569339e7f94d5ff387a31f2a99112aaf49d5158d0f55568107e"
   }
 }

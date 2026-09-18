@@ -83,11 +83,14 @@ class Deck:
         s = self._slide()
         self._rect(s, 0, 0, 9144000, 5143500, NAVY)
         self._rect(s, 0, 0, 320040, 5143500, GOLD)
+        # A title over ~30 characters wraps to two lines at this 36pt size;
+        # push the rest of the layout down so the wrapped line never crowds the subtitle.
+        extra = 411480 if len(title) > 30 else 0
         self._text(s, 822960, 1234440, 7772400, 274320, [[(kicker, 11, True, GOLD)]])
-        self._text(s, 822960, 1645920, 7863840, 1005840, [[(title, 36, True, WHITE)]])
-        self._text(s, 822960, 2743200, 7589520, 457200, [[(subtitle, 15, False, SUBTITLE_BLUE)]])
-        self._rect(s, 822960, 3794760, 2926080, 45720, GOLD)
-        self._text(s, 822960, 3931920, 7772400, 365760, [[(tagline, 11, False, WHITE)]])
+        self._text(s, 822960, 1645920, 7863840, 1005840 + extra, [[(title, 36, True, WHITE)]])
+        self._text(s, 822960, 2743200 + extra, 7589520, 457200, [[(subtitle, 15, False, SUBTITLE_BLUE)]])
+        self._rect(s, 822960, 3794760 + extra, 2926080, 45720, GOLD)
+        self._text(s, 822960, 3931920 + extra, 7772400, 365760, [[(tagline, 11, False, WHITE)]])
         return s
 
     def header(self, s, kicker, title):

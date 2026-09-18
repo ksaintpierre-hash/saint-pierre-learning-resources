@@ -30,6 +30,8 @@ JOBS = [
     ('nc-g8-ri81-evidence-informational', 'ri81-evidence-informational-ppt', 'ri81-evidence-informational', 'Strongest Evidence Workshop', 'RI.8.1', '8'),
     ('nc-g8-rl82-theme-central-idea', 'rl82-theme-central-idea-ppt', 'rl82-theme-central-idea', 'Theme Through the Wreckage', 'RL.8.2', '8'),
     ('nc-g8-ri82-central-ideas-summary', 'ri82-central-ideas-summary-ppt', 'ri82-central-ideas-summary', 'Tracing the Central Idea', 'RI.8.2', '8'),
+    ('nc-g8-rl83-dialogue-propels-action', 'rl83-dialogue-propels-action-ppt', 'rl83-dialogue-propels-action', "The Line That Wasn't in the Script", 'RL.8.3', '8'),
+    ('nc-g8-ri83-connections-distinctions', 'ri83-connections-distinctions-ppt', 'ri83-connections-distinctions', 'Two Towns, One Flood', 'RI.8.3', '8'),
 ]
 
 
