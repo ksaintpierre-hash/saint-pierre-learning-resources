@@ -11126,5 +11126,133 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g8-rl84-word-choice-tone",
+    "title": "What the Order Didn't Say",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.8.4 — Determine the meaning of words and phrases as they are used in a text, including figurative and connotative meanings; analyze the impact of specific word choices on meaning and tone, including analogies or allusions to other texts.",
+    "objective": "Determine figurative and connotative meanings of words and phrases in a literary text, and analyze how specific word choices shape meaning and tone.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Determine figurative and connotative meanings of words and phrases in a literary text, and analyze how specific word choices shape meaning and tone.",
+    "summary": "An 80-minute RL.8.4 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RL/8/4/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RL/8/4/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RL.8.4",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of What the Order Didn't Say: RL.8.4 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-rl84-word-choice-tone.png",
+        "page": 6,
+        "alt": "Sample page from What the Order Didn't Say worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "nc-g8-ri84-technical-word-choice",
+    "title": "Words in the White Coat",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.8.4 — Determine the meaning of words and phrases as they are used in a text, including figurative, connotative, and technical meanings; analyze the impact of specific word choices on meaning and tone, including analogies or allusions to other texts.",
+    "objective": "Determine figurative, connotative, and technical meanings of words and phrases in an informational text, and analyze how specific word choices shape meaning and tone.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Determine figurative, connotative, and technical meanings of words and phrases in an informational text, and analyze how specific word choices shape meaning and tone.",
+    "summary": "An 80-minute RI.8.4 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RI/8/4/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RI/8/4/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RI.8.4",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Words in the White Coat: RI.8.4 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-ri84-technical-word-choice.png",
+        "page": 6,
+        "alt": "Sample page from Words in the White Coat worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]

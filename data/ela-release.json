@@ -941,5 +941,87 @@
         "page": 7
       }
     ]
+  },
+  {
+    "id": "rl84-word-choice-tone",
+    "title": "What the Order Didn't Say",
+    "level": "Grade 8",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.8.4",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/8/",
+    "description": "A complete RL.8.4 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 23,
+    "slides": 23,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "23-slide editable PowerPoint",
+      "23-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 8 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 8 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl84-word-choice-tone.png",
+        "alt": "Sample slide from What the Order Didn't Say",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri84-technical-word-choice",
+    "title": "Words in the White Coat",
+    "level": "Grade 8",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.8.4",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RI/8/",
+    "description": "A complete RI.8.4 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 23,
+    "slides": 23,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "23-slide editable PowerPoint",
+      "23-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 8 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 8 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri84-technical-word-choice.png",
+        "alt": "Sample slide from Words in the White Coat",
+        "page": 7
+      }
+    ]
   }
 ]

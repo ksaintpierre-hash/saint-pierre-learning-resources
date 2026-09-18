@@ -113,5 +113,15 @@
     "name": "ri83-connections-distinctions.zip",
     "bytes": 91490,
     "sha256": "3c0855c68277f569339e7f94d5ff387a31f2a99112aaf49d5158d0f55568107e"
+  },
+  "rl84-word-choice-tone": {
+    "name": "rl84-word-choice-tone.zip",
+    "bytes": 95060,
+    "sha256": "4d628b28bdfa2cca580bf57f9df324066b9a5addad3961103a13a806ec295edf"
+  },
+  "ri84-technical-word-choice": {
+    "name": "ri84-technical-word-choice.zip",
+    "bytes": 95196,
+    "sha256": "0d8fc61b982dcdc2a83ef6b6db25021df7224907a33d02147b886635eae6e845"
   }
 }

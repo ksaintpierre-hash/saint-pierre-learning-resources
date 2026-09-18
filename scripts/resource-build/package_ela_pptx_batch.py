@@ -32,6 +32,8 @@ JOBS = [
     ('nc-g8-ri82-central-ideas-summary', 'ri82-central-ideas-summary-ppt', 'ri82-central-ideas-summary', 'Tracing the Central Idea', 'RI.8.2', '8'),
     ('nc-g8-rl83-dialogue-propels-action', 'rl83-dialogue-propels-action-ppt', 'rl83-dialogue-propels-action', "The Line That Wasn't in the Script", 'RL.8.3', '8'),
     ('nc-g8-ri83-connections-distinctions', 'ri83-connections-distinctions-ppt', 'ri83-connections-distinctions', 'Two Towns, One Flood', 'RI.8.3', '8'),
+    ('nc-g8-rl84-word-choice-tone', 'rl84-word-choice-tone-ppt', 'rl84-word-choice-tone', "What the Order Didn't Say", 'RL.8.4', '8'),
+    ('nc-g8-ri84-technical-word-choice', 'ri84-technical-word-choice-ppt', 'ri84-technical-word-choice', 'Words in the White Coat', 'RI.8.4', '8'),
 ]
 
 
