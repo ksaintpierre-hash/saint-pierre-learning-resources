@@ -37,7 +37,7 @@
 .cart-row button{padding:10px}
 .checkout-box,.purchase-card,.sales-panel{border:1px solid var(--line);border-radius:12px;padding:24px;margin:24px 0;background:var(--paper)}
 .checkout-box{max-width:640px}
-.checkout-box paypal-button{display:block;margin:24px 0;max-width:350px}
+.checkout-box>.portal-button{display:block;margin:24px 0;max-width:350px}
 .purchase-card small{overflow-wrap:anywhere}
 .purchase-item{display:flex;gap:16px;align-items:center;justify-content:space-between;margin:18px 0;flex-wrap:wrap}
 .commerce-shell button{cursor:pointer}

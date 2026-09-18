@@ -14,7 +14,7 @@ The existing `.openai/hosting.json` identifies Sites project `appgprj_6aa5f6efc9
 
 Use the Sites building/hosting tools with authenticated project access to publish the reviewed source. Unset `VITE_STORE_PREVIEW` (or set it to `false`) and build production with `pnpm build`. Save/package the exact reviewed source and deploy its version through Sites. Confirm successful deployment and verify the existing domain, catalog, account flow and protected delivery. Do not run preview seed SQL against a remote database. Existing schema migrations must be reviewed against the current production schema before applying any new migration.
 
-Live Supabase authentication and PayPal configuration remain managed in the existing hosting/account settings. `.env.example` contains placeholders only. Never commit real environment files, passwords, private keys, tokens or service-role keys. The repository secret check is a limited pattern/filename check, not a guarantee that every possible secret format can be detected.
+Live Supabase authentication and Stripe configuration remain managed in the existing hosting/account settings. `.env.example` contains placeholders only. Never commit real environment files, passwords, private keys, tokens or service-role keys. The repository secret check is a limited pattern/filename check, not a guarantee that every possible secret format can be detected.
 
 ## Recovery and limits
 
