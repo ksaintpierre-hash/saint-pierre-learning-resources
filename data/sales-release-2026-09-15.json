@@ -14482,5 +14482,275 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "college-psychology101-conditioning",
+    "title": "Psychology 101: Operant Conditioning in Everyday Life — A Full Case-Study Session",
+    "level": "Psychology 101",
+    "grades": [
+      "College"
+    ],
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
+    "subject": "Psychology",
+    "standard": "COURSE-OBJ.PSY101.2 — Identify reinforcement and punishment (positive/negative) in real behavior-change scenarios and distinguish operant conditioning from classical conditioning.",
+    "objective": "Apply operant conditioning terms accurately to real scenarios, correctly identifying reinforcement vs. punishment and positive vs. negative in each case.",
+    "resourceType": "Complete course practice packet",
+    "collections": [
+      "College Resources",
+      "Worksheets",
+      "Classwork",
+      "Independent Work",
+      "Small-Group Work"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Apply operant conditioning terms accurately to real scenarios, correctly identifying reinforcement vs. punishment and positive vs. negative in each case.",
+    "summary": "A complete Psychology 101 session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
+    "tags": [
+      "Psychology 101",
+      "Psychology",
+      "college",
+      "worksheets"
+    ],
+    "thumbnailAlt": "Cover of Psychology 101: Operant Conditioning in Everyday Life — A Full Case-Study Session: Psychology 101 course practice packet.",
+    "previews": [
+      {
+        "src": "/product-previews/college-psychology101-conditioning.png",
+        "page": 6,
+        "alt": "Sample page from Psychology 101: Operant Conditioning in Everyday Life — A Full Case-Study Session packet."
+      }
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "college-algebra101-systems",
+    "title": "College Algebra: Systems of Linear Equations in Context — A Full Problem-Solving Session",
+    "level": "College Algebra",
+    "grades": [
+      "College"
+    ],
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
+    "subject": "Mathematics",
+    "standard": "COURSE-OBJ.MATH101.2 — Set up and solve systems of two linear equations in two variables using substitution and elimination, and interpret the solution in the context of a real problem.",
+    "objective": "Translate a real-world scenario into a system of two linear equations, solve it using substitution or elimination, and correctly interpret what the solution means in context.",
+    "resourceType": "Complete course practice packet",
+    "collections": [
+      "College Resources",
+      "Worksheets",
+      "Classwork",
+      "Independent Work",
+      "Small-Group Work"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Translate a real-world scenario into a system of two linear equations, solve it using substitution or elimination, and correctly interpret what the solution means in context.",
+    "summary": "A complete College Algebra session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
+    "tags": [
+      "College Algebra",
+      "Mathematics",
+      "college",
+      "worksheets"
+    ],
+    "thumbnailAlt": "Cover of College Algebra: Systems of Linear Equations in Context — A Full Problem-Solving Session: College Algebra course practice packet.",
+    "previews": [
+      {
+        "src": "/product-previews/college-algebra101-systems.png",
+        "page": 6,
+        "alt": "Sample page from College Algebra: Systems of Linear Equations in Context — A Full Problem-Solving Session packet."
+      }
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "college-biology101-respiration",
+    "title": "Biology 101: Cellular Respiration and Energy Flow — A Full Reading and Application Session",
+    "level": "Biology 101",
+    "grades": [
+      "College"
+    ],
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
+    "subject": "Biology",
+    "standard": "COURSE-OBJ.BIO101.2 — Explain the three stages of cellular respiration and how each stage's ATP yield and oxygen requirement connect to a real physiological scenario.",
+    "objective": "Explain how glycolysis, the Krebs cycle, and the electron transport chain each contribute to ATP production, and apply this to real exercise-physiology scenarios.",
+    "resourceType": "Complete course practice packet",
+    "collections": [
+      "College Resources",
+      "Worksheets",
+      "Classwork",
+      "Independent Work",
+      "Small-Group Work"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Explain how glycolysis, the Krebs cycle, and the electron transport chain each contribute to ATP production, and apply this to real exercise-physiology scenarios.",
+    "summary": "A complete Biology 101 session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
+    "tags": [
+      "Biology 101",
+      "Biology",
+      "college",
+      "worksheets"
+    ],
+    "thumbnailAlt": "Cover of Biology 101: Cellular Respiration and Energy Flow — A Full Reading and Application Session: Biology 101 course practice packet.",
+    "previews": [
+      {
+        "src": "/product-previews/college-biology101-respiration.png",
+        "page": 6,
+        "alt": "Sample page from Biology 101: Cellular Respiration and Energy Flow — A Full Reading and Application Session packet."
+      }
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "college-composition101-revision",
+    "title": "English Composition I: Revising for Evidence — A Full Workshop Session",
+    "level": "English Composition I",
+    "grades": [
+      "College"
+    ],
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
+    "subject": "English/Writing",
+    "standard": "COURSE-OBJ.ENGL101.2 — Revise a thesis-driven paragraph by replacing generalizations with specific evidence and explicit analysis connecting that evidence back to the claim.",
+    "objective": "Identify unsupported generalizations in a draft paragraph and revise them into evidence-based analysis that explicitly connects evidence to a claim.",
+    "resourceType": "Complete course practice packet",
+    "collections": [
+      "College Resources",
+      "Worksheets",
+      "Classwork",
+      "Independent Work",
+      "Small-Group Work"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Identify unsupported generalizations in a draft paragraph and revise them into evidence-based analysis that explicitly connects evidence to a claim.",
+    "summary": "A complete English Composition I session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
+    "tags": [
+      "English Composition I",
+      "English/Writing",
+      "college",
+      "worksheets"
+    ],
+    "thumbnailAlt": "Cover of English Composition I: Revising for Evidence — A Full Workshop Session: English Composition I course practice packet.",
+    "previews": [
+      {
+        "src": "/product-previews/college-composition101-revision.png",
+        "page": 6,
+        "alt": "Sample page from English Composition I: Revising for Evidence — A Full Workshop Session packet."
+      }
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "college-ushistory101-convention",
+    "title": "US History I: The Constitutional Convention — Compromise in Practice — A Full Source-Analysis Session",
+    "level": "US History I",
+    "grades": [
+      "College"
+    ],
+    "states": [
+      "Not applicable"
+    ],
+    "state": "Not applicable",
+    "audience": "College students and instructors",
+    "subject": "History",
+    "standard": "COURSE-OBJ.HIST101.2 — Analyze how the Great Compromise and the Three-Fifths Compromise each resolved a specific conflict at the 1787 Constitutional Convention, and evaluate the tradeoffs each compromise created.",
+    "objective": "Explain the specific conflicts behind the Great Compromise and the Three-Fifths Compromise, and evaluate what each compromise resolved and what it left unresolved.",
+    "resourceType": "Complete course practice packet",
+    "collections": [
+      "College Resources",
+      "Worksheets",
+      "Classwork",
+      "Independent Work",
+      "Small-Group Work"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 800,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Explain the specific conflicts behind the Great Compromise and the Three-Fifths Compromise, and evaluate what each compromise resolved and what it left unresolved.",
+    "summary": "A complete US History I session packet with an original reading or worked-example set, warm-up, guided practice, partner/lab discussion, independent practice, extension work, assessment, and full answer key.",
+    "minutes": "90-minute session",
+    "source": "Course-level learning objective written for this packet; no accreditation, transfer credit, or universal course-equivalency is claimed.",
+    "sources": [],
+    "tags": [
+      "US History I",
+      "History",
+      "college",
+      "worksheets"
+    ],
+    "thumbnailAlt": "Cover of US History I: The Constitutional Convention — Compromise in Practice — A Full Source-Analysis Session: US History I course practice packet.",
+    "previews": [
+      {
+        "src": "/product-previews/college-ushistory101-convention.png",
+        "page": 6,
+        "alt": "Sample page from US History I: The Constitutional Convention — Compromise in Practice — A Full Source-Analysis Session packet."
+      }
+    ],
+    "previewDescription": "Actual practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]
