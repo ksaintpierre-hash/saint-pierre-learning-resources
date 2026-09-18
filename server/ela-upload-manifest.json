@@ -83,5 +83,15 @@
     "name": "ri78-tracing-arguments.zip",
     "bytes": 89986,
     "sha256": "c0b5f2d1b9f1d0f45a5c5580d1c93616e2657d5315afbf8dd90318d232533b1e"
+  },
+  "rl81-textual-evidence": {
+    "name": "rl81-textual-evidence.zip",
+    "bytes": 90824,
+    "sha256": "7b6ebb731d7655faa81834a68a95cb9bed2394cc3b9d8abc27a2467549c29793"
+  },
+  "ri81-evidence-informational": {
+    "name": "ri81-evidence-informational.zip",
+    "bytes": 93065,
+    "sha256": "b35dee360250494f66907d30d0d4c918fe4838d2910e785746c0df03bf93ef1a"
   }
 }

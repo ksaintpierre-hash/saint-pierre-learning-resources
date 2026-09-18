@@ -52,7 +52,7 @@ def pack(payload, lookup, path):
 def build_one(row):
     slug = row['id']
     code, standard_text = row['standard'].split(' — ', 1)
-    descriptor = 'Grade 7 · North Carolina · Reading'
+    descriptor = f'Grade {row["grade"]} · North Carolina · Reading'
     items = row['items']
     assert len(items) == 20, (slug, len(items))
     warm = items[0:2]
@@ -166,7 +166,7 @@ def build_one(row):
     y -= 6
     y = b.text('Official alignment source · accessed September 18, 2026', 48, y, size=10.6, font='Bold', color=TEAL) - 6
     y = b.text(row['standard'] + '. The objective is original wording describing a focused part of the standard.', 48, y, size=9.6) - 6
-    y = b.text('NC ELA Standard Course of Study, Grade 7: ' + row['source'], 48, y, size=8.6) - 12
+    y = b.text(f'NC ELA Standard Course of Study, Grade {row["grade"]}: ' + row['source'], 48, y, size=8.6) - 12
     y = b.text('Original passage(s), questions, and answer explanations. No official released-test items or branded curriculum reproduced.', 48, y, size=9.5) - 10
     b.text('Print US Letter at actual size. Keep the answer key separate from student pages. Single-teacher classroom or LMS use; no resale or redistribution of complete files.', 48, y, size=9.5)
 
@@ -182,7 +182,13 @@ def build_one(row):
 
 
 def main(slugs=None):
-    from rl_ri_grade7_content import ROWS
+    from rl_ri_grade7_content import ROWS as ROWS7
+    ROWS = list(ROWS7)
+    try:
+        from rl_ri_grade8_content import ROWS as ROWS8
+        ROWS += ROWS8
+    except ImportError:
+        pass
     payload = json.loads((ROOT / 'server/resource-payload.json').read_text())
     lookup = {hashlib.sha256(base64.b64decode(v)).hexdigest(): i for i, v in enumerate(payload['chunks'])}
     sales = json.loads((ROOT / 'data/sales-release-2026-09-15.json').read_text())
@@ -198,9 +204,10 @@ def main(slugs=None):
         import shutil
         shutil.copy(thumb_path, PUB_THUMBS / (row['id'] + '.png'))
         shutil.copy(preview_path, PUB_PREVIEWS / (row['id'] + '.png'))
+        grade_label = f'Grade {row["grade"]}'
         entry = {
             'id': row['id'], 'title': row['title'],
-            'level': 'Grade 7 • North Carolina', 'grades': ['Grade 7'], 'states': ['North Carolina'],
+            'level': f'{grade_label} • North Carolina', 'grades': [grade_label], 'states': ['North Carolina'],
             'state': 'North Carolina', 'audience': 'Students and educators', 'subject': 'Reading',
             'standard': row['standard'], 'objective': row['objective'],
             'resourceType': 'Complete ELA practice packet',
@@ -211,9 +218,9 @@ def main(slugs=None):
             'description': row['objective'],
             'summary': f'An 80-minute {row["standard"].split(" ")[0]} practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.',
             'minutes': '80 minutes (full block period)',
-            'source': row['source'], 'sources': [{'title': 'NC ELA Standard Course of Study Grade 7', 'url': row['source']}],
-            'tags': ['Grade 7', 'North Carolina', row['standard'].split(' ')[0], 'reading', 'worksheets', 'EOG prep', '80 minute'],
-            'thumbnailAlt': f'Cover of {row["title"]}: {row["standard"].split(" ")[0]} Grade 7 ELA North Carolina 80-minute worksheet packet.',
+            'source': row['source'], 'sources': [{'title': f'NC ELA Standard Course of Study {grade_label}', 'url': row['source']}],
+            'tags': [grade_label, 'North Carolina', row['standard'].split(' ')[0], 'reading', 'worksheets', 'EOG prep', '80 minute'],
+            'thumbnailAlt': f'Cover of {row["title"]}: {row["standard"].split(" ")[0]} {grade_label} ELA North Carolina 80-minute worksheet packet.',
             'previews': [{'src': '/product-previews/' + row['id'] + '.png', 'page': preview_page, 'alt': f'Sample page from {row["title"]} worksheet.'}],
             'previewDescription': 'Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.',
             'ready': True,

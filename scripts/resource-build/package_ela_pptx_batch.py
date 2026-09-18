@@ -15,17 +15,19 @@ THUMBS = ROOT / 'public/product-thumbnails'
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 JOBS = [
-    ('nc-g7-rl76-character-perspectives', 'rl76-character-perspectives-ppt', 'rl76-character-perspectives', 'Character Perspectives', 'RL.7.6'),
-    ('nc-g7-rl77-text-vs-media', 'rl77-text-vs-media-ppt', 'rl77-text-vs-media', 'Text vs. Media', 'RL.7.7'),
-    ('nc-g7-rl79-fiction-vs-history', 'rl79-fiction-vs-history-ppt', 'rl79-fiction-vs-history', 'Fiction vs. History', 'RL.7.9'),
-    ('nc-g7-ri71-evidence-informational', 'ri71-evidence-informational-ppt', 'ri71-evidence-informational', 'Evidence in Informational Text', 'RI.7.1'),
-    ('nc-g7-ri72-central-ideas-summary', 'ri72-central-ideas-summary-ppt', 'ri72-central-ideas-summary', 'Central Ideas and Summary', 'RI.7.2'),
-    ('nc-g7-ri73-interactions-informational', 'ri73-interactions-informational-ppt', 'ri73-interactions-informational', 'Interactions in Informational Text', 'RI.7.3'),
-    ('nc-g7-ri74-word-meaning-tone', 'ri74-word-meaning-tone-ppt', 'ri74-word-meaning-tone', 'Word Meaning and Tone in Informational Text', 'RI.7.4'),
-    ('nc-g7-ri75-text-structure', 'ri75-text-structure-ppt', 'ri75-text-structure', 'Text Structure in Informational Text', 'RI.7.5'),
-    ('nc-g7-ri76-point-of-view-purpose', 'ri76-point-of-view-purpose-ppt', 'ri76-point-of-view-purpose', "Author's Point of View and Purpose", 'RI.7.6'),
-    ('nc-g7-ri77-text-vs-multimedia', 'ri77-text-vs-multimedia-ppt', 'ri77-text-vs-multimedia', 'Text vs. Multimedia', 'RI.7.7'),
-    ('nc-g7-ri78-tracing-arguments', 'ri78-tracing-arguments-ppt', 'ri78-tracing-arguments', 'Tracing and Evaluating Arguments', 'RI.7.8'),
+    ('nc-g7-rl76-character-perspectives', 'rl76-character-perspectives-ppt', 'rl76-character-perspectives', 'Character Perspectives', 'RL.7.6', '7'),
+    ('nc-g7-rl77-text-vs-media', 'rl77-text-vs-media-ppt', 'rl77-text-vs-media', 'Text vs. Media', 'RL.7.7', '7'),
+    ('nc-g7-rl79-fiction-vs-history', 'rl79-fiction-vs-history-ppt', 'rl79-fiction-vs-history', 'Fiction vs. History', 'RL.7.9', '7'),
+    ('nc-g7-ri71-evidence-informational', 'ri71-evidence-informational-ppt', 'ri71-evidence-informational', 'Evidence in Informational Text', 'RI.7.1', '7'),
+    ('nc-g7-ri72-central-ideas-summary', 'ri72-central-ideas-summary-ppt', 'ri72-central-ideas-summary', 'Central Ideas and Summary', 'RI.7.2', '7'),
+    ('nc-g7-ri73-interactions-informational', 'ri73-interactions-informational-ppt', 'ri73-interactions-informational', 'Interactions in Informational Text', 'RI.7.3', '7'),
+    ('nc-g7-ri74-word-meaning-tone', 'ri74-word-meaning-tone-ppt', 'ri74-word-meaning-tone', 'Word Meaning and Tone in Informational Text', 'RI.7.4', '7'),
+    ('nc-g7-ri75-text-structure', 'ri75-text-structure-ppt', 'ri75-text-structure', 'Text Structure in Informational Text', 'RI.7.5', '7'),
+    ('nc-g7-ri76-point-of-view-purpose', 'ri76-point-of-view-purpose-ppt', 'ri76-point-of-view-purpose', "Author's Point of View and Purpose", 'RI.7.6', '7'),
+    ('nc-g7-ri77-text-vs-multimedia', 'ri77-text-vs-multimedia-ppt', 'ri77-text-vs-multimedia', 'Text vs. Multimedia', 'RI.7.7', '7'),
+    ('nc-g7-ri78-tracing-arguments', 'ri78-tracing-arguments-ppt', 'ri78-tracing-arguments', 'Tracing and Evaluating Arguments', 'RI.7.8', '7'),
+    ('nc-g8-rl81-textual-evidence', 'rl81-textual-evidence-ppt', 'rl81-textual-evidence', 'Evidence and Inference Lab', 'RL.8.1', '8'),
+    ('nc-g8-ri81-evidence-informational', 'ri81-evidence-informational-ppt', 'ri81-evidence-informational', 'Strongest Evidence Workshop', 'RI.8.1', '8'),
 ]
 
 
@@ -42,7 +44,7 @@ def main():
     release = json.loads(release_path.read_text())
     release_ids = {p['id'] for p in release}
 
-    for content_id, ppt_stem, product_id, title, code in JOBS:
+    for content_id, ppt_stem, product_id, title, code, grade in JOBS:
         pptx_path = BUILD / (ppt_stem + '.pptx')
         pdf_path = BUILD / (product_id + '.pdf')
         subprocess.run([sys.executable, str(ROOT / 'scripts/pptx_to_pdf.py'),
@@ -55,7 +57,7 @@ def main():
 
         start_here = BUILD / ('START-HERE-' + product_id + '.txt')
         start_here.write_text(
-            f'SAINT PIERRE LEARNING RESOURCES\n{title} — Grade 7 ELA ({code})\n\n'
+            f'SAINT PIERRE LEARNING RESOURCES\n{title} — Grade {grade} ELA ({code})\n\n'
             f'Includes the original editable PowerPoint and a PDF of all {n_slides} slides.\n'
             'Use the PDF when sharing across devices to preserve layout. In PowerPoint, preview after editing or changing fonts.\n'
             'Single-teacher license: one purchaser may use with their own students, including in a password-protected classroom. Do not resell, publicly post, or redistribute the source files.\n\n'
@@ -78,9 +80,9 @@ def main():
         manifest[product_id] = {'name': product_id + '.zip', 'bytes': n_bytes, 'sha256': digest}
 
         entry = {
-            'id': product_id, 'title': title, 'level': 'Grade 7', 'subject': 'Reading',
+            'id': product_id, 'title': title, 'level': f'Grade {grade}', 'subject': 'Reading',
             'standard': 'CCSS.ELA-LITERACY.' + code,
-            'source': 'Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/',
+            'source': f'Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/{code.split(".")[0]}/{grade}/',
             'description': f'A complete {code} lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.',
             'priceCents': 699, 'pages': n_slides, 'slides': n_slides, 'approved': True,
             'formats': ['PDF', 'PPTX'], 'distributionFormat': 'ZIP',
@@ -89,8 +91,8 @@ def main():
             'included': [f'{n_slides}-slide editable PowerPoint', f'{n_slides}-page PDF of the slides',
                          'Original passage(s) and guided/independent practice', 'Answer explanations and exit ticket',
                          'START-HERE teaching notes and single-teacher license'],
-            'collections': ['Grade 7 ELA', 'Reading Literature' if code.startswith('RL') else 'Reading Informational Text'],
-            'audience': 'Grade 7 teachers and tutors',
+            'collections': [f'Grade {grade} ELA', 'Reading Literature' if code.startswith('RL') else 'Reading Informational Text'],
+            'audience': f'Grade {grade} teachers and tutors',
             'answerKey': 'Answer explanations are included after task cards; read START-HERE for teaching clarifications.',
             'previewDescription': 'An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.',
             'previews': [{'src': '/product-previews/' + product_id + '.png', 'alt': f'Sample slide from {title}', 'page': preview_page + 1}],

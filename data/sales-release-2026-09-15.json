@@ -13591,5 +13591,133 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g8-rl81-textual-evidence",
+    "title": "Evidence and Inference Lab",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.8.1 — Cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text.",
+    "objective": "Cite the textual evidence that most strongly supports an analysis of explicit statements and inferences drawn from a literary text.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 18,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Cite the textual evidence that most strongly supports an analysis of explicit statements and inferences drawn from a literary text.",
+    "summary": "An 80-minute RL.8.1 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RL/8/1/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RL/8/1/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RL.8.1",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Evidence and Inference Lab: RL.8.1 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-rl81-textual-evidence.png",
+        "page": 6,
+        "alt": "Sample page from Evidence and Inference Lab worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "nc-g8-ri81-evidence-informational",
+    "title": "Strongest Evidence Workshop",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.8.1 — Cite the textual evidence that most strongly supports an analysis of what the text says explicitly as well as inferences drawn from the text.",
+    "objective": "Cite the textual evidence that most strongly supports an analysis of explicit statements and inferences drawn from an informational text.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Cite the textual evidence that most strongly supports an analysis of explicit statements and inferences drawn from an informational text.",
+    "summary": "An 80-minute RI.8.1 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RI/8/1/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RI/8/1/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RI.8.1",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Strongest Evidence Workshop: RI.8.1 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-ri81-evidence-informational.png",
+        "page": 6,
+        "alt": "Sample page from Strongest Evidence Workshop worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]

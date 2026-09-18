@@ -30,7 +30,7 @@ def build(row, ppt_id, title_suffix=''):
     code = row['standard'].split(' — ')[0]
     d = Deck(code, row['title'])
 
-    d.cover(f'GRADE 7  ·  READING {"LITERATURE" if code.startswith("RL") else "INFORMATIONAL TEXT"}  ·  {code}',
+    d.cover(f'GRADE {row["grade"]}  ·  READING {"LITERATURE" if code.startswith("RL") else "INFORMATIONAL TEXT"}  ·  {code}',
             row['title'], row['objective'],
             'Lesson Map  ·  Passage  ·  Guided · Partner · Independent Practice  ·  Small Group  ·  Answer Key')
 
@@ -90,11 +90,17 @@ def build(row, ppt_id, title_suffix=''):
 
 
 if __name__ == '__main__':
-    from rl_ri_grade7_content import ROWS
+    from rl_ri_grade7_content import ROWS as ROWS7
+    ROWS = list(ROWS7)
+    try:
+        from rl_ri_grade8_content import ROWS as ROWS8
+        ROWS += ROWS8
+    except ImportError:
+        pass
     ids = sys.argv[1:]
     rows_by_id = {r['id']: r for r in ROWS}
     for pid in ids:
         row = rows_by_id[pid]
-        ppt_id = row['id'].replace('nc-g7-', '') + '-ppt'
+        ppt_id = row['id'].replace('nc-g7-', '').replace('nc-g8-', '') + '-ppt'
         path, n = build(row, ppt_id)
         print(row['id'], '->', path, n, 'slides', flush=True)
