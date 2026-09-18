@@ -23,5 +23,65 @@
     "name": "rl7-4-word-tone-sound.zip",
     "bytes": 10363047,
     "sha256": "675ef66eda0d5c931f252d13b8ffcab52a5cfa261e3ad93cb92543473135de8d"
+  },
+  "rl7-5-form-structure": {
+    "name": "rl7-5-form-structure.zip",
+    "bytes": 75000,
+    "sha256": "cb2f4effe0c45e9eb9e5c9703276f0d7741faa36e21e37234d4fc646fe93f82e"
+  },
+  "rl76-character-perspectives": {
+    "name": "rl76-character-perspectives.zip",
+    "bytes": 88639,
+    "sha256": "7beb0769be869b5b90679c1e9acc2ee4bd2df2cde6a813cd562c478309fed069"
+  },
+  "rl77-text-vs-media": {
+    "name": "rl77-text-vs-media.zip",
+    "bytes": 90267,
+    "sha256": "978ce9436b598a0c399f0ee2621266c4ceca8cb12782cca60cc875d9fd01877f"
+  },
+  "rl79-fiction-vs-history": {
+    "name": "rl79-fiction-vs-history.zip",
+    "bytes": 92192,
+    "sha256": "7b86dbf547b1b00b0aad7037ac4c0ace8169db3b2582b3e8f14a530c66d669e6"
+  },
+  "ri71-evidence-informational": {
+    "name": "ri71-evidence-informational.zip",
+    "bytes": 87658,
+    "sha256": "32ab28d324b3ee41d880c58dbb57d289992c98123a8d1b6390b7d62a1c7f4e83"
+  },
+  "ri72-central-ideas-summary": {
+    "name": "ri72-central-ideas-summary.zip",
+    "bytes": 88092,
+    "sha256": "8822d5fa24fc80a457ccc46b3c1559f9468324987a2194b231b939afd598657e"
+  },
+  "ri73-interactions-informational": {
+    "name": "ri73-interactions-informational.zip",
+    "bytes": 88958,
+    "sha256": "9e58b0c660df9b35e2b07e498419e454c62538c8e118d837548a8d1cd502e322"
+  },
+  "ri74-word-meaning-tone": {
+    "name": "ri74-word-meaning-tone.zip",
+    "bytes": 89220,
+    "sha256": "9c13803a0b33270b0f0dbd18d73350341e9adf8937bc2b51425b4bb62e5e8eec"
+  },
+  "ri75-text-structure": {
+    "name": "ri75-text-structure.zip",
+    "bytes": 88401,
+    "sha256": "7370188060a6b6fe5e5daa9f6478efa1a1249fedc31e2b206394365ae0eeb221"
+  },
+  "ri76-point-of-view-purpose": {
+    "name": "ri76-point-of-view-purpose.zip",
+    "bytes": 94936,
+    "sha256": "f1d3db4ca49aa8a1fb0dcb53997d01cb5efebe5e017222a94c405cf093f3a53c"
+  },
+  "ri77-text-vs-multimedia": {
+    "name": "ri77-text-vs-multimedia.zip",
+    "bytes": 91227,
+    "sha256": "f5249703999d93256fd90d4310f566c3f5e70f69a18fb51086fc0a46e6ebb2ad"
+  },
+  "ri78-tracing-arguments": {
+    "name": "ri78-tracing-arguments.zip",
+    "bytes": 89986,
+    "sha256": "c0b5f2d1b9f1d0f45a5c5580d1c93616e2657d5315afbf8dd90318d232533b1e"
   }
 }

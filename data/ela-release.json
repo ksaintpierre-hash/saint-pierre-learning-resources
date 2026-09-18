@@ -17,7 +17,7 @@
     ],
     "distributionFormat": "ZIP",
     "resourceType": "Editable lesson slides and task cards",
-    "minutes": "45\u201390 minutes; split across lessons as needed",
+    "minutes": "45–90 minutes; split across lessons as needed",
     "included": [
       "20-slide editable PowerPoint",
       "20-page PDF of the slides",
@@ -58,7 +58,7 @@
     ],
     "distributionFormat": "ZIP",
     "resourceType": "Editable lesson slides and task cards",
-    "minutes": "45\u201390 minutes; split across lessons as needed",
+    "minutes": "45–90 minutes; split across lessons as needed",
     "included": [
       "23-slide editable PowerPoint",
       "23-page PDF of the slides",
@@ -99,7 +99,7 @@
     ],
     "distributionFormat": "ZIP",
     "resourceType": "Editable lesson slides and task cards",
-    "minutes": "45\u201390 minutes; split across lessons as needed",
+    "minutes": "45–90 minutes; split across lessons as needed",
     "included": [
       "25-slide editable PowerPoint",
       "25-page PDF of the slides",
@@ -201,6 +201,498 @@
         "src": "/product-previews/rl7-4-word-tone-sound.png",
         "alt": "Passage sample from Words, Tone & Sound",
         "page": 16
+      }
+    ]
+  },
+  {
+    "id": "rl7-5-form-structure",
+    "title": "Form, Structure & Meaning",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.7.5",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "An original sonnet and a free verse poem on the same theme: five definitions, a side-by-side comparison, one modeled example, three task cards, both full poems, comprehension checks, and a five-question mixed-practice set.",
+    "priceCents": 699,
+    "pages": 26,
+    "slides": 26,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "26-slide editable PowerPoint",
+      "26-page PDF of the slides",
+      "Two original poems (a sonnet and a free verse poem) and task cards",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl7-5-form-structure.png",
+        "alt": "Poem sample from Form, Structure & Meaning",
+        "page": 14
+      }
+    ]
+  },
+  {
+    "id": "rl76-character-perspectives",
+    "title": "Character Perspectives",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.7.6",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RL.7.6 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl76-character-perspectives.png",
+        "alt": "Sample slide from Character Perspectives",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "rl77-text-vs-media",
+    "title": "Text vs. Media",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.7.7",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RL.7.7 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl77-text-vs-media.png",
+        "alt": "Sample slide from Text vs. Media",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "rl79-fiction-vs-history",
+    "title": "Fiction vs. History",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.7.9",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RL.7.9 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 23,
+    "slides": 23,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "23-slide editable PowerPoint",
+      "23-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl79-fiction-vs-history.png",
+        "alt": "Sample slide from Fiction vs. History",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri71-evidence-informational",
+    "title": "Evidence in Informational Text",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.1",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.1 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri71-evidence-informational.png",
+        "alt": "Sample slide from Evidence in Informational Text",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri72-central-ideas-summary",
+    "title": "Central Ideas and Summary",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.2",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.2 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri72-central-ideas-summary.png",
+        "alt": "Sample slide from Central Ideas and Summary",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri73-interactions-informational",
+    "title": "Interactions in Informational Text",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.3",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.3 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri73-interactions-informational.png",
+        "alt": "Sample slide from Interactions in Informational Text",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri74-word-meaning-tone",
+    "title": "Word Meaning and Tone in Informational Text",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.4",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.4 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri74-word-meaning-tone.png",
+        "alt": "Sample slide from Word Meaning and Tone in Informational Text",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri75-text-structure",
+    "title": "Text Structure in Informational Text",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.5",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.5 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri75-text-structure.png",
+        "alt": "Sample slide from Text Structure in Informational Text",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri76-point-of-view-purpose",
+    "title": "Author's Point of View and Purpose",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.6",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.6 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 24,
+    "slides": 24,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "24-slide editable PowerPoint",
+      "24-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri76-point-of-view-purpose.png",
+        "alt": "Sample slide from Author's Point of View and Purpose",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri77-text-vs-multimedia",
+    "title": "Text vs. Multimedia",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.7",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.7 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri77-text-vs-multimedia.png",
+        "alt": "Sample slide from Text vs. Multimedia",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri78-tracing-arguments",
+    "title": "Tracing and Evaluating Arguments",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.7.8",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A complete RI.7.8 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri78-tracing-arguments.png",
+        "alt": "Sample slide from Tracing and Evaluating Arguments",
+        "page": 7
       }
     ]
   }
