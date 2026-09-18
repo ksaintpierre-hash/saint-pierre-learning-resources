@@ -34,6 +34,8 @@ JOBS = [
     ('nc-g8-ri83-connections-distinctions', 'ri83-connections-distinctions-ppt', 'ri83-connections-distinctions', 'Two Towns, One Flood', 'RI.8.3', '8'),
     ('nc-g8-rl84-word-choice-tone', 'rl84-word-choice-tone-ppt', 'rl84-word-choice-tone', "What the Order Didn't Say", 'RL.8.4', '8'),
     ('nc-g8-ri84-technical-word-choice', 'ri84-technical-word-choice-ppt', 'ri84-technical-word-choice', 'Words in the White Coat', 'RI.8.4', '8'),
+    ('nc-g8-rl85-structure-shapes-meaning', 'rl85-structure-shapes-meaning-ppt', 'rl85-structure-shapes-meaning', 'Match Point, Told Two Ways', 'RL.8.5', '8'),
+    ('nc-g8-ri85-paragraph-structure', 'ri85-paragraph-structure-ppt', 'ri85-paragraph-structure', 'The Magnetic Map: How Sea Turtles Navigate Home', 'RI.8.5', '8'),
 ]
 
 

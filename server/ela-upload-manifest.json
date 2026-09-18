@@ -123,5 +123,15 @@
     "name": "ri84-technical-word-choice.zip",
     "bytes": 95196,
     "sha256": "0d8fc61b982dcdc2a83ef6b6db25021df7224907a33d02147b886635eae6e845"
+  },
+  "rl85-structure-shapes-meaning": {
+    "name": "rl85-structure-shapes-meaning.zip",
+    "bytes": 91945,
+    "sha256": "e0edfe4f17a49c145f19db9014b1827558a90f587ca21d8d03edbeca830a9fb4"
+  },
+  "ri85-paragraph-structure": {
+    "name": "ri85-paragraph-structure.zip",
+    "bytes": 91850,
+    "sha256": "e96402f0e5f5ccc240ef03ffa56a6b580967c767edc94841c8237dbdc453364e"
   }
 }
