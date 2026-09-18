@@ -4,8 +4,8 @@
   "description": "Printable teaching resources for grades Pre-K–12 and introductory college courses.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#137078",
+  "background_color": "#fcf9f2",
+  "theme_color": "#241f1a",
   "icons": [
     {
       "src": "/brand/saint-pierre-logo.png",

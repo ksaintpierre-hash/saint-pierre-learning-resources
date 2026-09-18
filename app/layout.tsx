@@ -2,7 +2,7 @@ import { PREVIEW_MODE } from '../lib/preview-mode';
 import type { Metadata, Viewport } from "next";
 
 export const viewport: Viewport = {
-  themeColor: '#137078',
+  themeColor: '#241f1a',
   width: 'device-width',
   initialScale: 1,
 };

@@ -1,1 +1,7 @@
-.draft-product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.draft-product-grid article{border:1px solid #d5dce2;border-radius:12px;padding:20px;background:#f8fafc}.draft-product-grid article>span{display:inline-block;background:#152a44;color:#fff;border-radius:999px;padding:5px 9px;font-size:.7rem;font-weight:800;letter-spacing:.08em}.draft-product-grid h3{font:700 1.15rem Georgia,serif;margin:14px 0 8px}.draft-product-grid p{color:#52657a}.draft-product-grid small{font-weight:700;color:#d54f46}@media(max-width:800px){.draft-product-grid{grid-template-columns:1fr}}
+.draft-product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.draft-product-grid article{border:1px solid var(--line);border-radius:12px;padding:20px;background:var(--cream)}
+.draft-product-grid article>span{display:inline-block;background:var(--ink);color:#fff;border-radius:999px;padding:5px 9px;font-size:.7rem;font-weight:700;letter-spacing:.08em}
+.draft-product-grid h3{font:600 1.15rem var(--serif);margin:14px 0 8px}
+.draft-product-grid p{color:var(--muted)}
+.draft-product-grid small{font-weight:700;color:var(--coral)}
+@media(max-width:800px){.draft-product-grid{grid-template-columns:1fr}}
