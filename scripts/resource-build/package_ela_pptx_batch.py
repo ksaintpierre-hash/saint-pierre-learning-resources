@@ -28,6 +28,8 @@ JOBS = [
     ('nc-g7-ri78-tracing-arguments', 'ri78-tracing-arguments-ppt', 'ri78-tracing-arguments', 'Tracing and Evaluating Arguments', 'RI.7.8', '7'),
     ('nc-g8-rl81-textual-evidence', 'rl81-textual-evidence-ppt', 'rl81-textual-evidence', 'Evidence and Inference Lab', 'RL.8.1', '8'),
     ('nc-g8-ri81-evidence-informational', 'ri81-evidence-informational-ppt', 'ri81-evidence-informational', 'Strongest Evidence Workshop', 'RI.8.1', '8'),
+    ('nc-g8-rl82-theme-central-idea', 'rl82-theme-central-idea-ppt', 'rl82-theme-central-idea', 'Theme Through the Wreckage', 'RL.8.2', '8'),
+    ('nc-g8-ri82-central-ideas-summary', 'ri82-central-ideas-summary-ppt', 'ri82-central-ideas-summary', 'Tracing the Central Idea', 'RI.8.2', '8'),
 ]
 
 

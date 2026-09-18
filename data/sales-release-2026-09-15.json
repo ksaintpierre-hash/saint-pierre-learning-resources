@@ -13719,5 +13719,133 @@
     ],
     "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
     "ready": true
+  },
+  {
+    "id": "nc-g8-rl82-theme-central-idea",
+    "title": "Theme Through the Wreckage",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RL.8.2 — Determine a theme or central idea of a text and analyze its development over the course of the text, including its relationship to the characters, setting, and plot; provide an objective summary of the text.",
+    "objective": "Determine a theme of a literary text, analyze how it develops through its relationship to characters, setting, and plot, and write an objective summary.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Determine a theme of a literary text, analyze how it develops through its relationship to characters, setting, and plot, and write an objective summary.",
+    "summary": "An 80-minute RL.8.2 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RL/8/2/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RL/8/2/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RL.8.2",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Theme Through the Wreckage: RL.8.2 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-rl82-theme-central-idea.png",
+        "page": 6,
+        "alt": "Sample page from Theme Through the Wreckage worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
+  },
+  {
+    "id": "nc-g8-ri82-central-ideas-summary",
+    "title": "Tracing the Central Idea",
+    "level": "Grade 8 • North Carolina",
+    "grades": [
+      "Grade 8"
+    ],
+    "states": [
+      "North Carolina"
+    ],
+    "state": "North Carolina",
+    "audience": "Students and educators",
+    "subject": "Reading",
+    "standard": "RI.8.2 — Determine a central idea of a text and analyze its development over the course of the text, including its relationship to supporting ideas; provide an objective summary of the text.",
+    "objective": "Determine a central idea of an informational text, analyze how supporting ideas develop it across the text, and write an objective summary.",
+    "resourceType": "Complete ELA practice packet",
+    "collections": [
+      "Worksheets",
+      "Classwork",
+      "Homework",
+      "Independent Work",
+      "Small-Group Work",
+      "Exit Tickets",
+      "EOG & State Test Prep"
+    ],
+    "formats": [
+      "PDF"
+    ],
+    "distributionFormat": "PDF",
+    "pages": 19,
+    "additionalPdfPages": 0,
+    "priceCents": 699,
+    "approved": true,
+    "publicationStatus": "Available for purchase. Full PDF unlocks after verified payment.",
+    "description": "Determine a central idea of an informational text, analyze how supporting ideas develop it across the text, and write an objective summary.",
+    "summary": "An 80-minute RI.8.2 practice packet with an original passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "minutes": "80 minutes (full block period)",
+    "source": "https://www.thecorestandards.org/ELA-Literacy/RI/8/2/",
+    "sources": [
+      {
+        "title": "NC ELA Standard Course of Study Grade 8",
+        "url": "https://www.thecorestandards.org/ELA-Literacy/RI/8/2/"
+      }
+    ],
+    "tags": [
+      "Grade 8",
+      "North Carolina",
+      "RI.8.2",
+      "reading",
+      "worksheets",
+      "EOG prep",
+      "80 minute"
+    ],
+    "thumbnailAlt": "Cover of Tracing the Central Idea: RI.8.2 Grade 8 ELA North Carolina 80-minute worksheet packet.",
+    "previews": [
+      {
+        "src": "/product-previews/nc-g8-ri82-central-ideas-summary.png",
+        "page": 6,
+        "alt": "Sample page from Tracing the Central Idea worksheet."
+      }
+    ],
+    "previewDescription": "Actual student practice pages from the printable packet. Full answer key and all pages are protected and unlock after verified payment.",
+    "ready": true
   }
 ]

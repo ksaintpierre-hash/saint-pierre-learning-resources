@@ -93,5 +93,15 @@
     "name": "ri81-evidence-informational.zip",
     "bytes": 93065,
     "sha256": "b35dee360250494f66907d30d0d4c918fe4838d2910e785746c0df03bf93ef1a"
+  },
+  "rl82-theme-central-idea": {
+    "name": "rl82-theme-central-idea.zip",
+    "bytes": 90740,
+    "sha256": "4bec02f71129dd420927df04d5caafd7faeabe61718e79c92e9f415ad298fdb7"
+  },
+  "ri82-central-ideas-summary": {
+    "name": "ri82-central-ideas-summary.zip",
+    "bytes": 93596,
+    "sha256": "57bea40fd08d4ec7d22ac2d4580ce94906e4edb177c29086386da3cc0ebaaad6"
   }
 }

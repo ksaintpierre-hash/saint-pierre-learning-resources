@@ -777,5 +777,87 @@
         "page": 7
       }
     ]
+  },
+  {
+    "id": "rl82-theme-central-idea",
+    "title": "Theme Through the Wreckage",
+    "level": "Grade 8",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.8.2",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/8/",
+    "description": "A complete RL.8.2 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 22,
+    "slides": 22,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "22-slide editable PowerPoint",
+      "22-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 8 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 8 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl82-theme-central-idea.png",
+        "alt": "Sample slide from Theme Through the Wreckage",
+        "page": 7
+      }
+    ]
+  },
+  {
+    "id": "ri82-central-ideas-summary",
+    "title": "Tracing the Central Idea",
+    "level": "Grade 8",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RI.8.2",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RI/8/",
+    "description": "A complete RI.8.2 lesson: passage, warm-up, guided practice, partner discussion, independent practice, small-group work, exit ticket, and full answer key.",
+    "priceCents": 699,
+    "pages": 23,
+    "slides": 23,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "23-slide editable PowerPoint",
+      "23-page PDF of the slides",
+      "Original passage(s) and guided/independent practice",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 8 ELA",
+      "Reading Informational Text"
+    ],
+    "audience": "Grade 8 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage or practice slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/ri82-central-ideas-summary.png",
+        "alt": "Sample slide from Tracing the Central Idea",
+        "page": 7
+      }
+    ]
   }
 ]
