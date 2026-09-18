@@ -13,5 +13,15 @@
     "name": "rl7-3-story-elements.zip",
     "bytes": 3241896,
     "sha256": "c3a7eb443949d725d6aa817042e02e7587ac47343db7ebbc635c5606e779fa0b"
+  },
+  "rl7-3b-story-elements-lesson-map": {
+    "name": "rl7-3b-story-elements-lesson-map.zip",
+    "bytes": 9907474,
+    "sha256": "cb4152135fffa8f4ed9bdf6efe30ad02e0c19c765195ef4beaa6dda988f77156"
+  },
+  "rl7-4-word-tone-sound": {
+    "name": "rl7-4-word-tone-sound.zip",
+    "bytes": 10363047,
+    "sha256": "675ef66eda0d5c931f252d13b8ffcab52a5cfa261e3ad93cb92543473135de8d"
   }
 }

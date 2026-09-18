@@ -7,7 +7,7 @@
     "standard": "CCSS.ELA-LITERACY.RL.7.1",
     "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
     "description": "Four original story task cards with eight multiple-choice questions, vocabulary, evidence strategies, answer explanations, and an exit ticket.",
-    "priceCents": 800,
+    "priceCents": 699,
     "pages": 20,
     "slides": 20,
     "approved": true,
@@ -48,7 +48,7 @@
     "standard": "CCSS.ELA-LITERACY.RL.7.2",
     "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
     "description": "Six original story task cards with eleven multiple-choice questions, vocabulary, guided and independent practice, answer explanations, and an exit ticket.",
-    "priceCents": 900,
+    "priceCents": 699,
     "pages": 23,
     "slides": 23,
     "approved": true,
@@ -89,7 +89,7 @@
     "standard": "CCSS.ELA-LITERACY.RL.7.3",
     "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
     "description": "Six original story and drama task cards, vocabulary, six guided questions, eight independent questions, five exit-ticket questions, and answer explanations.",
-    "priceCents": 900,
+    "priceCents": 699,
     "pages": 25,
     "slides": 25,
     "approved": true,
@@ -119,6 +119,88 @@
         "src": "/product-previews/rl7-3-story-elements.png",
         "alt": "Task-card sample from How Story Elements Interact",
         "page": 4
+      }
+    ]
+  },
+  {
+    "id": "rl7-3b-story-elements-lesson-map",
+    "title": "Story Elements: Lesson Map & Guided Practice",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.7.3",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "A lesson-map format covering RL.7.3: learning goals, key vocabulary, one modeled example, three partner task cards, three short independent passages, answer key, and an exit ticket.",
+    "priceCents": 699,
+    "pages": 25,
+    "slides": 25,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "25-slide editable PowerPoint",
+      "25-page PDF of the slides",
+      "Original reading passages and task cards",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual task-card slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl7-3b-story-elements-lesson-map.png",
+        "alt": "Task-card sample from Story Elements: Lesson Map & Guided Practice",
+        "page": 12
+      }
+    ]
+  },
+  {
+    "id": "rl7-4-word-tone-sound",
+    "title": "Words, Tone & Sound",
+    "level": "Grade 7",
+    "subject": "Reading",
+    "standard": "CCSS.ELA-LITERACY.RL.7.4",
+    "source": "Common Core State Standards: https://www.thecorestandards.org/ELA-Literacy/RL/7/",
+    "description": "Word meaning, tone, and sound devices practice: definitions, a two-part original passage, eight task cards, and a three-part exit ticket covering all of RL.7.4.",
+    "priceCents": 699,
+    "pages": 30,
+    "slides": 30,
+    "approved": true,
+    "formats": [
+      "PDF",
+      "PPTX"
+    ],
+    "distributionFormat": "ZIP",
+    "resourceType": "Editable lesson slides and task cards",
+    "minutes": "45–90 minutes; split across lessons as needed",
+    "included": [
+      "30-slide editable PowerPoint",
+      "30-page PDF of the slides",
+      "Original reading passage and task cards",
+      "Answer explanations and exit ticket",
+      "START-HERE teaching notes and single-teacher license"
+    ],
+    "collections": [
+      "Grade 7 ELA",
+      "Reading Literature"
+    ],
+    "audience": "Grade 7 teachers and tutors",
+    "answerKey": "Answer explanations are included after task cards; read START-HERE for teaching clarifications.",
+    "previewDescription": "An actual passage slide from this lesson. The complete PDF and editable PowerPoint are delivered together in a ZIP after purchase.",
+    "previews": [
+      {
+        "src": "/product-previews/rl7-4-word-tone-sound.png",
+        "alt": "Passage sample from Words, Tone & Sound",
+        "page": 16
       }
     ]
   }
