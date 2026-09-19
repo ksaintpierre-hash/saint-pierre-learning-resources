@@ -3,6 +3,7 @@ import { eq } from "drizzle-orm";
 import { db } from "@/db";
 import { courses, subjects } from "@/db/schema";
 import { gradeLabel, type GradeLevel } from "@/lib/grades";
+import { formatPrice } from "@/lib/money";
 
 export default async function AdminPage() {
   const rows = await db
@@ -11,6 +12,7 @@ export default async function AdminPage() {
       title: courses.title,
       slug: courses.slug,
       gradeLevel: courses.gradeLevel,
+      priceCents: courses.priceCents,
       published: courses.published,
       subjectName: subjects.name,
     })
@@ -33,7 +35,8 @@ export default async function AdminPage() {
             <div>
               <p className="font-medium">{course.title}</p>
               <p className="text-sm text-black/60">
-                {gradeLabel(course.gradeLevel as GradeLevel)} · {course.subjectName}
+                {gradeLabel(course.gradeLevel as GradeLevel)} · {course.subjectName} ·{" "}
+                {formatPrice(course.priceCents)}
                 {!course.published && " · Draft"}
               </p>
             </div>

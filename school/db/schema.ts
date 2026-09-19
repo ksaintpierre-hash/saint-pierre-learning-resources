@@ -61,6 +61,7 @@ export const courses = sqliteTable("courses", {
   subjectId: integer("subject_id")
     .notNull()
     .references(() => subjects.id, { onDelete: "cascade" }),
+  priceCents: integer("price_cents").notNull().default(999),
   published: integer("published", { mode: "boolean" }).notNull().default(true),
   createdAt: text("created_at")
     .notNull()

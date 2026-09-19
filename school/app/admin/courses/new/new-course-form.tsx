@@ -53,6 +53,21 @@ export function NewCourseForm({ subjects }: { subjects: { id: number; name: stri
           ))}
         </select>
       </div>
+      <div className="flex flex-col gap-1">
+        <label htmlFor="price" className="text-sm font-medium">
+          Price (USD)
+        </label>
+        <input
+          id="price"
+          name="price"
+          type="number"
+          step="0.01"
+          min="0"
+          className="input"
+          required
+          defaultValue="9.99"
+        />
+      </div>
       {state.error && <p className="text-sm text-red-600">{state.error}</p>}
       <button type="submit" className="btn btn-primary" disabled={pending}>
         {pending ? "Creating…" : "Create course"}

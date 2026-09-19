@@ -4,6 +4,7 @@ import { eq, and, inArray } from "drizzle-orm";
 import { db } from "@/db";
 import { courses, subjects, lessons, students, enrollments } from "@/db/schema";
 import { gradeLabel, type GradeLevel } from "@/lib/grades";
+import { formatPrice } from "@/lib/money";
 import { getSession } from "@/lib/session";
 import { EnrollForm } from "./enroll-form";
 
@@ -21,6 +22,7 @@ export default async function CourseDetailPage({
       slug: courses.slug,
       description: courses.description,
       gradeLevel: courses.gradeLevel,
+      priceCents: courses.priceCents,
       subjectName: subjects.name,
     })
     .from(courses)
@@ -70,6 +72,7 @@ export default async function CourseDetailPage({
         </span>
         <h1 className="mt-2 text-3xl font-bold">{course.title}</h1>
         <p className="mt-2 text-black/70">{course.description}</p>
+        <p className="mt-2 text-lg font-semibold text-[--color-brand]">{formatPrice(course.priceCents)}</p>
       </div>
 
       <div className="card">

@@ -11,6 +11,7 @@ const schema = z.object({
   description: z.string().min(1, "Description is required."),
   gradeLevel: z.enum(GRADE_LEVELS),
   subjectId: z.coerce.number().int().positive(),
+  price: z.coerce.number().min(0, "Price can't be negative."),
 });
 
 function slugify(title: string) {
@@ -33,17 +34,19 @@ export async function createCourse(_prevState: NewCourseState, formData: FormDat
     description: formData.get("description"),
     gradeLevel: formData.get("gradeLevel"),
     subjectId: formData.get("subjectId"),
+    price: formData.get("price"),
   });
   if (!parsed.success) {
     return { error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
 
-  const { title, description, gradeLevel, subjectId } = parsed.data;
+  const { title, description, gradeLevel, subjectId, price } = parsed.data;
   const slug = `${slugify(title)}-${gradeLevel.toLowerCase()}`;
+  const priceCents = Math.round(price * 100);
 
   const [course] = await db
     .insert(courses)
-    .values({ title, description, gradeLevel, subjectId, slug })
+    .values({ title, description, gradeLevel, subjectId, slug, priceCents })
     .returning();
 
   redirect(`/admin/courses/${course.id}/lessons/new`);

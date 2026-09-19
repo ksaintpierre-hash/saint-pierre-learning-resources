@@ -3,6 +3,7 @@ import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { courses, subjects } from "@/db/schema";
 import { GRADE_LEVELS, gradeLabel, type GradeLevel } from "@/lib/grades";
+import { formatPrice } from "@/lib/money";
 
 export default async function CoursesPage({
   searchParams,
@@ -30,6 +31,7 @@ export default async function CoursesPage({
       slug: courses.slug,
       description: courses.description,
       gradeLevel: courses.gradeLevel,
+      priceCents: courses.priceCents,
       subjectName: subjects.name,
     })
     .from(courses)
@@ -88,6 +90,7 @@ export default async function CoursesPage({
               </span>
               <h2 className="font-semibold">{course.title}</h2>
               <p className="text-sm text-black/60">{course.description}</p>
+              <p className="text-sm font-semibold text-[--color-brand]">{formatPrice(course.priceCents)}</p>
             </Link>
           ))}
         </div>

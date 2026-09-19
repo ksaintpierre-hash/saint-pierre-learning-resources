@@ -1,0 +1,1 @@
+ALTER TABLE `courses` ADD `price_cents` integer DEFAULT 999 NOT NULL;
