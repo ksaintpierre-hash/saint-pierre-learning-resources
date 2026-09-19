@@ -1,0 +1,2 @@
+# Marks this directory as its own pnpm workspace root so installs here
+# stay fully isolated from the parent saint-pierre-learning-resources project.

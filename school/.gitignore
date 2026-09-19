@@ -1,0 +1,10 @@
+node_modules
+.next
+.sites-runtime
+out
+dist
+*.db
+*.db-journal
+.env
+.env.local
+next-env.d.ts
