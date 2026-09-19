@@ -8,7 +8,10 @@ import catalogExpansion from '../data/catalog-expansion-2026-09-15.json';
 import { privateProducts } from './private-products';
 import { hasResourceFile, resourceFile, resourceMetadata } from './resource-files';
 import dailyDrafts from './daily-drafts-2026-09-15.json';
+import generatorManifestData from './generator-manifest.json';
+import { generatorFile } from './generator-files';
 import { signedIn, isStoreOwner } from '../app/api/_shared';
+const generatorManifest=generatorManifestData as Record<string,{grade:number;title:string;code:string;variants:string[]}>;
 const releaseIds=new Set(salesRelease.map(p=>p.id));
 const listingMetadata=[...catalog,...salesRelease,...elaRelease];
 export const originalListing=(id:string):Record<string,unknown>|undefined=>listingMetadata.find(p=>p.id===id);
@@ -42,9 +45,12 @@ const schema=[
 `CREATE TABLE IF NOT EXISTS store_downloads(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,order_id TEXT NOT NULL,product_id TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
 `CREATE TABLE IF NOT EXISTS store_refunds(id TEXT PRIMARY KEY,order_id TEXT NOT NULL,amount_cents INTEGER NOT NULL,status TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
 `CREATE TABLE IF NOT EXISTS store_subscriptions(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,mode TEXT NOT NULL,plan TEXT NOT NULL,status TEXT NOT NULL,current_period_end INTEGER,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
+`CREATE TABLE IF NOT EXISTS store_generations(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,mode TEXT NOT NULL,skill TEXT NOT NULL,variant TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
+`CREATE TABLE IF NOT EXISTS store_generation_tokens(token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL,generation_id TEXT NOT NULL,expires_at INTEGER NOT NULL,used_at TEXT)`,
 `CREATE INDEX IF NOT EXISTS store_orders_customer ON store_orders(user_id,mode,created_at)`,
 `CREATE INDEX IF NOT EXISTS store_downloads_customer ON store_downloads(user_id,created_at)`,
-`CREATE INDEX IF NOT EXISTS store_subscriptions_customer ON store_subscriptions(user_id,mode)`];
+`CREATE INDEX IF NOT EXISTS store_subscriptions_customer ON store_subscriptions(user_id,mode)`,
+`CREATE INDEX IF NOT EXISTS store_generations_customer ON store_generations(user_id,skill)`];
 export async function initialize(){
  await db().batch(schema.map(sql=>db().prepare(sql)));
  await db().batch(inventory.map(p=>db().prepare('INSERT OR IGNORE INTO store_products(id,title,price_cents,approved,metadata,storage_key,ready) VALUES(?,?,?,?,?,?,?)').bind(p.id,p.title,p.priceCents,(elaRelease.some(e=>e.id===p.id)?0:p.approved?1:0),JSON.stringify(p),'products/'+p.id+'.'+('distributionFormat' in p&&p.distributionFormat==='ZIP'?'zip':'pdf'),0)));
@@ -90,6 +96,29 @@ export async function createSubscriptionCheckout(request:Request){mutation(reque
  return json({checkoutUrl:result.url});
 }
 export async function subscriptionStatus(request:Request){const user=await customer(request);await initialize();const {results}=await db().prepare('SELECT plan,status,current_period_end FROM store_subscriptions WHERE user_id=? AND mode=? ORDER BY updated_at DESC').bind(user.userId,mode()).all();return json({subscriptions:results,mode:mode()});}
+export function generatorCatalog(){return json({skills:Object.entries(generatorManifest).map(([skill,e])=>({skill,grade:e.grade,title:e.title,code:e.code}))});}
+export async function generatePacket(request:Request){mutation(request);const user=await customer(request);await initialize();
+ if(!(await activeSubscription(user.userId,'generator-monthly')))throw new StoreError(403,'An active Practice Packet Generator subscription is required.');
+ const input=await body(request);const skill=String(input.skill||'');const entry=generatorManifest[skill];if(!entry)throw new StoreError(400,'Choose a valid skill.');
+ const used=await db().prepare('SELECT variant FROM store_generations WHERE user_id=? AND skill=?').bind(user.userId,skill).all<{variant:string}>();
+ const usedSet=new Set(used.results.map(r=>r.variant));
+ // Once every variant for this skill has been served, allow repeats rather than dead-ending the subscription.
+ const pool=entry.variants.filter(v=>!usedSet.has(v));
+ const variant=(pool.length?pool:entry.variants)[Math.floor(Math.random()*(pool.length?pool.length:entry.variants.length))];
+ const genId=crypto.randomUUID();
+ await db().prepare('INSERT INTO store_generations(id,user_id,mode,skill,variant) VALUES(?,?,?,?,?)').bind(genId,user.userId,mode(),skill,variant).run();
+ const token=crypto.randomUUID()+crypto.randomUUID();
+ await db().prepare('INSERT INTO store_generation_tokens(token_hash,user_id,generation_id,expires_at) VALUES(?,?,?,?)').bind(await digest(token),user.userId,genId,Date.now()+120000).run();
+ return json({token,expiresIn:120,skill,title:entry.title});
+}
+export async function generatorDownload(request:Request){mutation(request);const user=await customer(request);await initialize();const input=await body(request);if(typeof input.token!=='string'||input.token.length>100)throw new StoreError(400,'Invalid download link.');
+ const hash=await digest(input.token);
+ const row=await db().prepare('SELECT t.token_hash,g.variant FROM store_generation_tokens t JOIN store_generations g ON g.id=t.generation_id WHERE t.token_hash=? AND t.user_id=? AND t.expires_at>? AND t.used_at IS NULL').bind(hash,user.userId,Date.now()).first<{token_hash:string;variant:string}>();
+ if(!row)throw new StoreError(403,'This download link expired or is no longer available. Generate a new packet.');
+ const file=generatorFile(row.variant);if(!file)throw new StoreError(503,'Your file is temporarily unavailable. Contact support.');
+ const usedUpdate=await db().prepare('UPDATE store_generation_tokens SET used_at=CURRENT_TIMESTAMP WHERE token_hash=? AND used_at IS NULL').bind(hash).run();if(!usedUpdate.meta.changes)throw new StoreError(403,'Please generate a new packet.');
+ return new Response(file.body,{headers:{'Content-Type':'application/pdf','Content-Disposition':`attachment; filename="${row.variant}"`,'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff'}});
+}
 // Stripe's REST API takes application/x-www-form-urlencoded bodies with bracket
 // notation for nested objects/arrays (e.g. line_items[0][price_data][unit_amount]).
 function formPairs(value:unknown,prefix?:string):string[]{

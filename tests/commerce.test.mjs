@@ -176,3 +176,34 @@ test('a lapsed payment revokes access, and cancellation is reflected in subscrip
  const status=await(await s.subscriptionStatus(req('subscription-status',undefined))).json();
  assert.equal(status.subscriptions[0].status,'canceled');
 });
+test('the generator catalog lists all math skills',async()=>{
+ const {skills}=await(await s.generatorCatalog()).json();
+ assert.equal(skills.length,30);
+ assert.ok(skills.every(x=>x.skill&&x.title&&x.code));
+});
+test('generating a packet requires an active subscription, then serves a real PDF and single-use token',async()=>{
+ assert.equal((await s.safe(()=>s.generatePacket(req('generate',{skill:'equal-groups'},'owner')))).status,403);
+ const checkout=await s.createSubscriptionCheckout(req('subscribe',{plan:'generator-monthly'},'owner'));
+ assert.equal(checkout.status,200);
+ await s.webhook(event('checkout.session.completed','sub-complete-owner2',remote));
+ assert.ok(await s.activeSubscription('owner','generator-monthly'));
+ const result=await s.generatePacket(req('generate',{skill:'equal-groups'},'owner'));
+ assert.equal(result.status,200);
+ const {token,title}=await result.json();
+ assert.equal(title,'Equal Groups and Fair Shares');
+ const file=await s.generatorDownload(req('generator-download',{token},'owner'));
+ assert.equal(file.headers.get('Content-Type'),'application/pdf');
+ assert.equal(new TextDecoder().decode((await file.arrayBuffer()).slice(0,4)),'%PDF');
+ assert.equal((await s.safe(()=>s.generatorDownload(req('generator-download',{token},'owner')))).status,403,'a used token cannot be redeemed twice');
+ assert.equal((await s.safe(()=>s.generatePacket(req('generate',{skill:'not-a-real-skill'},'owner')))).status,400);
+});
+test('the generator does not repeat a variant until every variant for that skill has been served',async()=>{
+ const seen=new Set();
+ for(let i=0;i<15;i++){
+  const {token}=await(await s.generatePacket(req('generate',{skill:'two-step'},'owner'))).json();
+  const row=await D.prepare("SELECT variant FROM store_generations WHERE user_id='owner' AND skill='two-step' ORDER BY created_at DESC LIMIT 1").first();
+  seen.add(row.variant);
+  await s.generatorDownload(req('generator-download',{token},'owner'));
+ }
+ assert.equal(seen.size,15,'all 15 pre-built variants for this skill should have been served exactly once before any repeat');
+});
