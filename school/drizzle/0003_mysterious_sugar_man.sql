@@ -1,0 +1,1 @@
+ALTER TABLE `students` ADD `is_english_learner` integer DEFAULT false NOT NULL;

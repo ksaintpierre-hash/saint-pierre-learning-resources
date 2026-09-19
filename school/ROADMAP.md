@@ -5,13 +5,15 @@ grouped by area and roughly ordered by priority within each group. Check
 an item off (`[x]`) only once it's implemented, built successfully, and
 smoke-tested — then log what changed in `PROGRESS.md`.
 
-**Scope note on AIG / 504 / IEP / EC:** this platform tracks and supports
-these designations operationally (accommodation flags, differentiation,
-pacing, progress notes) so the school can serve these students well day to
-day. It is **not** a legal system of record for IEP or 504 compliance —
-families and the school still need their official district/state paperwork
-for that. Don't build features that imply otherwise (e.g. don't call
-anything here "the IEP" or generate documents purporting to be legal IEPs).
+**Scope note on AIG / 504 / IEP / EC / ESL:** this platform tracks and
+supports these designations operationally (accommodation flags,
+differentiation, pacing, progress notes, language-support needs) so the
+school can serve these students well day to day. It is **not** a legal
+system of record for IEP or 504 compliance, nor for ESL/EL service-plan
+compliance — families and the school still need their official
+district/state paperwork for that. Don't build features that imply
+otherwise (e.g. don't call anything here "the IEP" or generate documents
+purporting to be legal IEPs or EL service plans).
 
 ## General curriculum build-out
 
@@ -26,8 +28,9 @@ anything here "the IEP" or generate documents purporting to be legal IEPs).
 
 ## Accessibility & 504 accommodation support
 
-- [x] Student accommodation profile: AIG / 504 / EC-IEP / extended-time
-      flags + free-text accommodation notes (added, see PROGRESS.md)
+- [x] Student accommodation profile: AIG / 504 / EC-IEP / ESL-EL /
+      extended-time flags + free-text accommodation notes (added, see
+      PROGRESS.md)
 - [ ] Lesson viewer: adjustable font size and a high-contrast display mode
 - [ ] Optional text-to-speech playback for text-based lesson content
 - [ ] When a student has `extendedTime` set, reflect it wherever timed
@@ -43,6 +46,14 @@ anything here "the IEP" or generate documents purporting to be legal IEPs).
       subset of a course's lessons, or mark some as optional
 - [ ] Admin view that lists all EC/IEP-flagged students across the school
       (today the flag exists per-student but has no admin-side rollup)
+
+## English learner (ESL/EL) support
+
+- [ ] Home-language field on the student profile, to inform which
+      translated materials (if any) to surface
+- [ ] Bilingual or simplified-English lesson text as an alternate view,
+      starting with the highest-enrollment courses
+- [ ] Admin rollup of ESL/EL-flagged students, mirroring the EC rollup above
 
 ## AIG / gifted enrichment
 

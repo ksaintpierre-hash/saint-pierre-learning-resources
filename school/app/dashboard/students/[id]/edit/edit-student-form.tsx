@@ -17,6 +17,7 @@ export function EditStudentForm({
     aigIdentified: boolean;
     has504Plan: boolean;
     hasEcIep: boolean;
+    isEnglishLearner: boolean;
     extendedTime: boolean;
     accommodationNotes: string;
   };

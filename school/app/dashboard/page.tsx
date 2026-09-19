@@ -84,7 +84,11 @@ export default async function DashboardPage() {
             </div>
           </div>
 
-          {(student.aigIdentified || student.has504Plan || student.hasEcIep || student.extendedTime) && (
+          {(student.aigIdentified ||
+            student.has504Plan ||
+            student.hasEcIep ||
+            student.isEnglishLearner ||
+            student.extendedTime) && (
             <div className="flex flex-wrap gap-2">
               {student.aigIdentified && (
                 <span className="rounded-full bg-[--color-brand-light] px-2 py-0.5 text-xs font-medium text-[--color-brand]">
@@ -99,6 +103,11 @@ export default async function DashboardPage() {
               {student.hasEcIep && (
                 <span className="rounded-full bg-[--color-brand-light] px-2 py-0.5 text-xs font-medium text-[--color-brand]">
                   EC / IEP
+                </span>
+              )}
+              {student.isEnglishLearner && (
+                <span className="rounded-full bg-[--color-brand-light] px-2 py-0.5 text-xs font-medium text-[--color-brand]">
+                  ESL/EL
                 </span>
               )}
               {student.extendedTime && (

@@ -3,6 +3,15 @@
 Dated entries, newest first. Each entry should say what changed, why, and
 how it was verified (build + smoke test, at minimum).
 
+## 2026-09-19 (2)
+
+Added an `isEnglishLearner` (ESL/EL) flag alongside the AIG/504/EC-IEP/
+extended-time flags added earlier today — same treatment: capturable on
+add/edit, shown as a dashboard badge. Added a matching "English learner
+(ESL/EL) support" section to ROADMAP.md (home-language field, bilingual/
+simplified-English lesson views, admin rollup). Verified with `pnpm build`
+and a Playwright check that the badge appears after setting the flag.
+
 ## 2026-09-19
 
 Added a student accommodation profile: `aigIdentified`, `has504Plan`,

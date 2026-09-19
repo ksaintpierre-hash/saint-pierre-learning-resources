@@ -14,6 +14,7 @@ const schema = z.object({
   aigIdentified: z.coerce.boolean(),
   has504Plan: z.coerce.boolean(),
   hasEcIep: z.coerce.boolean(),
+  isEnglishLearner: z.coerce.boolean(),
   extendedTime: z.coerce.boolean(),
   accommodationNotes: z.string(),
 });
@@ -33,6 +34,7 @@ export async function editStudent(_prevState: EditStudentState, formData: FormDa
     aigIdentified: formData.get("aigIdentified") === "on",
     has504Plan: formData.get("has504Plan") === "on",
     hasEcIep: formData.get("hasEcIep") === "on",
+    isEnglishLearner: formData.get("isEnglishLearner") === "on",
     extendedTime: formData.get("extendedTime") === "on",
     accommodationNotes: formData.get("accommodationNotes") ?? "",
   });

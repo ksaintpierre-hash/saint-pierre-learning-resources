@@ -47,6 +47,7 @@ export const students = sqliteTable("students", {
   aigIdentified: integer("aig_identified", { mode: "boolean" }).notNull().default(false),
   has504Plan: integer("has_504_plan", { mode: "boolean" }).notNull().default(false),
   hasEcIep: integer("has_ec_iep", { mode: "boolean" }).notNull().default(false),
+  isEnglishLearner: integer("is_english_learner", { mode: "boolean" }).notNull().default(false),
   extendedTime: integer("extended_time", { mode: "boolean" }).notNull().default(false),
   accommodationNotes: text("accommodation_notes").notNull().default(""),
   createdAt: text("created_at")

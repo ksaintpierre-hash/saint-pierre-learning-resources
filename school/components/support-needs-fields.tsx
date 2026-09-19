@@ -5,6 +5,7 @@ export function SupportNeedsFields({
     aigIdentified: boolean;
     has504Plan: boolean;
     hasEcIep: boolean;
+    isEnglishLearner: boolean;
     extendedTime: boolean;
     accommodationNotes: string;
   };
@@ -27,6 +28,10 @@ export function SupportNeedsFields({
       <label className="flex items-center gap-2 text-sm">
         <input type="checkbox" name="hasEcIep" defaultChecked={defaults?.hasEcIep} />
         Has an IEP / receives EC (Exceptional Children) services
+      </label>
+      <label className="flex items-center gap-2 text-sm">
+        <input type="checkbox" name="isEnglishLearner" defaultChecked={defaults?.isEnglishLearner} />
+        English learner (ESL/EL)
       </label>
       <label className="flex items-center gap-2 text-sm">
         <input type="checkbox" name="extendedTime" defaultChecked={defaults?.extendedTime} />
