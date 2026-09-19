@@ -18,14 +18,17 @@ assert.equal(releaseBeforeProvision.filter(p=>p.ready).length,162);
 await s.provision();
 const D=globalThis.__storeEnv.DB;
 const id='aaaaaaaa-aaaa-4aaa-aaaa-aaaaaaaaaaaa';
-let remote,creates=0;
+let remote,remoteSub,creates=0;
 function parseForm(raw){return Object.fromEntries(new URLSearchParams(raw).entries())}
 function lineItems(form){const items=[];for(let i=0;;i++){const name=form[`line_items[${i}][price_data][product_data][name]`];if(name===undefined)break;items.push({name,unit_amount:Number(form[`line_items[${i}][price_data][unit_amount]`]),quantity:Number(form[`line_items[${i}][quantity]`])})}return items}
 function payNow(){remote.payment_status='paid';remote.payment_intent={id:'pi_test_123456789',status:'succeeded',amount:remote.amount_total,currency:'usd'}}
 const realFetch=globalThis.fetch;
 globalThis.fetch=async(url,opts={})=>{const u=String(url),method=opts.method||'GET';
- if(method==='POST'&&u==='https://api.stripe.com/v1/checkout/sessions'){creates++;const form=parseForm(opts.body);const items=lineItems(form);remote={id:'cs_test_123456789',url:'https://checkout.stripe.com/c/pay/cs_test_123456789',client_reference_id:form['client_reference_id'],currency:'usd',amount_total:items.reduce((sum,it)=>sum+it.unit_amount*it.quantity,0),payment_status:'unpaid',payment_intent:null,line_items:items};return Response.json(remote)}
+ if(method==='POST'&&u==='https://api.stripe.com/v1/checkout/sessions'){creates++;const form=parseForm(opts.body);
+  if(form['mode']==='subscription'){remoteSub={id:'sub_test_123456789',status:'active',current_period_end:Math.floor(Date.now()/1000)+2592000};remote={id:'cs_test_sub_123456789',url:'https://checkout.stripe.com/c/pay/cs_test_sub_123456789',mode:'subscription',subscription:remoteSub.id,metadata:{user_id:form['metadata[user_id]'],plan:form['metadata[plan]']}};return Response.json(remote)}
+  const items=lineItems(form);remote={id:'cs_test_123456789',url:'https://checkout.stripe.com/c/pay/cs_test_123456789',client_reference_id:form['client_reference_id'],currency:'usd',amount_total:items.reduce((sum,it)=>sum+it.unit_amount*it.quantity,0),payment_status:'unpaid',payment_intent:null,line_items:items};return Response.json(remote)}
  if(method==='GET'&&u.startsWith('https://api.stripe.com/v1/checkout/sessions/'))return Response.json(remote);
+ if(method==='GET'&&u.startsWith('https://api.stripe.com/v1/subscriptions/'))return Response.json(remoteSub);
  throw new Error('Unexpected outbound request: '+method+' '+u)};
 function req(action,input,who='owner'){return new Request('https://store.example/api/store/'+action,{method:input===undefined?'GET':'POST',headers:{...(who?{authorization:who}:{}),'Content-Type':'application/json'},...(input===undefined?{}:{body:JSON.stringify(input)})})}
 after(async()=>{globalThis.fetch=realFetch;await mf.dispose()});
@@ -148,4 +151,28 @@ test('verified original slide packages require owner upload and paid delivery',a
   const {token}=await(await s.downloadToken(req('download-token',{productId:id},'customer'))).json();const file=await s.download(req('download',{token},'customer'));assert.equal(file.headers.get('Content-Type'),'application/zip');assert.equal(createHash('sha256').update(Buffer.from(await file.arrayBuffer())).digest('hex'),spec.sha256);
   await D.prepare("UPDATE store_orders SET status='refunded',fulfillment='revoked' WHERE id=?").bind(oid).run();assert.equal((await s.safe(()=>s.downloadToken(req('download-token',{productId:id},'customer')))).status,403);
  }
+});
+test('subscribing requires a real plan, and the webhook activates access',async()=>{
+ assert.equal((await s.safe(()=>s.createSubscriptionCheckout(req('subscribe',{plan:'made-up-plan'})))).status,400);
+ const result=await s.createSubscriptionCheckout(req('subscribe',{plan:'generator-monthly'}));
+ assert.equal(result.status,200);
+ const {checkoutUrl}=await result.json();
+ assert.equal(checkoutUrl,'https://checkout.stripe.com/c/pay/cs_test_sub_123456789');
+ assert.equal(remote.mode,'subscription');
+ assert.equal(await s.activeSubscription('owner','generator-monthly'),null,'checkout alone must not grant access before the webhook confirms it');
+ await s.webhook(event('checkout.session.completed','sub-complete1',remote));
+ const active=await s.activeSubscription('owner','generator-monthly');
+ assert.ok(active);
+ assert.equal(active.status,'active');
+ assert.equal((await s.safe(()=>s.createSubscriptionCheckout(req('subscribe',{plan:'generator-monthly'})))).status,409,'an already-active subscriber cannot start a second checkout for the same plan');
+});
+test('a lapsed payment revokes access, and cancellation is reflected in subscription status',async()=>{
+ await s.webhook(event('customer.subscription.updated','sub-update1',{id:remoteSub.id,status:'past_due',current_period_end:remoteSub.current_period_end}));
+ assert.equal(await s.activeSubscription('owner','generator-monthly'),null,'past_due must not count as active');
+ await s.webhook(event('customer.subscription.updated','sub-update2',{id:remoteSub.id,status:'active',current_period_end:remoteSub.current_period_end}));
+ assert.ok(await s.activeSubscription('owner','generator-monthly'),'access is restored once billing succeeds again');
+ await s.webhook(event('customer.subscription.deleted','sub-delete1',{id:remoteSub.id,status:'canceled',current_period_end:remoteSub.current_period_end}));
+ assert.equal(await s.activeSubscription('owner','generator-monthly'),null);
+ const status=await(await s.subscriptionStatus(req('subscription-status',undefined))).json();
+ assert.equal(status.subscriptions[0].status,'canceled');
 });

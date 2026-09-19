@@ -41,8 +41,10 @@ const schema=[
 `CREATE TABLE IF NOT EXISTS store_download_tokens(token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL,order_id TEXT NOT NULL,product_id TEXT NOT NULL,expires_at INTEGER NOT NULL,used_at TEXT)`,
 `CREATE TABLE IF NOT EXISTS store_downloads(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,order_id TEXT NOT NULL,product_id TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
 `CREATE TABLE IF NOT EXISTS store_refunds(id TEXT PRIMARY KEY,order_id TEXT NOT NULL,amount_cents INTEGER NOT NULL,status TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
+`CREATE TABLE IF NOT EXISTS store_subscriptions(id TEXT PRIMARY KEY,user_id TEXT NOT NULL,mode TEXT NOT NULL,plan TEXT NOT NULL,status TEXT NOT NULL,current_period_end INTEGER,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP)`,
 `CREATE INDEX IF NOT EXISTS store_orders_customer ON store_orders(user_id,mode,created_at)`,
-`CREATE INDEX IF NOT EXISTS store_downloads_customer ON store_downloads(user_id,created_at)`];
+`CREATE INDEX IF NOT EXISTS store_downloads_customer ON store_downloads(user_id,created_at)`,
+`CREATE INDEX IF NOT EXISTS store_subscriptions_customer ON store_subscriptions(user_id,mode)`];
 export async function initialize(){
  await db().batch(schema.map(sql=>db().prepare(sql)));
  await db().batch(inventory.map(p=>db().prepare('INSERT OR IGNORE INTO store_products(id,title,price_cents,approved,metadata,storage_key,ready) VALUES(?,?,?,?,?,?,?)').bind(p.id,p.title,p.priceCents,(elaRelease.some(e=>e.id===p.id)?0:p.approved?1:0),JSON.stringify(p),'products/'+p.id+'.'+('distributionFormat' in p&&p.distributionFormat==='ZIP'?'zip':'pdf'),0)));
@@ -74,6 +76,20 @@ export async function provision(){
 export async function publicCatalog(){await initialize();const {results}=await db().prepare('SELECT id,title,price_cents,metadata,ready FROM store_products WHERE approved=1').all<{id:string;title:string;price_cents:number;metadata:string;ready:number}>();const expansionMap=Object.fromEntries(catalogExpansion.map((e:Record<string,unknown>)=>[e.id,e]));return results.map(p=>({...JSON.parse(p.metadata),...(JSON.parse(p.metadata).editorManaged?{}:listingMetadata.find(item=>item.id===p.id)),...(expansionMap[p.id]||{}),id:p.id,title:p.title,priceCents:p.price_cents,ready:!!p.ready}));}
 export function configured(){return !PREVIEW_MODE && !!(setting('STRIPE_SECRET_KEY')&&setting('STRIPE_WEBHOOK_SECRET'));}
 export async function checkoutAllowed(request:Request){const user=await customer(request);if(!configured())throw new StoreError(503,'Checkout is being prepared. Please check back soon.');if(mode()==='sandbox'&&!owner(user))throw new StoreError(403,'Checkout is not open yet.');if(mode()==='live'&&setting('STRIPE_LIVE_ENABLED')!=='true')throw new StoreError(503,'Checkout is not open yet.');return user;}
+// Subscription plans are defined here, not accepted from the client, for the same
+// reason product prices come from store_products rather than the browser's request.
+export const SUBSCRIPTION_PLANS:Record<string,{name:string;priceCents:number}>={
+ 'generator-monthly':{name:'Practice Packet Generator — Unlimited Monthly Access',priceCents:999},
+};
+export async function activeSubscription(userId:string,plan:string){return db().prepare("SELECT * FROM store_subscriptions WHERE user_id=? AND mode=? AND plan=? AND status IN ('active','trialing') ORDER BY current_period_end DESC LIMIT 1").bind(userId,mode(),plan).first<{id:string;status:string;current_period_end:number|null}>();}
+export async function createSubscriptionCheckout(request:Request){mutation(request);const user=await checkoutAllowed(request);await initialize();const input=await body(request);
+ const plan=SUBSCRIPTION_PLANS[String(input.plan)];if(!plan)throw new StoreError(400,'Choose a plan.');
+ if(await activeSubscription(user.userId,String(input.plan)))throw new StoreError(409,'You already have an active subscription to this plan.');
+ const origin=new URL(request.url).origin;
+ const result=await stripe('/v1/checkout/sessions','POST',{mode:'subscription',metadata:{user_id:user.userId,plan:input.plan},customer_email:user.email,success_url:origin+'/order-confirmation?session_id={CHECKOUT_SESSION_ID}',cancel_url:origin+'/cart?canceled=1',line_items:[{quantity:1,price_data:{currency:'usd',recurring:{interval:'month'},unit_amount:plan.priceCents,product_data:{name:plan.name}}}]}) as {url:string};
+ return json({checkoutUrl:result.url});
+}
+export async function subscriptionStatus(request:Request){const user=await customer(request);await initialize();const {results}=await db().prepare('SELECT plan,status,current_period_end FROM store_subscriptions WHERE user_id=? AND mode=? ORDER BY updated_at DESC').bind(user.userId,mode()).all();return json({subscriptions:results,mode:mode()});}
 // Stripe's REST API takes application/x-www-form-urlencoded bodies with bracket
 // notation for nested objects/arrays (e.g. line_items[0][price_data][unit_amount]).
 function formPairs(value:unknown,prefix?:string):string[]{
@@ -131,7 +147,21 @@ export async function webhook(request:Request){await initialize();if(!configured
  let event:any;try{event=JSON.parse(raw)}catch{throw new StoreError(400,'Invalid event.')}
  if(!event.id||!event.type||!event.data?.object)throw new StoreError(400,'Invalid event.');
  await db().prepare('INSERT OR IGNORE INTO store_webhooks(id,mode,event_type,resource_id,event_time) VALUES(?,?,?,?,?)').bind(event.id,mode(),event.type,event.data.object.id||null,event.created?String(event.created):null).run();const receipt=await db().prepare('SELECT processed FROM store_webhooks WHERE id=?').bind(event.id).first<{processed:number}>();if(receipt?.processed)return json({received:true});
- const obj=event.data.object;let local:Order|null=null;
+ const obj=event.data.object;
+ // Subscription events are keyed by Stripe subscription id, not a store_orders row,
+ // so they're handled entirely separately from the one-time-purchase flow below.
+ if(event.type.startsWith('customer.subscription.')){
+  await db().prepare('UPDATE store_subscriptions SET status=?,current_period_end=?,updated_at=CURRENT_TIMESTAMP WHERE id=?').bind(obj.status,obj.current_period_end?Number(obj.current_period_end):null,obj.id).run();
+  await db().prepare('UPDATE store_webhooks SET processed=1 WHERE id=?').bind(event.id).run();return json({received:true});
+ }
+ if(event.type.startsWith('checkout.session.')&&obj.mode==='subscription'){
+  if(event.type==='checkout.session.completed'&&obj.metadata?.user_id&&obj.metadata?.plan&&obj.subscription){
+   const sub=await stripe('/v1/subscriptions/'+obj.subscription) as any;
+   await db().prepare('INSERT INTO store_subscriptions(id,user_id,mode,plan,status,current_period_end) VALUES(?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET status=excluded.status,current_period_end=excluded.current_period_end,updated_at=CURRENT_TIMESTAMP').bind(sub.id,obj.metadata.user_id,mode(),obj.metadata.plan,sub.status,sub.current_period_end?Number(sub.current_period_end):null).run();
+  }
+  await db().prepare('UPDATE store_webhooks SET processed=1 WHERE id=?').bind(event.id).run();return json({received:true});
+ }
+ let local:Order|null=null;
  if(event.type.startsWith('checkout.session.')){
   if(obj.client_reference_id)local=await db().prepare('SELECT * FROM store_orders WHERE id=? AND mode=?').bind(obj.client_reference_id,mode()).first<Order>();
   if(!local&&obj.id)local=await db().prepare('SELECT * FROM store_orders WHERE session_id=? AND mode=?').bind(obj.id,mode()).first<Order>();
