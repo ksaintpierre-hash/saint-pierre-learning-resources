@@ -3,6 +3,7 @@
 import { useActionState } from "react";
 import { addStudent, type AddStudentState } from "./actions";
 import { GRADE_LEVELS, gradeLabel } from "@/lib/grades";
+import { SupportNeedsFields } from "@/components/support-needs-fields";
 
 const initialState: AddStudentState = {};
 
@@ -32,6 +33,7 @@ export function AddStudentForm() {
           ))}
         </select>
       </div>
+      <SupportNeedsFields />
       {state.error && <p className="text-sm text-red-600">{state.error}</p>}
       <button type="submit" className="btn btn-primary" disabled={pending}>
         {pending ? "Adding…" : "Add student"}

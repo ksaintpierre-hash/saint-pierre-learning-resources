@@ -76,8 +76,41 @@ export default async function DashboardPage() {
         <section key={student.id} className="card flex flex-col gap-4">
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-semibold">{student.name}</h2>
-            <span className="text-sm text-black/60">{gradeLabel(student.gradeLevel as GradeLevel)}</span>
+            <div className="flex items-center gap-3">
+              <span className="text-sm text-black/60">{gradeLabel(student.gradeLevel as GradeLevel)}</span>
+              <Link href={`/dashboard/students/${student.id}/edit`} className="text-sm font-medium text-[--color-brand] underline">
+                Edit
+              </Link>
+            </div>
           </div>
+
+          {(student.aigIdentified || student.has504Plan || student.hasEcIep || student.extendedTime) && (
+            <div className="flex flex-wrap gap-2">
+              {student.aigIdentified && (
+                <span className="rounded-full bg-[--color-brand-light] px-2 py-0.5 text-xs font-medium text-[--color-brand]">
+                  AIG
+                </span>
+              )}
+              {student.has504Plan && (
+                <span className="rounded-full bg-[--color-brand-light] px-2 py-0.5 text-xs font-medium text-[--color-brand]">
+                  504 plan
+                </span>
+              )}
+              {student.hasEcIep && (
+                <span className="rounded-full bg-[--color-brand-light] px-2 py-0.5 text-xs font-medium text-[--color-brand]">
+                  EC / IEP
+                </span>
+              )}
+              {student.extendedTime && (
+                <span className="rounded-full bg-[--color-brand-light] px-2 py-0.5 text-xs font-medium text-[--color-brand]">
+                  Extended time
+                </span>
+              )}
+            </div>
+          )}
+          {student.accommodationNotes && (
+            <p className="text-sm text-black/60">Notes: {student.accommodationNotes}</p>
+          )}
 
           {courseProgress.length === 0 ? (
             <p className="text-sm text-black/60">

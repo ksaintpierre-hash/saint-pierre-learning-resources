@@ -41,6 +41,14 @@ export const students = sqliteTable("students", {
     .references(() => users.id, { onDelete: "cascade" }),
   name: text("name").notNull(),
   gradeLevel: text("grade_level", { enum: GRADE_LEVELS }).notNull(),
+  // Operational flags only — this app is not a system of record for legal
+  // IEP/504 compliance. AIG = NC's Academically/Intellectually Gifted
+  // program; EC = NC's Exceptional Children umbrella (covers IEP services).
+  aigIdentified: integer("aig_identified", { mode: "boolean" }).notNull().default(false),
+  has504Plan: integer("has_504_plan", { mode: "boolean" }).notNull().default(false),
+  hasEcIep: integer("has_ec_iep", { mode: "boolean" }).notNull().default(false),
+  extendedTime: integer("extended_time", { mode: "boolean" }).notNull().default(false),
+  accommodationNotes: text("accommodation_notes").notNull().default(""),
   createdAt: text("created_at")
     .notNull()
     .default(sql`(current_timestamp)`),

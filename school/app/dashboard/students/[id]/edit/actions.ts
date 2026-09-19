@@ -1,12 +1,14 @@
 "use server";
 
 import { z } from "zod";
+import { eq, and } from "drizzle-orm";
 import { redirect } from "next/navigation";
 import { db } from "@/db";
 import { students, GRADE_LEVELS } from "@/db/schema";
 import { getSession } from "@/lib/session";
 
 const schema = z.object({
+  studentId: z.coerce.number().int().positive(),
   name: z.string().min(1, "Name is required."),
   gradeLevel: z.enum(GRADE_LEVELS),
   aigIdentified: z.coerce.boolean(),
@@ -16,15 +18,16 @@ const schema = z.object({
   accommodationNotes: z.string(),
 });
 
-export type AddStudentState = { error?: string };
+export type EditStudentState = { error?: string };
 
-export async function addStudent(_prevState: AddStudentState, formData: FormData): Promise<AddStudentState> {
+export async function editStudent(_prevState: EditStudentState, formData: FormData): Promise<EditStudentState> {
   const session = await getSession();
   if (!session) {
     return { error: "You must be logged in." };
   }
 
   const parsed = schema.safeParse({
+    studentId: formData.get("studentId"),
     name: formData.get("name"),
     gradeLevel: formData.get("gradeLevel"),
     aigIdentified: formData.get("aigIdentified") === "on",
@@ -37,10 +40,18 @@ export async function addStudent(_prevState: AddStudentState, formData: FormData
     return { error: parsed.error.issues[0]?.message ?? "Invalid input." };
   }
 
-  await db.insert(students).values({
-    parentId: session.userId,
-    ...parsed.data,
-  });
+  const { studentId, ...updates } = parsed.data;
+
+  const [student] = await db
+    .select()
+    .from(students)
+    .where(and(eq(students.id, studentId), eq(students.parentId, session.userId)))
+    .limit(1);
+  if (!student) {
+    return { error: "That student profile was not found." };
+  }
+
+  await db.update(students).set(updates).where(eq(students.id, studentId));
 
   redirect("/dashboard");
 }
